@@ -226,7 +226,17 @@ function mkChip(label, key) {
   const c = document.createElement("span");
   c.className = "chip";
   c.textContent = label;
-  c.onclick = () => { activeCat = key; setActive(c); render(); };
+  c.onclick = () => {
+    if (key && activeCat === key) {
+      // 選択中のものを再クリック → 解除して「すべて」に戻す
+      activeCat = "";
+      setActive(document.querySelector(".chip"));
+    } else {
+      activeCat = key;
+      setActive(c);
+    }
+    render();
+  };
   return c;
 }
 
