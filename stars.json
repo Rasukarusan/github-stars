@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-14 16:53",
+  "updated_at": "2026-06-14 17:45",
   "total": 641,
   "categories": [
     {
@@ -14,7 +14,7 @@
           "lang": "Python",
           "name": "microsoft/agent-governance-toolkit",
           "starred_at": "2026-05-30T08:29:21Z",
-          "stars": 4273,
+          "stars": 4274,
           "url": "https://github.com/microsoft/agent-governance-toolkit",
           "category": "ai-agent"
         },
@@ -23,7 +23,7 @@
           "lang": "TypeScript",
           "name": "humanlayer/12-factor-agents",
           "starred_at": "2026-05-24T22:17:59Z",
-          "stars": 23264,
+          "stars": 23265,
           "url": "https://github.com/humanlayer/12-factor-agents",
           "category": "ai-agent"
         },
@@ -32,7 +32,7 @@
           "lang": "Jupyter Notebook",
           "name": "anthropics/claude-cookbooks",
           "starred_at": "2026-05-19T02:43:08Z",
-          "stars": 45402,
+          "stars": 45405,
           "url": "https://github.com/anthropics/claude-cookbooks",
           "category": "ai-agent"
         },
@@ -41,7 +41,7 @@
           "lang": "Jupyter Notebook",
           "name": "openai/openai-cookbook",
           "starred_at": "2026-05-19T02:34:41Z",
-          "stars": 74149,
+          "stars": 74150,
           "url": "https://github.com/openai/openai-cookbook",
           "category": "ai-agent"
         },
@@ -95,7 +95,7 @@
           "lang": "Rust",
           "name": "vercel-labs/agent-browser",
           "starred_at": "2026-03-24T23:02:10Z",
-          "stars": 36013,
+          "stars": 36014,
           "url": "https://github.com/vercel-labs/agent-browser",
           "category": "ai-agent"
         },
@@ -104,7 +104,7 @@
           "lang": "Rust",
           "name": "rtk-ai/rtk",
           "starred_at": "2026-03-24T23:01:20Z",
-          "stars": 62171,
+          "stars": 62175,
           "url": "https://github.com/rtk-ai/rtk",
           "category": "ai-agent"
         },
@@ -131,7 +131,7 @@
           "lang": "Python",
           "name": "mem0ai/mem0",
           "starred_at": "2026-03-01T13:27:08Z",
-          "stars": 58510,
+          "stars": 58511,
           "url": "https://github.com/mem0ai/mem0",
           "category": "ai-agent"
         },
@@ -167,7 +167,7 @@
           "lang": "Python",
           "name": "crewAIInc/crewAI",
           "starred_at": "2026-02-16T23:58:33Z",
-          "stars": 53510,
+          "stars": 53517,
           "url": "https://github.com/crewAIInc/crewAI",
           "category": "ai-agent"
         },
@@ -185,7 +185,7 @@
           "lang": "Python",
           "name": "AgentOps-AI/agentops",
           "starred_at": "2026-02-16T23:56:26Z",
-          "stars": 5631,
+          "stars": 5632,
           "url": "https://github.com/AgentOps-AI/agentops",
           "category": "ai-agent"
         },
@@ -194,7 +194,7 @@
           "lang": "Python",
           "name": "e2b-dev/code-interpreter",
           "starred_at": "2026-02-10T00:00:09Z",
-          "stars": 2342,
+          "stars": 2343,
           "url": "https://github.com/e2b-dev/code-interpreter",
           "category": "ai-agent"
         },
@@ -230,7 +230,7 @@
           "lang": "TypeScript",
           "name": "mlc-ai/web-llm",
           "starred_at": "2025-11-25T02:34:22Z",
-          "stars": 18185,
+          "stars": 18186,
           "url": "https://github.com/mlc-ai/web-llm",
           "category": "ai-agent"
         },
@@ -239,7 +239,7 @@
           "lang": "Python",
           "name": "p-e-w/heretic",
           "starred_at": "2025-11-17T21:14:36Z",
-          "stars": 24477,
+          "stars": 24484,
           "url": "https://github.com/p-e-w/heretic",
           "category": "ai-agent"
         },
@@ -248,7 +248,7 @@
           "lang": "Python",
           "name": "oraios/serena",
           "starred_at": "2025-07-30T23:37:55Z",
-          "stars": 25330,
+          "stars": 25331,
           "url": "https://github.com/oraios/serena",
           "category": "ai-agent"
         },
@@ -293,7 +293,7 @@
           "lang": "TypeScript",
           "name": "mastra-ai/mastra",
           "starred_at": "2025-03-22T02:08:42Z",
-          "stars": 25044,
+          "stars": 25047,
           "url": "https://github.com/mastra-ai/mastra",
           "category": "ai-agent"
         },
@@ -320,7 +320,7 @@
           "lang": "TypeScript",
           "name": "langgenius/dify",
           "starred_at": "2024-08-26T05:47:14Z",
-          "stars": 145125,
+          "stars": 145138,
           "url": "https://github.com/langgenius/dify",
           "category": "ai-agent"
         },
@@ -338,7 +338,7 @@
           "lang": "Go",
           "name": "ollama/ollama",
           "starred_at": "2024-04-10T00:49:47Z",
-          "stars": 174094,
+          "stars": 174102,
           "url": "https://github.com/ollama/ollama",
           "category": "ai-agent"
         },
@@ -446,7 +446,7 @@
           "lang": "TypeScript",
           "name": "danny-avila/LibreChat",
           "starred_at": "2023-12-11T11:20:19Z",
-          "stars": 39076,
+          "stars": 39080,
           "url": "https://github.com/danny-avila/LibreChat",
           "category": "ai-app"
         },
@@ -518,7 +518,7 @@
           "lang": "Python",
           "name": "Imbad0202/academic-research-skills",
           "starred_at": "2026-05-24T22:14:09Z",
-          "stars": 31153,
+          "stars": 31169,
           "url": "https://github.com/Imbad0202/academic-research-skills",
           "category": "claude-code"
         },
@@ -527,7 +527,7 @@
           "lang": "",
           "name": "multica-ai/andrej-karpathy-skills",
           "starred_at": "2026-05-23T21:31:20Z",
-          "stars": 174927,
+          "stars": 174956,
           "url": "https://github.com/multica-ai/andrej-karpathy-skills",
           "category": "claude-code"
         },
@@ -545,7 +545,7 @@
           "lang": "JavaScript",
           "name": "openai/codex-plugin-cc",
           "starred_at": "2026-03-31T06:59:45Z",
-          "stars": 20924,
+          "stars": 20925,
           "url": "https://github.com/openai/codex-plugin-cc",
           "category": "claude-code"
         },
@@ -554,7 +554,7 @@
           "lang": "",
           "name": "blader/humanizer",
           "starred_at": "2026-03-20T21:48:30Z",
-          "stars": 24063,
+          "stars": 24072,
           "url": "https://github.com/blader/humanizer",
           "category": "claude-code"
         },
@@ -563,7 +563,7 @@
           "lang": "Python",
           "name": "anthropics/claude-code",
           "starred_at": "2026-02-05T21:59:00Z",
-          "stars": 132273,
+          "stars": 132279,
           "url": "https://github.com/anthropics/claude-code",
           "category": "claude-code"
         },
@@ -590,7 +590,7 @@
           "lang": "Shell",
           "name": "obra/superpowers",
           "starred_at": "2025-11-27T12:39:21Z",
-          "stars": 227233,
+          "stars": 227274,
           "url": "https://github.com/obra/superpowers",
           "category": "claude-code"
         },
@@ -608,7 +608,7 @@
           "lang": "TypeScript",
           "name": "anomalyco/opencode",
           "starred_at": "2025-08-14T19:41:08Z",
-          "stars": 174151,
+          "stars": 174164,
           "url": "https://github.com/anomalyco/opencode",
           "category": "claude-code"
         },
@@ -653,7 +653,7 @@
           "lang": "Python",
           "name": "hesreallyhim/awesome-claude-code",
           "starred_at": "2025-06-24T12:40:06Z",
-          "stars": 46402,
+          "stars": 46409,
           "url": "https://github.com/hesreallyhim/awesome-claude-code",
           "category": "claude-code"
         },
@@ -671,7 +671,7 @@
           "lang": "Rust",
           "name": "ccusage/ccusage",
           "starred_at": "2025-06-11T07:29:10Z",
-          "stars": 16131,
+          "stars": 16134,
           "url": "https://github.com/ccusage/ccusage",
           "category": "claude-code"
         },
@@ -689,7 +689,7 @@
           "lang": "Rust",
           "name": "openai/codex",
           "starred_at": "2025-04-19T23:07:39Z",
-          "stars": 90904,
+          "stars": 90914,
           "url": "https://github.com/openai/codex",
           "category": "claude-code"
         },
@@ -698,7 +698,7 @@
           "lang": "Python",
           "name": "Aider-AI/aider",
           "starred_at": "2025-03-21T09:44:21Z",
-          "stars": 46177,
+          "stars": 46182,
           "url": "https://github.com/Aider-AI/aider",
           "category": "claude-code"
         },
@@ -707,7 +707,7 @@
           "lang": "TypeScript",
           "name": "cline/cline",
           "starred_at": "2025-01-15T02:53:16Z",
-          "stars": 63239,
+          "stars": 63242,
           "url": "https://github.com/cline/cline",
           "category": "claude-code"
         },
@@ -734,7 +734,7 @@
           "lang": "Python",
           "name": "harry0703/MoneyPrinterTurbo",
           "starred_at": "2026-06-07T02:08:22Z",
-          "stars": 87465,
+          "stars": 87485,
           "url": "https://github.com/harry0703/MoneyPrinterTurbo",
           "category": "ai-generation"
         },
@@ -743,7 +743,7 @@
           "lang": "TypeScript",
           "name": "heygen-com/hyperframes",
           "starred_at": "2026-06-07T02:07:56Z",
-          "stars": 27445,
+          "stars": 27458,
           "url": "https://github.com/heygen-com/hyperframes",
           "category": "ai-generation"
         },
@@ -761,7 +761,7 @@
           "lang": "TypeScript",
           "name": "presenton/presenton",
           "starred_at": "2026-06-01T22:36:25Z",
-          "stars": 8170,
+          "stars": 8173,
           "url": "https://github.com/presenton/presenton",
           "category": "ai-generation"
         },
@@ -770,7 +770,7 @@
           "lang": "Python",
           "name": "HKUDS/ViMax",
           "starred_at": "2026-05-24T22:17:16Z",
-          "stars": 9967,
+          "stars": 9975,
           "url": "https://github.com/HKUDS/ViMax",
           "category": "ai-generation"
         },
@@ -833,7 +833,7 @@
           "lang": "Python",
           "name": "OpenBMB/VoxCPM",
           "starred_at": "2026-06-07T02:08:51Z",
-          "stars": 28993,
+          "stars": 29002,
           "url": "https://github.com/OpenBMB/VoxCPM",
           "category": "voice"
         },
@@ -869,7 +869,7 @@
           "lang": "Python",
           "name": "microsoft/VibeVoice",
           "starred_at": "2025-08-30T14:33:05Z",
-          "stars": 49322,
+          "stars": 49323,
           "url": "https://github.com/microsoft/VibeVoice",
           "category": "voice"
         },
@@ -887,7 +887,7 @@
           "lang": "Python",
           "name": "openai/whisper",
           "starred_at": "2024-04-04T11:59:14Z",
-          "stars": 102663,
+          "stars": 102667,
           "url": "https://github.com/openai/whisper",
           "category": "voice"
         },
@@ -914,7 +914,7 @@
           "lang": "Jupyter Notebook",
           "name": "alphacep/vosk-api",
           "starred_at": "2022-05-16T05:05:30Z",
-          "stars": 14847,
+          "stars": 14848,
           "url": "https://github.com/alphacep/vosk-api",
           "category": "voice"
         }
@@ -932,7 +932,7 @@
           "lang": "Python",
           "name": "PaddlePaddle/PaddleOCR",
           "starred_at": "2026-06-10T03:55:42Z",
-          "stars": 82133,
+          "stars": 82135,
           "url": "https://github.com/PaddlePaddle/PaddleOCR",
           "category": "ocr-doc"
         },
@@ -950,7 +950,7 @@
           "lang": "Python",
           "name": "docling-project/docling",
           "starred_at": "2026-04-01T05:28:51Z",
-          "stars": 61511,
+          "stars": 61513,
           "url": "https://github.com/docling-project/docling",
           "category": "ocr-doc"
         },
@@ -977,7 +977,7 @@
           "lang": "Java",
           "name": "opendataloader-project/opendataloader-pdf",
           "starred_at": "2026-03-19T06:14:28Z",
-          "stars": 24706,
+          "stars": 24724,
           "url": "https://github.com/opendataloader-project/opendataloader-pdf",
           "category": "ocr-doc"
         },
@@ -1004,7 +1004,7 @@
           "lang": "Python",
           "name": "microsoft/markitdown",
           "starred_at": "2024-12-14T23:08:02Z",
-          "stars": 152918,
+          "stars": 152941,
           "url": "https://github.com/microsoft/markitdown",
           "category": "ocr-doc"
         },
@@ -1031,7 +1031,7 @@
           "lang": "C++",
           "name": "tesseract-ocr/tesseract",
           "starred_at": "2021-07-04T22:04:07Z",
-          "stars": 74672,
+          "stars": 74674,
           "url": "https://github.com/tesseract-ocr/tesseract",
           "category": "ocr-doc"
         }
@@ -1049,7 +1049,7 @@
           "lang": "Rust",
           "name": "qdrant/qdrant",
           "starred_at": "2026-02-08T05:20:24Z",
-          "stars": 32191,
+          "stars": 32193,
           "url": "https://github.com/qdrant/qdrant",
           "category": "search-rag"
         },
@@ -1067,7 +1067,7 @@
           "lang": "TypeScript",
           "name": "tobi/qmd",
           "starred_at": "2026-01-17T10:03:32Z",
-          "stars": 26509,
+          "stars": 26512,
           "url": "https://github.com/tobi/qmd",
           "category": "search-rag"
         },
@@ -1319,7 +1319,7 @@
           "lang": "Rust",
           "name": "jj-vcs/jj",
           "starred_at": "2025-08-26T22:31:38Z",
-          "stars": 29588,
+          "stars": 29589,
           "url": "https://github.com/jj-vcs/jj",
           "category": "cli"
         },
@@ -1679,7 +1679,7 @@
           "lang": "Python",
           "name": "sdushantha/qr-filetransfer",
           "starred_at": "2021-04-21T12:41:12Z",
-          "stars": 1018,
+          "stars": 1019,
           "url": "https://github.com/sdushantha/qr-filetransfer",
           "category": "cli"
         },
@@ -1688,7 +1688,7 @@
           "lang": "Rust",
           "name": "zellij-org/zellij",
           "starred_at": "2021-04-21T11:42:31Z",
-          "stars": 33589,
+          "stars": 33590,
           "url": "https://github.com/zellij-org/zellij",
           "category": "cli"
         },
@@ -1814,7 +1814,7 @@
           "lang": "Go",
           "name": "junegunn/fzf",
           "starred_at": "2019-10-31T16:37:50Z",
-          "stars": 80947,
+          "stars": 80948,
           "url": "https://github.com/junegunn/fzf",
           "category": "cli"
         },
@@ -2435,7 +2435,7 @@
           "lang": "Vim Script",
           "name": "neovim/neovim",
           "starred_at": "2020-10-11T06:50:15Z",
-          "stars": 100386,
+          "stars": 100385,
           "url": "https://github.com/neovim/neovim",
           "category": "vim"
         },
@@ -2534,7 +2534,7 @@
           "lang": "Rust",
           "name": "zed-industries/zed",
           "starred_at": "2024-01-27T04:48:21Z",
-          "stars": 85208,
+          "stars": 85211,
           "url": "https://github.com/zed-industries/zed",
           "category": "editor"
         },
@@ -2543,7 +2543,7 @@
           "lang": "Rust",
           "name": "warpdotdev/warp",
           "starred_at": "2023-04-18T13:42:53Z",
-          "stars": 61688,
+          "stars": 61691,
           "url": "https://github.com/warpdotdev/warp",
           "category": "editor"
         },
@@ -2561,7 +2561,7 @@
           "lang": "Python",
           "name": "kovidgoyal/kitty",
           "starred_at": "2021-06-24T03:21:50Z",
-          "stars": 33432,
+          "stars": 33433,
           "url": "https://github.com/kovidgoyal/kitty",
           "category": "editor"
         },
@@ -2669,7 +2669,7 @@
           "lang": "TypeScript",
           "name": "QwikDev/qwik",
           "starred_at": "2022-09-22T12:32:58Z",
-          "stars": 22008,
+          "stars": 22009,
           "url": "https://github.com/QwikDev/qwik",
           "category": "frontend"
         },
@@ -2696,7 +2696,7 @@
           "lang": "JavaScript",
           "name": "vercel/next.js",
           "starred_at": "2021-09-12T04:32:28Z",
-          "stars": 139990,
+          "stars": 139992,
           "url": "https://github.com/vercel/next.js",
           "category": "frontend"
         },
@@ -2714,7 +2714,7 @@
           "lang": "Rust",
           "name": "tauri-apps/tauri",
           "starred_at": "2021-05-14T15:58:19Z",
-          "stars": 107852,
+          "stars": 107854,
           "url": "https://github.com/tauri-apps/tauri",
           "category": "frontend"
         },
@@ -2966,7 +2966,7 @@
           "lang": "TypeScript",
           "name": "wojtekmaj/react-pdf",
           "starred_at": "2023-01-16T09:22:45Z",
-          "stars": 11090,
+          "stars": 11091,
           "url": "https://github.com/wojtekmaj/react-pdf",
           "category": "ui"
         },
@@ -3020,7 +3020,7 @@
           "lang": "TypeScript",
           "name": "xyflow/xyflow",
           "starred_at": "2022-08-25T14:09:05Z",
-          "stars": 37054,
+          "stars": 37056,
           "url": "https://github.com/xyflow/xyflow",
           "category": "ui"
         },
@@ -3092,7 +3092,7 @@
           "lang": "TypeScript",
           "name": "recharts/recharts",
           "starred_at": "2020-07-06T06:40:48Z",
-          "stars": 27231,
+          "stars": 27232,
           "url": "https://github.com/recharts/recharts",
           "category": "ui"
         }
@@ -3299,7 +3299,7 @@
           "lang": "TypeScript",
           "name": "Azure/fetch-event-source",
           "starred_at": "2023-12-19T23:32:53Z",
-          "stars": 2823,
+          "stars": 2824,
           "url": "https://github.com/Azure/fetch-event-source",
           "category": "jslib"
         },
@@ -3308,7 +3308,7 @@
           "lang": "TypeScript",
           "name": "TanStack/query",
           "starred_at": "2023-12-16T11:53:44Z",
-          "stars": 49742,
+          "stars": 49743,
           "url": "https://github.com/TanStack/query",
           "category": "jslib"
         },
@@ -3515,7 +3515,7 @@
           "lang": "Python",
           "name": "mher/flower",
           "starred_at": "2024-10-21T07:58:54Z",
-          "stars": 7192,
+          "stars": 7193,
           "url": "https://github.com/mher/flower",
           "category": "backend"
         },
@@ -3767,7 +3767,7 @@
           "lang": "Go",
           "name": "dolthub/dolt",
           "starred_at": "2025-05-21T01:16:18Z",
-          "stars": 23419,
+          "stars": 23420,
           "url": "https://github.com/dolthub/dolt",
           "category": "database"
         },
@@ -3785,7 +3785,7 @@
           "lang": "TypeScript",
           "name": "drizzle-team/drizzle-orm",
           "starred_at": "2025-04-27T12:33:12Z",
-          "stars": 34789,
+          "stars": 34790,
           "url": "https://github.com/drizzle-team/drizzle-orm",
           "category": "database"
         },
@@ -3857,7 +3857,7 @@
           "lang": "Java",
           "name": "floci-io/floci",
           "starred_at": "2026-03-23T21:00:15Z",
-          "stars": 14058,
+          "stars": 14061,
           "url": "https://github.com/floci-io/floci",
           "category": "devops"
         },
@@ -3902,7 +3902,7 @@
           "lang": "Go",
           "name": "opentofu/opentofu",
           "starred_at": "2025-12-18T11:00:43Z",
-          "stars": 29055,
+          "stars": 29057,
           "url": "https://github.com/opentofu/opentofu",
           "category": "devops"
         },
@@ -4127,7 +4127,7 @@
           "lang": "Python",
           "name": "CloakHQ/CloakBrowser",
           "starred_at": "2026-05-24T22:16:45Z",
-          "stars": 25964,
+          "stars": 25973,
           "url": "https://github.com/CloakHQ/CloakBrowser",
           "category": "security"
         },
@@ -4208,7 +4208,7 @@
           "lang": "TypeScript",
           "name": "MasterKale/SimpleWebAuthn",
           "starred_at": "2023-10-14T07:20:56Z",
-          "stars": 2265,
+          "stars": 2266,
           "url": "https://github.com/MasterKale/SimpleWebAuthn",
           "category": "security"
         },
@@ -4244,7 +4244,7 @@
           "lang": "Python",
           "name": "OWASP/mastg",
           "starred_at": "2021-02-25T19:00:13Z",
-          "stars": 12968,
+          "stars": 12969,
           "url": "https://github.com/OWASP/mastg",
           "category": "security"
         },
@@ -4289,7 +4289,7 @@
           "lang": "Kotlin",
           "name": "RikkaApps/Shizuku",
           "starred_at": "2025-10-19T23:53:42Z",
-          "stars": 26324,
+          "stars": 26327,
           "url": "https://github.com/RikkaApps/Shizuku",
           "category": "mobile"
         },
@@ -4532,7 +4532,7 @@
           "lang": "JavaScript",
           "name": "usebruno/bruno",
           "starred_at": "2026-05-23T07:50:19Z",
-          "stars": 44879,
+          "stars": 44881,
           "url": "https://github.com/usebruno/bruno",
           "category": "devtools"
         },
@@ -5063,7 +5063,7 @@
           "lang": "TypeScript",
           "name": "remotion-dev/remotion",
           "starred_at": "2022-07-19T23:42:12Z",
-          "stars": 50053,
+          "stars": 50061,
           "url": "https://github.com/remotion-dev/remotion",
           "category": "media"
         },
@@ -5117,7 +5117,7 @@
           "lang": "C",
           "name": "mpv-player/mpv",
           "starred_at": "2021-04-18T13:33:01Z",
-          "stars": 35560,
+          "stars": 35561,
           "url": "https://github.com/mpv-player/mpv",
           "category": "media"
         },
@@ -5153,7 +5153,7 @@
           "lang": "TypeScript",
           "name": "lukilabs/beautiful-mermaid",
           "starred_at": "2026-01-30T00:27:45Z",
-          "stars": 10373,
+          "stars": 10375,
           "url": "https://github.com/lukilabs/beautiful-mermaid",
           "category": "diagram-slide"
         },
@@ -5360,7 +5360,7 @@
           "lang": "Python",
           "name": "LuckyOne7777/LLM-Trading-Lab",
           "starred_at": "2025-07-31T23:13:09Z",
-          "stars": 7464,
+          "stars": 7465,
           "url": "https://github.com/LuckyOne7777/LLM-Trading-Lab",
           "category": "finance"
         },
@@ -5468,7 +5468,7 @@
           "lang": "Python",
           "name": "datawhalechina/hello-agents",
           "starred_at": "2026-01-25T23:27:40Z",
-          "stars": 58991,
+          "stars": 59008,
           "url": "https://github.com/datawhalechina/hello-agents",
           "category": "learning"
         },
@@ -5495,7 +5495,7 @@
           "lang": "Python",
           "name": "public-apis/public-apis",
           "starred_at": "2023-12-25T16:17:35Z",
-          "stars": 441413,
+          "stars": 441426,
           "url": "https://github.com/public-apis/public-apis",
           "category": "learning"
         },
@@ -5540,7 +5540,7 @@
           "lang": "",
           "name": "google/eng-practices",
           "starred_at": "2022-05-16T23:29:37Z",
-          "stars": 23245,
+          "stars": 23246,
           "url": "https://github.com/google/eng-practices",
           "category": "learning"
         },
@@ -5657,7 +5657,7 @@
           "lang": "",
           "name": "trimstray/the-book-of-secret-knowledge",
           "starred_at": "2021-06-20T10:30:05Z",
-          "stars": 228275,
+          "stars": 228280,
           "url": "https://github.com/trimstray/the-book-of-secret-knowledge",
           "category": "learning"
         },
@@ -5666,7 +5666,7 @@
           "lang": "",
           "name": "sindresorhus/awesome",
           "starred_at": "2021-06-05T12:28:23Z",
-          "stars": 475590,
+          "stars": 475600,
           "url": "https://github.com/sindresorhus/awesome",
           "category": "learning"
         },
@@ -5756,7 +5756,7 @@
           "lang": "Rust",
           "name": "ruvnet/RuView",
           "starred_at": "2026-05-24T22:12:46Z",
-          "stars": 73712,
+          "stars": 73718,
           "url": "https://github.com/ruvnet/RuView",
           "category": "util"
         },
@@ -5837,7 +5837,7 @@
           "lang": "JavaScript",
           "name": "zen-browser/desktop",
           "starred_at": "2024-11-02T14:39:39Z",
-          "stars": 42820,
+          "stars": 42821,
           "url": "https://github.com/zen-browser/desktop",
           "category": "util"
         },
@@ -5891,7 +5891,7 @@
           "lang": "Rust",
           "name": "tw93/Pake",
           "starred_at": "2023-04-06T14:24:25Z",
-          "stars": 50455,
+          "stars": 50456,
           "url": "https://github.com/tw93/Pake",
           "category": "util"
         },
@@ -5900,7 +5900,7 @@
           "lang": "Scala",
           "name": "twitter/the-algorithm",
           "starred_at": "2023-04-01T07:57:03Z",
-          "stars": 73420,
+          "stars": 73421,
           "url": "https://github.com/twitter/the-algorithm",
           "category": "util"
         },
@@ -5936,7 +5936,7 @@
           "lang": "Objective-C",
           "name": "keycastr/keycastr",
           "starred_at": "2021-10-04T23:25:59Z",
-          "stars": 14880,
+          "stars": 14881,
           "url": "https://github.com/keycastr/keycastr",
           "category": "util"
         },
@@ -5999,7 +5999,7 @@
           "lang": "JavaScript",
           "name": "anuraghazra/github-readme-stats",
           "starred_at": "2020-11-04T05:13:48Z",
-          "stars": 79640,
+          "stars": 79641,
           "url": "https://github.com/anuraghazra/github-readme-stats",
           "category": "util"
         },
