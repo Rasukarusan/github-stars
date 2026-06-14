@@ -96,7 +96,7 @@
   .card a.name:hover { text-decoration: underline; }
   .card .desc { font-size: 13px; color: var(--fg); opacity: .85; }
   .card .meta { font-size: 12px; color: var(--muted); display: flex; gap: 12px; align-items: center; margin-top: auto; }
-  .lang-dot { display: inline-block; width: 9px; height: 9px; border-radius: 50%; background: var(--accent2); margin-right: 4px; vertical-align: middle; }
+  .badge { background: var(--bg); border: 1px solid var(--border); border-radius: 999px; padding: 1px 8px; font-size: 11px; color: var(--muted); white-space: nowrap; }
   .empty { color: var(--muted); padding: 40px; text-align: center; }
   mark { background: var(--mark-bg); color: var(--mark-fg); border-radius: 2px; }
   a.gh { color: var(--muted); font-size: 12px; text-decoration: none; }
@@ -108,13 +108,20 @@
   <div class="title">⭐ GitHub Stars <small id="summary">読み込み中…</small></div>
   <div class="controls">
     <input id="search" type="search" placeholder="リポジトリ名・説明で検索…" autocomplete="off" />
-    <select id="lang"><option value="">全言語</option></select>
     <select id="sort">
       <option value="starred_desc">starした順（新しい）</option>
       <option value="starred_asc">starした順（古い）</option>
       <option value="stars_desc">★が多い順</option>
       <option value="name_asc">名前順</option>
     </select>
+    <select id="period">
+      <option value="">全期間</option>
+      <option value="30">直近1ヶ月</option>
+      <option value="90">直近3ヶ月</option>
+      <option value="180">直近6ヶ月</option>
+      <option value="365">直近1年</option>
+    </select>
+    <button id="view" class="theme-toggle" title="表示切替">📋 一覧</button>
     <button id="theme" class="theme-toggle" title="テーマ切替">🌙 ダーク</button>
   </div>
 </header>
@@ -124,6 +131,7 @@
 <script>
 let DATA = null;
 let activeCat = "";
+let viewMode = "category"; // "category" | "flat"
 
 const $ = (s) => document.querySelector(s);
 const esc = (s) => (s || "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
@@ -156,20 +164,62 @@ function sortRepos(repos) {
   }
 }
 
+function matchQ(r, q) {
+  return !q || r.name.toLowerCase().includes(q) || (r.desc || "").toLowerCase().includes(q);
+}
+
+function withinPeriod(r) {
+  const days = parseInt($("#period").value, 10);
+  if (!days) return true;
+  if (!r.starred_at) return false;
+  const diffDays = (Date.now() - new Date(r.starred_at).getTime()) / 86400000;
+  return diffDays <= days;
+}
+
+function pass(r, q) {
+  return matchQ(r, q) && withinPeriod(r);
+}
+
+function cardHtml(r, q, badge) {
+  return `
+    <div class="card">
+      <a class="name" href="${esc(r.url)}" target="_blank" rel="noopener">${highlight(r.name, q)}</a>
+      ${r.desc ? `<div class="desc">${highlight(r.desc, q)}</div>` : ""}
+      <div class="meta">
+        ${badge ? `<span class="badge">${badge.emoji} ${esc(badge.label)}</span>` : ""}
+        <span>★ ${r.stars.toLocaleString()}</span>
+        ${r.starred_at ? `<span title="starした日">📌 ${fmtDate(r.starred_at)}</span>` : ""}
+      </div>
+    </div>`;
+}
+
 function render() {
   const q = $("#search").value.trim().toLowerCase();
-  const lang = $("#lang").value;
   const main = $("#main");
   main.innerHTML = "";
-  let shown = 0;
 
+  if (viewMode === "flat") {
+    // カテゴリ横断・単純にソート順で一覧表示
+    const all = [];
+    for (const cat of DATA.categories) {
+      if (activeCat && cat.key !== activeCat) continue;
+      for (const r of cat.repos) {
+        if (pass(r, q)) all.push({ r, cat });
+      }
+    }
+    const sorted = sortRepos(all.map((x) => x.r));
+    const catOf = new Map(all.map((x) => [x.r, x.cat]));
+    if (!sorted.length) { main.innerHTML = `<div class="empty">該当なし</div>`; return; }
+    main.innerHTML = `<div class="grid">` +
+      sorted.map((r) => cardHtml(r, q, catOf.get(r))).join("") + `</div>`;
+    return;
+  }
+
+  // カテゴリ別表示
+  let shown = 0;
   for (const cat of DATA.categories) {
     if (activeCat && cat.key !== activeCat) continue;
-    const repos = sortRepos(cat.repos.filter((r) => {
-      if (lang && r.lang !== lang) return false;
-      if (q && !(r.name.toLowerCase().includes(q) || (r.desc || "").toLowerCase().includes(q))) return false;
-      return true;
-    }));
+    const repos = sortRepos(cat.repos.filter((r) => pass(r, q)));
     if (!repos.length) continue;
     shown += repos.length;
 
@@ -179,16 +229,7 @@ function render() {
     sec.innerHTML =
       `<h2>${cat.emoji} ${esc(cat.label)} <span class="cnt">${repos.length}</span></h2>` +
       `<div class="grid">` +
-      repos.map((r) => `
-        <div class="card">
-          <a class="name" href="${esc(r.url)}" target="_blank" rel="noopener">${highlight(r.name, q)}</a>
-          ${r.desc ? `<div class="desc">${highlight(r.desc, q)}</div>` : ""}
-          <div class="meta">
-            ${r.lang ? `<span><span class="lang-dot"></span>${esc(r.lang)}</span>` : ""}
-            <span>★ ${r.stars.toLocaleString()}</span>
-            ${r.starred_at ? `<span title="starした日">📌 ${fmtDate(r.starred_at)}</span>` : ""}
-          </div>
-        </div>`).join("") +
+      repos.map((r) => cardHtml(r, q, null)).join("") +
       `</div>`;
     main.appendChild(sec);
   }
@@ -241,13 +282,15 @@ async function init() {
     return;
   }
   $("#summary").textContent = `全${DATA.total}件 / ${DATA.categories.length}カテゴリ ・ 更新: ${DATA.updated_at}`;
-  const langs = [...new Set(DATA.categories.flatMap((c) => c.repos.map((r) => r.lang)).filter(Boolean))].sort();
-  const sel = $("#lang");
-  for (const l of langs) { const o = document.createElement("option"); o.value = l; o.textContent = l; sel.appendChild(o); }
   buildChips();
   $("#search").addEventListener("input", render);
-  sel.addEventListener("change", render);
   $("#sort").addEventListener("change", render);
+  $("#period").addEventListener("change", render);
+  $("#view").addEventListener("click", () => {
+    viewMode = viewMode === "flat" ? "category" : "flat";
+    $("#view").textContent = viewMode === "flat" ? "📑 カテゴリ別" : "📋 一覧";
+    render();
+  });
   render();
 }
 init();
