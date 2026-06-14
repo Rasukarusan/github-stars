@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>⭐ GitHub Stars — カテゴリ別</title>
+<style>
+  :root {
+    --bg: #0d1117;
+    --bg2: #161b22;
+    --border: #30363d;
+    --fg: #e6edf3;
+    --muted: #8b949e;
+    --accent: #58a6ff;
+    --accent2: #f0883e;
+    --radius: 10px;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Hiragino Sans", "Noto Sans JP", sans-serif;
+    background: var(--bg);
+    color: var(--fg);
+    line-height: 1.5;
+  }
+  header {
+    position: sticky; top: 0; z-index: 10;
+    background: rgba(13,17,23,.92);
+    backdrop-filter: blur(8px);
+    border-bottom: 1px solid var(--border);
+    padding: 14px 20px;
+  }
+  .title { font-size: 18px; font-weight: 700; display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; }
+  .title small { color: var(--muted); font-weight: 400; font-size: 13px; }
+  .controls { margin-top: 10px; display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
+  #search {
+    flex: 1; min-width: 200px;
+    background: var(--bg2); border: 1px solid var(--border); color: var(--fg);
+    padding: 8px 12px; border-radius: var(--radius); font-size: 14px;
+  }
+  #search:focus { outline: none; border-color: var(--accent); }
+  select {
+    background: var(--bg2); border: 1px solid var(--border); color: var(--fg);
+    padding: 8px 12px; border-radius: var(--radius); font-size: 14px;
+  }
+  .chips { display: flex; gap: 6px; flex-wrap: wrap; padding: 12px 20px 0; }
+  .chip {
+    cursor: pointer; user-select: none;
+    background: var(--bg2); border: 1px solid var(--border); color: var(--muted);
+    padding: 4px 10px; border-radius: 999px; font-size: 12px; white-space: nowrap;
+  }
+  .chip:hover { border-color: var(--accent); color: var(--fg); }
+  .chip.active { background: var(--accent); border-color: var(--accent); color: #0d1117; font-weight: 600; }
+  main { padding: 16px 20px 60px; max-width: 1400px; margin: 0 auto; }
+  .cat { margin-bottom: 28px; scroll-margin-top: 120px; }
+  .cat h2 {
+    font-size: 16px; margin: 0 0 12px; padding-bottom: 6px;
+    border-bottom: 1px solid var(--border);
+    display: flex; align-items: center; gap: 8px;
+  }
+  .cat h2 .cnt { color: var(--muted); font-size: 13px; font-weight: 400; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 10px; }
+  .card {
+    background: var(--bg2); border: 1px solid var(--border); border-radius: var(--radius);
+    padding: 12px 14px; display: flex; flex-direction: column; gap: 6px;
+    transition: border-color .15s;
+  }
+  .card:hover { border-color: var(--accent); }
+  .card a.name { color: var(--accent); font-weight: 600; font-size: 14px; text-decoration: none; word-break: break-all; }
+  .card a.name:hover { text-decoration: underline; }
+  .card .desc { font-size: 13px; color: var(--fg); opacity: .85; }
+  .card .meta { font-size: 12px; color: var(--muted); display: flex; gap: 12px; align-items: center; margin-top: auto; }
+  .lang-dot { display: inline-block; width: 9px; height: 9px; border-radius: 50%; background: var(--accent2); margin-right: 4px; vertical-align: middle; }
+  .empty { color: var(--muted); padding: 40px; text-align: center; }
+  mark { background: #9e6a03; color: #fff; border-radius: 2px; }
+  a.gh { color: var(--muted); font-size: 12px; text-decoration: none; }
+  a.gh:hover { color: var(--accent); }
+</style>
+</head>
+<body>
+<header>
+  <div class="title">⭐ GitHub Stars <small id="summary">読み込み中…</small></div>
+  <div class="controls">
+    <input id="search" type="search" placeholder="リポジトリ名・説明で検索…" autocomplete="off" />
+    <select id="lang"><option value="">全言語</option></select>
+  </div>
+</header>
+<div class="chips" id="chips"></div>
+<main id="main"><div class="empty">読み込み中…</div></main>
+
+<script>
+let DATA = null;
+let activeCat = "";
+
+const $ = (s) => document.querySelector(s);
+const esc = (s) => (s || "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+
+function highlight(text, q) {
+  const t = esc(text);
+  if (!q) return t;
+  try {
+    const re = new RegExp("(" + q.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + ")", "ig");
+    return t.replace(re, "<mark>$1</mark>");
+  } catch { return t; }
+}
+
+function render() {
+  const q = $("#search").value.trim().toLowerCase();
+  const lang = $("#lang").value;
+  const main = $("#main");
+  main.innerHTML = "";
+  let shown = 0;
+
+  for (const cat of DATA.categories) {
+    if (activeCat && cat.key !== activeCat) continue;
+    const repos = cat.repos.filter((r) => {
+      if (lang && r.lang !== lang) return false;
+      if (q && !(r.name.toLowerCase().includes(q) || (r.desc || "").toLowerCase().includes(q))) return false;
+      return true;
+    });
+    if (!repos.length) continue;
+    shown += repos.length;
+
+    const sec = document.createElement("section");
+    sec.className = "cat";
+    sec.id = "cat-" + cat.key;
+    sec.innerHTML =
+      `<h2>${cat.emoji} ${esc(cat.label)} <span class="cnt">${repos.length}</span></h2>` +
+      `<div class="grid">` +
+      repos.map((r) => `
+        <div class="card">
+          <a class="name" href="${esc(r.url)}" target="_blank" rel="noopener">${highlight(r.name, q)}</a>
+          ${r.desc ? `<div class="desc">${highlight(r.desc, q)}</div>` : ""}
+          <div class="meta">
+            ${r.lang ? `<span><span class="lang-dot"></span>${esc(r.lang)}</span>` : ""}
+            <span>★ ${r.stars.toLocaleString()}</span>
+          </div>
+        </div>`).join("") +
+      `</div>`;
+    main.appendChild(sec);
+  }
+  if (!shown) main.innerHTML = `<div class="empty">該当なし</div>`;
+}
+
+function buildChips() {
+  const chips = $("#chips");
+  const all = document.createElement("span");
+  all.className = "chip active";
+  all.textContent = `すべて (${DATA.total})`;
+  all.onclick = () => { activeCat = ""; setActive(all); render(); };
+  chips.appendChild(all);
+  for (const cat of DATA.categories) {
+    const c = document.createElement("span");
+    c.className = "chip";
+    c.textContent = `${cat.emoji} ${cat.label} (${cat.count})`;
+    c.onclick = () => { activeCat = cat.key; setActive(c); render(); };
+    chips.appendChild(c);
+  }
+}
+function setActive(el) {
+  document.querySelectorAll(".chip").forEach((c) => c.classList.remove("active"));
+  el.classList.add("active");
+}
+
+async function init() {
+  try {
+    const res = await fetch("stars.json?_=" + Date.now());
+    DATA = await res.json();
+  } catch (e) {
+    $("#main").innerHTML = `<div class="empty">stars.json を読み込めませんでした。<br>build.sh を実行してください。</div>`;
+    return;
+  }
+  $("#summary").textContent = `全${DATA.total}件 / ${DATA.categories.length}カテゴリ ・ 更新: ${DATA.updated_at}`;
+  const langs = [...new Set(DATA.categories.flatMap((c) => c.repos.map((r) => r.lang)).filter(Boolean))].sort();
+  const sel = $("#lang");
+  for (const l of langs) { const o = document.createElement("option"); o.value = l; o.textContent = l; sel.appendChild(o); }
+  buildChips();
+  $("#search").addEventListener("input", render);
+  sel.addEventListener("change", render);
+  render();
+}
+init();
+</script>
+</body>
+</html>
