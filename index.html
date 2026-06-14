@@ -56,6 +56,8 @@
     white-space: nowrap;
   }
   .theme-toggle:hover { border-color: var(--accent); }
+  .checkbox { display: flex; align-items: center; gap: 5px; font-size: 13px; color: var(--muted); cursor: pointer; white-space: nowrap; user-select: none; }
+  .checkbox input { cursor: pointer; }
   .title { font-size: 18px; font-weight: 700; display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; }
   .title small { color: var(--muted); font-weight: 400; font-size: 13px; }
   .controls { margin-top: 10px; display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
@@ -116,11 +118,14 @@
     </select>
     <select id="period">
       <option value="">全期間</option>
-      <option value="30">直近1ヶ月</option>
+      <option value="30" selected>直近1ヶ月</option>
       <option value="90">直近3ヶ月</option>
       <option value="180">直近6ヶ月</option>
       <option value="365">直近1年</option>
     </select>
+    <label class="checkbox" title="ONにすると、現在日ではなく一番最近starした日を起点に期間を数えます（しばらくstarしていなくても最新分が表示されます）">
+      <input type="checkbox" id="fromLatest" checked /> 最新スターから換算
+    </label>
     <button id="view" class="theme-toggle" title="表示切替">📋 一覧</button>
     <button id="theme" class="theme-toggle" title="テーマ切替">🌙 ダーク</button>
   </div>
@@ -132,6 +137,7 @@
 let DATA = null;
 let activeCat = "";
 let viewMode = "category"; // "category" | "flat"
+let maxStarredMs = 0; // データ内の最新star日。期間フィルタの基準にする
 
 const $ = (s) => document.querySelector(s);
 const esc = (s) => (s || "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
@@ -172,7 +178,9 @@ function withinPeriod(r) {
   const days = parseInt($("#period").value, 10);
   if (!days) return true;
   if (!r.starred_at) return false;
-  const diffDays = (Date.now() - new Date(r.starred_at).getTime()) / 86400000;
+  // チェックON: 一番最近starした日を起点に数える / OFF: 今日を起点
+  const base = ($("#fromLatest").checked && maxStarredMs) ? maxStarredMs : Date.now();
+  const diffDays = (base - new Date(r.starred_at).getTime()) / 86400000;
   return diffDays <= days;
 }
 
@@ -282,10 +290,17 @@ async function init() {
     return;
   }
   $("#summary").textContent = `全${DATA.total}件 / ${DATA.categories.length}カテゴリ ・ 更新: ${DATA.updated_at}`;
+  // 期間フィルタの基準にする「最新star日」を算出
+  for (const cat of DATA.categories) {
+    for (const r of cat.repos) {
+      if (r.starred_at) maxStarredMs = Math.max(maxStarredMs, new Date(r.starred_at).getTime());
+    }
+  }
   buildChips();
   $("#search").addEventListener("input", render);
   $("#sort").addEventListener("change", render);
   $("#period").addEventListener("change", render);
+  $("#fromLatest").addEventListener("change", render);
   $("#view").addEventListener("click", () => {
     viewMode = viewMode === "flat" ? "category" : "flat";
     $("#view").textContent = viewMode === "flat" ? "📑 カテゴリ別" : "📋 一覧";

@@ -1,0 +1,12 @@
+{
+  "name": "github-stars",
+  "version": "1.0.0",
+  "private": true,
+  "description": "GitHubでstarしたリポジトリをカテゴリ別に閲覧するサイト",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "build": "bash build.sh",
+    "sync": "bash build.sh --full"
+  }
+}

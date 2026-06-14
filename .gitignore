@@ -2,3 +2,4 @@ raw.json
 fetched.json
 .empty.json
 stars.json.tmp
+node_modules/
