@@ -1,1 +1,7 @@
-{}
+{
+  "microsoft/agent-governance-toolkit": { "summary": "自律AIエージェント向けガバナンス基盤。ポリシー強制・ゼロトラスト認証・実行サンドボックスでOWASP Agentic Top10に対応", "generated_at": "2026-06-14" },
+  "humanlayer/12-factor-agents": { "summary": "本番投入に耐えるLLMエージェントを作るための設計原則集（12-factor）をまとめたガイド", "generated_at": "2026-06-14" },
+  "anthropics/claude-cookbooks": { "summary": "ClaudeのAPIを効果的に使うためのレシピ集。実用的なノートブックでテクニックを学べる", "generated_at": "2026-06-14" },
+  "openai/openai-cookbook": { "summary": "OpenAI APIの使い方を学べる公式サンプル・ガイド集。実装例をノートブックで提供", "generated_at": "2026-06-14" },
+  "cloudflare/sandbox-sdk": { "summary": "Cloudflareのエッジ上でサンドボックス化したコード実行環境を動かすSDK", "generated_at": "2026-06-14" }
+}
