@@ -8,13 +8,7 @@ set -euo pipefail
 cd "$(dirname "$0")"
 
 MODE="incremental"
-SUMMARIZE=1   # 既定で要約(summarize.sh)も実行。--no-summary で抑制
-for arg in "$@"; do
-  case "$arg" in
-    --full) MODE="full" ;;
-    --no-summary) SUMMARIZE=0 ;;
-  esac
-done
+[ "${1:-}" = "--full" ] && MODE="full"
 # 手元に stars.json が無ければ強制フル
 [ -f stars.json ] || MODE="full"
 
@@ -85,6 +79,15 @@ jq -n \
   ' > stars.json.tmp && mv stars.json.tmp stars.json
 
 rm -f .empty.json
+
+# LLM要約(summaries.json)を各repoへ反映。要約の「生成」はスキル(stars-sync)が行い、
+# ここはキャッシュにある分を stars.json に貼り込むだけ(LLM非依存)。
+[ -f summaries.json ] || echo '{}' > summaries.json
+jq --slurpfile sum summaries.json '
+  ($sum[0]) as $s
+  | .categories |= map(.repos |= map(. + {summary: ($s[.name].summary // "")}))
+' stars.json > stars.json.tmp && mv stars.json.tmp stars.json
+
 TOTAL=$(jq '.total' stars.json)
 
 # 未分類の検知
@@ -94,13 +97,10 @@ if [ -n "$UNCAT" ]; then
   echo "$UNCAT" | sed 's/^/   - /' >&2
 fi
 
-echo "✅ stars.json を生成しました（${MODE} / 全${TOTAL}件）" >&2
-
-# 各repoの日本語1行要約を生成・反映(キャッシュ済みは再生成しない)
-if [ "$SUMMARIZE" -eq 1 ]; then
-  if command -v claude >/dev/null 2>&1; then
-    ./summarize.sh
-  else
-    echo "⚠ claude CLI が無いため要約をスキップ（--no-summary で明示的に抑制可）" >&2
-  fi
+# 未要約の検知(summary が空のrepo)。スキルが要約する対象。
+NOSUM=$(jq -r '[.categories[].repos[] | select((.summary // "") == "")] | length' stars.json)
+if [ "$NOSUM" -gt 0 ]; then
+  echo "ℹ 未要約のリポジトリが ${NOSUM}件 あります（stars-sync スキルで summaries.json に要約を追記してください）" >&2
 fi
+
+echo "✅ stars.json を生成しました（${MODE} / 全${TOTAL}件）" >&2
