@@ -133,7 +133,7 @@
 
 <script>
 let DATA = null;
-let activeCat = "";
+let activeCat = "__cat__"; // 初期選択は「カテゴリ別」(= CAT_MODE)
 let maxStarredMs = 0; // データ内の最新star日。期間フィルタの基準にする
 
 const $ = (s) => document.querySelector(s);
@@ -227,8 +227,10 @@ function render() {
 
   // カテゴリ別表示（各カテゴリ内は star日付の新しい順 = stars.json生成時のソート）
   // CAT_MODE: 全カテゴリ表示 / それ以外: 該当カテゴリのみ
+  // カテゴリの並びは「最近starしたカテゴリ順」(chipの並びと一致)
+  const sortedCats = DATA.categories.slice().sort((a, b) => catLatestMs(b) - catLatestMs(a));
   let shown = 0;
-  for (const cat of DATA.categories) {
+  for (const cat of sortedCats) {
     if (activeCat !== CAT_MODE && cat.key !== activeCat) continue;
     const repos = cat.repos.filter((r) => pass(r, q));
     if (!repos.length) continue;
@@ -280,10 +282,11 @@ function buildChips() {
   chips.innerHTML = "";
 
   const all = mkChip("すべて", "", DATA.total);
-  all.classList.add("active");
   chips.appendChild(all);
 
-  chips.appendChild(mkChip("カテゴリ別", CAT_MODE));
+  const catChip = mkChip("カテゴリ別", CAT_MODE);
+  catChip.classList.add("active");
+  chips.appendChild(catChip);
 
   // 直近starしたカテゴリ順に並べる
   const cats = DATA.categories.slice().sort((a, b) => catLatestMs(b) - catLatestMs(a));
