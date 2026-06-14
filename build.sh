@@ -5,8 +5,9 @@ set -euo pipefail
 cd "$(dirname "$0")"
 
 echo "▶ starを取得中 (gh api user/starred)..." >&2
-gh api user/starred --paginate \
-  -q '.[] | {name: .full_name, lang: (.language // ""), desc: ((.description // "") | gsub("[\r\n\t]"; " ")), stars: .stargazers_count, url: .html_url}' \
+# Accept: ...star+json で starred_at（starした日時）を取得。要素は {starred_at, repo}
+gh api user/starred --paginate -H "Accept: application/vnd.github.star+json" \
+  -q '.[] | {name: .repo.full_name, lang: (.repo.language // ""), desc: ((.repo.description // "") | gsub("[\r\n\t]"; " ")), stars: .repo.stargazers_count, url: .repo.html_url, starred_at: .starred_at}' \
   | jq -s '.' > raw.json
 
 TOTAL=$(jq 'length' raw.json)
@@ -36,7 +37,7 @@ jq -n \
                 emoji: ($m[$k].emoji // "❓"),
                 order: ($m[$k].order // 998),
                 count: length,
-                repos: (sort_by(-.stars))
+                repos: (sort_by(.starred_at) | reverse)
               }
           )
         | sort_by(.order)

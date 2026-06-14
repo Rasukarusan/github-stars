@@ -5,7 +5,23 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>⭐ GitHub Stars — カテゴリ別</title>
 <style>
+  /* ライトテーマ（デフォルト） */
   :root {
+    --bg: #ffffff;
+    --bg2: #f6f8fa;
+    --border: #d0d7de;
+    --fg: #1f2328;
+    --muted: #636c76;
+    --accent: #0969da;
+    --accent2: #bc4c00;
+    --mark-bg: #fff8c5;
+    --mark-fg: #1f2328;
+    --header-bg: rgba(255,255,255,.92);
+    --chip-active-fg: #ffffff;
+    --radius: 10px;
+  }
+  /* ダークテーマ */
+  :root[data-theme="dark"] {
     --bg: #0d1117;
     --bg2: #161b22;
     --border: #30363d;
@@ -13,7 +29,10 @@
     --muted: #8b949e;
     --accent: #58a6ff;
     --accent2: #f0883e;
-    --radius: 10px;
+    --mark-bg: #9e6a03;
+    --mark-fg: #ffffff;
+    --header-bg: rgba(13,17,23,.92);
+    --chip-active-fg: #0d1117;
   }
   * { box-sizing: border-box; }
   body {
@@ -25,11 +44,18 @@
   }
   header {
     position: sticky; top: 0; z-index: 10;
-    background: rgba(13,17,23,.92);
+    background: var(--header-bg);
     backdrop-filter: blur(8px);
     border-bottom: 1px solid var(--border);
     padding: 14px 20px;
   }
+  .theme-toggle {
+    cursor: pointer;
+    background: var(--bg2); border: 1px solid var(--border); color: var(--fg);
+    padding: 8px 12px; border-radius: var(--radius); font-size: 14px; line-height: 1;
+    white-space: nowrap;
+  }
+  .theme-toggle:hover { border-color: var(--accent); }
   .title { font-size: 18px; font-weight: 700; display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; }
   .title small { color: var(--muted); font-weight: 400; font-size: 13px; }
   .controls { margin-top: 10px; display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
@@ -50,7 +76,7 @@
     padding: 4px 10px; border-radius: 999px; font-size: 12px; white-space: nowrap;
   }
   .chip:hover { border-color: var(--accent); color: var(--fg); }
-  .chip.active { background: var(--accent); border-color: var(--accent); color: #0d1117; font-weight: 600; }
+  .chip.active { background: var(--accent); border-color: var(--accent); color: var(--chip-active-fg); font-weight: 600; }
   main { padding: 16px 20px 60px; max-width: 1400px; margin: 0 auto; }
   .cat { margin-bottom: 28px; scroll-margin-top: 120px; }
   .cat h2 {
@@ -72,7 +98,7 @@
   .card .meta { font-size: 12px; color: var(--muted); display: flex; gap: 12px; align-items: center; margin-top: auto; }
   .lang-dot { display: inline-block; width: 9px; height: 9px; border-radius: 50%; background: var(--accent2); margin-right: 4px; vertical-align: middle; }
   .empty { color: var(--muted); padding: 40px; text-align: center; }
-  mark { background: #9e6a03; color: #fff; border-radius: 2px; }
+  mark { background: var(--mark-bg); color: var(--mark-fg); border-radius: 2px; }
   a.gh { color: var(--muted); font-size: 12px; text-decoration: none; }
   a.gh:hover { color: var(--accent); }
 </style>
@@ -83,6 +109,13 @@
   <div class="controls">
     <input id="search" type="search" placeholder="リポジトリ名・説明で検索…" autocomplete="off" />
     <select id="lang"><option value="">全言語</option></select>
+    <select id="sort">
+      <option value="starred_desc">starした順（新しい）</option>
+      <option value="starred_asc">starした順（古い）</option>
+      <option value="stars_desc">★が多い順</option>
+      <option value="name_asc">名前順</option>
+    </select>
+    <button id="theme" class="theme-toggle" title="テーマ切替">🌙 ダーク</button>
   </div>
 </header>
 <div class="chips" id="chips"></div>
@@ -104,6 +137,25 @@ function highlight(text, q) {
   } catch { return t; }
 }
 
+function fmtDate(iso) {
+  if (!iso) return "";
+  const d = new Date(iso);
+  if (isNaN(d)) return "";
+  return `${d.getFullYear()}/${String(d.getMonth() + 1).padStart(2, "0")}/${String(d.getDate()).padStart(2, "0")}`;
+}
+
+function sortRepos(repos) {
+  const mode = $("#sort").value;
+  const arr = repos.slice();
+  switch (mode) {
+    case "starred_asc": return arr.sort((a, b) => (a.starred_at || "").localeCompare(b.starred_at || ""));
+    case "stars_desc":  return arr.sort((a, b) => b.stars - a.stars);
+    case "name_asc":    return arr.sort((a, b) => a.name.localeCompare(b.name));
+    case "starred_desc":
+    default:            return arr.sort((a, b) => (b.starred_at || "").localeCompare(a.starred_at || ""));
+  }
+}
+
 function render() {
   const q = $("#search").value.trim().toLowerCase();
   const lang = $("#lang").value;
@@ -113,11 +165,11 @@ function render() {
 
   for (const cat of DATA.categories) {
     if (activeCat && cat.key !== activeCat) continue;
-    const repos = cat.repos.filter((r) => {
+    const repos = sortRepos(cat.repos.filter((r) => {
       if (lang && r.lang !== lang) return false;
       if (q && !(r.name.toLowerCase().includes(q) || (r.desc || "").toLowerCase().includes(q))) return false;
       return true;
-    });
+    }));
     if (!repos.length) continue;
     shown += repos.length;
 
@@ -134,6 +186,7 @@ function render() {
           <div class="meta">
             ${r.lang ? `<span><span class="lang-dot"></span>${esc(r.lang)}</span>` : ""}
             <span>★ ${r.stars.toLocaleString()}</span>
+            ${r.starred_at ? `<span title="starした日">📌 ${fmtDate(r.starred_at)}</span>` : ""}
           </div>
         </div>`).join("") +
       `</div>`;
@@ -162,7 +215,24 @@ function setActive(el) {
   el.classList.add("active");
 }
 
+function applyTheme(theme) {
+  const root = document.documentElement;
+  if (theme === "dark") root.setAttribute("data-theme", "dark");
+  else root.removeAttribute("data-theme");
+  $("#theme").textContent = theme === "dark" ? "☀️ ライト" : "🌙 ダーク";
+  localStorage.setItem("stars-theme", theme);
+}
+function initTheme() {
+  let theme = localStorage.getItem("stars-theme");
+  if (!theme) theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+  applyTheme(theme);
+  $("#theme").addEventListener("click", () => {
+    applyTheme(document.documentElement.getAttribute("data-theme") === "dark" ? "light" : "dark");
+  });
+}
+
 async function init() {
+  initTheme();
   try {
     const res = await fetch("stars.json?_=" + Date.now());
     DATA = await res.json();
@@ -177,6 +247,7 @@ async function init() {
   buildChips();
   $("#search").addEventListener("input", render);
   sel.addEventListener("change", render);
+  $("#sort").addEventListener("change", render);
   render();
 }
 init();
