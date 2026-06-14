@@ -116,6 +116,7 @@
     <input id="search" type="search" placeholder="リポジトリ名・説明で検索…" autocomplete="off" />
     <select id="period">
       <option value="">全期間</option>
+      <option value="7">直近1週間</option>
       <option value="30" selected>直近1ヶ月</option>
       <option value="90">直近3ヶ月</option>
       <option value="180">直近6ヶ月</option>
@@ -188,15 +189,47 @@ function cardHtml(r, q) {
     </div>`;
 }
 
+const CAT_MODE = "__cat__"; // 「カテゴリ別」chip の特別キー
+
+// 現在の期間/検索フィルタを反映した件数で各chipの数字を更新
+function updateChipCounts(q) {
+  const passCount = (repos) => repos.filter((r) => pass(r, q)).length;
+  document.querySelectorAll(".chip[data-key]").forEach((c) => {
+    const key = c.dataset.key;
+    const cntEl = c.querySelector(".chip-cnt");
+    if (!cntEl) return; // カテゴリ別chipなど数字なしはスキップ
+    const n = key === ""
+      ? passCount(DATA.categories.flatMap((cat) => cat.repos))
+      : passCount((DATA.categories.find((cat) => cat.key === key) || { repos: [] }).repos);
+    cntEl.textContent = `(${n})`;
+  });
+}
+
 function render() {
   const q = $("#search").value.trim().toLowerCase();
   const main = $("#main");
   main.innerHTML = "";
+  updateChipCounts(q);
+
+  // 「すべて」(activeCat === "") はカテゴリを無くして star日付の新しい順でフラット表示
+  if (activeCat === "") {
+    const all = DATA.categories
+      .flatMap((cat) => cat.repos)
+      .filter((r) => pass(r, q))
+      .sort((a, b) => new Date(b.starred_at || 0) - new Date(a.starred_at || 0));
+    if (!all.length) { main.innerHTML = `<div class="empty">該当なし</div>`; return; }
+    const sec = document.createElement("section");
+    sec.className = "cat";
+    sec.innerHTML = `<div class="grid">` + all.map((r) => cardHtml(r, q)).join("") + `</div>`;
+    main.appendChild(sec);
+    return;
+  }
 
   // カテゴリ別表示（各カテゴリ内は star日付の新しい順 = stars.json生成時のソート）
+  // CAT_MODE: 全カテゴリ表示 / それ以外: 該当カテゴリのみ
   let shown = 0;
   for (const cat of DATA.categories) {
-    if (activeCat && cat.key !== activeCat) continue;
+    if (activeCat !== CAT_MODE && cat.key !== activeCat) continue;
     const repos = cat.repos.filter((r) => pass(r, q));
     if (!repos.length) continue;
     shown += repos.length;
@@ -222,10 +255,12 @@ function catLatestMs(cat) {
   return s ? new Date(s).getTime() : 0;
 }
 
-function mkChip(label, key) {
+function mkChip(label, key, count) {
   const c = document.createElement("span");
   c.className = "chip";
-  c.textContent = label;
+  c.dataset.key = key;
+  c.innerHTML = `<span class="chip-label">${esc(label)}</span>` +
+    (count != null ? ` <span class="chip-cnt">(${count})</span>` : "");
   c.onclick = () => {
     if (key && activeCat === key) {
       // 選択中のものを再クリック → 解除して「すべて」に戻す
@@ -244,14 +279,16 @@ function buildChips() {
   const chips = $("#chips");
   chips.innerHTML = "";
 
-  const all = mkChip(`すべて (${DATA.total})`, "");
+  const all = mkChip("すべて", "", DATA.total);
   all.classList.add("active");
   chips.appendChild(all);
+
+  chips.appendChild(mkChip("カテゴリ別", CAT_MODE));
 
   // 直近starしたカテゴリ順に並べる
   const cats = DATA.categories.slice().sort((a, b) => catLatestMs(b) - catLatestMs(a));
   cats.forEach((cat, i) => {
-    const c = mkChip(`${cat.emoji} ${cat.label} (${cat.count})`, cat.key);
+    const c = mkChip(`${cat.emoji} ${cat.label}`, cat.key, cat.count);
     if (i >= TOP_CHIPS) c.classList.add("chip-extra"); // 初期は隠す
     chips.appendChild(c);
   });
