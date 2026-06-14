@@ -8,7 +8,13 @@ set -euo pipefail
 cd "$(dirname "$0")"
 
 MODE="incremental"
-[ "${1:-}" = "--full" ] && MODE="full"
+SUMMARIZE=1   # 既定で要約(summarize.sh)も実行。--no-summary で抑制
+for arg in "$@"; do
+  case "$arg" in
+    --full) MODE="full" ;;
+    --no-summary) SUMMARIZE=0 ;;
+  esac
+done
 # 手元に stars.json が無ければ強制フル
 [ -f stars.json ] || MODE="full"
 
@@ -89,3 +95,12 @@ if [ -n "$UNCAT" ]; then
 fi
 
 echo "✅ stars.json を生成しました（${MODE} / 全${TOTAL}件）" >&2
+
+# 各repoの日本語1行要約を生成・反映(キャッシュ済みは再生成しない)
+if [ "$SUMMARIZE" -eq 1 ]; then
+  if command -v claude >/dev/null 2>&1; then
+    ./summarize.sh
+  else
+    echo "⚠ claude CLI が無いため要約をスキップ（--no-summary で明示的に抑制可）" >&2
+  fi
+fi
