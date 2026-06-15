@@ -1938,5 +1938,629 @@
   "nipunn1313/mypy-protobuf": {
     "summary": "protobuf定義からmypyの型スタブを生成するオープンソースツール",
     "generated_at": "2026-06-15"
+  },
+  "betterproto/python-betterproto2": {
+    "summary": "Python向けのProtobuf/gRPCサポートを改善するライブラリ(betterprotoの再設計版・開発中)",
+    "generated_at": "2026-06-15"
+  },
+  "danielgtaylor/python-betterproto": {
+    "summary": "Protobuf 3と非同期gRPC向けの、Python 3.6+対応のクリーンなコードジェネレータ兼ライブラリ",
+    "generated_at": "2026-06-15"
+  },
+  "microsoft/pyright": {
+    "summary": "Microsoft製の高速なPython静的型チェッカー。CLIとVS Code拡張を提供",
+    "generated_at": "2026-06-15"
+  },
+  "DetachHead/basedpyright": {
+    "summary": "型チェックやVS Code対応・Pylance機能を強化したpyrightのフォーク",
+    "generated_at": "2026-06-15"
+  },
+  "facebook/pyrefly": {
+    "summary": "Rust製の高速なPython型チェッカー兼言語サーバー(Meta製)",
+    "generated_at": "2026-06-15"
+  },
+  "astral-sh/ty": {
+    "summary": "Rust製で非常に高速なPython型チェッカー兼言語サーバー(uv/Ruffを作るAstral製)",
+    "generated_at": "2026-06-15"
+  },
+  "vercel-labs/emulate": {
+    "summary": "CIやネットワーク非接続環境向けに、状態を持つ本番忠実なローカルAPIエミュレーションを提供するツール",
+    "generated_at": "2026-06-15"
+  },
+  "marchaos/jest-mock-extended": {
+    "summary": "Jest向けの型安全なモック拡張。インターフェイスや引数・戻り値の型を保ったモックを作れる",
+    "generated_at": "2026-06-15"
+  },
+  "typestack/class-validator": {
+    "summary": "デコレータベースでクラスのプロパティを検証するTypeScript/JSライブラリ",
+    "generated_at": "2026-06-15"
+  },
+  "biomejs/biome": {
+    "summary": "Webプロジェクト向けのツールチェーンBiome。フォーマッタとリンタをCLI/LSPで提供する",
+    "generated_at": "2026-06-15"
+  },
+  "steelydylan/react-embed-devtools": {
+    "summary": "iframe内をDevToolsで検査できる、組み込み可能なReact向け開発者ツールライブラリ",
+    "generated_at": "2026-06-15"
+  },
+  "liriliri/chii": {
+    "summary": "最新Chrome DevToolsフロントエンドでスマホ等を遠隔デバッグできるツール(weinre代替)",
+    "generated_at": "2026-06-15"
+  },
+  "testcontainers/testcontainers-node": {
+    "summary": "テスト中にDBやブラウザ等を使い捨てDockerコンテナとして起動するNode.jsライブラリ",
+    "generated_at": "2026-06-15"
+  },
+  "google/aside": {
+    "summary": "Google Apps Script開発にフォーマット・リント・テスト等を導入するツール",
+    "generated_at": "2026-06-15"
+  },
+  "rakyll/gotest": {
+    "summary": "`go test`の出力を色付きで見やすくするツール",
+    "generated_at": "2026-06-15"
+  },
+  "jondot/hygen": {
+    "summary": "プロジェクト内で動くシンプルで高速なコードジェネレータ。スキャフォールド作成に使う",
+    "generated_at": "2026-06-15"
+  },
+  "lksv/node-resemble.js": {
+    "summary": "canvas等の依存なしで画像を解析・比較するJavaScriptライブラリ(メンテナ募集中)",
+    "generated_at": "2026-06-15"
+  },
+  "mapbox/pixelmatch": {
+    "summary": "最小・最速のピクセル単位画像比較ライブラリ。テストのスクショ比較向けでアンチエイリアス検出に対応",
+    "generated_at": "2026-06-15"
+  },
+  "rsmbl/Resemble.js": {
+    "summary": "JavaScriptとHTML5で画像を解析・比較するライブラリ",
+    "generated_at": "2026-06-15"
+  },
+  "go-task/task": {
+    "summary": "Makeに着想を得た高速・クロスプラットフォームなタスクランナー/ビルドツール(Taskfile)",
+    "generated_at": "2026-06-15"
+  },
+  "RyanClementsHax/storybook-addon-next": {
+    "summary": "Next.jsの機能をStorybookで動かす無設定アドオン(公式@storybook/nextjsへ移行・非推奨)",
+    "generated_at": "2026-06-15"
+  },
+  "gregberge/svgr": {
+    "summary": "SVGをReactコンポーネントに変換する汎用ツールSVGR",
+    "generated_at": "2026-06-15"
+  },
+  "google/yamlfmt": {
+    "summary": "YAMLファイルを整形する拡張可能なコマンドラインツール兼ライブラリ",
+    "generated_at": "2026-06-15"
+  },
+  "alallier/reload": {
+    "summary": "コード変更時にブラウザを自動リロードするNodeモジュール(プラグイン不要)",
+    "generated_at": "2026-06-15"
+  },
+  "izumin5210/cgt": {
+    "summary": "`go test`の出力を色付けするツール(rakyll/gotestに着想)",
+    "generated_at": "2026-06-15"
+  },
+  "thunderclient/thunder-client-support": {
+    "summary": "VS Code/JetBrains向けの軽量REST APIクライアントThunder Clientのサポート用リポジトリ",
+    "generated_at": "2026-06-15"
+  },
+  "brianvoe/gofakeit": {
+    "summary": "Goで書かれたランダムなフェイクデータ生成ライブラリ。310以上の関数を備える",
+    "generated_at": "2026-06-15"
+  },
+  "martpie/next-transpile-modules": {
+    "summary": "node_modulesのコードをトランスパイルするNext.jsプラグイン(Next.js 13.1に標準搭載・非推奨)",
+    "generated_at": "2026-06-15"
+  },
+  "johnpapa/lite-server": {
+    "summary": "開発専用の軽量Nodeサーバー。変更時に自動リロードしCSS変更を反映する",
+    "generated_at": "2026-06-15"
+  },
+  "vercel/nft": {
+    "summary": "アプリ実行に必要なファイル(node_modules含む)を特定するNode.js依存トレースユーティリティ",
+    "generated_at": "2026-06-15"
+  },
+  "francoismassart/eslint-plugin-tailwindcss": {
+    "summary": "Tailwind CSSのベストプラクティスや一貫性を強制するESLintプラグイン",
+    "generated_at": "2026-06-15"
+  },
+  "cyrilwanner/next-optimized-images": {
+    "summary": "Next.jsプロジェクトの画像(jpeg/png/svg/webp/gif)を自動最適化するプラグイン",
+    "generated_at": "2026-06-15"
+  },
+  "boblauer/MockDate": {
+    "summary": "「現在時刻(now)」を任意に変更できるJavaScriptのモックDateオブジェクト",
+    "generated_at": "2026-06-15"
+  },
+  "glideapps/quicktype": {
+    "summary": "JSON・スキーマ・GraphQLから多言語の型定義と変換コードを生成するツール",
+    "generated_at": "2026-06-15"
+  },
+  "openapi-ts/openapi-typescript": {
+    "summary": "OpenAPI 3の仕様からTypeScriptの型を生成するツール群",
+    "generated_at": "2026-06-15"
+  },
+  "ajv-validator/ajv": {
+    "summary": "Node/ブラウザ向けの最速JSON Schemaバリデータ。各種ドラフトとJSON Type Definitionに対応",
+    "generated_at": "2026-06-15"
+  },
+  "azu/create-validator-ts": {
+    "summary": "TypeScriptの型からJSON Schemaバリデータを生成するツール。TSを単一の真実とする",
+    "generated_at": "2026-06-15"
+  },
+  "koalaman/shellcheck": {
+    "summary": "シェルスクリプトの問題点を警告・提案する静的解析ツールShellCheck",
+    "generated_at": "2026-06-15"
+  },
+  "sebastianbergmann/php-code-coverage": {
+    "summary": "PHPのコードカバレッジ情報を収集・処理・描画するライブラリ",
+    "generated_at": "2026-06-15"
+  },
+  "krakjoe/pcov": {
+    "summary": "PHP向けのCodeCoverage互換の自己完結型カバレッジ計測ドライバ(PCOV)",
+    "generated_at": "2026-06-15"
+  },
+  "microsoft/playwright": {
+    "summary": "Chromium・Firefox・WebKitを単一APIで操作するWebテスト・自動化フレームワークPlaywright",
+    "generated_at": "2026-06-15"
+  },
+  "dotenv-linter/dotenv-linter": {
+    "summary": "Rust製の超高速な.envファイル用リンタ。重複キー等の問題をチェック・修正できる",
+    "generated_at": "2026-06-15"
+  },
+  "vitejs/vite": {
+    "summary": "高速な開発体験を提供する次世代フロントエンドビルドツールVite。瞬時起動と高速HMRが特徴",
+    "generated_at": "2026-06-15"
+  },
+  "rome/tools": {
+    "summary": "JavaScript/TypeScript/Web向けの統合開発ツールRome(フォーマッタ・リンタ等)",
+    "generated_at": "2026-06-15"
+  },
+  "markshapiro/webpack-merge-and-include-globally": {
+    "summary": "複数のjs/cssファイルを1つにマージしそのまま読み込めるようにするwebpackプラグイン",
+    "generated_at": "2026-06-15"
+  },
+  "shellspec/shellspec": {
+    "summary": "bash/zsh等の全POSIXシェル対応の本格的なBDDユニットテストフレームワーク。カバレッジやモックも備える",
+    "generated_at": "2026-06-15"
+  },
+  "w3c/webdriver": {
+    "summary": "ブラウザを遠隔操作・検査するためのプラットフォーム非依存なWebDriver標準仕様",
+    "generated_at": "2026-06-15"
+  },
+  "glut23/webvtt-py": {
+    "summary": "WebVTT字幕ファイルの読み書き・変換・分割を行うPythonライブラリ",
+    "generated_at": "2026-06-15"
+  },
+  "pbs/pycaption": {
+    "summary": "主要な動画字幕フォーマットを相互に読み書き・変換するPythonモジュール",
+    "generated_at": "2026-06-15"
+  },
+  "spotDL/spotify-downloader": {
+    "summary": "Spotifyのプレイリストや曲をYouTubeから探し、アルバムアートやメタデータ付きでダウンロードするツール",
+    "generated_at": "2026-06-15"
+  },
+  "videojs/video.js": {
+    "summary": "HLSやDASH等にも対応したオープンソースのHTML5動画プレーヤー兼フレームワーク",
+    "generated_at": "2026-06-15"
+  },
+  "lovell/sharp": {
+    "summary": "libvipsを使った高性能なNode.js画像処理ライブラリ。JPEG/PNG/WebP/AVIF等のリサイズが高速",
+    "generated_at": "2026-06-15"
+  },
+  "vercel/satori": {
+    "summary": "HTMLとCSSをSVGに変換するライブラリ。OGP画像やソーシャルカード生成に使える",
+    "generated_at": "2026-06-15"
+  },
+  "remotion-dev/remotion": {
+    "summary": "Reactを使ってプログラムで動画を作成するフレームワークRemotion",
+    "generated_at": "2026-06-15"
+  },
+  "vercel/og-image": {
+    "summary": "Twitter/Facebook等向けのOGPカード画像を生成するサービス(旧式・@vercel/og推奨)",
+    "generated_at": "2026-06-15"
+  },
+  "Idered/chalk.ist": {
+    "summary": "ソースコードを美しい画像にして出力できるWebツール",
+    "generated_at": "2026-06-15"
+  },
+  "vimeo/player.js": {
+    "summary": "埋め込んだVimeoプレーヤーを操作・制御するためのVimeo Player API",
+    "generated_at": "2026-06-15"
+  },
+  "sampotts/plyr": {
+    "summary": "HTML5・YouTube・Vimeoに対応した軽量でアクセシブルなメディアプレーヤー",
+    "generated_at": "2026-06-15"
+  },
+  "gographics/imagick": {
+    "summary": "ImageMagickのMagickWand C APIへのGo言語バインディング",
+    "generated_at": "2026-06-15"
+  },
+  "mpv-player/mpv": {
+    "summary": "多数のフォーマット・コーデックに対応したコマンドライン用メディアプレーヤーmpv",
+    "generated_at": "2026-06-15"
+  },
+  "kenkawakenkenke/stickfigure-recorder": {
+    "summary": "Webカメラ映像から姿勢を検出し棒人間のGIFを生成するWebサイト",
+    "generated_at": "2026-06-15"
+  },
+  "Aloxaf/silicon": {
+    "summary": "ソースコードを美しい画像にレンダリングするRust製ツール。オフライン動作するCarbon代替",
+    "generated_at": "2026-06-15"
+  },
+  "lukilabs/beautiful-mermaid": {
+    "summary": "Mermaid図を美しいSVGやASCIIアートとして描画する高速・テーマ対応ライブラリ",
+    "generated_at": "2026-06-15"
+  },
+  "k1LoW/deck": {
+    "summary": "MarkdownとGoogle Slidesでスライドを作るツール。内容はMarkdown・デザインはSlidesと分離する",
+    "generated_at": "2026-06-15"
+  },
+  "ahmedkhaleel2004/gitdiagram": {
+    "summary": "任意のGitHubリポジトリを数秒で対話的な構成図に変換する無料ツール",
+    "generated_at": "2026-06-15"
+  },
+  "jckinjo/tiny-mindmap": {
+    "summary": "Markdownからマインドマップのウェブページを生成する小さなシェルスクリプト",
+    "generated_at": "2026-06-15"
+  },
+  "terrastruct/d2": {
+    "summary": "テキストから図を生成するモダンなダイアグラム記述言語D2",
+    "generated_at": "2026-06-15"
+  },
+  "googleworkspace/md2googleslides": {
+    "summary": "MarkdownやHTMLからGoogle Slidesを生成するツール(Slides APIの利用例)",
+    "generated_at": "2026-06-15"
+  },
+  "markmap/markmap": {
+    "summary": "プレーンテキスト(Markdown)からマインドマップを生成・可視化するツール",
+    "generated_at": "2026-06-15"
+  },
+  "extend-chrome/storage": {
+    "summary": "Chrome拡張のStorage APIにPromiseと優れたTypeScript対応を加えるラッパー",
+    "generated_at": "2026-06-15"
+  },
+  "sinanbekar/browser-extension-react-typescript-starter": {
+    "summary": "ホットリロード対応のReact&TypeScript製ブラウザ拡張開発スターターキット",
+    "generated_at": "2026-06-15"
+  },
+  "kitsuyaazuma/React-Translation-Chrome-Extension": {
+    "summary": "Zennの「ReactではじめるChrome拡張開発入門」のサンプルコード",
+    "generated_at": "2026-06-15"
+  },
+  "crxjs/chrome-extension-tools": {
+    "summary": "ネイティブHMRと無設定でクロスブラウザ拡張を開発できるツール(Viteプラグイン)",
+    "generated_at": "2026-06-15"
+  },
+  "hand-dot/react-inspector": {
+    "summary": "ChromeからReactコンポーネントのソースコードを簡単に特定・表示できる拡張",
+    "generated_at": "2026-06-15"
+  },
+  "kshida/github-emoji-extension": {
+    "summary": "GitHubのコメント入力で多彩な絵文字を手軽に使えるようにするChrome拡張",
+    "generated_at": "2026-06-15"
+  },
+  "Mottie/GitHub-userscripts": {
+    "summary": "GitHubに様々な機能を追加するユーザースクリプト集",
+    "generated_at": "2026-06-15"
+  },
+  "xpl/crx-hotreload": {
+    "summary": "ファイル変更時に拡張をリロードするChrome拡張のホットリローダー(Manifest V3非対応)",
+    "generated_at": "2026-06-15"
+  },
+  "refined-bitbucket/refined-bitbucket": {
+    "summary": "BitbucketのUXを改善するChrome/Firefox拡張",
+    "generated_at": "2026-06-15"
+  },
+  "colyseus/colyseus": {
+    "summary": "Node.js向けの権威型(authoritative)マルチプレイヤーゲームフレームワークColyseus",
+    "generated_at": "2026-06-15"
+  },
+  "peers/peerjs": {
+    "summary": "WebRTCを使ったシンプルなP2P通信を実現するライブラリ。データチャネルとメディアストリームに対応",
+    "generated_at": "2026-06-15"
+  },
+  "phaserjs/phaser": {
+    "summary": "Canvas/WebGL対応でデスクトップ・モバイル向けHTML5ゲームを作る高速な2Dゲームフレームワーク",
+    "generated_at": "2026-06-15"
+  },
+  "kevinshen56714/SkyOffice": {
+    "summary": "Phaser・React・PeerJS・Colyseusで作られた没入型のバーチャルオフィス",
+    "generated_at": "2026-06-15"
+  },
+  "LuckyOne7777/LLM-Trading-Lab": {
+    "summary": "ChatGPTが実際の資金で米国の超小型株ポートフォリオを運用する実験リポジトリ",
+    "generated_at": "2026-06-15"
+  },
+  "ranaroussi/yfinance": {
+    "summary": "Yahoo! FinanceのAPIから株式・市場データをPythonで取得するライブラリ",
+    "generated_at": "2026-06-15"
+  },
+  "richmanbtc/mlbot_tutorial": {
+    "summary": "機械学習で仮想通貨を自動売買するbotのチュートリアル",
+    "generated_at": "2026-06-15"
+  },
+  "0xType/0xProto": {
+    "summary": "認知負荷を最小化することを目指した高可読性のプログラミングフォント0xProto",
+    "generated_at": "2026-06-15"
+  },
+  "yuru7/moralerspace": {
+    "summary": "欧文フォントMonaspaceと日本語フォントIBM Plex Sans JP等を合成したプログラミング向けフォント",
+    "generated_at": "2026-06-15"
+  },
+  "googlefonts/zen-kurenaido": {
+    "summary": "ボールペンの手書き風の趣を持つ新しいスタイルの日本語フォントZen Kurenaido",
+    "generated_at": "2026-06-15"
+  },
+  "yuru7/Firge": {
+    "summary": "Fira Monoと源真ゴシックを合成したプログラミングフォントFirge(ファージ)",
+    "generated_at": "2026-06-15"
+  },
+  "servo/font-kit": {
+    "summary": "Rust製のクロスプラットフォームなフォント読み込みライブラリ。フォント探索やグリフのラスタライズができる",
+    "generated_at": "2026-06-15"
+  },
+  "cosmicpython/code": {
+    "summary": "書籍「Architecture Patterns with Python」のサンプルアプリケーションコード",
+    "generated_at": "2026-06-15"
+  },
+  "masamasa59/genai-agent-advanced-book": {
+    "summary": "書籍「現場で活用するための生成AIエージェント実践入門」(講談社)のソースコード",
+    "generated_at": "2026-06-15"
+  },
+  "datawhalechina/hello-agents": {
+    "summary": "ゼロから知能エージェントを構築するための原理と実践チュートリアル(中国語)",
+    "generated_at": "2026-06-15"
+  },
+  "bregman-arie/devops-exercises": {
+    "summary": "Linux・Docker・Kubernetes・AWS等を網羅したDevOps/SREの面接問題・演習集",
+    "generated_at": "2026-06-15"
+  },
+  "aoi1/bbf-kubernetes": {
+    "summary": "書籍「Build, Breaking, Fixing: 遊びながら学ぶKubernetes」のリポジトリ",
+    "generated_at": "2026-06-15"
+  },
+  "public-apis/public-apis": {
+    "summary": "様々な分野の無料で使える公開APIを集めたコミュニティ管理のキュレーションリスト",
+    "generated_at": "2026-06-15"
+  },
+  "airbnb/javascript": {
+    "summary": "Airbnbによる広く使われているJavaScriptのスタイルガイド",
+    "generated_at": "2026-06-15"
+  },
+  "golang-standards/project-layout": {
+    "summary": "Goアプリケーションプロジェクトの標準的なディレクトリ構成のレイアウト集",
+    "generated_at": "2026-06-15"
+  },
+  "hackergrrl/art-of-readme": {
+    "summary": "良いREADMEの書き方について学んだ知見をまとめた記事",
+    "generated_at": "2026-06-15"
+  },
+  "FujiHaruka/google-eng-practices-ja": {
+    "summary": "Googleのエンジニアリングプラクティス(コードレビュー等)ドキュメントの日本語訳",
+    "generated_at": "2026-06-15"
+  },
+  "google/eng-practices": {
+    "summary": "Googleのコードレビュー等のエンジニアリングのベストプラクティスをまとめた公式ドキュメント",
+    "generated_at": "2026-06-15"
+  },
+  "basarat/typescript-book": {
+    "summary": "無料・オープンソースのTypeScript解説書「TypeScript Deep Dive」",
+    "generated_at": "2026-06-15"
+  },
+  "mattn/go-generics-example": {
+    "summary": "Goのジェネリクスのサンプルコード集",
+    "generated_at": "2026-06-15"
+  },
+  "cornflourblue/next-js-11-registration-login-example": {
+    "summary": "Next.js 11によるユーザー登録・ログインのサンプルアプリ",
+    "generated_at": "2026-06-15"
+  },
+  "agarrharr/awesome-cli-apps": {
+    "summary": "コマンドラインアプリを集めたキュレーションリスト",
+    "generated_at": "2026-06-15"
+  },
+  "alan2207/bulletproof-react": {
+    "summary": "本番品質のReactアプリを構築するためのシンプルでスケーラブルなアーキテクチャ指針",
+    "generated_at": "2026-06-15"
+  },
+  "unicodeveloper/awesome-nextjs": {
+    "summary": "Next.jsに関する書籍・動画・記事などのリソースを集めたキュレーションリスト",
+    "generated_at": "2026-06-15"
+  },
+  "kettanaito/naming-cheatsheet": {
+    "summary": "言語非依存の変数・関数の命名ガイドライン集(A/HC/LCパターンの本拠地)",
+    "generated_at": "2026-06-15"
+  },
+  "vercel/examples": {
+    "summary": "Vercelによるアプリ構築のサンプル・ソリューション集。各種パターンを参考にできる",
+    "generated_at": "2026-06-15"
+  },
+  "tadashi0713/howtheytest-jp": {
+    "summary": "日本のソフトウェア企業のテスト・テスト自動化に関する資料をまとめたリポジトリ",
+    "generated_at": "2026-06-15"
+  },
+  "phyver/GameShell": {
+    "summary": "Unixシェルの標準コマンドの使い方をゲーム感覚で学べる(教えられる)教材",
+    "generated_at": "2026-06-15"
+  },
+  "github/personal-website": {
+    "summary": "ソフトウェア開発者の実績を見せる個人サイトを手早く立ち上げるためのコード(GitHub公式)",
+    "generated_at": "2026-06-15"
+  },
+  "ibraheemdev/modern-unix": {
+    "summary": "bat・eza・fd・ripgrep等、定番Unixコマンドのモダンで高速な代替ツールを集めたリスト",
+    "generated_at": "2026-06-15"
+  },
+  "trimstray/the-book-of-secret-knowledge": {
+    "summary": "リスト・マニュアル・チートシート・CLI/Webツール・ワンライナー等を集めた知識の宝庫",
+    "generated_at": "2026-06-15"
+  },
+  "sindresorhus/awesome": {
+    "summary": "あらゆる分野の「awesome」キュレーションリストを集めた本家まとめ",
+    "generated_at": "2026-06-15"
+  },
+  "mhinz/vim-galore": {
+    "summary": "Vimのあらゆる知識を網羅した総合ガイド(チートシートや概念解説)",
+    "generated_at": "2026-06-15"
+  },
+  "tldr-pages/tldr": {
+    "summary": "コンソールコマンドの使い方を実例中心にまとめたコミュニティ製の簡易チートシート集(tldr)",
+    "generated_at": "2026-06-15"
+  },
+  "kazu69/render-reactjs-with-php-example": {
+    "summary": "PHPアプリ内でReact.jsテンプレートをサーバーサイドレンダリングするサンプル",
+    "generated_at": "2026-06-15"
+  },
+  "nanotee/nvim-lua-guide": {
+    "summary": "NeovimでLuaを使うためのガイド(現在は公式ドキュメント:help lua-guideを推奨)",
+    "generated_at": "2026-06-15"
+  },
+  "Joao-Henrique/Docker_Medium_Tutorial": {
+    "summary": "DockerでReact/Express/MongoDBのフルスタックアプリを作るチュートリアルのコード",
+    "generated_at": "2026-06-15"
+  },
+  "slim-hmidi/users-demo": {
+    "summary": "ユーザー管理を題材にしたデモアプリ(TypeScript)",
+    "generated_at": "2026-06-15"
+  },
+  "hirotakan/go-cleanarchitecture-sample": {
+    "summary": "クリーンアーキテクチャを採用したGoアプリケーションのサンプル",
+    "generated_at": "2026-06-15"
+  },
+  "astaxie/build-web-application-with-golang": {
+    "summary": "GoでWebアプリを構築する方法を解説する電子書籍",
+    "generated_at": "2026-06-15"
+  },
+  "ruvnet/RuView": {
+    "summary": "市販WiFiの信号を使い、カメラなしで人の検知・呼吸/心拍の計測・在室監視などを行う空間センシングシステム",
+    "generated_at": "2026-06-15"
+  },
+  "aluqas/gitlaw-jp": {
+    "summary": "日本の法律の改正履歴・沿革をGitのコミットデータとして構造的に追跡可能にする試み",
+    "generated_at": "2026-06-15"
+  },
+  "tokuhirom/Archivist": {
+    "summary": "Chromeで読んだページを自動でローカル保存し後から全文検索できるローカルファースト個人Webアーカイブ",
+    "generated_at": "2026-06-15"
+  },
+  "vercel-labs/before-and-after": {
+    "summary": "PRにビフォー/アフターのスクリーンショットを追加するツール。エージェントのスキルとしても使える",
+    "generated_at": "2026-06-15"
+  },
+  "cloudflare/moltworker": {
+    "summary": "個人AIアシスタントOpenClaw(旧Moltbot)をCloudflare Workers上で動かす実験的な実装",
+    "generated_at": "2026-06-15"
+  },
+  "soltia48/suica-viewer": {
+    "summary": "SuicaなどFeliCa系交通ICカードを読み取り、残高や利用履歴を表示・保存するCLI/GUIツール",
+    "generated_at": "2026-06-15"
+  },
+  "ad-sho-loko/researchly-community": {
+    "summary": "エンジニア向けAI情報収集アプリ「Researchly」の要望や質問を受け付けるリポジトリ",
+    "generated_at": "2026-06-15"
+  },
+  "grishka/NearDrop": {
+    "summary": "GoogleのNearby Share/Quick ShareをmacOSで使える非公式アプリ",
+    "generated_at": "2026-06-15"
+  },
+  "increments/qiita-markdown": {
+    "summary": "Qiita仕様のMarkdownプロセッサ。サニタイズや絵文字・シンタックスハイライト等に対応",
+    "generated_at": "2026-06-15"
+  },
+  "zen-browser/desktop": {
+    "summary": "生産性向上を目指したFirefoxベースのブラウザZen Browser",
+    "generated_at": "2026-06-15"
+  },
+  "isaacs/rimraf": {
+    "summary": "Node.js向けのクロスプラットフォームな`rm -rf`ユーティリティ",
+    "generated_at": "2026-06-15"
+  },
+  "baku89/kindolphin": {
+    "summary": "ループGIFをコマの素材に使う「GIF漫画」作品をまとめて閲覧できるプログレッシブWebアプリ",
+    "generated_at": "2026-06-15"
+  },
+  "localsend/localsend": {
+    "summary": "AirDropのオープンソース・クロスプラットフォーム代替。近くの端末へファイルを送れる",
+    "generated_at": "2026-06-15"
+  },
+  "Rasukarusan/kidoku": {
+    "summary": "バーコードスキャンやAI分析・全文検索を備えた読書記録・分析アプリKidoku",
+    "generated_at": "2026-06-15"
+  },
+  "Assembless/gather-town-x-slack": {
+    "summary": "Gather TownとSlackを連携させるNodeアプリ。在席状況やチャット・ステータスを同期する",
+    "generated_at": "2026-06-15"
+  },
+  "tw93/Pake": {
+    "summary": "任意のWebページを1コマンドでデスクトップアプリ化するツール。Rust/Tauri製で軽量・高速",
+    "generated_at": "2026-06-15"
+  },
+  "twitter/the-algorithm": {
+    "summary": "X(旧Twitter)のおすすめ表示(レコメンド)アルゴリズムのソースコード",
+    "generated_at": "2026-06-15"
+  },
+  "binwiederhier/ntfy": {
+    "summary": "PUT/POSTでスマホやデスクトップにプッシュ通知を送れるシンプルなサービスntfy",
+    "generated_at": "2026-06-15"
+  },
+  "nfriend/tree-online": {
+    "summary": "インデントテキストからASCIIのフォルダ構成図を生成するオンラインツール(TypeScript/React)",
+    "generated_at": "2026-06-15"
+  },
+  "koron/cmigemo": {
+    "summary": "ローマ字入力で日本語をインクリメンタル検索できるMigemoのC実装(C/Migemo)",
+    "generated_at": "2026-06-15"
+  },
+  "keycastr/keycastr": {
+    "summary": "押したキー入力を画面に表示するオープンソースのキーストローク可視化ツール(macOS)",
+    "generated_at": "2026-06-15"
+  },
+  "bndw/wifi-card": {
+    "summary": "WiFi接続用のQRコード入りカードを印刷できるツール。来客時などに便利",
+    "generated_at": "2026-06-15"
+  },
+  "volpe28v/DevHub": {
+    "summary": "作業中メモをリアルタイム共有するプログラマ向けの開発支援コミュニケーションツール",
+    "generated_at": "2026-06-15"
+  },
+  "sdushantha/dotfiles": {
+    "summary": "作者の個人用dotfiles(設定ファイル)集",
+    "generated_at": "2026-06-15"
+  },
+  "timeopochin/ilo-nanpa": {
+    "summary": "Toki Pona語で「計算機」を意味する名前のPython製ツール",
+    "generated_at": "2026-06-15"
+  },
+  "gustavohenrique/taghub": {
+    "summary": "2009年以降にGitHubでstarしたリポジトリをタグ別に整理して閲覧できるツール",
+    "generated_at": "2026-06-15"
+  },
+  "psobot/keynote-parser": {
+    "summary": "Apple Keynoteの.keyファイルを展開・再パックするPythonモジュール",
+    "generated_at": "2026-06-15"
+  },
+  "anuraghazra/github-readme-stats": {
+    "summary": "GitHubのREADMEに動的生成した統計カードを表示できるツール",
+    "generated_at": "2026-06-15"
+  },
+  "loretoparisi/kakasi": {
+    "summary": "漢字かな交じり文をひらがな・カタカナ・ローマ字に変換するKAKASIのコードミラー",
+    "generated_at": "2026-06-15"
+  },
+  "peisuke/qiita_like_analysis": {
+    "summary": "Qiitaのいいねを互いに送り合う上位組織を分析するコード",
+    "generated_at": "2026-06-15"
+  },
+  "mathiasbynens/dotfiles": {
+    "summary": "~/.macos等を含むmacOS向けの定番dotfiles(設定ファイル)集",
+    "generated_at": "2026-06-15"
+  },
+  "2357gi/dotfiles": {
+    "summary": "作者の個人用dotfiles(設定ファイル)集",
+    "generated_at": "2026-06-15"
+  },
+  "Rasukarusan/go-instagram": {
+    "summary": "GoでInstagramをスクレイピングして情報取得するAPIサーバー",
+    "generated_at": "2026-06-15"
   }
 }

@@ -5065,7 +5065,7 @@
           "stars": 159,
           "url": "https://github.com/betterproto/python-betterproto2",
           "category": "devtools",
-          "summary": ""
+          "summary": "Python向けのProtobuf/gRPCサポートを改善するライブラリ(betterprotoの再設計版・開発中)"
         },
         {
           "desc": "Clean, modern, Python 3.6+ code generator & library for Protobuf 3 and async gRPC",
@@ -5075,7 +5075,7 @@
           "stars": 1767,
           "url": "https://github.com/danielgtaylor/python-betterproto",
           "category": "devtools",
-          "summary": ""
+          "summary": "Protobuf 3と非同期gRPC向けの、Python 3.6+対応のクリーンなコードジェネレータ兼ライブラリ"
         },
         {
           "desc": "Static Type Checker for Python",
@@ -5085,7 +5085,7 @@
           "stars": 15475,
           "url": "https://github.com/microsoft/pyright",
           "category": "devtools",
-          "summary": ""
+          "summary": "Microsoft製の高速なPython静的型チェッカー。CLIとVS Code拡張を提供"
         },
         {
           "desc": "pyright fork with various type checking improvements, improved vscode support and pylance features built into the language server",
@@ -5095,7 +5095,7 @@
           "stars": 3409,
           "url": "https://github.com/DetachHead/basedpyright",
           "category": "devtools",
-          "summary": ""
+          "summary": "型チェックやVS Code対応・Pylance機能を強化したpyrightのフォーク"
         },
         {
           "desc": "A fast type checker and language server for Python",
@@ -5105,7 +5105,7 @@
           "stars": 6635,
           "url": "https://github.com/facebook/pyrefly",
           "category": "devtools",
-          "summary": ""
+          "summary": "Rust製の高速なPython型チェッカー兼言語サーバー(Meta製)"
         },
         {
           "desc": "An extremely fast Python type checker and language server, written in Rust.",
@@ -5115,7 +5115,7 @@
           "stars": 18937,
           "url": "https://github.com/astral-sh/ty",
           "category": "devtools",
-          "summary": ""
+          "summary": "Rust製で非常に高速なPython型チェッカー兼言語サーバー(uv/Ruffを作るAstral製)"
         },
         {
           "desc": "Local API emulation for CI and no-network sandboxes",
@@ -5125,7 +5125,7 @@
           "stars": 1342,
           "url": "https://github.com/vercel-labs/emulate",
           "category": "devtools",
-          "summary": ""
+          "summary": "CIやネットワーク非接続環境向けに、状態を持つ本番忠実なローカルAPIエミュレーションを提供するツール"
         },
         {
           "desc": "Type safe mocking extensions for Jest https://www.npmjs.com/package/jest-mock-extended",
@@ -5135,7 +5135,7 @@
           "stars": 902,
           "url": "https://github.com/marchaos/jest-mock-extended",
           "category": "devtools",
-          "summary": ""
+          "summary": "Jest向けの型安全なモック拡張。インターフェイスや引数・戻り値の型を保ったモックを作れる"
         },
         {
           "desc": "Decorator-based property validation for classes.",
@@ -5145,7 +5145,7 @@
           "stars": 11795,
           "url": "https://github.com/typestack/class-validator",
           "category": "devtools",
-          "summary": ""
+          "summary": "デコレータベースでクラスのプロパティを検証するTypeScript/JSライブラリ"
         },
         {
           "desc": "A toolchain for web projects, aimed to provide functionalities to maintain them. Biome offers formatter and linter, usable via CLI and LSP.",
@@ -5155,7 +5155,7 @@
           "stars": 25020,
           "url": "https://github.com/biomejs/biome",
           "category": "devtools",
-          "summary": ""
+          "summary": "Webプロジェクト向けのツールチェーンBiome。フォーマッタとリンタをCLI/LSPで提供する"
         },
         {
           "desc": "React embeddable devtools ",
@@ -5165,7 +5165,7 @@
           "stars": 38,
           "url": "https://github.com/steelydylan/react-embed-devtools",
           "category": "devtools",
-          "summary": ""
+          "summary": "iframe内をDevToolsで検査できる、組み込み可能なReact向け開発者ツールライブラリ"
         },
         {
           "desc": "Remote debugging tool",
@@ -5175,7 +5175,7 @@
           "stars": 2211,
           "url": "https://github.com/liriliri/chii",
           "category": "devtools",
-          "summary": ""
+          "summary": "最新Chrome DevToolsフロントエンドでスマホ等を遠隔デバッグできるツール(weinre代替)"
         },
         {
           "desc": "Testcontainers is a NodeJS library that supports tests, providing lightweight, throwaway instances of common databases, Selenium web browsers, or anything else that can run in a Docker container.",
@@ -5185,7 +5185,7 @@
           "stars": 2549,
           "url": "https://github.com/testcontainers/testcontainers-node",
           "category": "devtools",
-          "summary": ""
+          "summary": "テスト中にDBやブラウザ等を使い捨てDockerコンテナとして起動するNode.jsライブラリ"
         },
         {
           "desc": "🚀 Apps Script development with formatting, linting, testing and more!",
@@ -5195,7 +5195,7 @@
           "stars": 426,
           "url": "https://github.com/google/aside",
           "category": "devtools",
-          "summary": ""
+          "summary": "Google Apps Script開発にフォーマット・リント・テスト等を導入するツール"
         },
         {
           "desc": "go test with colors",
@@ -5205,7 +5205,7 @@
           "stars": 1398,
           "url": "https://github.com/rakyll/gotest",
           "category": "devtools",
-          "summary": ""
+          "summary": "`go test`の出力を色付きで見やすくするツール"
         },
         {
           "desc": "The simple, fast, and scalable code generator that lives in your project.",
@@ -5215,7 +5215,7 @@
           "stars": 5935,
           "url": "https://github.com/jondot/hygen",
           "category": "devtools",
-          "summary": ""
+          "summary": "プロジェクト内で動くシンプルで高速なコードジェネレータ。スキャフォールド作成に使う"
         },
         {
           "desc": "LOOKING FOR MAINTAINER - Image analysis and comparison",
@@ -5225,7 +5225,7 @@
           "stars": 99,
           "url": "https://github.com/lksv/node-resemble.js",
           "category": "devtools",
-          "summary": ""
+          "summary": "canvas等の依存なしで画像を解析・比較するJavaScriptライブラリ(メンテナ募集中)"
         },
         {
           "desc": "The smallest, simplest and fastest JavaScript pixel-level image comparison library",
@@ -5235,7 +5235,7 @@
           "stars": 6845,
           "url": "https://github.com/mapbox/pixelmatch",
           "category": "devtools",
-          "summary": ""
+          "summary": "最小・最速のピクセル単位画像比較ライブラリ。テストのスクショ比較向けでアンチエイリアス検出に対応"
         },
         {
           "desc": "Image analysis and comparison",
@@ -5245,7 +5245,7 @@
           "stars": 4609,
           "url": "https://github.com/rsmbl/Resemble.js",
           "category": "devtools",
-          "summary": ""
+          "summary": "JavaScriptとHTML5で画像を解析・比較するライブラリ"
         },
         {
           "desc": "A fast, cross-platform build tool inspired by Make, designed for modern workflows.",
@@ -5255,7 +5255,7 @@
           "stars": 15709,
           "url": "https://github.com/go-task/task",
           "category": "devtools",
-          "summary": ""
+          "summary": "Makeに着想を得た高速・クロスプラットフォームなタスクランナー/ビルドツール(Taskfile)"
         },
         {
           "desc": "A no config Storybook addon that makes Next.js features just work in Storybook",
@@ -5265,7 +5265,7 @@
           "stars": 222,
           "url": "https://github.com/RyanClementsHax/storybook-addon-next",
           "category": "devtools",
-          "summary": ""
+          "summary": "Next.jsの機能をStorybookで動かす無設定アドオン(公式@storybook/nextjsへ移行・非推奨)"
         },
         {
           "desc": "Transform SVGs into React components 🦁",
@@ -5275,7 +5275,7 @@
           "stars": 11040,
           "url": "https://github.com/gregberge/svgr",
           "category": "devtools",
-          "summary": ""
+          "summary": "SVGをReactコンポーネントに変換する汎用ツールSVGR"
         },
         {
           "desc": "An extensible command line tool or library to format yaml files.",
@@ -5285,7 +5285,7 @@
           "stars": 1781,
           "url": "https://github.com/google/yamlfmt",
           "category": "devtools",
-          "summary": ""
+          "summary": "YAMLファイルを整形する拡張可能なコマンドラインツール兼ライブラリ"
         },
         {
           "desc": "node module to reload your browser when your code changes",
@@ -5295,7 +5295,7 @@
           "stars": 296,
           "url": "https://github.com/alallier/reload",
           "category": "devtools",
-          "summary": ""
+          "summary": "コード変更時にブラウザを自動リロードするNodeモジュール(プラグイン不要)"
         },
         {
           "desc": "🎨 Painting go test outputs",
@@ -5305,7 +5305,7 @@
           "stars": 16,
           "url": "https://github.com/izumin5210/cgt",
           "category": "devtools",
-          "summary": ""
+          "summary": "`go test`の出力を色付けするツール(rakyll/gotestに着想)"
         },
         {
           "desc": "Thunder Client is a lightweight Rest API Client Extension for VS Code. ",
@@ -5315,7 +5315,7 @@
           "stars": 3716,
           "url": "https://github.com/thunderclient/thunder-client-support",
           "category": "devtools",
-          "summary": ""
+          "summary": "VS Code/JetBrains向けの軽量REST APIクライアントThunder Clientのサポート用リポジトリ"
         },
         {
           "desc": "Random fake data generator written in go",
@@ -5325,7 +5325,7 @@
           "stars": 5361,
           "url": "https://github.com/brianvoe/gofakeit",
           "category": "devtools",
-          "summary": ""
+          "summary": "Goで書かれたランダムなフェイクデータ生成ライブラリ。310以上の関数を備える"
         },
         {
           "desc": "Next.js plugin to transpile code from node_modules.",
@@ -5335,7 +5335,7 @@
           "stars": 1128,
           "url": "https://github.com/martpie/next-transpile-modules",
           "category": "devtools",
-          "summary": ""
+          "summary": "node_modulesのコードをトランスパイルするNext.jsプラグイン(Next.js 13.1に標準搭載・非推奨)"
         },
         {
           "desc": "Lightweight node server",
@@ -5345,7 +5345,7 @@
           "stars": 2308,
           "url": "https://github.com/johnpapa/lite-server",
           "category": "devtools",
-          "summary": ""
+          "summary": "開発専用の軽量Nodeサーバー。変更時に自動リロードしCSS変更を反映する"
         },
         {
           "desc": "Node.js dependency tracing utility",
@@ -5355,7 +5355,7 @@
           "stars": 1642,
           "url": "https://github.com/vercel/nft",
           "category": "devtools",
-          "summary": ""
+          "summary": "アプリ実行に必要なファイル(node_modules含む)を特定するNode.js依存トレースユーティリティ"
         },
         {
           "desc": "ESLint plugin for Tailwind CSS usage",
@@ -5365,7 +5365,7 @@
           "stars": 2060,
           "url": "https://github.com/francoismassart/eslint-plugin-tailwindcss",
           "category": "devtools",
-          "summary": ""
+          "summary": "Tailwind CSSのベストプラクティスや一貫性を強制するESLintプラグイン"
         },
         {
           "desc": "🌅 next-optimized-images automatically optimizes images used in next.js projects (jpeg, png, svg, webp and gif).",
@@ -5375,7 +5375,7 @@
           "stars": 2237,
           "url": "https://github.com/cyrilwanner/next-optimized-images",
           "category": "devtools",
-          "summary": ""
+          "summary": "Next.jsプロジェクトの画像(jpeg/png/svg/webp/gif)を自動最適化するプラグイン"
         },
         {
           "desc": "A JavaScript Mock Date object that can be used to change when \"now\" is.",
@@ -5385,7 +5385,7 @@
           "stars": 678,
           "url": "https://github.com/boblauer/MockDate",
           "category": "devtools",
-          "summary": ""
+          "summary": "「現在時刻(now)」を任意に変更できるJavaScriptのモックDateオブジェクト"
         },
         {
           "desc": "Generate types and converters from JSON, Schema, and GraphQL",
@@ -5395,7 +5395,7 @@
           "stars": 13760,
           "url": "https://github.com/glideapps/quicktype",
           "category": "devtools",
-          "summary": ""
+          "summary": "JSON・スキーマ・GraphQLから多言語の型定義と変換コードを生成するツール"
         },
         {
           "desc": "Generate TypeScript types from OpenAPI 3 specs",
@@ -5405,7 +5405,7 @@
           "stars": 8172,
           "url": "https://github.com/openapi-ts/openapi-typescript",
           "category": "devtools",
-          "summary": ""
+          "summary": "OpenAPI 3の仕様からTypeScriptの型を生成するツール群"
         },
         {
           "desc": "The fastest JSON schema Validator. Supports JSON Schema draft-04/06/07/2019-09/2020-12 and JSON Type Definition (RFC8927)",
@@ -5415,7 +5415,7 @@
           "stars": 14734,
           "url": "https://github.com/ajv-validator/ajv",
           "category": "devtools",
-          "summary": ""
+          "summary": "Node/ブラウザ向けの最速JSON Schemaバリデータ。各種ドラフトとJSON Type Definitionに対応"
         },
         {
           "desc": "Create JSON Schema validator from TypeScript.",
@@ -5425,7 +5425,7 @@
           "stars": 94,
           "url": "https://github.com/azu/create-validator-ts",
           "category": "devtools",
-          "summary": ""
+          "summary": "TypeScriptの型からJSON Schemaバリデータを生成するツール。TSを単一の真実とする"
         },
         {
           "desc": "ShellCheck, a static analysis tool for shell scripts",
@@ -5435,7 +5435,7 @@
           "stars": 39569,
           "url": "https://github.com/koalaman/shellcheck",
           "category": "devtools",
-          "summary": ""
+          "summary": "シェルスクリプトの問題点を警告・提案する静的解析ツールShellCheck"
         },
         {
           "desc": "Library that provides collection, processing, and rendering functionality for PHP code coverage information.",
@@ -5445,7 +5445,7 @@
           "stars": 8930,
           "url": "https://github.com/sebastianbergmann/php-code-coverage",
           "category": "devtools",
-          "summary": ""
+          "summary": "PHPのコードカバレッジ情報を収集・処理・描画するライブラリ"
         },
         {
           "desc": "PCOV - CodeCoverage compatible driver for PHP",
@@ -5455,7 +5455,7 @@
           "stars": 780,
           "url": "https://github.com/krakjoe/pcov",
           "category": "devtools",
-          "summary": ""
+          "summary": "PHP向けのCodeCoverage互換の自己完結型カバレッジ計測ドライバ(PCOV)"
         },
         {
           "desc": "Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API. ",
@@ -5465,7 +5465,7 @@
           "stars": 90906,
           "url": "https://github.com/microsoft/playwright",
           "category": "devtools",
-          "summary": ""
+          "summary": "Chromium・Firefox・WebKitを単一APIで操作するWebテスト・自動化フレームワークPlaywright"
         },
         {
           "desc": "⚡️Lightning-fast linter for .env files. Written in Rust 🦀",
@@ -5475,7 +5475,7 @@
           "stars": 2083,
           "url": "https://github.com/dotenv-linter/dotenv-linter",
           "category": "devtools",
-          "summary": ""
+          "summary": "Rust製の超高速な.envファイル用リンタ。重複キー等の問題をチェック・修正できる"
         },
         {
           "desc": "Next generation frontend tooling. It's fast!",
@@ -5485,7 +5485,7 @@
           "stars": 81457,
           "url": "https://github.com/vitejs/vite",
           "category": "devtools",
-          "summary": ""
+          "summary": "高速な開発体験を提供する次世代フロントエンドビルドツールVite。瞬時起動と高速HMRが特徴"
         },
         {
           "desc": "Unified developer tools for JavaScript, TypeScript, and the web",
@@ -5495,7 +5495,7 @@
           "stars": 23421,
           "url": "https://github.com/rome/tools",
           "category": "devtools",
-          "summary": ""
+          "summary": "JavaScript/TypeScript/Web向けの統合開発ツールRome(フォーマッタ・リンタ等)"
         },
         {
           "desc": "Merge multiple files (js, css..) and include by running them \"as is\". Supports minify by custom transform and wildcard paths.",
@@ -5505,7 +5505,7 @@
           "stars": 102,
           "url": "https://github.com/markshapiro/webpack-merge-and-include-globally",
           "category": "devtools",
-          "summary": ""
+          "summary": "複数のjs/cssファイルを1つにマージしそのまま読み込めるようにするwebpackプラグイン"
         },
         {
           "desc": "A full-featured BDD unit testing framework for bash, ksh, zsh, dash and all POSIX shells",
@@ -5515,7 +5515,7 @@
           "stars": 1377,
           "url": "https://github.com/shellspec/shellspec",
           "category": "devtools",
-          "summary": ""
+          "summary": "bash/zsh等の全POSIXシェル対応の本格的なBDDユニットテストフレームワーク。カバレッジやモックも備える"
         },
         {
           "desc": "Remote control interface that enables introspection and control of user agents.",
@@ -5525,7 +5525,7 @@
           "stars": 716,
           "url": "https://github.com/w3c/webdriver",
           "category": "devtools",
-          "summary": ""
+          "summary": "ブラウザを遠隔操作・検査するためのプラットフォーム非依存なWebDriver標準仕様"
         }
       ]
     },
@@ -5544,7 +5544,7 @@
           "stars": 231,
           "url": "https://github.com/glut23/webvtt-py",
           "category": "media",
-          "summary": ""
+          "summary": "WebVTT字幕ファイルの読み書き・変換・分割を行うPythonライブラリ"
         },
         {
           "desc": "Python module to read/write popular video caption formats",
@@ -5554,7 +5554,7 @@
           "stars": 272,
           "url": "https://github.com/pbs/pycaption",
           "category": "media",
-          "summary": ""
+          "summary": "主要な動画字幕フォーマットを相互に読み書き・変換するPythonモジュール"
         },
         {
           "desc": "Download your Spotify playlists and songs along with album art and metadata (from YouTube if a match is found).",
@@ -5564,7 +5564,7 @@
           "stars": 25125,
           "url": "https://github.com/spotDL/spotify-downloader",
           "category": "media",
-          "summary": ""
+          "summary": "Spotifyのプレイリストや曲をYouTubeから探し、アルバムアートやメタデータ付きでダウンロードするツール"
         },
         {
           "desc": "Video.js - open source HTML5 video player",
@@ -5574,7 +5574,7 @@
           "stars": 39796,
           "url": "https://github.com/videojs/video.js",
           "category": "media",
-          "summary": ""
+          "summary": "HLSやDASH等にも対応したオープンソースのHTML5動画プレーヤー兼フレームワーク"
         },
         {
           "desc": "High performance Node.js image processing, the fastest module to resize JPEG, PNG, WebP, AVIF and TIFF images. Uses the libvips library.",
@@ -5584,7 +5584,7 @@
           "stars": 32331,
           "url": "https://github.com/lovell/sharp",
           "category": "media",
-          "summary": ""
+          "summary": "libvipsを使った高性能なNode.js画像処理ライブラリ。JPEG/PNG/WebP/AVIF等のリサイズが高速"
         },
         {
           "desc": "Enlightened library to convert HTML and CSS to SVG",
@@ -5594,7 +5594,7 @@
           "stars": 13523,
           "url": "https://github.com/vercel/satori",
           "category": "media",
-          "summary": ""
+          "summary": "HTMLとCSSをSVGに変換するライブラリ。OGP画像やソーシャルカード生成に使える"
         },
         {
           "desc": "🎥      Make videos programmatically with React",
@@ -5604,7 +5604,7 @@
           "stars": 50061,
           "url": "https://github.com/remotion-dev/remotion",
           "category": "media",
-          "summary": ""
+          "summary": "Reactを使ってプログラムで動画を作成するフレームワークRemotion"
         },
         {
           "desc": "Open Graph Image as a Service - generate cards for Twitter, Facebook, Slack, etc",
@@ -5614,7 +5614,7 @@
           "stars": 4052,
           "url": "https://github.com/vercel/og-image",
           "category": "media",
-          "summary": ""
+          "summary": "Twitter/Facebook等向けのOGPカード画像を生成するサービス(旧式・@vercel/og推奨)"
         },
         {
           "desc": "📷 Create beautiful images of your source code",
@@ -5624,7 +5624,7 @@
           "stars": 1833,
           "url": "https://github.com/Idered/chalk.ist",
           "category": "media",
-          "summary": ""
+          "summary": "ソースコードを美しい画像にして出力できるWebツール"
         },
         {
           "desc": "Interact with and control an embedded Vimeo Player.",
@@ -5634,7 +5634,7 @@
           "stars": 1484,
           "url": "https://github.com/vimeo/player.js",
           "category": "media",
-          "summary": ""
+          "summary": "埋め込んだVimeoプレーヤーを操作・制御するためのVimeo Player API"
         },
         {
           "desc": "A simple HTML5, YouTube and Vimeo player",
@@ -5644,7 +5644,7 @@
           "stars": 29849,
           "url": "https://github.com/sampotts/plyr",
           "category": "media",
-          "summary": ""
+          "summary": "HTML5・YouTube・Vimeoに対応した軽量でアクセシブルなメディアプレーヤー"
         },
         {
           "desc": "Go binding to ImageMagick's MagickWand C API",
@@ -5654,7 +5654,7 @@
           "stars": 1870,
           "url": "https://github.com/gographics/imagick",
           "category": "media",
-          "summary": ""
+          "summary": "ImageMagickのMagickWand C APIへのGo言語バインディング"
         },
         {
           "desc": "🎥 Command line media player",
@@ -5664,7 +5664,7 @@
           "stars": 35561,
           "url": "https://github.com/mpv-player/mpv",
           "category": "media",
-          "summary": ""
+          "summary": "多数のフォーマット・コーデックに対応したコマンドライン用メディアプレーヤーmpv"
         },
         {
           "desc": "Website to generate stick figure gifs from webcam video.",
@@ -5674,7 +5674,7 @@
           "stars": 192,
           "url": "https://github.com/kenkawakenkenke/stickfigure-recorder",
           "category": "media",
-          "summary": ""
+          "summary": "Webカメラ映像から姿勢を検出し棒人間のGIFを生成するWebサイト"
         },
         {
           "desc": "Create beautiful image of your source code.",
@@ -5684,7 +5684,7 @@
           "stars": 3548,
           "url": "https://github.com/Aloxaf/silicon",
           "category": "media",
-          "summary": ""
+          "summary": "ソースコードを美しい画像にレンダリングするRust製ツール。オフライン動作するCarbon代替"
         }
       ]
     },
@@ -5703,7 +5703,7 @@
           "stars": 10375,
           "url": "https://github.com/lukilabs/beautiful-mermaid",
           "category": "diagram-slide",
-          "summary": ""
+          "summary": "Mermaid図を美しいSVGやASCIIアートとして描画する高速・テーマ対応ライブラリ"
         },
         {
           "desc": "deck is a tool for creating deck using Markdown and Google Slides.",
@@ -5713,7 +5713,7 @@
           "stars": 1225,
           "url": "https://github.com/k1LoW/deck",
           "category": "diagram-slide",
-          "summary": ""
+          "summary": "MarkdownとGoogle Slidesでスライドを作るツール。内容はMarkdown・デザインはSlidesと分離する"
         },
         {
           "desc": "Free, simple, fast interactive diagrams for any GitHub repository",
@@ -5723,7 +5723,7 @@
           "stars": 15685,
           "url": "https://github.com/ahmedkhaleel2004/gitdiagram",
           "category": "diagram-slide",
-          "summary": ""
+          "summary": "任意のGitHubリポジトリを数秒で対話的な構成図に変換する無料ツール"
         },
         {
           "desc": "Create your mindmap web pages from markdown with a tiny shell script",
@@ -5733,7 +5733,7 @@
           "stars": 23,
           "url": "https://github.com/jckinjo/tiny-mindmap",
           "category": "diagram-slide",
-          "summary": ""
+          "summary": "Markdownからマインドマップのウェブページを生成する小さなシェルスクリプト"
         },
         {
           "desc": "D2 is a modern diagram scripting language that turns text to diagrams.",
@@ -5743,7 +5743,7 @@
           "stars": 24395,
           "url": "https://github.com/terrastruct/d2",
           "category": "diagram-slide",
-          "summary": ""
+          "summary": "テキストから図を生成するモダンなダイアグラム記述言語D2"
         },
         {
           "desc": "Generate Google Slides from markdown",
@@ -5753,7 +5753,7 @@
           "stars": 4724,
           "url": "https://github.com/googleworkspace/md2googleslides",
           "category": "diagram-slide",
-          "summary": ""
+          "summary": "MarkdownやHTMLからGoogle Slidesを生成するツール(Slides APIの利用例)"
         },
         {
           "desc": "Build mindmaps with plain text",
@@ -5763,7 +5763,7 @@
           "stars": 12873,
           "url": "https://github.com/markmap/markmap",
           "category": "diagram-slide",
-          "summary": ""
+          "summary": "プレーンテキスト(Markdown)からマインドマップを生成・可視化するツール"
         }
       ]
     },
@@ -5782,7 +5782,7 @@
           "stars": 85,
           "url": "https://github.com/extend-chrome/storage",
           "category": "browser-ext",
-          "summary": ""
+          "summary": "Chrome拡張のStorage APIにPromiseと優れたTypeScript対応を加えるラッパー"
         },
         {
           "desc": "🚀 React & TypeScript Starter for developing web extensions with hot reload!",
@@ -5792,7 +5792,7 @@
           "stars": 169,
           "url": "https://github.com/sinanbekar/browser-extension-react-typescript-starter",
           "category": "browser-ext",
-          "summary": ""
+          "summary": "ホットリロード対応のReact&TypeScript製ブラウザ拡張開発スターターキット"
         },
         {
           "desc": "Sample code for \"ReactではじめるChrome拡張開発入門\" published in Zenn",
@@ -5802,7 +5802,7 @@
           "stars": 16,
           "url": "https://github.com/kitsuyaazuma/React-Translation-Chrome-Extension",
           "category": "browser-ext",
-          "summary": ""
+          "summary": "Zennの「ReactではじめるChrome拡張開発入門」のサンプルコード"
         },
         {
           "desc": "Build cross-browser extensions with native HMR and zero-config setup",
@@ -5812,7 +5812,7 @@
           "stars": 4105,
           "url": "https://github.com/crxjs/chrome-extension-tools",
           "category": "browser-ext",
-          "summary": ""
+          "summary": "ネイティブHMRと無設定でクロスブラウザ拡張を開発できるツール(Viteプラグイン)"
         },
         {
           "desc": "Easily detect React components source code from Chrome!",
@@ -5822,7 +5822,7 @@
           "stars": 163,
           "url": "https://github.com/hand-dot/react-inspector",
           "category": "browser-ext",
-          "summary": ""
+          "summary": "ChromeからReactコンポーネントのソースコードを簡単に特定・表示できる拡張"
         },
         {
           "desc": "This Google extension allows you to use a variety of emoji when you type comments on GitHub.",
@@ -5832,7 +5832,7 @@
           "stars": 2,
           "url": "https://github.com/kshida/github-emoji-extension",
           "category": "browser-ext",
-          "summary": ""
+          "summary": "GitHubのコメント入力で多彩な絵文字を手軽に使えるようにするChrome拡張"
         },
         {
           "desc": "Userscripts to add functionality to GitHub",
@@ -5842,7 +5842,7 @@
           "stars": 2019,
           "url": "https://github.com/Mottie/GitHub-userscripts",
           "category": "browser-ext",
-          "summary": ""
+          "summary": "GitHubに様々な機能を追加するユーザースクリプト集"
         },
         {
           "desc": "Chrome Extension Hot Reloader",
@@ -5852,7 +5852,7 @@
           "stars": 898,
           "url": "https://github.com/xpl/crx-hotreload",
           "category": "browser-ext",
-          "summary": ""
+          "summary": "ファイル変更時に拡張をリロードするChrome拡張のホットリローダー(Manifest V3非対応)"
         },
         {
           "desc": "Chrome and Firefox extension that improves Bitbucket's user experience",
@@ -5862,7 +5862,7 @@
           "stars": 641,
           "url": "https://github.com/refined-bitbucket/refined-bitbucket",
           "category": "browser-ext",
-          "summary": ""
+          "summary": "BitbucketのUXを改善するChrome/Firefox拡張"
         }
       ]
     },
@@ -5881,7 +5881,7 @@
           "stars": 6992,
           "url": "https://github.com/colyseus/colyseus",
           "category": "game",
-          "summary": ""
+          "summary": "Node.js向けの権威型(authoritative)マルチプレイヤーゲームフレームワークColyseus"
         },
         {
           "desc": "Simple peer-to-peer with WebRTC.",
@@ -5891,7 +5891,7 @@
           "stars": 13355,
           "url": "https://github.com/peers/peerjs",
           "category": "game",
-          "summary": ""
+          "summary": "WebRTCを使ったシンプルなP2P通信を実現するライブラリ。データチャネルとメディアストリームに対応"
         },
         {
           "desc": "Phaser is a fun, free and fast 2D game framework for making HTML5 games for desktop and mobile web browsers, supporting Canvas and WebGL rendering.",
@@ -5901,7 +5901,7 @@
           "stars": 39774,
           "url": "https://github.com/phaserjs/phaser",
           "category": "game",
-          "summary": ""
+          "summary": "Canvas/WebGL対応でデスクトップ・モバイル向けHTML5ゲームを作る高速な2Dゲームフレームワーク"
         },
         {
           "desc": "Immersive virtual office built with Phaser, React, Redux, PeerJS, and Colyseus.",
@@ -5911,7 +5911,7 @@
           "stars": 1249,
           "url": "https://github.com/kevinshen56714/SkyOffice",
           "category": "game",
-          "summary": ""
+          "summary": "Phaser・React・PeerJS・Colyseusで作られた没入型のバーチャルオフィス"
         }
       ]
     },
@@ -5930,7 +5930,7 @@
           "stars": 7465,
           "url": "https://github.com/LuckyOne7777/LLM-Trading-Lab",
           "category": "finance",
-          "summary": ""
+          "summary": "ChatGPTが実際の資金で米国の超小型株ポートフォリオを運用する実験リポジトリ"
         },
         {
           "desc": "Download market data from Yahoo! Finance's API",
@@ -5940,7 +5940,7 @@
           "stars": 24248,
           "url": "https://github.com/ranaroussi/yfinance",
           "category": "finance",
-          "summary": ""
+          "summary": "Yahoo! FinanceのAPIから株式・市場データをPythonで取得するライブラリ"
         },
         {
           "desc": "A tutorial for algorithmic trading bot using machine learning.",
@@ -5950,7 +5950,7 @@
           "stars": 517,
           "url": "https://github.com/richmanbtc/mlbot_tutorial",
           "category": "finance",
-          "summary": ""
+          "summary": "機械学習で仮想通貨を自動売買するbotのチュートリアル"
         }
       ]
     },
@@ -5969,7 +5969,7 @@
           "stars": 2702,
           "url": "https://github.com/0xType/0xProto",
           "category": "font-theme",
-          "summary": ""
+          "summary": "認知負荷を最小化することを目指した高可読性のプログラミングフォント0xProto"
         },
         {
           "desc": "Moralerspace は、欧文フォント Monaspace と日本語フォント IBM Plex Sans JP 等を合成したプログラミング向けフォントです。",
@@ -5979,7 +5979,7 @@
           "stars": 1087,
           "url": "https://github.com/yuru7/moralerspace",
           "category": "font-theme",
-          "summary": ""
+          "summary": "欧文フォントMonaspaceと日本語フォントIBM Plex Sans JP等を合成したプログラミング向けフォント"
         },
         {
           "desc": "ZenFonts.jp Kurenaido ",
@@ -5989,7 +5989,7 @@
           "stars": 56,
           "url": "https://github.com/googlefonts/zen-kurenaido",
           "category": "font-theme",
-          "summary": ""
+          "summary": "ボールペンの手書き風の趣を持つ新しいスタイルの日本語フォントZen Kurenaido"
         },
         {
           "desc": "Fira Mono と源真ゴシックを合成したプログラミングフォント Firge (ファージ)",
@@ -5999,7 +5999,7 @@
           "stars": 296,
           "url": "https://github.com/yuru7/Firge",
           "category": "font-theme",
-          "summary": ""
+          "summary": "Fira Monoと源真ゴシックを合成したプログラミングフォントFirge(ファージ)"
         },
         {
           "desc": "A cross-platform font loading library written in Rust",
@@ -6009,7 +6009,7 @@
           "stars": 831,
           "url": "https://github.com/servo/font-kit",
           "category": "font-theme",
-          "summary": ""
+          "summary": "Rust製のクロスプラットフォームなフォント読み込みライブラリ。フォント探索やグリフのラスタライズができる"
         }
       ]
     },
@@ -6028,7 +6028,7 @@
           "stars": 2643,
           "url": "https://github.com/cosmicpython/code",
           "category": "learning",
-          "summary": ""
+          "summary": "書籍「Architecture Patterns with Python」のサンプルアプリケーションコード"
         },
         {
           "desc": "書籍「現場で活用するための生成AIエージェント実践入門」（講談社サイエンティフィック社）で利用されるソースコード",
@@ -6038,7 +6038,7 @@
           "stars": 198,
           "url": "https://github.com/masamasa59/genai-agent-advanced-book",
           "category": "learning",
-          "summary": ""
+          "summary": "書籍「現場で活用するための生成AIエージェント実践入門」(講談社)のソースコード"
         },
         {
           "desc": "📚 《从零开始构建智能体》——从零开始的智能体原理与实践教程",
@@ -6048,7 +6048,7 @@
           "stars": 59008,
           "url": "https://github.com/datawhalechina/hello-agents",
           "category": "learning",
-          "summary": ""
+          "summary": "ゼロから知能エージェントを構築するための原理と実践チュートリアル(中国語)"
         },
         {
           "desc": "Linux, Jenkins, AWS, SRE, Prometheus, Docker, Python, Ansible, Git, Kubernetes, Terraform, OpenStack, SQL, NoSQL, Azure, GCP, DNS, Elastic, Network, Virtualization. DevOps Interview Questions",
@@ -6058,7 +6058,7 @@
           "stars": 82758,
           "url": "https://github.com/bregman-arie/devops-exercises",
           "category": "learning",
-          "summary": ""
+          "summary": "Linux・Docker・Kubernetes・AWS等を網羅したDevOps/SREの面接問題・演習集"
         },
         {
           "desc": "Repository for the book \"Build, Breaking, Fixing: A Playful Way to Learn Kubernetes”",
@@ -6068,7 +6068,7 @@
           "stars": 123,
           "url": "https://github.com/aoi1/bbf-kubernetes",
           "category": "learning",
-          "summary": ""
+          "summary": "書籍「Build, Breaking, Fixing: 遊びながら学ぶKubernetes」のリポジトリ"
         },
         {
           "desc": "A collective list of free APIs",
@@ -6078,7 +6078,7 @@
           "stars": 441426,
           "url": "https://github.com/public-apis/public-apis",
           "category": "learning",
-          "summary": ""
+          "summary": "様々な分野の無料で使える公開APIを集めたコミュニティ管理のキュレーションリスト"
         },
         {
           "desc": "JavaScript Style Guide",
@@ -6088,7 +6088,7 @@
           "stars": 148085,
           "url": "https://github.com/airbnb/javascript",
           "category": "learning",
-          "summary": ""
+          "summary": "Airbnbによる広く使われているJavaScriptのスタイルガイド"
         },
         {
           "desc": "Standard Go Project Layout",
@@ -6098,7 +6098,7 @@
           "stars": 56112,
           "url": "https://github.com/golang-standards/project-layout",
           "category": "learning",
-          "summary": ""
+          "summary": "Goアプリケーションプロジェクトの標準的なディレクトリ構成のレイアウト集"
         },
         {
           "desc": ":love_letter: Things I've learned about writing good READMEs.",
@@ -6108,7 +6108,7 @@
           "stars": 7154,
           "url": "https://github.com/hackergrrl/art-of-readme",
           "category": "learning",
-          "summary": ""
+          "summary": "良いREADMEの書き方について学んだ知見をまとめた記事"
         },
         {
           "desc": "Google's Engineering Practices documentation 日本語訳",
@@ -6118,7 +6118,7 @@
           "stars": 167,
           "url": "https://github.com/FujiHaruka/google-eng-practices-ja",
           "category": "learning",
-          "summary": ""
+          "summary": "Googleのエンジニアリングプラクティス(コードレビュー等)ドキュメントの日本語訳"
         },
         {
           "desc": "Google's Engineering Practices documentation",
@@ -6128,7 +6128,7 @@
           "stars": 23246,
           "url": "https://github.com/google/eng-practices",
           "category": "learning",
-          "summary": ""
+          "summary": "Googleのコードレビュー等のエンジニアリングのベストプラクティスをまとめた公式ドキュメント"
         },
         {
           "desc": ":books: The definitive guide to TypeScript and possibly the best TypeScript book :book:. Free and Open Source 🌹",
@@ -6138,7 +6138,7 @@
           "stars": 21529,
           "url": "https://github.com/basarat/typescript-book",
           "category": "learning",
-          "summary": ""
+          "summary": "無料・オープンソースのTypeScript解説書「TypeScript Deep Dive」"
         },
         {
           "desc": "Example code for Go generics",
@@ -6148,7 +6148,7 @@
           "stars": 1351,
           "url": "https://github.com/mattn/go-generics-example",
           "category": "learning",
-          "summary": ""
+          "summary": "Goのジェネリクスのサンプルコード集"
         },
         {
           "desc": "Next.js 11 - User Registration and Login Example",
@@ -6158,7 +6158,7 @@
           "stars": 132,
           "url": "https://github.com/cornflourblue/next-js-11-registration-login-example",
           "category": "learning",
-          "summary": ""
+          "summary": "Next.js 11によるユーザー登録・ログインのサンプルアプリ"
         },
         {
           "desc": "🖥 📊 🕹 🛠 A curated list of command line apps",
@@ -6168,7 +6168,7 @@
           "stars": 19768,
           "url": "https://github.com/agarrharr/awesome-cli-apps",
           "category": "learning",
-          "summary": ""
+          "summary": "コマンドラインアプリを集めたキュレーションリスト"
         },
         {
           "desc": "🛡️ ⚛️ A simple, scalable, and powerful architecture for building production ready React applications. ",
@@ -6178,7 +6178,7 @@
           "stars": 35318,
           "url": "https://github.com/alan2207/bulletproof-react",
           "category": "learning",
-          "summary": ""
+          "summary": "本番品質のReactアプリを構築するためのシンプルでスケーラブルなアーキテクチャ指針"
         },
         {
           "desc": ":notebook_with_decorative_cover: :books: A curated list of awesome resources : books, videos, articles about using Next.js (A minimalistic framework for universal server-rendered React applications) ",
@@ -6188,7 +6188,7 @@
           "stars": 11077,
           "url": "https://github.com/unicodeveloper/awesome-nextjs",
           "category": "learning",
-          "summary": ""
+          "summary": "Next.jsに関する書籍・動画・記事などのリソースを集めたキュレーションリスト"
         },
         {
           "desc": "Comprehensive language-agnostic guidelines on variables naming. Home of the A/HC/LC pattern.",
@@ -6198,7 +6198,7 @@
           "stars": 14198,
           "url": "https://github.com/kettanaito/naming-cheatsheet",
           "category": "learning",
-          "summary": ""
+          "summary": "言語非依存の変数・関数の命名ガイドライン集(A/HC/LCパターンの本拠地)"
         },
         {
           "desc": "Enjoy our curated collection of examples and solutions. Use these patterns to build your own robust and scalable applications.",
@@ -6208,7 +6208,7 @@
           "stars": 5101,
           "url": "https://github.com/vercel/examples",
           "category": "learning",
-          "summary": ""
+          "summary": "Vercelによるアプリ構築のサンプル・ソリューション集。各種パターンを参考にできる"
         },
         {
           "desc": "日本のソフトウェア企業のテスト・テスト自動化に関する資料をまとめています",
@@ -6218,7 +6218,7 @@
           "stars": 203,
           "url": "https://github.com/tadashi0713/howtheytest-jp",
           "category": "learning",
-          "summary": ""
+          "summary": "日本のソフトウェア企業のテスト・テスト自動化に関する資料をまとめたリポジトリ"
         },
         {
           "desc": "a game to learn (or teach) how to use standard commands in a Unix shell",
@@ -6228,7 +6228,7 @@
           "stars": 3032,
           "url": "https://github.com/phyver/GameShell",
           "category": "learning",
-          "summary": ""
+          "summary": "Unixシェルの標準コマンドの使い方をゲーム感覚で学べる(教えられる)教材"
         },
         {
           "desc": "Code that'll help you kickstart a personal website that showcases your work as a software developer.",
@@ -6238,7 +6238,7 @@
           "stars": 7609,
           "url": "https://github.com/github/personal-website",
           "category": "learning",
-          "summary": ""
+          "summary": "ソフトウェア開発者の実績を見せる個人サイトを手早く立ち上げるためのコード(GitHub公式)"
         },
         {
           "desc": "A collection of modern/faster/saner alternatives to common unix commands.",
@@ -6248,7 +6248,7 @@
           "stars": 32937,
           "url": "https://github.com/ibraheemdev/modern-unix",
           "category": "learning",
-          "summary": ""
+          "summary": "bat・eza・fd・ripgrep等、定番Unixコマンドのモダンで高速な代替ツールを集めたリスト"
         },
         {
           "desc": "A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more.",
@@ -6258,7 +6258,7 @@
           "stars": 228280,
           "url": "https://github.com/trimstray/the-book-of-secret-knowledge",
           "category": "learning",
-          "summary": ""
+          "summary": "リスト・マニュアル・チートシート・CLI/Webツール・ワンライナー等を集めた知識の宝庫"
         },
         {
           "desc": "😎 Awesome lists about all kinds of interesting topics",
@@ -6268,7 +6268,7 @@
           "stars": 475600,
           "url": "https://github.com/sindresorhus/awesome",
           "category": "learning",
-          "summary": ""
+          "summary": "あらゆる分野の「awesome」キュレーションリストを集めた本家まとめ"
         },
         {
           "desc": ":mortar_board: All things Vim!",
@@ -6278,7 +6278,7 @@
           "stars": 17880,
           "url": "https://github.com/mhinz/vim-galore",
           "category": "learning",
-          "summary": ""
+          "summary": "Vimのあらゆる知識を網羅した総合ガイド(チートシートや概念解説)"
         },
         {
           "desc": "Collaborative cheatsheets for console commands 📚.",
@@ -6288,7 +6288,7 @@
           "stars": 62859,
           "url": "https://github.com/tldr-pages/tldr",
           "category": "learning",
-          "summary": ""
+          "summary": "コンソールコマンドの使い方を実例中心にまとめたコミュニティ製の簡易チートシート集(tldr)"
         },
         {
           "desc": "Server rendering of React.js template in php application example",
@@ -6298,7 +6298,7 @@
           "stars": 5,
           "url": "https://github.com/kazu69/render-reactjs-with-php-example",
           "category": "learning",
-          "summary": ""
+          "summary": "PHPアプリ内でReact.jsテンプレートをサーバーサイドレンダリングするサンプル"
         },
         {
           "desc": "A guide to using Lua in Neovim",
@@ -6308,7 +6308,7 @@
           "stars": 5936,
           "url": "https://github.com/nanotee/nvim-lua-guide",
           "category": "learning",
-          "summary": ""
+          "summary": "NeovimでLuaを使うためのガイド(現在は公式ドキュメント:help lua-guideを推奨)"
         },
         {
           "desc": "",
@@ -6318,7 +6318,7 @@
           "stars": 67,
           "url": "https://github.com/Joao-Henrique/Docker_Medium_Tutorial",
           "category": "learning",
-          "summary": ""
+          "summary": "DockerでReact/Express/MongoDBのフルスタックアプリを作るチュートリアルのコード"
         },
         {
           "desc": "",
@@ -6328,7 +6328,7 @@
           "stars": 3,
           "url": "https://github.com/slim-hmidi/users-demo",
           "category": "learning",
-          "summary": ""
+          "summary": "ユーザー管理を題材にしたデモアプリ(TypeScript)"
         },
         {
           "desc": "Example of a Go application using a clean architecture.",
@@ -6338,7 +6338,7 @@
           "stars": 143,
           "url": "https://github.com/hirotakan/go-cleanarchitecture-sample",
           "category": "learning",
-          "summary": ""
+          "summary": "クリーンアーキテクチャを採用したGoアプリケーションのサンプル"
         },
         {
           "desc": "A golang ebook intro how to build a web with golang",
@@ -6348,7 +6348,7 @@
           "stars": 43918,
           "url": "https://github.com/astaxie/build-web-application-with-golang",
           "category": "learning",
-          "summary": ""
+          "summary": "GoでWebアプリを構築する方法を解説する電子書籍"
         }
       ]
     },
@@ -6367,7 +6367,7 @@
           "stars": 73718,
           "url": "https://github.com/ruvnet/RuView",
           "category": "util",
-          "summary": ""
+          "summary": "市販WiFiの信号を使い、カメラなしで人の検知・呼吸/心拍の計測・在室監視などを行う空間センシングシステム"
         },
         {
           "desc": "Japanese legislation as a Git repo.",
@@ -6377,7 +6377,7 @@
           "stars": 98,
           "url": "https://github.com/aluqas/gitlaw-jp",
           "category": "util",
-          "summary": ""
+          "summary": "日本の法律の改正履歴・沿革をGitのコミットデータとして構造的に追跡可能にする試み"
         },
         {
           "desc": "",
@@ -6387,7 +6387,7 @@
           "stars": 12,
           "url": "https://github.com/tokuhirom/Archivist",
           "category": "util",
-          "summary": ""
+          "summary": "Chromeで読んだページを自動でローカル保存し後から全文検索できるローカルファースト個人Webアーカイブ"
         },
         {
           "desc": "",
@@ -6397,7 +6397,7 @@
           "stars": 200,
           "url": "https://github.com/vercel-labs/before-and-after",
           "category": "util",
-          "summary": ""
+          "summary": "PRにビフォー/アフターのスクリーンショットを追加するツール。エージェントのスキルとしても使える"
         },
         {
           "desc": "Run OpenClaw, (formerly Moltbot, formerly Clawdbot) on Cloudflare Workers",
@@ -6407,7 +6407,7 @@
           "stars": 9912,
           "url": "https://github.com/cloudflare/moltworker",
           "category": "util",
-          "summary": ""
+          "summary": "個人AIアシスタントOpenClaw(旧Moltbot)をCloudflare Workers上で動かす実験的な実装"
         },
         {
           "desc": "Suica Viewer is a CLI and GUI tool that reads FeliCa-based transit IC cards, resolving detailed card, balance, and trip history data via a remote authentication server.",
@@ -6417,7 +6417,7 @@
           "stars": 361,
           "url": "https://github.com/soltia48/suica-viewer",
           "category": "util",
-          "summary": ""
+          "summary": "SuicaなどFeliCa系交通ICカードを読み取り、残高や利用履歴を表示・保存するCLI/GUIツール"
         },
         {
           "desc": "Researchlyの要望や質問などを受け付けるリポジトリです",
@@ -6427,7 +6427,7 @@
           "stars": 2,
           "url": "https://github.com/ad-sho-loko/researchly-community",
           "category": "util",
-          "summary": ""
+          "summary": "エンジニア向けAI情報収集アプリ「Researchly」の要望や質問を受け付けるリポジトリ"
         },
         {
           "desc": "An unofficial Google Nearby Share/Quick Share app for macOS",
@@ -6437,7 +6437,7 @@
           "stars": 6147,
           "url": "https://github.com/grishka/NearDrop",
           "category": "util",
-          "summary": ""
+          "summary": "GoogleのNearby Share/Quick ShareをmacOSで使える非公式アプリ"
         },
         {
           "desc": "Qiita-specified markdown processor.",
@@ -6447,7 +6447,7 @@
           "stars": 408,
           "url": "https://github.com/increments/qiita-markdown",
           "category": "util",
-          "summary": ""
+          "summary": "Qiita仕様のMarkdownプロセッサ。サニタイズや絵文字・シンタックスハイライト等に対応"
         },
         {
           "desc": "Welcome to a calmer internet",
@@ -6457,7 +6457,7 @@
           "stars": 42821,
           "url": "https://github.com/zen-browser/desktop",
           "category": "util",
-          "summary": ""
+          "summary": "生産性向上を目指したFirefoxベースのブラウザZen Browser"
         },
         {
           "desc": "A `rm -rf` util for nodejs",
@@ -6467,7 +6467,7 @@
           "stars": 5845,
           "url": "https://github.com/isaacs/rimraf",
           "category": "util",
-          "summary": ""
+          "summary": "Node.js向けのクロスプラットフォームな`rm -rf`ユーティリティ"
         },
         {
           "desc": "",
@@ -6477,7 +6477,7 @@
           "stars": 65,
           "url": "https://github.com/baku89/kindolphin",
           "category": "util",
-          "summary": ""
+          "summary": "ループGIFをコマの素材に使う「GIF漫画」作品をまとめて閲覧できるプログレッシブWebアプリ"
         },
         {
           "desc": "An open-source cross-platform alternative to AirDrop",
@@ -6487,7 +6487,7 @@
           "stars": 83293,
           "url": "https://github.com/localsend/localsend",
           "category": "util",
-          "summary": ""
+          "summary": "AirDropのオープンソース・クロスプラットフォーム代替。近くの端末へファイルを送れる"
         },
         {
           "desc": "Kidoku ⚡ NextAuth, Tailwind, TiDB, Prisma, Jotai, Meilisearch, Resend, Pusher",
@@ -6497,7 +6497,7 @@
           "stars": 9,
           "url": "https://github.com/Rasukarusan/kidoku",
           "category": "util",
-          "summary": ""
+          "summary": "バーコードスキャンやAI分析・全文検索を備えた読書記録・分析アプリKidoku"
         },
         {
           "desc": "🏢🔌 Node app connecting Gather Town with Slack",
@@ -6507,7 +6507,7 @@
           "stars": 14,
           "url": "https://github.com/Assembless/gather-town-x-slack",
           "category": "util",
-          "summary": ""
+          "summary": "Gather TownとSlackを連携させるNodeアプリ。在席状況やチャット・ステータスを同期する"
         },
         {
           "desc": "🤱🏻 Turn any webpage into a desktop app with one command.",
@@ -6517,7 +6517,7 @@
           "stars": 50456,
           "url": "https://github.com/tw93/Pake",
           "category": "util",
-          "summary": ""
+          "summary": "任意のWebページを1コマンドでデスクトップアプリ化するツール。Rust/Tauri製で軽量・高速"
         },
         {
           "desc": "Source code for the X Recommendation Algorithm",
@@ -6527,7 +6527,7 @@
           "stars": 73421,
           "url": "https://github.com/twitter/the-algorithm",
           "category": "util",
-          "summary": ""
+          "summary": "X(旧Twitter)のおすすめ表示(レコメンド)アルゴリズムのソースコード"
         },
         {
           "desc": "Send push notifications to your phone or desktop using PUT/POST",
@@ -6537,7 +6537,7 @@
           "stars": 30747,
           "url": "https://github.com/binwiederhier/ntfy",
           "category": "util",
-          "summary": ""
+          "summary": "PUT/POSTでスマホやデスクトップにプッシュ通知を送れるシンプルなサービスntfy"
         },
         {
           "desc": "An online tree-like utility for generating ASCII folder structure diagrams. Written in TypeScript and React.",
@@ -6547,7 +6547,7 @@
           "stars": 375,
           "url": "https://github.com/nfriend/tree-online",
           "category": "util",
-          "summary": ""
+          "summary": "インデントテキストからASCIIのフォルダ構成図を生成するオンラインツール(TypeScript/React)"
         },
         {
           "desc": "C/Migemo",
@@ -6557,7 +6557,7 @@
           "stars": 188,
           "url": "https://github.com/koron/cmigemo",
           "category": "util",
-          "summary": ""
+          "summary": "ローマ字入力で日本語をインクリメンタル検索できるMigemoのC実装(C/Migemo)"
         },
         {
           "desc": "KeyCastr, an open-source keystroke visualizer",
@@ -6567,7 +6567,7 @@
           "stars": 14881,
           "url": "https://github.com/keycastr/keycastr",
           "category": "util",
-          "summary": ""
+          "summary": "押したキー入力を画面に表示するオープンソースのキーストローク可視化ツール(macOS)"
         },
         {
           "desc": "📶 Print a QR code for connecting to your WiFi (wificard.io)",
@@ -6577,7 +6577,7 @@
           "stars": 7127,
           "url": "https://github.com/bndw/wifi-card",
           "category": "util",
-          "summary": ""
+          "summary": "WiFi接続用のQRコード入りカードを印刷できるツール。来客時などに便利"
         },
         {
           "desc": "プログラマの為の開発支援コミュニケーションツール。作業中メモをリアルタイム共有する。",
@@ -6587,7 +6587,7 @@
           "stars": 184,
           "url": "https://github.com/volpe28v/DevHub",
           "category": "util",
-          "summary": ""
+          "summary": "作業中メモをリアルタイム共有するプログラマ向けの開発支援コミュニケーションツール"
         },
         {
           "desc": "my dotfiles",
@@ -6597,7 +6597,7 @@
           "stars": 225,
           "url": "https://github.com/sdushantha/dotfiles",
           "category": "util",
-          "summary": ""
+          "summary": "作者の個人用dotfiles(設定ファイル)集"
         },
         {
           "desc": "",
@@ -6607,7 +6607,7 @@
           "stars": 53,
           "url": "https://github.com/timeopochin/ilo-nanpa",
           "category": "util",
-          "summary": ""
+          "summary": "Toki Pona語で「計算機」を意味する名前のPython製ツール"
         },
         {
           "desc": "All repositories that I starred in GitHub since 2009 organized by tags",
@@ -6617,7 +6617,7 @@
           "stars": 1,
           "url": "https://github.com/gustavohenrique/taghub",
           "category": "util",
-          "summary": ""
+          "summary": "2009年以降にGitHubでstarしたリポジトリをタグ別に整理して閲覧できるツール"
         },
         {
           "desc": "A packer/unpacker for Apple Keynote presentation files.",
@@ -6627,7 +6627,7 @@
           "stars": 206,
           "url": "https://github.com/psobot/keynote-parser",
           "category": "util",
-          "summary": ""
+          "summary": "Apple Keynoteの.keyファイルを展開・再パックするPythonモジュール"
         },
         {
           "desc": ":zap: Dynamically generated stats for your github readmes",
@@ -6637,7 +6637,7 @@
           "stars": 79641,
           "url": "https://github.com/anuraghazra/github-readme-stats",
           "category": "util",
-          "summary": ""
+          "summary": "GitHubのREADMEに動的生成した統計カードを表示できるツール"
         },
         {
           "desc": "KAKASI - Kanji Kana Simple Inverter (code mirror)",
@@ -6647,7 +6647,7 @@
           "stars": 42,
           "url": "https://github.com/loretoparisi/kakasi",
           "category": "util",
-          "summary": ""
+          "summary": "漢字かな交じり文をひらがな・カタカナ・ローマ字に変換するKAKASIのコードミラー"
         },
         {
           "desc": "",
@@ -6657,7 +6657,7 @@
           "stars": 7,
           "url": "https://github.com/peisuke/qiita_like_analysis",
           "category": "util",
-          "summary": ""
+          "summary": "Qiitaのいいねを互いに送り合う上位組織を分析するコード"
         },
         {
           "desc": ":wrench: .files, including ~/.macos — sensible hacker defaults for macOS",
@@ -6667,7 +6667,7 @@
           "stars": 31383,
           "url": "https://github.com/mathiasbynens/dotfiles",
           "category": "util",
-          "summary": ""
+          "summary": "~/.macos等を含むmacOS向けの定番dotfiles(設定ファイル)集"
         },
         {
           "desc": "oh…… my lovely dotfiles……///",
@@ -6677,7 +6677,7 @@
           "stars": 4,
           "url": "https://github.com/2357gi/dotfiles",
           "category": "util",
-          "summary": ""
+          "summary": "作者の個人用dotfiles(設定ファイル)集"
         },
         {
           "desc": ":squirrel: GoでInstagramぶっこ抜き",
@@ -6687,7 +6687,7 @@
           "stars": 2,
           "url": "https://github.com/Rasukarusan/go-instagram",
           "category": "util",
-          "summary": ""
+          "summary": "GoでInstagramをスクレイピングして情報取得するAPIサーバー"
         }
       ]
     }
