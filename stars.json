@@ -67,7 +67,7 @@
           "stars": 889,
           "url": "https://github.com/SeldonIO/MLServer",
           "category": "ai-agent",
-          "summary": ""
+          "summary": "機械学習モデルをREST/gRPCで配信する推論サーバー。複数フレームワーク対応・マルチモデル配信・適応的バッチングに対応"
         },
         {
           "desc": "",
@@ -77,7 +77,7 @@
           "stars": 3624,
           "url": "https://github.com/anthropics/anthropic-sdk-python",
           "category": "ai-agent",
-          "summary": ""
+          "summary": "Claude APIをPythonから利用する公式SDK。メッセージ生成やツール使用などClaudeの機能にアクセスできる"
         },
         {
           "desc": "The free AI already on your Mac. CLI tool, OpenAI-compatible server, and interactive chat — all on-device via Apple Intelligence. No API keys, no cloud, no downloads.",
@@ -87,7 +87,7 @@
           "stars": 5776,
           "url": "https://github.com/Arthur-Ficial/apfel",
           "category": "ai-agent",
-          "summary": ""
+          "summary": "Apple Intelligenceを使いMac内蔵LLMをCLI・OpenAI互換サーバー・対話チャットとして使う完全オンデバイスツール"
         },
         {
           "desc": "Agent-CI is local GitHub Actions for your agents.",
@@ -97,7 +97,7 @@
           "stars": 705,
           "url": "https://github.com/redwoodjs/agent-ci",
           "category": "ai-agent",
-          "summary": ""
+          "summary": "AIエージェント向けにGitHub Actionsをローカルで動かすCI。エージェントのワークフロー検証に使う"
         },
         {
           "desc": "Browser automation CLI for AI agents",
@@ -107,7 +107,7 @@
           "stars": 36014,
           "url": "https://github.com/vercel-labs/agent-browser",
           "category": "ai-agent",
-          "summary": ""
+          "summary": "AIエージェント向けのブラウザ自動操作CLI。Rust製の高速ネイティブバイナリでChromeを制御する"
         },
         {
           "desc": "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies",
@@ -117,7 +117,7 @@
           "stars": 62175,
           "url": "https://github.com/rtk-ai/rtk",
           "category": "ai-agent",
-          "summary": ""
+          "summary": "開発コマンドの出力を圧縮しLLMのトークン消費を60〜90%削減するCLIプロキシ。Rust単一バイナリ"
         },
         {
           "desc": "A faster than tiktoken tokenizer with first-class support for Vercel's AI SDK.",
@@ -127,7 +127,7 @@
           "stars": 55,
           "url": "https://github.com/coder/ai-tokenizer",
           "category": "ai-agent",
-          "summary": ""
+          "summary": "tiktokenより高速なトークナイザー。Vercel AI SDKを一級サポートしWASM不要で移植性が高い"
         },
         {
           "desc": "",
@@ -137,7 +137,7 @@
           "stars": 1500,
           "url": "https://github.com/langchain-ai/langmem",
           "category": "ai-agent",
-          "summary": ""
+          "summary": "エージェントが対話から学習し長期記憶を持つためのライブラリ。情報抽出・プロンプト最適化・記憶管理を提供"
         },
         {
           "desc": "Universal memory layer for AI Agents",
@@ -147,7 +147,7 @@
           "stars": 58511,
           "url": "https://github.com/mem0ai/mem0",
           "category": "ai-agent",
-          "summary": ""
+          "summary": "AIエージェント向けの汎用メモリ層。対話から事実を抽出・蓄積し検索して長期記憶を実現する"
         },
         {
           "desc": "An open-source, code-first Typescript toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control.",
@@ -157,7 +157,7 @@
           "stars": 1210,
           "url": "https://github.com/google/adk-js",
           "category": "ai-agent",
-          "summary": ""
+          "summary": "高度なAIエージェントを構築・評価・デプロイするGoogle製TypeScriptツールキット（ADK）"
         },
         {
           "desc": "A collection of sample agents built with Agent Development Kit (ADK) ",
@@ -167,7 +167,7 @@
           "stars": 9653,
           "url": "https://github.com/google/adk-samples",
           "category": "ai-agent",
-          "summary": ""
+          "summary": "Agent Development Kit(ADK)で作られたサンプルエージェント集。多言語で実用的な実装例を提供"
         },
         {
           "desc": "",
@@ -177,7 +177,7 @@
           "stars": 359,
           "url": "https://github.com/aws-samples/anthropic-on-aws",
           "category": "ai-agent",
-          "summary": ""
+          "summary": "AWS上でAnthropic Claudeを使うためのサンプル・ノートブック集。プロンプト技法やツール使用例を収録"
         },
         {
           "desc": "Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.",
@@ -187,7 +187,7 @@
           "stars": 53517,
           "url": "https://github.com/crewAIInc/crewAI",
           "category": "ai-agent",
-          "summary": ""
+          "summary": "役割を持つ自律AIエージェントを協調させるマルチエージェント・オーケストレーションフレームワーク"
         },
         {
           "desc": "Build high-quality LLM apps - from prototyping, testing to production deployment and monitoring.",
@@ -197,7 +197,7 @@
           "stars": 11147,
           "url": "https://github.com/microsoft/promptflow",
           "category": "ai-agent",
-          "summary": ""
+          "summary": "LLMアプリを試作・テスト・本番運用・監視まで一貫開発するMicrosoft製の開発ツール群"
         },
         {
           "desc": "Python SDK for AI agent monitoring, LLM cost tracking, benchmarking, and more. Integrates with most LLMs and agent frameworks including CrewAI, Agno, OpenAI Agents SDK, Langchain, Autogen, AG2, and CamelAI",
@@ -207,7 +207,7 @@
           "stars": 5632,
           "url": "https://github.com/AgentOps-AI/agentops",
           "category": "ai-agent",
-          "summary": ""
+          "summary": "AIエージェントの監視・LLMコスト追跡・ベンチマークを行うPython SDK。主要な各種フレームワークと連携"
         },
         {
           "desc": "Python & JS/TS SDK for running AI-generated code/code interpreting in your AI app ",
@@ -217,7 +217,7 @@
           "stars": 2343,
           "url": "https://github.com/e2b-dev/code-interpreter",
           "category": "ai-agent",
-          "summary": ""
+          "summary": "AI生成コードを安全なサンドボックスで実行するPython/JS SDK。コードインタープリタ機能を自作アプリに組み込める"
         },
         {
           "desc": "Open-source, secure environment with real-world tools for enterprise-grade agents.",
@@ -227,7 +227,7 @@
           "stars": 12579,
           "url": "https://github.com/e2b-dev/E2B",
           "category": "ai-agent",
-          "summary": ""
+          "summary": "AI生成コードをクラウド上の隔離サンドボックスで実行するオープンソース基盤。エンタープライズ向けエージェント環境"
         },
         {
           "desc": "Chrome DevTools for coding agents",
@@ -237,7 +237,7 @@
           "stars": 43549,
           "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
           "category": "ai-agent",
-          "summary": ""
+          "summary": "コーディングエージェントが実Chromeを操作・検査できるMCPサーバー。自動化やパフォーマンス分析に使う"
         },
         {
           "desc": "🪢 Open source AI engineering platform: LLM evals, observability, metrics, prompt management, playground, datasets. Integrates with OpenTelemetry, LangChain, OpenAI SDK, LiteLLM, and more. 🍊YC W23 ",
@@ -247,7 +247,7 @@
           "stars": 29035,
           "url": "https://github.com/langfuse/langfuse",
           "category": "ai-agent",
-          "summary": ""
+          "summary": "オープンソースのLLMエンジニアリング基盤。トレース観測・評価・プロンプト管理・データセットを提供"
         },
         {
           "desc": "High-performance In-browser LLM Inference Engine ",
@@ -257,7 +257,7 @@
           "stars": 18186,
           "url": "https://github.com/mlc-ai/web-llm",
           "category": "ai-agent",
-          "summary": ""
+          "summary": "ブラウザ内でLLM推論を動かす高性能エンジン。WebGPUで高速化しOpenAI API互換で完全ローカル動作"
         },
         {
           "desc": "Fully automatic censorship removal for language models",
@@ -267,7 +267,7 @@
           "stars": 24484,
           "url": "https://github.com/p-e-w/heretic",
           "category": "ai-agent",
-          "summary": ""
+          "summary": "言語モデルの検閲(安全アライメント)を再学習なしで自動除去するツール。abliterationと自動最適化を使う"
         },
         {
           "desc": "A powerful MCP toolkit for coding, providing semantic retrieval and editing capabilities  - the IDE for your agent",
@@ -277,7 +277,7 @@
           "stars": 25331,
           "url": "https://github.com/oraios/serena",
           "category": "ai-agent",
-          "summary": ""
+          "summary": "コーディングエージェント向けMCPツールキット。シンボル単位の意味的なコード検索・編集・リファクタを提供"
         },
         {
           "desc": "MCP server for OpenAI o4 mini web search",
@@ -287,7 +287,7 @@
           "stars": 1,
           "url": "https://github.com/ad-sho-loko/o4-mini-search-mcp",
           "category": "ai-agent",
-          "summary": ""
+          "summary": "OpenAIのo4-miniモデルでWeb検索を行うMCPサーバー。テキストクエリにAI検索結果を返す"
         },
         {
           "desc": "Monitor browser logs directly from Cursor and other MCP compatible IDEs.",
@@ -297,7 +297,7 @@
           "stars": 7241,
           "url": "https://github.com/AgentDeskAI/browser-tools-mcp",
           "category": "ai-agent",
-          "summary": ""
+          "summary": "CursorなどのMCP対応IDEからブラウザのログを監視・解析するツール(現在は非アクティブ)"
         },
         {
           "desc": "Model Context Protocol Servers",
@@ -307,7 +307,7 @@
           "stars": 87190,
           "url": "https://github.com/modelcontextprotocol/servers",
           "category": "ai-agent",
-          "summary": ""
+          "summary": "Model Context Protocol(MCP)の公式リファレンス実装サーバー集。MCPの機能やSDK使用例を学べる"
         },
         {
           "desc": "Fetch an entire site and use it as an MCP Server",
@@ -317,7 +317,7 @@
           "stars": 759,
           "url": "https://github.com/ryoppippi/sitemcp",
           "category": "ai-agent",
-          "summary": ""
+          "summary": "サイト全体を取得してMCPサーバーとして提供しAIに渡すツール(現在はアーカイブ済み)"
         },
         {
           "desc": "From the team behind Gatsby, Mastra is a framework for building AI-powered applications and agents with a modern TypeScript stack.",
@@ -327,7 +327,7 @@
           "stars": 25047,
           "url": "https://github.com/mastra-ai/mastra",
           "category": "ai-agent",
-          "summary": ""
+          "summary": "AI搭載アプリやエージェントを構築するモダンなTypeScriptフレームワーク。試作から本番まで対応"
         },
         {
           "desc": "Fetch an entire site and save it as a text file (to be used with AI models).",
@@ -337,7 +337,7 @@
           "stars": 1734,
           "url": "https://github.com/egoist/sitefetch",
           "category": "ai-agent",
-          "summary": ""
+          "summary": "サイト全体を取得してテキストファイルに保存しAIモデルに渡すCLIツール"
         },
         {
           "desc": "The Enterprise-Grade Production-Ready Multi-Agent Orchestration Framework. Website: https://swarms.ai",
@@ -347,7 +347,7 @@
           "stars": 6847,
           "url": "https://github.com/kyegomez/swarms",
           "category": "ai-agent",
-          "summary": ""
+          "summary": "本番運用向けのエンタープライズ級マルチエージェント・オーケストレーションフレームワーク"
         },
         {
           "desc": "Production-ready platform for agentic workflow development.",
@@ -357,7 +357,7 @@
           "stars": 145138,
           "url": "https://github.com/langgenius/dify",
           "category": "ai-agent",
-          "summary": ""
+          "summary": "エージェント型ワークフローを開発する本番対応のLLMアプリ開発プラットフォーム。RAGやモデル管理も統合"
         },
         {
           "desc": "The Cohere TypeScript SDK",
@@ -367,7 +367,7 @@
           "stars": 173,
           "url": "https://github.com/cohere-ai/cohere-typescript",
           "category": "ai-agent",
-          "summary": ""
+          "summary": "Cohereモデルを各種クラウド経由で利用できる公式TypeScript SDK"
         },
         {
           "desc": "Get up and running with Kimi-K2.6, GLM-5.1, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
@@ -377,7 +377,7 @@
           "stars": 174102,
           "url": "https://github.com/ollama/ollama",
           "category": "ai-agent",
-          "summary": ""
+          "summary": "Llama・Qwen・DeepSeekなどのオープンモデルをローカルで手軽に動かすツール。各種コーディング連携も対応"
         },
         {
           "desc": "Run GGUF models easily with a KoboldAI UI. One File. Zero Install.",
@@ -387,7 +387,7 @@
           "stars": 10767,
           "url": "https://github.com/LostRuins/koboldcpp",
           "category": "ai-agent",
-          "summary": ""
+          "summary": "GGUFモデルをKoboldAI UIで手軽に動かすテキスト生成ソフト。単一ファイル・インストール不要"
         },
         {
           "desc": "Python Library for Accessing the Cohere API",
@@ -397,7 +397,7 @@
           "stars": 389,
           "url": "https://github.com/cohere-ai/cohere-python",
           "category": "ai-agent",
-          "summary": ""
+          "summary": "Cohere APIにアクセスする公式Pythonライブラリ。各種クラウド上のCohereモデルを利用できる"
         },
         {
           "desc": "JS port and JS/WASM bindings for openai/tiktoken",
@@ -407,7 +407,7 @@
           "stars": 1052,
           "url": "https://github.com/dqbd/tiktoken",
           "category": "ai-agent",
-          "summary": ""
+          "summary": "OpenAIのtiktokenトークナイザーのJS移植とJS/WASMバインディング。Node等から利用できる"
         },
         {
           "desc": "Open-sourced codes for MiniGPT-4 and MiniGPT-v2 (https://minigpt-4.github.io, https://minigpt-v2.github.io/)",
@@ -417,7 +417,7 @@
           "stars": 25678,
           "url": "https://github.com/Vision-CAIR/MiniGPT-4",
           "category": "ai-agent",
-          "summary": ""
+          "summary": "視覚言語理解を行うMiniGPT-4/v2の公開実装。画像と言語のマルチタスクを統一的に扱う"
         },
         {
           "desc": "tiktoken is a fast BPE tokeniser for use with OpenAI's models.",
@@ -427,7 +427,7 @@
           "stars": 18480,
           "url": "https://github.com/openai/tiktoken",
           "category": "ai-agent",
-          "summary": ""
+          "summary": "OpenAIモデル向けの高速なBPEトークナイザー。テキストのトークン数計算やエンコードに使う"
         },
         {
           "desc": "The AI Toolkit for TypeScript. From the creators of Next.js, the AI SDK is a free open-source library for building AI-powered applications and agents ",
@@ -437,7 +437,7 @@
           "stars": 24852,
           "url": "https://github.com/vercel/ai",
           "category": "ai-agent",
-          "summary": ""
+          "summary": "Next.js作者によるTypeScript向けAI SDK。AI搭載アプリやエージェントを構築するオープンソースライブラリ"
         },
         {
           "desc": "Official JavaScript / TypeScript library for the OpenAI API",
@@ -447,7 +447,7 @@
           "stars": 10967,
           "url": "https://github.com/openai/openai-node",
           "category": "ai-agent",
-          "summary": ""
+          "summary": "OpenAI APIを利用する公式JavaScript/TypeScriptライブラリ"
         },
         {
           "desc": "Mask R-CNN for object detection and instance segmentation on Keras and TensorFlow",
@@ -457,7 +457,7 @@
           "stars": 25561,
           "url": "https://github.com/matterport/Mask_RCNN",
           "category": "ai-agent",
-          "summary": ""
+          "summary": "Keras/TensorFlowによる物体検出・インスタンスセグメンテーションのMask R-CNN実装"
         }
       ]
     },
@@ -476,7 +476,7 @@
           "stars": 992,
           "url": "https://github.com/tegnike/aituber-kit",
           "category": "ai-app",
-          "summary": ""
+          "summary": "AIキャラクターと会話できるWebアプリを誰でも簡単に構築・デプロイできるオールインワンのAITuberツールキット"
         },
         {
           "desc": "Data Provider Package for https://librechat.ai",
@@ -486,7 +486,7 @@
           "stars": 9,
           "url": "https://github.com/danny-avila/librechat-data-provider",
           "category": "ai-app",
-          "summary": ""
+          "summary": "LibreChat用のデータプロバイダーパッケージ。APIとの通信やデータ処理を担う"
         },
         {
           "desc": "Enhanced ChatGPT Clone: Features Agents, MCP, Skills, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for self-hosting. Active",
@@ -496,7 +496,7 @@
           "stars": 39080,
           "url": "https://github.com/danny-avila/LibreChat",
           "category": "ai-app",
-          "summary": ""
+          "summary": "セルフホスト可能な高機能ChatGPTクローン。エージェント・MCP・多数のAIモデル切替・検索などに対応"
         },
         {
           "desc": "Every front-end GUI client for ChatGPT, Claude, and other LLMs",
@@ -506,7 +506,7 @@
           "stars": 3981,
           "url": "https://github.com/billmei/every-chatgpt-gui",
           "category": "ai-app",
-          "summary": ""
+          "summary": "ChatGPTやClaude等のLLM APIにアクセスできるGUIクライアントを網羅したキュレーションリスト"
         },
         {
           "desc": "AI suite powered by state-of-the-art models and providing advanced AI/AGI functions. Includes AI personas, AGI functions, world-class Beam multi-model chats, text-to-image, voice, response streaming, code highlighting and execution, PDF import, presets for developers, much more. Deploy on-prem or in the cloud.",
@@ -516,7 +516,7 @@
           "stars": 6995,
           "url": "https://github.com/enricoros/big-AGI",
           "category": "ai-app",
-          "summary": ""
+          "summary": "最新モデルを活用した多機能AIスイート。マルチモデルチャット・画像生成・音声・コード実行などを備える"
         },
         {
           "desc": "AI chat for any model.",
@@ -526,7 +526,7 @@
           "stars": 33264,
           "url": "https://github.com/mckaywrigley/chatbot-ui",
           "category": "ai-app",
-          "summary": ""
+          "summary": "あらゆるモデルに対応したオープンソースのAIチャットアプリ"
         }
       ]
     },
@@ -545,7 +545,7 @@
           "stars": 43,
           "url": "https://github.com/snyk/studio-recipes",
           "category": "claude-code",
-          "summary": ""
+          "summary": "AIコーディング支援ツールにSnykのセキュリティを組み込むレシピ集。AI生成コードを生成時点で安全にする"
         },
         {
           "desc": "Trail of Bits Claude Code skills for security research, vulnerability detection, and audit workflows",
@@ -555,7 +555,7 @@
           "stars": 5698,
           "url": "https://github.com/trailofbits/skills",
           "category": "claude-code",
-          "summary": ""
+          "summary": "Trail of Bits製のセキュリティ調査・脆弱性検出・監査向けClaude Codeスキル(プラグインマーケット)"
         },
         {
           "desc": "AIくさい日本語を人間が書いた文章に変換するClaude Codeスキル。20パターンのチェックリスト+書き換えガイド。",
@@ -565,7 +565,7 @@
           "stars": 87,
           "url": "https://github.com/gonta223/humanizer-ja",
           "category": "claude-code",
-          "summary": ""
+          "summary": "AIっぽい日本語を人間が書いた文章に変換するClaude Codeスキル。20パターンのチェックと書き換えガイド付き"
         },
         {
           "desc": "Academic Research Skills for Claude Code: research → write → review → revise → finalize",
@@ -575,7 +575,7 @@
           "stars": 31169,
           "url": "https://github.com/Imbad0202/academic-research-skills",
           "category": "claude-code",
-          "summary": ""
+          "summary": "学術研究向けのClaude Codeスキル集。調査から執筆・レビュー・改稿・仕上げまでの一連を支援"
         },
         {
           "desc": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
@@ -585,7 +585,7 @@
           "stars": 174956,
           "url": "https://github.com/multica-ai/andrej-karpathy-skills",
           "category": "claude-code",
-          "summary": ""
+          "summary": "KarpathyのLLMコーディング失敗例から導いたCLAUDE.md。Claude Codeの挙動を改善する一枚ファイル"
         },
         {
           "desc": "",
@@ -595,7 +595,7 @@
           "stars": 808,
           "url": "https://github.com/warpdotdev/oz-skills",
           "category": "claude-code",
-          "summary": ""
+          "summary": "WarpのAIエージェント向けに再利用できるAgent Skills集。規約やワークフローをエージェントに教える"
         },
         {
           "desc": "Use Codex from Claude Code to review code or delegate tasks.",
@@ -605,7 +605,7 @@
           "stars": 20925,
           "url": "https://github.com/openai/codex-plugin-cc",
           "category": "claude-code",
-          "summary": ""
+          "summary": "Claude Code内からOpenAI Codexを呼び出しコードレビューやタスク委譲を行うプラグイン"
         },
         {
           "desc": "Claude Code skill that removes signs of AI-generated writing from text",
@@ -615,7 +615,7 @@
           "stars": 24072,
           "url": "https://github.com/blader/humanizer",
           "category": "claude-code",
-          "summary": ""
+          "summary": "テキストからAI生成っぽさを取り除き自然な文章にするClaude Code/OpenCodeスキル"
         },
         {
           "desc": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
@@ -625,7 +625,7 @@
           "stars": 132279,
           "url": "https://github.com/anthropics/claude-code",
           "category": "claude-code",
-          "summary": ""
+          "summary": "ターミナルに常駐しコードベースを理解して開発を加速するAnthropic公式のエージェント型コーディングツール"
         },
         {
           "desc": "Vercel's official collection of agent skills",
@@ -635,7 +635,7 @@
           "stars": 27900,
           "url": "https://github.com/vercel-labs/agent-skills",
           "category": "claude-code",
-          "summary": ""
+          "summary": "Vercel公式のAIコーディングエージェント向けスキル集。エージェントの能力を拡張する"
         },
         {
           "desc": "Turn approved specs into long-running autonomous implementation. A minimal, adaptable SDD harness with Agent Skills for Claude Code, Codex, Cursor, Copilot, Windsurf, OpenCode, Gemini CLI, and Antigravity.",
@@ -645,7 +645,7 @@
           "stars": 3472,
           "url": "https://github.com/gotalab/cc-sdd",
           "category": "claude-code",
-          "summary": ""
+          "summary": "承認済み仕様から自律実装を進める仕様駆動開発(SDD)ハーネス。各種AIコーディングエージェントに対応"
         },
         {
           "desc": "An agentic skills framework & software development methodology that works.",
@@ -655,7 +655,7 @@
           "stars": 227274,
           "url": "https://github.com/obra/superpowers",
           "category": "claude-code",
-          "summary": ""
+          "summary": "コーディングエージェント向けの合成可能なスキル群とソフトウェア開発方法論のフレームワーク"
         },
         {
           "desc": "A full-featured web-based Claude Code client that provides complete interactive functionality for managing Claude Code projects",
@@ -665,7 +665,7 @@
           "stars": 1218,
           "url": "https://github.com/d-kimuson/claude-code-viewer",
           "category": "claude-code",
-          "summary": ""
+          "summary": "Claude Codeプロジェクトを管理するフル機能のWebクライアント。会話の開始・再開・監視・履歴閲覧ができる"
         },
         {
           "desc": "The open source coding agent.",
@@ -675,7 +675,7 @@
           "stars": 174164,
           "url": "https://github.com/anomalyco/opencode",
           "category": "claude-code",
-          "summary": ""
+          "summary": "オープンソースのAIコーディングエージェント。ターミナルで動作する"
         },
         {
           "desc": "tsumiki",
@@ -685,7 +685,7 @@
           "stars": 966,
           "url": "https://github.com/classmethod/tsumiki",
           "category": "claude-code",
-          "summary": ""
+          "summary": "要件定義から実装までを支援するAI駆動開発フレームワーク。主にClaude Codeで使う"
         },
         {
           "desc": "A powerful GUI app and Toolkit for Claude Code - Create custom agents, manage interactive Claude Code sessions, run secure background agents, and more.",
@@ -695,7 +695,7 @@
           "stars": 22055,
           "url": "https://github.com/winfunc/opcode",
           "category": "claude-code",
-          "summary": ""
+          "summary": "Claude Code向けの高機能GUIアプリ＆ツールキット。カスタムエージェント作成やセッション管理ができる"
         },
         {
           "desc": "Professional slash commands for Claude Code that provide   structured workflows for software development tasks including   code review, feature creation, security auditing, and architectural analysis.",
@@ -705,7 +705,7 @@
           "stars": 1287,
           "url": "https://github.com/qdhenry/Claude-Command-Suite",
           "category": "claude-code",
-          "summary": ""
+          "summary": "コードレビューや機能作成・セキュリティ監査などを構造化するClaude Code用スラッシュコマンド集"
         },
         {
           "desc": "✨ Agentic chat experience in your terminal. Build applications using natural language.",
@@ -715,7 +715,7 @@
           "stars": 1966,
           "url": "https://github.com/aws/amazon-q-developer-cli",
           "category": "claude-code",
-          "summary": ""
+          "summary": "ターミナルで自然言語によりアプリを構築するエージェント型チャットCLI(現Kiro CLIへ移行・保守終了)"
         },
         {
           "desc": "A curated list of awesome skills, hooks, slash-commands, agent orchestrators, applications, and plugins for Claude Code by Anthropic",
@@ -725,7 +725,7 @@
           "stars": 46409,
           "url": "https://github.com/hesreallyhim/awesome-claude-code",
           "category": "claude-code",
-          "summary": ""
+          "summary": "Claude Code向けのスキル・フック・スラッシュコマンド・プラグイン等を集めたキュレーションリスト"
         },
         {
           "desc": "",
@@ -735,7 +735,7 @@
           "stars": 496,
           "url": "https://github.com/nishimoto265/Claude-Code-Communication",
           "category": "claude-code",
-          "summary": ""
+          "summary": "tmux上で複数AIエージェントが階層的に指示し合う様子を体感できるマルチエージェント通信デモ"
         },
         {
           "desc": "npx ccusage",
@@ -745,7 +745,7 @@
           "stars": 16134,
           "url": "https://github.com/ccusage/ccusage",
           "category": "claude-code",
-          "summary": ""
+          "summary": "Claude Codeの利用状況やトークン・コストを集計して可視化するCLIツール"
         },
         {
           "desc": "Claude Code context manager for switching between multiple settings.json configurations",
@@ -755,7 +755,7 @@
           "stars": 147,
           "url": "https://github.com/nwiizo/cctx",
           "category": "claude-code",
-          "summary": ""
+          "summary": "複数のClaude Code設定(settings.json)を素早く切り替えるkubectx風コンテキスト管理ツール"
         },
         {
           "desc": "Lightweight coding agent that runs in your terminal",
@@ -765,7 +765,7 @@
           "stars": 90914,
           "url": "https://github.com/openai/codex",
           "category": "claude-code",
-          "summary": ""
+          "summary": "ターミナルで動作するOpenAI製の軽量なコーディングエージェント(Codex CLI)"
         },
         {
           "desc": "aider is AI pair programming in your terminal",
@@ -775,7 +775,7 @@
           "stars": 46182,
           "url": "https://github.com/Aider-AI/aider",
           "category": "claude-code",
-          "summary": ""
+          "summary": "ターミナルでLLMとペアプログラミングできるツール。既存コードベースの編集にも対応"
         },
         {
           "desc": "Autonomous coding agent as an SDK, IDE extension, or CLI assistant.",
@@ -785,7 +785,7 @@
           "stars": 63242,
           "url": "https://github.com/cline/cline",
           "category": "claude-code",
-          "summary": ""
+          "summary": "SDK・IDE拡張・CLIとして使える自律型コーディングエージェント。並列実行のKanbanにも対応"
         },
         {
           "desc": "A lightweight coding agent for open models like Deepseek, Kimi, and Qwen",
@@ -795,7 +795,7 @@
           "stars": 63945,
           "url": "https://github.com/openinterpreter/openinterpreter",
           "category": "claude-code",
-          "summary": ""
+          "summary": "DeepSeekやQwenなどオープンモデル向けの軽量コーディングエージェント(Rust版)"
         }
       ]
     },
@@ -814,7 +814,7 @@
           "stars": 87485,
           "url": "https://github.com/harry0703/MoneyPrinterTurbo",
           "category": "ai-generation",
-          "summary": ""
+          "summary": "テーマやキーワードを与えるだけでAIが台本・素材・字幕・BGMを生成し短尺動画を自動作成するツール"
         },
         {
           "desc": "Write HTML. Render video. Built for agents.",
@@ -824,7 +824,7 @@
           "stars": 27458,
           "url": "https://github.com/heygen-com/hyperframes",
           "category": "ai-generation",
-          "summary": ""
+          "summary": "HTML/CSS/メディアやアニメをMP4動画に変換するフレームワーク。AIエージェントからの動画生成向け"
         },
         {
           "desc": "Open-source Claude Design alternative. One-click import your Claude Code / Codex API key. Prompt → prototype / slides / PDF. Multi-model (Claude, GPT, Gemini, Kimi, GLM, Ollama). BYOK, local-first, MIT.",
@@ -834,7 +834,7 @@
           "stars": 6826,
           "url": "https://github.com/OpenCoworkAI/open-codesign",
           "category": "ai-generation",
-          "summary": ""
+          "summary": "Claude Designのオープンソース代替。プロンプトから試作・スライド・PDFを生成しマルチモデル・ローカル動作"
         },
         {
           "desc": "Open-Source AI Presentation Generator and API (Gamma, Beautiful AI, Decktopus Alternative)",
@@ -844,7 +844,7 @@
           "stars": 8173,
           "url": "https://github.com/presenton/presenton",
           "category": "ai-generation",
-          "summary": ""
+          "summary": "オープンソースのAIプレゼン資料生成ツール＆API。Gamma等の代替でセルフホスト・モデル選択が可能"
         },
         {
           "desc": "\"ViMax: Agentic Video Generation (Director, Screenwriter, Producer, and Video Generator All-in-One)\"",
@@ -854,7 +854,7 @@
           "stars": 9975,
           "url": "https://github.com/HKUDS/ViMax",
           "category": "ai-generation",
-          "summary": ""
+          "summary": "監督・脚本・プロデューサー・動画生成を一体化したエージェント型の動画生成システム"
         },
         {
           "desc": "Remotion + VOICEVOX動画テンプレート（ずんだもん＆めたん掛け合い動画）",
@@ -864,7 +864,7 @@
           "stars": 268,
           "url": "https://github.com/nyanko3141592/remotion-voicevox-template",
           "category": "ai-generation",
-          "summary": ""
+          "summary": "RemotionとVOICEVOXでずんだもん＆めたんの掛け合い動画を作る動画テンプレート。口パク・表情差分対応"
         },
         {
           "desc": "Industry leading face manipulation platform",
@@ -874,7 +874,7 @@
           "stars": 28786,
           "url": "https://github.com/facefusion/facefusion",
           "category": "ai-generation",
-          "summary": ""
+          "summary": "業界トップクラスの顔加工・顔入れ替え(フェイススワップ)プラットフォーム"
         },
         {
           "desc": "Drop in a screenshot and convert it to clean code (HTML/Tailwind/React/Vue)",
@@ -884,7 +884,7 @@
           "stars": 72883,
           "url": "https://github.com/abi/screenshot-to-code",
           "category": "ai-generation",
-          "summary": ""
+          "summary": "スクリーンショットやデザインを読み込みHTML/Tailwind/React/Vueの綺麗なコードに変換するツール"
         },
         {
           "desc": "Diffusion Bee is the easiest way to run Stable Diffusion locally on your M1 Mac. Comes with a one-click installer. No dependencies or technical knowledge needed.",
@@ -894,7 +894,7 @@
           "stars": 13573,
           "url": "https://github.com/divamgupta/diffusionbee-stable-diffusion-ui",
           "category": "ai-generation",
-          "summary": ""
+          "summary": "MacでStable Diffusionをローカル実行する最も簡単なGUIアプリ。ワンクリックインストールで依存不要"
         },
         {
           "desc": "Cut and paste your surroundings using AR",
@@ -904,7 +904,7 @@
           "stars": 14582,
           "url": "https://github.com/cyrildiagne/ar-cutpaste",
           "category": "ai-generation",
-          "summary": ""
+          "summary": "現実の物体をARで切り取り画像編集ソフトに貼り付ける研究プロトタイプ"
         }
       ]
     },
@@ -923,7 +923,7 @@
           "stars": 29002,
           "url": "https://github.com/OpenBMB/VoxCPM",
           "category": "voice",
-          "summary": ""
+          "summary": "トークナイザー不要のTTS。多言語の音声生成・声デザイン・忠実なボイスクローンを実現する"
         },
         {
           "desc": "無料で使える中品質なテキスト読み上げソフトウェア、VOICEVOXの音声合成エンジン",
@@ -933,7 +933,7 @@
           "stars": 1717,
           "url": "https://github.com/VOICEVOX/voicevox_engine",
           "category": "voice",
-          "summary": ""
+          "summary": "無料で使える中品質な日本語テキスト読み上げソフトVOICEVOXの音声合成エンジン"
         },
         {
           "desc": "無料で使える中品質なテキスト読み上げソフトウェア、VOICEVOXのコア",
@@ -943,7 +943,7 @@
           "stars": 1115,
           "url": "https://github.com/VOICEVOX/voicevox_core",
           "category": "voice",
-          "summary": ""
+          "summary": "無料で使える中品質な日本語テキスト読み上げソフトVOICEVOXのコアライブラリ"
         },
         {
           "desc": "The best open-source alternative to Superwhisper & Wispr Flow. Voice-to-text app for macOS with no subscription",
@@ -953,7 +953,7 @@
           "stars": 5255,
           "url": "https://github.com/Beingpax/VoiceInk",
           "category": "voice",
-          "summary": ""
+          "summary": "macOS向けのオープンソース音声入力アプリ。話した内容をほぼ即時に文字起こし、サブスク不要"
         },
         {
           "desc": "Open-Source Frontier Voice AI",
@@ -963,7 +963,7 @@
           "stars": 49323,
           "url": "https://github.com/microsoft/VibeVoice",
           "category": "voice",
-          "summary": ""
+          "summary": "Microsoft製のオープンソース最先端音声AI。高品質な音声合成(TTS)を行う"
         },
         {
           "desc": "🗣️ A CLI for on-device speech transcription using Speech.framework on macOS 26",
@@ -973,7 +973,7 @@
           "stars": 1502,
           "url": "https://github.com/finnvoor/yap",
           "category": "voice",
-          "summary": ""
+          "summary": "macOSのSpeech.frameworkを使いオンデバイスで音声を文字起こしするCLIツール"
         },
         {
           "desc": "Robust Speech Recognition via Large-Scale Weak Supervision",
@@ -983,7 +983,7 @@
           "stars": 102667,
           "url": "https://github.com/openai/whisper",
           "category": "voice",
-          "summary": ""
+          "summary": "大規模な弱教師あり学習による頑健な音声認識モデル。多言語の文字起こし・翻訳に対応"
         },
         {
           "desc": "On-device Speech AI for Apple Silicon",
@@ -993,7 +993,7 @@
           "stars": 6204,
           "url": "https://github.com/argmaxinc/argmax-oss-swift",
           "category": "voice",
-          "summary": ""
+          "summary": "Apple Silicon向けのオンデバイス音声AI SDK。Whisperによる音声認識(WhisperKit)などを提供"
         },
         {
           "desc": "Python tools for WhisperKit: Model conversion, optimization and evaluation",
@@ -1003,7 +1003,7 @@
           "stars": 244,
           "url": "https://github.com/argmaxinc/whisperkittools",
           "category": "voice",
-          "summary": ""
+          "summary": "WhisperKit向けのPythonツール群。Whisperモデルの変換・最適化・評価を行う"
         },
         {
           "desc": "Offline speech recognition API for Android, iOS, Raspberry Pi and servers with Python, Java, C# and Node",
@@ -1013,7 +1013,7 @@
           "stars": 14848,
           "url": "https://github.com/alphacep/vosk-api",
           "category": "voice",
-          "summary": ""
+          "summary": "Android/iOS/サーバー等で動くオフライン音声認識API。20以上の言語に対応し各言語SDKを提供"
         }
       ]
     },
@@ -1032,7 +1032,7 @@
           "stars": 82135,
           "url": "https://github.com/PaddlePaddle/PaddleOCR",
           "category": "ocr-doc",
-          "summary": ""
+          "summary": "PDFや画像をLLM向けの構造化データに変換する軽量OCRツールキット。100以上の言語に対応"
         },
         {
           "desc": "YomiTokuはAIを活用した日本語文書解析エンジンを提供するPythonパッケージです。 Yomitoku is an AI-powered document image analysis package designed specifically for the Japanese language.",
@@ -1042,7 +1042,7 @@
           "stars": 1509,
           "url": "https://github.com/kotaro-kinoshita/yomitoku",
           "category": "ocr-doc",
-          "summary": ""
+          "summary": "日本語に特化したAI文書画像解析エンジン。全文OCRとレイアウト解析で文字や図表を認識・抽出する"
         },
         {
           "desc": "Get your documents ready for gen AI",
@@ -1052,7 +1052,7 @@
           "stars": 61513,
           "url": "https://github.com/docling-project/docling",
           "category": "ocr-doc",
-          "summary": ""
+          "summary": "各種ドキュメントを解析し生成AIで使える構造化データに整えるツール"
         },
         {
           "desc": "Typescript wrapper for the PDFium library, works in browser and node.js",
@@ -1062,7 +1062,7 @@
           "stars": 179,
           "url": "https://github.com/hyzyla/pdfium",
           "category": "ocr-doc",
-          "summary": ""
+          "summary": "GoogleのPDFiumライブラリのTypeScriptラッパー。WebAssembly版でブラウザとNode.jsの両方で動く"
         },
         {
           "desc": "Convert documents to structured data effortlessly. Unstructured is open-source ETL solution for transforming complex documents into clean, structured formats for language models.  Visit our website to learn more about our enterprise grade Platform product for production grade workflows, partitioning, enrichments, chunking and embedding.",
@@ -1072,7 +1072,7 @@
           "stars": 14902,
           "url": "https://github.com/Unstructured-IO/unstructured",
           "category": "ocr-doc",
-          "summary": ""
+          "summary": "複雑な文書を言語モデル向けの綺麗な構造化データに変換するオープンソースETL。前処理コンポーネントを提供"
         },
         {
           "desc": "PDF Parser for AI-ready data. Automate PDF accessibility. Open-source.",
@@ -1082,7 +1082,7 @@
           "stars": 24724,
           "url": "https://github.com/opendataloader-project/opendataloader-pdf",
           "category": "ocr-doc",
-          "summary": ""
+          "summary": "PDFをAI向け構造化データに変換しアクセシビリティ自動化も行うオープンソースのPDFパーサー"
         },
         {
           "desc": "Conversion from Excel to structured JSON (tables, shapes, charts) for LLM/RAG pipelines, and autonomous Excel reading/writing by AI agents via CLI and MCP integration.",
@@ -1092,7 +1092,7 @@
           "stars": 152,
           "url": "https://github.com/harumiWeb/exstruct",
           "category": "ocr-doc",
-          "summary": ""
+          "summary": "Excelを表・図形・グラフ含む構造化JSONに変換しLLM/RAGで使う。CLI/MCPでAIエージェントによる読み書きも可能"
         },
         {
           "desc": "Rust library and CLI tool for OCR (extracting text from images)",
@@ -1102,7 +1102,7 @@
           "stars": 1834,
           "url": "https://github.com/robertknight/ocrs",
           "category": "ocr-doc",
-          "summary": ""
+          "summary": "機械学習を活用した前処理不要のOCRエンジン。画像から文字を抽出するRust製ライブラリ＆CLI"
         },
         {
           "desc": "Python tool for converting files and office documents to Markdown.",
@@ -1112,7 +1112,7 @@
           "stars": 152941,
           "url": "https://github.com/microsoft/markitdown",
           "category": "ocr-doc",
-          "summary": ""
+          "summary": "各種ファイルやOfficeドキュメントをMarkdownに変換するMicrosoft製Pythonツール"
         },
         {
           "desc": "Pure Javascript OCR for more than 100 Languages 📖🎉🖥",
@@ -1122,7 +1122,7 @@
           "stars": 38136,
           "url": "https://github.com/naptha/tesseract.js",
           "category": "ocr-doc",
-          "summary": ""
+          "summary": "100以上の言語に対応した純粋なJavaScript製OCRライブラリ。画像から文字を認識する"
         },
         {
           "desc": "OCR & Document Extraction using vision models",
@@ -1132,7 +1132,7 @@
           "stars": 12238,
           "url": "https://github.com/getomni-ai/zerox",
           "category": "ocr-doc",
-          "summary": ""
+          "summary": "ビジョンモデルを使ったOCR・文書抽出ツール。複雑なレイアウトの文書を画像経由でMarkdownに変換する"
         },
         {
           "desc": "Tesseract Open Source OCR Engine (main repository)",
@@ -1142,7 +1142,7 @@
           "stars": 74674,
           "url": "https://github.com/tesseract-ocr/tesseract",
           "category": "ocr-doc",
-          "summary": ""
+          "summary": "オープンソースの定番OCRエンジンTesseractの本体リポジトリ"
         }
       ]
     },
@@ -1161,7 +1161,7 @@
           "stars": 32193,
           "url": "https://github.com/qdrant/qdrant",
           "category": "search-rag",
-          "summary": ""
+          "summary": "AI向けの高性能・大規模ベクトルデータベース兼ベクトル検索エンジン。フィルタ付き類似検索が得意"
         },
         {
           "desc": "Local first semantic and hybrid BM25 grep / search tool for use by AI and humans! ",
@@ -1171,7 +1171,7 @@
           "stars": 1633,
           "url": "https://github.com/BeaconBay/ck",
           "category": "search-rag",
-          "summary": ""
+          "summary": "AIと人間の両方が使えるローカルファーストな意味検索＋BM25ハイブリッドのgrep系コード検索ツール"
         },
         {
           "desc": "mini cli search engine for your docs, knowledge bases, meeting notes, whatever. Tracking current sota approaches while being all local",
@@ -1181,7 +1181,7 @@
           "stars": 26512,
           "url": "https://github.com/tobi/qmd",
           "category": "search-rag",
-          "summary": ""
+          "summary": "ノートや議事録・ドキュメントをローカルで全文＋ベクトル検索する小型CLI検索エンジン。エージェント連携向け"
         },
         {
           "desc": "Elasticsearch gui - desktop app, browser extension, docker, self hosted",
@@ -1191,7 +1191,7 @@
           "stars": 2679,
           "url": "https://github.com/cars10/elasticvue",
           "category": "search-rag",
-          "summary": ""
+          "summary": "Elasticsearch用のGUI。デスクトップアプリ・ブラウザ拡張・Dockerで使えるセルフホスト管理ツール"
         },
         {
           "desc": "Central reference for Meilisearch integrations.",
@@ -1201,7 +1201,7 @@
           "stars": 157,
           "url": "https://github.com/meilisearch/integration-guides",
           "category": "search-rag",
-          "summary": ""
+          "summary": "Meilisearchの各種インテグレーション(SDK等)を開発・維持するための中央リファレンス"
         },
         {
           "desc": "⚡️ Libraries for building performant and instant search and and discovery experiences with Algolia. Compatible with JavaScript, TypeScript, React and Vue.",
@@ -1211,7 +1211,7 @@
           "stars": 4048,
           "url": "https://github.com/algolia/instantsearch",
           "category": "search-rag",
-          "summary": ""
+          "summary": "Algoliaで高速なインスタント検索UIを構築するライブラリ群。JS/TS/React/Vueに対応"
         },
         {
           "desc": "🔮 Fast and full-featured autocomplete library",
@@ -1221,7 +1221,7 @@
           "stars": 5260,
           "url": "https://github.com/algolia/autocomplete",
           "category": "search-rag",
-          "summary": ""
+          "summary": "高速で多機能なオートコンプリート(入力補完)構築ライブラリ。各種フレームワークに対応"
         },
         {
           "desc": "",
@@ -1231,7 +1231,7 @@
           "stars": 216,
           "url": "https://github.com/meilisearch/meilisearch-react",
           "category": "search-rag",
-          "summary": ""
+          "summary": "MeilisearchをReactアプリの検索バーに統合する方法を示すリポジトリ(現在はアーカイブ済み)"
         },
         {
           "desc": "Easy to use open source fast database for search | Good alternative to Elasticsearch | Drop-in replacement for E in the ELK stack",
@@ -1241,7 +1241,7 @@
           "stars": 11820,
           "url": "https://github.com/manticoresoftware/manticoresearch",
           "category": "search-rag",
-          "summary": ""
+          "summary": "使いやすく高速なオープンソースの検索向けデータベース。Elasticsearchの代替になる"
         },
         {
           "desc": "A lightning-fast search engine API bringing AI-powered hybrid search to your sites and applications.",
@@ -1251,7 +1251,7 @@
           "stars": 58087,
           "url": "https://github.com/meilisearch/meilisearch",
           "category": "search-rag",
-          "summary": ""
+          "summary": "サイトやアプリに簡単に組み込める超高速な検索エンジンAPI。AIによるハイブリッド検索に対応"
         },
         {
           "desc": "Sphinx search server",
@@ -1261,7 +1261,7 @@
           "stars": 1827,
           "url": "https://github.com/sphinxsearch/sphinx",
           "category": "search-rag",
-          "summary": ""
+          "summary": "全文検索を提供するSphinx検索サーバー"
         },
         {
           "desc": "Lightweight fuzzy-search, in JavaScript",
@@ -1271,7 +1271,7 @@
           "stars": 20332,
           "url": "https://github.com/krisk/Fuse",
           "category": "search-rag",
-          "summary": ""
+          "summary": "依存ゼロの軽量なファジー検索(あいまい検索)ライブラリ。ブラウザ/サーバー両対応のJS製"
         },
         {
           "desc": "🌌  A complete search engine and RAG pipeline in your browser, server or edge network with support for full-text, vector, and hybrid search in less than 2kb.",
@@ -1281,7 +1281,7 @@
           "stars": 10402,
           "url": "https://github.com/oramasearch/orama",
           "category": "search-rag",
-          "summary": ""
+          "summary": "ブラウザ/サーバー/エッジで動く全文・ベクトル・ハイブリッド検索とRAGパイプライン。2kb未満と軽量"
         }
       ]
     },
@@ -1300,7 +1300,7 @@
           "stars": 7222,
           "url": "https://github.com/julienXX/terminal-notifier",
           "category": "cli",
-          "summary": ""
+          "summary": "コマンドラインからmacOSのユーザー通知を送るツール"
         },
         {
           "desc": "A fast terminal spreadsheet editor with Vim keybindings",
@@ -1310,7 +1310,7 @@
           "stars": 302,
           "url": "https://github.com/garritfra/cell",
           "category": "cli",
-          "summary": ""
+          "summary": "Vimキーバインドで操作する高速なターミナル表計算エディタ。Rust製"
         },
         {
           "desc": "Real-time network diagnostics in your terminal. One command, zero config, instant visibility.",
@@ -1320,7 +1320,7 @@
           "stars": 2059,
           "url": "https://github.com/matthart1983/netwatch",
           "category": "cli",
-          "summary": ""
+          "summary": "ターミナルでリアルタイムにネットワークを診断するツール。接続元プロセスの特定や不審通信の検知も行う"
         },
         {
           "desc": "A mouse driven SVG favicon editor for your terminal (written in Rust)",
@@ -1330,7 +1330,7 @@
           "stars": 101,
           "url": "https://github.com/ronilan/rusticon",
           "category": "cli",
-          "summary": ""
+          "summary": "ターミナル上でマウス操作するSVGファビコンエディタ。Rust製"
         },
         {
           "desc": "A beautiful CLI tool to see what's running on your ports",
@@ -1340,7 +1340,7 @@
           "stars": 850,
           "url": "https://github.com/LarsenCundric/port-whisperer",
           "category": "cli",
-          "summary": ""
+          "summary": "どのプロセスがどのポートを使っているかを色付きの表で見せるCLIツール。フレームワーク検出にも対応"
         },
         {
           "desc": "The official CLI for the X API",
@@ -1350,7 +1350,7 @@
           "stars": 1106,
           "url": "https://github.com/xdevplatform/xurl",
           "category": "cli",
-          "summary": ""
+          "summary": "X(旧Twitter) APIを操作するcurl風の公式CLIツール。OAuth 1.0a/2.0認証に対応"
         },
         {
           "desc": "Git Utility Tool - AI-powered git commands for smarter workflows.",
@@ -1360,7 +1360,7 @@
           "stars": 28,
           "url": "https://github.com/steelydylan/gut-cli",
           "category": "cli",
-          "summary": ""
+          "summary": "コミットメッセージ生成やブランチ命名などをAIで支援するgitユーティリティCLI"
         },
         {
           "desc": "A tool to convert plain text into a visual directory structure.",
@@ -1370,7 +1370,7 @@
           "stars": 46,
           "url": "https://github.com/kondo0602/dir-maker",
           "category": "cli",
-          "summary": ""
+          "summary": "インデント付きテキストを見やすいディレクトリツリー構造に変換するツール"
         },
         {
           "desc": "Google Workspace in your terminal.",
@@ -1380,7 +1380,7 @@
           "stars": 7727,
           "url": "https://github.com/openclaw/gogcli",
           "category": "cli",
-          "summary": ""
+          "summary": "Gmail・カレンダー・Drive等のGoogle Workspaceをターミナルから操作するスクリプト向けCLI"
         },
         {
           "desc": "Why is this running?",
@@ -1390,7 +1390,7 @@
           "stars": 17823,
           "url": "https://github.com/pranshuparmar/witr",
           "category": "cli",
-          "summary": ""
+          "summary": "実行中のプロセスが「なぜ動いているか」を対話的TUIで調べるツール"
         },
         {
           "desc": "Terminal UI OS (Terminal Multiplexer)",
@@ -1400,7 +1400,7 @@
           "stars": 2673,
           "url": "https://github.com/Gaurav-Gosain/tuios",
           "category": "cli",
-          "summary": ""
+          "summary": "Go製のモダンなターミナルマルチプレクサ兼ウィンドウマネージャ。vim風操作やBSPタイリングに対応"
         },
         {
           "desc": "Gunshi: Modern javascript command-line library",
@@ -1410,7 +1410,7 @@
           "stars": 423,
           "url": "https://github.com/kazupon/gunshi",
           "category": "cli",
-          "summary": ""
+          "summary": "モダンなJavaScript製コマンドラインライブラリ。CLI作成を簡単にする"
         },
         {
           "desc": "A cinematic Git commit replay tool for the terminal, turning your Git history into a living, animated story.",
@@ -1420,7 +1420,7 @@
           "stars": 4795,
           "url": "https://github.com/unhappychoice/gitlogue",
           "category": "cli",
-          "summary": ""
+          "summary": "Git履歴をタイピング演出付きで再生するターミナル用のシネマティックなコミットリプレイツール"
         },
         {
           "desc": "Command prefixing for continuous workflow using a single tool.",
@@ -1430,7 +1430,7 @@
           "stars": 1441,
           "url": "https://github.com/mchav/with",
           "category": "cli",
-          "summary": ""
+          "summary": "単一ツールで継続的に作業するためのコマンドプレフィックス。対話シェルで毎回入力する手間を省く"
         },
         {
           "desc": "fresh directories for every vibe",
@@ -1440,7 +1440,7 @@
           "stars": 3682,
           "url": "https://github.com/tobi/try",
           "category": "cli",
-          "summary": ""
+          "summary": "実験用の使い捨てディレクトリを素早く作成・管理する一枚もののRubyスクリプト"
         },
         {
           "desc": "Log file navigator",
@@ -1450,7 +1450,7 @@
           "stars": 10354,
           "url": "https://github.com/tstack/lnav",
           "category": "cli",
-          "summary": ""
+          "summary": "ターミナルで動くログファイルビューア。複数ログを統合表示しSQLクエリやハイライトで解析できる"
         },
         {
           "desc": "A Git-compatible VCS that is both simple and powerful",
@@ -1460,7 +1460,7 @@
           "stars": 29589,
           "url": "https://github.com/jj-vcs/jj",
           "category": "cli",
-          "summary": ""
+          "summary": "シンプルかつ強力なGit互換のバージョン管理システム(Jujutsu)"
         },
         {
           "desc": "A fast, minimalist directory tree viewer, written in Rust.",
@@ -1470,7 +1470,7 @@
           "stars": 1524,
           "url": "https://github.com/bgreenwell/lstr",
           "category": "cli",
-          "summary": ""
+          "summary": "高速でミニマルなディレクトリツリー表示ツール。対話モードも備えるRust製のtree代替"
         },
         {
           "desc": "BASH Addins - the library of custom scripts, functions and aliases for enhanced BASH scripting and Terminal usage.",
@@ -1480,7 +1480,7 @@
           "stars": 18,
           "url": "https://github.com/arrrtto/bash.addins",
           "category": "cli",
-          "summary": ""
+          "summary": "BASHスクリプトやターミナル利用を強化するカスタムスクリプト・関数・エイリアスのライブラリ"
         },
         {
           "desc": "Control Google Chrome from the command line",
@@ -1490,7 +1490,7 @@
           "stars": 2794,
           "url": "https://github.com/prasmussen/chrome-cli",
           "category": "cli",
-          "summary": ""
+          "summary": "コマンドラインからGoogle Chromeを操作するmacOS向けユーティリティ"
         },
         {
           "desc": "Replace zsh's default completion selection menu with fzf!",
@@ -1500,7 +1500,7 @@
           "stars": 4772,
           "url": "https://github.com/Aloxaf/fzf-tab",
           "category": "cli",
-          "summary": ""
+          "summary": "zshの標準補完メニューをfzfに置き換えるプラグイン。補完選択をあいまい検索でできる"
         },
         {
           "desc": "👀 A modern watch command. Time machine and pager etc.",
@@ -1510,7 +1510,7 @@
           "stars": 5363,
           "url": "https://github.com/sachaos/viddy",
           "category": "cli",
-          "summary": ""
+          "summary": "モダンなwatchコマンド。コマンドを定期実行し差分ハイライトや履歴の巻き戻し(タイムマシン)ができる"
         },
         {
           "desc": "✨ Making your shell magical",
@@ -1520,7 +1520,7 @@
           "stars": 30250,
           "url": "https://github.com/atuinsh/atuin",
           "category": "cli",
-          "summary": ""
+          "summary": "シェル履歴をSQLiteに保存し文脈付きで記録・検索できるツール。マシン間の暗号化同期にも対応"
         },
         {
           "desc": "🖼 imgcat in Python (for iTerm2)",
@@ -1530,7 +1530,7 @@
           "stars": 283,
           "url": "https://github.com/wookayin/python-imgcat",
           "category": "cli",
-          "summary": ""
+          "summary": "iTerm2やWezTermのターミナル上に画像を表示するimgcatのPython実装(CLI/API)"
         },
         {
           "desc": "A CLI that writes your git commit messages for you with AI",
@@ -1540,7 +1540,7 @@
           "stars": 9018,
           "url": "https://github.com/Nutlope/aicommits",
           "category": "cli",
-          "summary": ""
+          "summary": "gitのコミットメッセージをAIが自動生成するCLIツール"
         },
         {
           "desc": "",
@@ -1550,7 +1550,7 @@
           "stars": 1,
           "url": "https://github.com/2ndPINEW/obake-terminal",
           "category": "cli",
-          "summary": ""
+          "summary": "tmuxのウィンドウ管理とghqのリポジトリ管理を連携させた自分用ターミナル"
         },
         {
           "desc": "A Scalable, User-Friendly Source Control System.",
@@ -1560,7 +1560,7 @@
           "stars": 6858,
           "url": "https://github.com/facebook/sapling",
           "category": "cli",
-          "summary": ""
+          "summary": "数百万ファイル規模にも対応する、使いやすく拡張性の高いGit互換ソース管理システム"
         },
         {
           "desc": "Share your terminal as a web application",
@@ -1570,7 +1570,7 @@
           "stars": 19494,
           "url": "https://github.com/yudai/gotty",
           "category": "cli",
-          "summary": ""
+          "summary": "ターミナルやCLIツールをWebアプリとして共有するシンプルなツール"
         },
         {
           "desc": "Chromium running inside your terminal",
@@ -1580,7 +1580,7 @@
           "stars": 19170,
           "url": "https://github.com/fathyb/carbonyl",
           "category": "cli",
-          "summary": ""
+          "summary": "ターミナル内で動くChromiumベースのブラウザ。WebGLや動画再生にも対応しSSH越しでも動く"
         },
         {
           "desc": "⚡ Automates terminal operations.",
@@ -1590,7 +1590,7 @@
           "stars": 389,
           "url": "https://github.com/koki-develop/clive",
           "category": "cli",
-          "summary": ""
+          "summary": "ターミナル操作を自動化するツール。設定に沿ってデモ動画用の操作を再生できる"
         },
         {
           "desc": "✨ Safely clean up your local branches",
@@ -1600,7 +1600,7 @@
           "stars": 972,
           "url": "https://github.com/seachicken/gh-poi",
           "category": "cli",
-          "summary": ""
+          "summary": "不要になったローカルブランチを安全に整理するGitHub CLI拡張"
         },
         {
           "desc": "Rainbows and unicorns!",
@@ -1610,7 +1610,7 @@
           "stars": 6546,
           "url": "https://github.com/busyloop/lolcat",
           "category": "cli",
-          "summary": ""
+          "summary": "ターミナル出力を虹色に着色して表示するツール"
         },
         {
           "desc": "A TUI playground to experiment with jq",
@@ -1620,7 +1620,7 @@
           "stars": 2814,
           "url": "https://github.com/noahgorstein/jqp",
           "category": "cli",
-          "summary": ""
+          "summary": "jqの式を試せるTUIプレイグラウンド。クエリの実験や確認に使う"
         },
         {
           "desc": "Mirror of the Z shell source code repository.",

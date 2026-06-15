@@ -1,7 +1,622 @@
 {
-  "microsoft/agent-governance-toolkit": { "summary": "自律AIエージェント向けガバナンス基盤。ポリシー強制・ゼロトラスト認証・実行サンドボックスでOWASP Agentic Top10に対応", "generated_at": "2026-06-14" },
-  "humanlayer/12-factor-agents": { "summary": "本番投入に耐えるLLMエージェントを作るための設計原則集（12-factor）をまとめたガイド", "generated_at": "2026-06-14" },
-  "anthropics/claude-cookbooks": { "summary": "ClaudeのAPIを効果的に使うためのレシピ集。実用的なノートブックでテクニックを学べる", "generated_at": "2026-06-14" },
-  "openai/openai-cookbook": { "summary": "OpenAI APIの使い方を学べる公式サンプル・ガイド集。実装例をノートブックで提供", "generated_at": "2026-06-14" },
-  "cloudflare/sandbox-sdk": { "summary": "Cloudflareのエッジ上でサンドボックス化したコード実行環境を動かすSDK", "generated_at": "2026-06-14" }
+  "microsoft/agent-governance-toolkit": {
+    "summary": "自律AIエージェント向けガバナンス基盤。ポリシー強制・ゼロトラスト認証・実行サンドボックスでOWASP Agentic Top10に対応",
+    "generated_at": "2026-06-14"
+  },
+  "humanlayer/12-factor-agents": {
+    "summary": "本番投入に耐えるLLMエージェントを作るための設計原則集（12-factor）をまとめたガイド",
+    "generated_at": "2026-06-14"
+  },
+  "anthropics/claude-cookbooks": {
+    "summary": "ClaudeのAPIを効果的に使うためのレシピ集。実用的なノートブックでテクニックを学べる",
+    "generated_at": "2026-06-14"
+  },
+  "openai/openai-cookbook": {
+    "summary": "OpenAI APIの使い方を学べる公式サンプル・ガイド集。実装例をノートブックで提供",
+    "generated_at": "2026-06-14"
+  },
+  "cloudflare/sandbox-sdk": {
+    "summary": "Cloudflareのエッジ上でサンドボックス化したコード実行環境を動かすSDK",
+    "generated_at": "2026-06-14"
+  },
+  "SeldonIO/MLServer": {
+    "summary": "機械学習モデルをREST/gRPCで配信する推論サーバー。複数フレームワーク対応・マルチモデル配信・適応的バッチングに対応",
+    "generated_at": "2026-06-15"
+  },
+  "anthropics/anthropic-sdk-python": {
+    "summary": "Claude APIをPythonから利用する公式SDK。メッセージ生成やツール使用などClaudeの機能にアクセスできる",
+    "generated_at": "2026-06-15"
+  },
+  "Arthur-Ficial/apfel": {
+    "summary": "Apple Intelligenceを使いMac内蔵LLMをCLI・OpenAI互換サーバー・対話チャットとして使う完全オンデバイスツール",
+    "generated_at": "2026-06-15"
+  },
+  "redwoodjs/agent-ci": {
+    "summary": "AIエージェント向けにGitHub Actionsをローカルで動かすCI。エージェントのワークフロー検証に使う",
+    "generated_at": "2026-06-15"
+  },
+  "vercel-labs/agent-browser": {
+    "summary": "AIエージェント向けのブラウザ自動操作CLI。Rust製の高速ネイティブバイナリでChromeを制御する",
+    "generated_at": "2026-06-15"
+  },
+  "rtk-ai/rtk": {
+    "summary": "開発コマンドの出力を圧縮しLLMのトークン消費を60〜90%削減するCLIプロキシ。Rust単一バイナリ",
+    "generated_at": "2026-06-15"
+  },
+  "coder/ai-tokenizer": {
+    "summary": "tiktokenより高速なトークナイザー。Vercel AI SDKを一級サポートしWASM不要で移植性が高い",
+    "generated_at": "2026-06-15"
+  },
+  "langchain-ai/langmem": {
+    "summary": "エージェントが対話から学習し長期記憶を持つためのライブラリ。情報抽出・プロンプト最適化・記憶管理を提供",
+    "generated_at": "2026-06-15"
+  },
+  "mem0ai/mem0": {
+    "summary": "AIエージェント向けの汎用メモリ層。対話から事実を抽出・蓄積し検索して長期記憶を実現する",
+    "generated_at": "2026-06-15"
+  },
+  "google/adk-js": {
+    "summary": "高度なAIエージェントを構築・評価・デプロイするGoogle製TypeScriptツールキット（ADK）",
+    "generated_at": "2026-06-15"
+  },
+  "google/adk-samples": {
+    "summary": "Agent Development Kit(ADK)で作られたサンプルエージェント集。多言語で実用的な実装例を提供",
+    "generated_at": "2026-06-15"
+  },
+  "aws-samples/anthropic-on-aws": {
+    "summary": "AWS上でAnthropic Claudeを使うためのサンプル・ノートブック集。プロンプト技法やツール使用例を収録",
+    "generated_at": "2026-06-15"
+  },
+  "crewAIInc/crewAI": {
+    "summary": "役割を持つ自律AIエージェントを協調させるマルチエージェント・オーケストレーションフレームワーク",
+    "generated_at": "2026-06-15"
+  },
+  "microsoft/promptflow": {
+    "summary": "LLMアプリを試作・テスト・本番運用・監視まで一貫開発するMicrosoft製の開発ツール群",
+    "generated_at": "2026-06-15"
+  },
+  "AgentOps-AI/agentops": {
+    "summary": "AIエージェントの監視・LLMコスト追跡・ベンチマークを行うPython SDK。主要な各種フレームワークと連携",
+    "generated_at": "2026-06-15"
+  },
+  "e2b-dev/code-interpreter": {
+    "summary": "AI生成コードを安全なサンドボックスで実行するPython/JS SDK。コードインタープリタ機能を自作アプリに組み込める",
+    "generated_at": "2026-06-15"
+  },
+  "e2b-dev/E2B": {
+    "summary": "AI生成コードをクラウド上の隔離サンドボックスで実行するオープンソース基盤。エンタープライズ向けエージェント環境",
+    "generated_at": "2026-06-15"
+  },
+  "ChromeDevTools/chrome-devtools-mcp": {
+    "summary": "コーディングエージェントが実Chromeを操作・検査できるMCPサーバー。自動化やパフォーマンス分析に使う",
+    "generated_at": "2026-06-15"
+  },
+  "langfuse/langfuse": {
+    "summary": "オープンソースのLLMエンジニアリング基盤。トレース観測・評価・プロンプト管理・データセットを提供",
+    "generated_at": "2026-06-15"
+  },
+  "mlc-ai/web-llm": {
+    "summary": "ブラウザ内でLLM推論を動かす高性能エンジン。WebGPUで高速化しOpenAI API互換で完全ローカル動作",
+    "generated_at": "2026-06-15"
+  },
+  "p-e-w/heretic": {
+    "summary": "言語モデルの検閲(安全アライメント)を再学習なしで自動除去するツール。abliterationと自動最適化を使う",
+    "generated_at": "2026-06-15"
+  },
+  "oraios/serena": {
+    "summary": "コーディングエージェント向けMCPツールキット。シンボル単位の意味的なコード検索・編集・リファクタを提供",
+    "generated_at": "2026-06-15"
+  },
+  "ad-sho-loko/o4-mini-search-mcp": {
+    "summary": "OpenAIのo4-miniモデルでWeb検索を行うMCPサーバー。テキストクエリにAI検索結果を返す",
+    "generated_at": "2026-06-15"
+  },
+  "AgentDeskAI/browser-tools-mcp": {
+    "summary": "CursorなどのMCP対応IDEからブラウザのログを監視・解析するツール(現在は非アクティブ)",
+    "generated_at": "2026-06-15"
+  },
+  "modelcontextprotocol/servers": {
+    "summary": "Model Context Protocol(MCP)の公式リファレンス実装サーバー集。MCPの機能やSDK使用例を学べる",
+    "generated_at": "2026-06-15"
+  },
+  "ryoppippi/sitemcp": {
+    "summary": "サイト全体を取得してMCPサーバーとして提供しAIに渡すツール(現在はアーカイブ済み)",
+    "generated_at": "2026-06-15"
+  },
+  "mastra-ai/mastra": {
+    "summary": "AI搭載アプリやエージェントを構築するモダンなTypeScriptフレームワーク。試作から本番まで対応",
+    "generated_at": "2026-06-15"
+  },
+  "egoist/sitefetch": {
+    "summary": "サイト全体を取得してテキストファイルに保存しAIモデルに渡すCLIツール",
+    "generated_at": "2026-06-15"
+  },
+  "kyegomez/swarms": {
+    "summary": "本番運用向けのエンタープライズ級マルチエージェント・オーケストレーションフレームワーク",
+    "generated_at": "2026-06-15"
+  },
+  "langgenius/dify": {
+    "summary": "エージェント型ワークフローを開発する本番対応のLLMアプリ開発プラットフォーム。RAGやモデル管理も統合",
+    "generated_at": "2026-06-15"
+  },
+  "cohere-ai/cohere-typescript": {
+    "summary": "Cohereモデルを各種クラウド経由で利用できる公式TypeScript SDK",
+    "generated_at": "2026-06-15"
+  },
+  "ollama/ollama": {
+    "summary": "Llama・Qwen・DeepSeekなどのオープンモデルをローカルで手軽に動かすツール。各種コーディング連携も対応",
+    "generated_at": "2026-06-15"
+  },
+  "LostRuins/koboldcpp": {
+    "summary": "GGUFモデルをKoboldAI UIで手軽に動かすテキスト生成ソフト。単一ファイル・インストール不要",
+    "generated_at": "2026-06-15"
+  },
+  "cohere-ai/cohere-python": {
+    "summary": "Cohere APIにアクセスする公式Pythonライブラリ。各種クラウド上のCohereモデルを利用できる",
+    "generated_at": "2026-06-15"
+  },
+  "dqbd/tiktoken": {
+    "summary": "OpenAIのtiktokenトークナイザーのJS移植とJS/WASMバインディング。Node等から利用できる",
+    "generated_at": "2026-06-15"
+  },
+  "Vision-CAIR/MiniGPT-4": {
+    "summary": "視覚言語理解を行うMiniGPT-4/v2の公開実装。画像と言語のマルチタスクを統一的に扱う",
+    "generated_at": "2026-06-15"
+  },
+  "openai/tiktoken": {
+    "summary": "OpenAIモデル向けの高速なBPEトークナイザー。テキストのトークン数計算やエンコードに使う",
+    "generated_at": "2026-06-15"
+  },
+  "vercel/ai": {
+    "summary": "Next.js作者によるTypeScript向けAI SDK。AI搭載アプリやエージェントを構築するオープンソースライブラリ",
+    "generated_at": "2026-06-15"
+  },
+  "openai/openai-node": {
+    "summary": "OpenAI APIを利用する公式JavaScript/TypeScriptライブラリ",
+    "generated_at": "2026-06-15"
+  },
+  "matterport/Mask_RCNN": {
+    "summary": "Keras/TensorFlowによる物体検出・インスタンスセグメンテーションのMask R-CNN実装",
+    "generated_at": "2026-06-15"
+  },
+  "tegnike/aituber-kit": {
+    "summary": "AIキャラクターと会話できるWebアプリを誰でも簡単に構築・デプロイできるオールインワンのAITuberツールキット",
+    "generated_at": "2026-06-15"
+  },
+  "danny-avila/librechat-data-provider": {
+    "summary": "LibreChat用のデータプロバイダーパッケージ。APIとの通信やデータ処理を担う",
+    "generated_at": "2026-06-15"
+  },
+  "danny-avila/LibreChat": {
+    "summary": "セルフホスト可能な高機能ChatGPTクローン。エージェント・MCP・多数のAIモデル切替・検索などに対応",
+    "generated_at": "2026-06-15"
+  },
+  "billmei/every-chatgpt-gui": {
+    "summary": "ChatGPTやClaude等のLLM APIにアクセスできるGUIクライアントを網羅したキュレーションリスト",
+    "generated_at": "2026-06-15"
+  },
+  "enricoros/big-AGI": {
+    "summary": "最新モデルを活用した多機能AIスイート。マルチモデルチャット・画像生成・音声・コード実行などを備える",
+    "generated_at": "2026-06-15"
+  },
+  "mckaywrigley/chatbot-ui": {
+    "summary": "あらゆるモデルに対応したオープンソースのAIチャットアプリ",
+    "generated_at": "2026-06-15"
+  },
+  "snyk/studio-recipes": {
+    "summary": "AIコーディング支援ツールにSnykのセキュリティを組み込むレシピ集。AI生成コードを生成時点で安全にする",
+    "generated_at": "2026-06-15"
+  },
+  "trailofbits/skills": {
+    "summary": "Trail of Bits製のセキュリティ調査・脆弱性検出・監査向けClaude Codeスキル(プラグインマーケット)",
+    "generated_at": "2026-06-15"
+  },
+  "gonta223/humanizer-ja": {
+    "summary": "AIっぽい日本語を人間が書いた文章に変換するClaude Codeスキル。20パターンのチェックと書き換えガイド付き",
+    "generated_at": "2026-06-15"
+  },
+  "Imbad0202/academic-research-skills": {
+    "summary": "学術研究向けのClaude Codeスキル集。調査から執筆・レビュー・改稿・仕上げまでの一連を支援",
+    "generated_at": "2026-06-15"
+  },
+  "multica-ai/andrej-karpathy-skills": {
+    "summary": "KarpathyのLLMコーディング失敗例から導いたCLAUDE.md。Claude Codeの挙動を改善する一枚ファイル",
+    "generated_at": "2026-06-15"
+  },
+  "warpdotdev/oz-skills": {
+    "summary": "WarpのAIエージェント向けに再利用できるAgent Skills集。規約やワークフローをエージェントに教える",
+    "generated_at": "2026-06-15"
+  },
+  "openai/codex-plugin-cc": {
+    "summary": "Claude Code内からOpenAI Codexを呼び出しコードレビューやタスク委譲を行うプラグイン",
+    "generated_at": "2026-06-15"
+  },
+  "blader/humanizer": {
+    "summary": "テキストからAI生成っぽさを取り除き自然な文章にするClaude Code/OpenCodeスキル",
+    "generated_at": "2026-06-15"
+  },
+  "anthropics/claude-code": {
+    "summary": "ターミナルに常駐しコードベースを理解して開発を加速するAnthropic公式のエージェント型コーディングツール",
+    "generated_at": "2026-06-15"
+  },
+  "vercel-labs/agent-skills": {
+    "summary": "Vercel公式のAIコーディングエージェント向けスキル集。エージェントの能力を拡張する",
+    "generated_at": "2026-06-15"
+  },
+  "gotalab/cc-sdd": {
+    "summary": "承認済み仕様から自律実装を進める仕様駆動開発(SDD)ハーネス。各種AIコーディングエージェントに対応",
+    "generated_at": "2026-06-15"
+  },
+  "obra/superpowers": {
+    "summary": "コーディングエージェント向けの合成可能なスキル群とソフトウェア開発方法論のフレームワーク",
+    "generated_at": "2026-06-15"
+  },
+  "d-kimuson/claude-code-viewer": {
+    "summary": "Claude Codeプロジェクトを管理するフル機能のWebクライアント。会話の開始・再開・監視・履歴閲覧ができる",
+    "generated_at": "2026-06-15"
+  },
+  "anomalyco/opencode": {
+    "summary": "オープンソースのAIコーディングエージェント。ターミナルで動作する",
+    "generated_at": "2026-06-15"
+  },
+  "classmethod/tsumiki": {
+    "summary": "要件定義から実装までを支援するAI駆動開発フレームワーク。主にClaude Codeで使う",
+    "generated_at": "2026-06-15"
+  },
+  "winfunc/opcode": {
+    "summary": "Claude Code向けの高機能GUIアプリ＆ツールキット。カスタムエージェント作成やセッション管理ができる",
+    "generated_at": "2026-06-15"
+  },
+  "qdhenry/Claude-Command-Suite": {
+    "summary": "コードレビューや機能作成・セキュリティ監査などを構造化するClaude Code用スラッシュコマンド集",
+    "generated_at": "2026-06-15"
+  },
+  "aws/amazon-q-developer-cli": {
+    "summary": "ターミナルで自然言語によりアプリを構築するエージェント型チャットCLI(現Kiro CLIへ移行・保守終了)",
+    "generated_at": "2026-06-15"
+  },
+  "hesreallyhim/awesome-claude-code": {
+    "summary": "Claude Code向けのスキル・フック・スラッシュコマンド・プラグイン等を集めたキュレーションリスト",
+    "generated_at": "2026-06-15"
+  },
+  "nishimoto265/Claude-Code-Communication": {
+    "summary": "tmux上で複数AIエージェントが階層的に指示し合う様子を体感できるマルチエージェント通信デモ",
+    "generated_at": "2026-06-15"
+  },
+  "ccusage/ccusage": {
+    "summary": "Claude Codeの利用状況やトークン・コストを集計して可視化するCLIツール",
+    "generated_at": "2026-06-15"
+  },
+  "nwiizo/cctx": {
+    "summary": "複数のClaude Code設定(settings.json)を素早く切り替えるkubectx風コンテキスト管理ツール",
+    "generated_at": "2026-06-15"
+  },
+  "openai/codex": {
+    "summary": "ターミナルで動作するOpenAI製の軽量なコーディングエージェント(Codex CLI)",
+    "generated_at": "2026-06-15"
+  },
+  "Aider-AI/aider": {
+    "summary": "ターミナルでLLMとペアプログラミングできるツール。既存コードベースの編集にも対応",
+    "generated_at": "2026-06-15"
+  },
+  "cline/cline": {
+    "summary": "SDK・IDE拡張・CLIとして使える自律型コーディングエージェント。並列実行のKanbanにも対応",
+    "generated_at": "2026-06-15"
+  },
+  "openinterpreter/openinterpreter": {
+    "summary": "DeepSeekやQwenなどオープンモデル向けの軽量コーディングエージェント(Rust版)",
+    "generated_at": "2026-06-15"
+  },
+  "harry0703/MoneyPrinterTurbo": {
+    "summary": "テーマやキーワードを与えるだけでAIが台本・素材・字幕・BGMを生成し短尺動画を自動作成するツール",
+    "generated_at": "2026-06-15"
+  },
+  "heygen-com/hyperframes": {
+    "summary": "HTML/CSS/メディアやアニメをMP4動画に変換するフレームワーク。AIエージェントからの動画生成向け",
+    "generated_at": "2026-06-15"
+  },
+  "OpenCoworkAI/open-codesign": {
+    "summary": "Claude Designのオープンソース代替。プロンプトから試作・スライド・PDFを生成しマルチモデル・ローカル動作",
+    "generated_at": "2026-06-15"
+  },
+  "presenton/presenton": {
+    "summary": "オープンソースのAIプレゼン資料生成ツール＆API。Gamma等の代替でセルフホスト・モデル選択が可能",
+    "generated_at": "2026-06-15"
+  },
+  "HKUDS/ViMax": {
+    "summary": "監督・脚本・プロデューサー・動画生成を一体化したエージェント型の動画生成システム",
+    "generated_at": "2026-06-15"
+  },
+  "nyanko3141592/remotion-voicevox-template": {
+    "summary": "RemotionとVOICEVOXでずんだもん＆めたんの掛け合い動画を作る動画テンプレート。口パク・表情差分対応",
+    "generated_at": "2026-06-15"
+  },
+  "facefusion/facefusion": {
+    "summary": "業界トップクラスの顔加工・顔入れ替え(フェイススワップ)プラットフォーム",
+    "generated_at": "2026-06-15"
+  },
+  "abi/screenshot-to-code": {
+    "summary": "スクリーンショットやデザインを読み込みHTML/Tailwind/React/Vueの綺麗なコードに変換するツール",
+    "generated_at": "2026-06-15"
+  },
+  "divamgupta/diffusionbee-stable-diffusion-ui": {
+    "summary": "MacでStable Diffusionをローカル実行する最も簡単なGUIアプリ。ワンクリックインストールで依存不要",
+    "generated_at": "2026-06-15"
+  },
+  "cyrildiagne/ar-cutpaste": {
+    "summary": "現実の物体をARで切り取り画像編集ソフトに貼り付ける研究プロトタイプ",
+    "generated_at": "2026-06-15"
+  },
+  "OpenBMB/VoxCPM": {
+    "summary": "トークナイザー不要のTTS。多言語の音声生成・声デザイン・忠実なボイスクローンを実現する",
+    "generated_at": "2026-06-15"
+  },
+  "VOICEVOX/voicevox_engine": {
+    "summary": "無料で使える中品質な日本語テキスト読み上げソフトVOICEVOXの音声合成エンジン",
+    "generated_at": "2026-06-15"
+  },
+  "VOICEVOX/voicevox_core": {
+    "summary": "無料で使える中品質な日本語テキスト読み上げソフトVOICEVOXのコアライブラリ",
+    "generated_at": "2026-06-15"
+  },
+  "Beingpax/VoiceInk": {
+    "summary": "macOS向けのオープンソース音声入力アプリ。話した内容をほぼ即時に文字起こし、サブスク不要",
+    "generated_at": "2026-06-15"
+  },
+  "microsoft/VibeVoice": {
+    "summary": "Microsoft製のオープンソース最先端音声AI。高品質な音声合成(TTS)を行う",
+    "generated_at": "2026-06-15"
+  },
+  "finnvoor/yap": {
+    "summary": "macOSのSpeech.frameworkを使いオンデバイスで音声を文字起こしするCLIツール",
+    "generated_at": "2026-06-15"
+  },
+  "openai/whisper": {
+    "summary": "大規模な弱教師あり学習による頑健な音声認識モデル。多言語の文字起こし・翻訳に対応",
+    "generated_at": "2026-06-15"
+  },
+  "argmaxinc/argmax-oss-swift": {
+    "summary": "Apple Silicon向けのオンデバイス音声AI SDK。Whisperによる音声認識(WhisperKit)などを提供",
+    "generated_at": "2026-06-15"
+  },
+  "argmaxinc/whisperkittools": {
+    "summary": "WhisperKit向けのPythonツール群。Whisperモデルの変換・最適化・評価を行う",
+    "generated_at": "2026-06-15"
+  },
+  "alphacep/vosk-api": {
+    "summary": "Android/iOS/サーバー等で動くオフライン音声認識API。20以上の言語に対応し各言語SDKを提供",
+    "generated_at": "2026-06-15"
+  },
+  "PaddlePaddle/PaddleOCR": {
+    "summary": "PDFや画像をLLM向けの構造化データに変換する軽量OCRツールキット。100以上の言語に対応",
+    "generated_at": "2026-06-15"
+  },
+  "kotaro-kinoshita/yomitoku": {
+    "summary": "日本語に特化したAI文書画像解析エンジン。全文OCRとレイアウト解析で文字や図表を認識・抽出する",
+    "generated_at": "2026-06-15"
+  },
+  "docling-project/docling": {
+    "summary": "各種ドキュメントを解析し生成AIで使える構造化データに整えるツール",
+    "generated_at": "2026-06-15"
+  },
+  "hyzyla/pdfium": {
+    "summary": "GoogleのPDFiumライブラリのTypeScriptラッパー。WebAssembly版でブラウザとNode.jsの両方で動く",
+    "generated_at": "2026-06-15"
+  },
+  "Unstructured-IO/unstructured": {
+    "summary": "複雑な文書を言語モデル向けの綺麗な構造化データに変換するオープンソースETL。前処理コンポーネントを提供",
+    "generated_at": "2026-06-15"
+  },
+  "opendataloader-project/opendataloader-pdf": {
+    "summary": "PDFをAI向け構造化データに変換しアクセシビリティ自動化も行うオープンソースのPDFパーサー",
+    "generated_at": "2026-06-15"
+  },
+  "harumiWeb/exstruct": {
+    "summary": "Excelを表・図形・グラフ含む構造化JSONに変換しLLM/RAGで使う。CLI/MCPでAIエージェントによる読み書きも可能",
+    "generated_at": "2026-06-15"
+  },
+  "robertknight/ocrs": {
+    "summary": "機械学習を活用した前処理不要のOCRエンジン。画像から文字を抽出するRust製ライブラリ＆CLI",
+    "generated_at": "2026-06-15"
+  },
+  "microsoft/markitdown": {
+    "summary": "各種ファイルやOfficeドキュメントをMarkdownに変換するMicrosoft製Pythonツール",
+    "generated_at": "2026-06-15"
+  },
+  "naptha/tesseract.js": {
+    "summary": "100以上の言語に対応した純粋なJavaScript製OCRライブラリ。画像から文字を認識する",
+    "generated_at": "2026-06-15"
+  },
+  "getomni-ai/zerox": {
+    "summary": "ビジョンモデルを使ったOCR・文書抽出ツール。複雑なレイアウトの文書を画像経由でMarkdownに変換する",
+    "generated_at": "2026-06-15"
+  },
+  "tesseract-ocr/tesseract": {
+    "summary": "オープンソースの定番OCRエンジンTesseractの本体リポジトリ",
+    "generated_at": "2026-06-15"
+  },
+  "qdrant/qdrant": {
+    "summary": "AI向けの高性能・大規模ベクトルデータベース兼ベクトル検索エンジン。フィルタ付き類似検索が得意",
+    "generated_at": "2026-06-15"
+  },
+  "BeaconBay/ck": {
+    "summary": "AIと人間の両方が使えるローカルファーストな意味検索＋BM25ハイブリッドのgrep系コード検索ツール",
+    "generated_at": "2026-06-15"
+  },
+  "tobi/qmd": {
+    "summary": "ノートや議事録・ドキュメントをローカルで全文＋ベクトル検索する小型CLI検索エンジン。エージェント連携向け",
+    "generated_at": "2026-06-15"
+  },
+  "cars10/elasticvue": {
+    "summary": "Elasticsearch用のGUI。デスクトップアプリ・ブラウザ拡張・Dockerで使えるセルフホスト管理ツール",
+    "generated_at": "2026-06-15"
+  },
+  "meilisearch/integration-guides": {
+    "summary": "Meilisearchの各種インテグレーション(SDK等)を開発・維持するための中央リファレンス",
+    "generated_at": "2026-06-15"
+  },
+  "algolia/instantsearch": {
+    "summary": "Algoliaで高速なインスタント検索UIを構築するライブラリ群。JS/TS/React/Vueに対応",
+    "generated_at": "2026-06-15"
+  },
+  "algolia/autocomplete": {
+    "summary": "高速で多機能なオートコンプリート(入力補完)構築ライブラリ。各種フレームワークに対応",
+    "generated_at": "2026-06-15"
+  },
+  "meilisearch/meilisearch-react": {
+    "summary": "MeilisearchをReactアプリの検索バーに統合する方法を示すリポジトリ(現在はアーカイブ済み)",
+    "generated_at": "2026-06-15"
+  },
+  "manticoresoftware/manticoresearch": {
+    "summary": "使いやすく高速なオープンソースの検索向けデータベース。Elasticsearchの代替になる",
+    "generated_at": "2026-06-15"
+  },
+  "meilisearch/meilisearch": {
+    "summary": "サイトやアプリに簡単に組み込める超高速な検索エンジンAPI。AIによるハイブリッド検索に対応",
+    "generated_at": "2026-06-15"
+  },
+  "sphinxsearch/sphinx": {
+    "summary": "全文検索を提供するSphinx検索サーバー",
+    "generated_at": "2026-06-15"
+  },
+  "krisk/Fuse": {
+    "summary": "依存ゼロの軽量なファジー検索(あいまい検索)ライブラリ。ブラウザ/サーバー両対応のJS製",
+    "generated_at": "2026-06-15"
+  },
+  "oramasearch/orama": {
+    "summary": "ブラウザ/サーバー/エッジで動く全文・ベクトル・ハイブリッド検索とRAGパイプライン。2kb未満と軽量",
+    "generated_at": "2026-06-15"
+  },
+  "julienXX/terminal-notifier": {
+    "summary": "コマンドラインからmacOSのユーザー通知を送るツール",
+    "generated_at": "2026-06-15"
+  },
+  "garritfra/cell": {
+    "summary": "Vimキーバインドで操作する高速なターミナル表計算エディタ。Rust製",
+    "generated_at": "2026-06-15"
+  },
+  "matthart1983/netwatch": {
+    "summary": "ターミナルでリアルタイムにネットワークを診断するツール。接続元プロセスの特定や不審通信の検知も行う",
+    "generated_at": "2026-06-15"
+  },
+  "ronilan/rusticon": {
+    "summary": "ターミナル上でマウス操作するSVGファビコンエディタ。Rust製",
+    "generated_at": "2026-06-15"
+  },
+  "LarsenCundric/port-whisperer": {
+    "summary": "どのプロセスがどのポートを使っているかを色付きの表で見せるCLIツール。フレームワーク検出にも対応",
+    "generated_at": "2026-06-15"
+  },
+  "xdevplatform/xurl": {
+    "summary": "X(旧Twitter) APIを操作するcurl風の公式CLIツール。OAuth 1.0a/2.0認証に対応",
+    "generated_at": "2026-06-15"
+  },
+  "steelydylan/gut-cli": {
+    "summary": "コミットメッセージ生成やブランチ命名などをAIで支援するgitユーティリティCLI",
+    "generated_at": "2026-06-15"
+  },
+  "kondo0602/dir-maker": {
+    "summary": "インデント付きテキストを見やすいディレクトリツリー構造に変換するツール",
+    "generated_at": "2026-06-15"
+  },
+  "openclaw/gogcli": {
+    "summary": "Gmail・カレンダー・Drive等のGoogle Workspaceをターミナルから操作するスクリプト向けCLI",
+    "generated_at": "2026-06-15"
+  },
+  "pranshuparmar/witr": {
+    "summary": "実行中のプロセスが「なぜ動いているか」を対話的TUIで調べるツール",
+    "generated_at": "2026-06-15"
+  },
+  "Gaurav-Gosain/tuios": {
+    "summary": "Go製のモダンなターミナルマルチプレクサ兼ウィンドウマネージャ。vim風操作やBSPタイリングに対応",
+    "generated_at": "2026-06-15"
+  },
+  "kazupon/gunshi": {
+    "summary": "モダンなJavaScript製コマンドラインライブラリ。CLI作成を簡単にする",
+    "generated_at": "2026-06-15"
+  },
+  "unhappychoice/gitlogue": {
+    "summary": "Git履歴をタイピング演出付きで再生するターミナル用のシネマティックなコミットリプレイツール",
+    "generated_at": "2026-06-15"
+  },
+  "mchav/with": {
+    "summary": "単一ツールで継続的に作業するためのコマンドプレフィックス。対話シェルで毎回入力する手間を省く",
+    "generated_at": "2026-06-15"
+  },
+  "tobi/try": {
+    "summary": "実験用の使い捨てディレクトリを素早く作成・管理する一枚もののRubyスクリプト",
+    "generated_at": "2026-06-15"
+  },
+  "tstack/lnav": {
+    "summary": "ターミナルで動くログファイルビューア。複数ログを統合表示しSQLクエリやハイライトで解析できる",
+    "generated_at": "2026-06-15"
+  },
+  "jj-vcs/jj": {
+    "summary": "シンプルかつ強力なGit互換のバージョン管理システム(Jujutsu)",
+    "generated_at": "2026-06-15"
+  },
+  "bgreenwell/lstr": {
+    "summary": "高速でミニマルなディレクトリツリー表示ツール。対話モードも備えるRust製のtree代替",
+    "generated_at": "2026-06-15"
+  },
+  "arrrtto/bash.addins": {
+    "summary": "BASHスクリプトやターミナル利用を強化するカスタムスクリプト・関数・エイリアスのライブラリ",
+    "generated_at": "2026-06-15"
+  },
+  "prasmussen/chrome-cli": {
+    "summary": "コマンドラインからGoogle Chromeを操作するmacOS向けユーティリティ",
+    "generated_at": "2026-06-15"
+  },
+  "Aloxaf/fzf-tab": {
+    "summary": "zshの標準補完メニューをfzfに置き換えるプラグイン。補完選択をあいまい検索でできる",
+    "generated_at": "2026-06-15"
+  },
+  "sachaos/viddy": {
+    "summary": "モダンなwatchコマンド。コマンドを定期実行し差分ハイライトや履歴の巻き戻し(タイムマシン)ができる",
+    "generated_at": "2026-06-15"
+  },
+  "atuinsh/atuin": {
+    "summary": "シェル履歴をSQLiteに保存し文脈付きで記録・検索できるツール。マシン間の暗号化同期にも対応",
+    "generated_at": "2026-06-15"
+  },
+  "wookayin/python-imgcat": {
+    "summary": "iTerm2やWezTermのターミナル上に画像を表示するimgcatのPython実装(CLI/API)",
+    "generated_at": "2026-06-15"
+  },
+  "Nutlope/aicommits": {
+    "summary": "gitのコミットメッセージをAIが自動生成するCLIツール",
+    "generated_at": "2026-06-15"
+  },
+  "2ndPINEW/obake-terminal": {
+    "summary": "tmuxのウィンドウ管理とghqのリポジトリ管理を連携させた自分用ターミナル",
+    "generated_at": "2026-06-15"
+  },
+  "facebook/sapling": {
+    "summary": "数百万ファイル規模にも対応する、使いやすく拡張性の高いGit互換ソース管理システム",
+    "generated_at": "2026-06-15"
+  },
+  "yudai/gotty": {
+    "summary": "ターミナルやCLIツールをWebアプリとして共有するシンプルなツール",
+    "generated_at": "2026-06-15"
+  },
+  "fathyb/carbonyl": {
+    "summary": "ターミナル内で動くChromiumベースのブラウザ。WebGLや動画再生にも対応しSSH越しでも動く",
+    "generated_at": "2026-06-15"
+  },
+  "koki-develop/clive": {
+    "summary": "ターミナル操作を自動化するツール。設定に沿ってデモ動画用の操作を再生できる",
+    "generated_at": "2026-06-15"
+  },
+  "seachicken/gh-poi": {
+    "summary": "不要になったローカルブランチを安全に整理するGitHub CLI拡張",
+    "generated_at": "2026-06-15"
+  },
+  "busyloop/lolcat": {
+    "summary": "ターミナル出力を虹色に着色して表示するツール",
+    "generated_at": "2026-06-15"
+  },
+  "noahgorstein/jqp": {
+    "summary": "jqの式を試せるTUIプレイグラウンド。クエリの実験や確認に使う",
+    "generated_at": "2026-06-15"
+  }
 }
