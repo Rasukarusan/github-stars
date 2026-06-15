@@ -618,5 +618,445 @@
   "noahgorstein/jqp": {
     "summary": "jqの式を試せるTUIプレイグラウンド。クエリの実験や確認に使う",
     "generated_at": "2026-06-15"
+  },
+  "zsh-users/zsh": {
+    "summary": "高機能シェルZ shell(zsh)のソースコードのミラーリポジトリ",
+    "generated_at": "2026-06-15"
+  },
+  "charmbracelet/gum": {
+    "summary": "Go不要で見栄えの良い対話的シェルスクリプトを書けるツール。入力・選択・確認などのUI部品を提供",
+    "generated_at": "2026-06-15"
+  },
+  "TomWright/dasel": {
+    "summary": "JSON・YAML・TOML・XML・CSV等を統一的に問い合わせ・変換・編集するCLI兼ライブラリ",
+    "generated_at": "2026-06-15"
+  },
+  "tomnomnom/gron": {
+    "summary": "JSONをgrepしやすい一行ずつの形式に変換するツール。検索して元のJSONに戻せる",
+    "generated_at": "2026-06-15"
+  },
+  "mptre/yank": {
+    "summary": "ターミナル出力から項目を選択してクリップボードにコピーするユーティリティ",
+    "generated_at": "2026-06-15"
+  },
+  "yuya-takeyama/percentile": {
+    "summary": "入力した数値のパーセンタイルを表示するCLIツール",
+    "generated_at": "2026-06-15"
+  },
+  "PlankCipher/kabmat": {
+    "summary": "Vim風キーバインドでカンバンボードを管理するTUIプログラム",
+    "generated_at": "2026-06-15"
+  },
+  "kellyjonbrazil/jc": {
+    "summary": "各種CLIツールやファイルの出力をJSON/YAML/辞書に変換するツール。jqへのパイプで自動化を簡単にする",
+    "generated_at": "2026-06-15"
+  },
+  "hirokidaichi/gilot": {
+    "summary": "gitログを分析・可視化するツール。コード変更量の偏りなど開発チームの状態をグラフ化する",
+    "generated_at": "2026-06-15"
+  },
+  "ranger/ranger": {
+    "summary": "VIM風キーバインドのコンソール用ファイルマネージャ。curses UIでディレクトリを操作する",
+    "generated_at": "2026-06-15"
+  },
+  "rhysd/hgrep": {
+    "summary": "検索結果を構文ハイライト付きで人間に読みやすく表示するgrepツール。GitHubのコード検索風",
+    "generated_at": "2026-06-15"
+  },
+  "nferraz/st": {
+    "summary": "コマンドラインで簡単な統計量(合計・平均など)を計算するツール",
+    "generated_at": "2026-06-15"
+  },
+  "kislyuk/yq": {
+    "summary": "YAML/XML/TOMLをjqで処理できるようにするコマンドラインのjqラッパー",
+    "generated_at": "2026-06-15"
+  },
+  "mgdm/htmlq": {
+    "summary": "jqのHTML版。CSSセレクタでHTMLから必要な部分を抽出するツール",
+    "generated_at": "2026-06-15"
+  },
+  "withfig/autocomplete": {
+    "summary": "既存のターミナルにgit・npm・docker等のIDE風入力補完を追加するツール(旧Fig／Amazon Q)",
+    "generated_at": "2026-06-15"
+  },
+  "gravitational/teleconsole": {
+    "summary": "UNIXターミナルを信頼する相手と共有しTCPポート転送もできるCLIツール(サービス終了)",
+    "generated_at": "2026-06-15"
+  },
+  "atanunq/viu": {
+    "summary": "iTerm/Kittyの画像表示に対応したターミナル用画像ビューア。Rust製",
+    "generated_at": "2026-06-15"
+  },
+  "orhun/menyoki": {
+    "summary": "スクリーンショット・スクリーンキャストとGIF作成など画像操作をコマンドラインで行う軽量ツール",
+    "generated_at": "2026-06-15"
+  },
+  "naelstrof/maim": {
+    "summary": "デスクトップのスクリーンショットを撮るユーティリティ。領域・ウィンドウ指定に対応したscrotの改良版",
+    "generated_at": "2026-06-15"
+  },
+  "644/compressimages": {
+    "summary": "GNU parallelでPNG/JPGを一括最適化(圧縮)するBashスクリプト。tinypng風の手軽さ",
+    "generated_at": "2026-06-15"
+  },
+  "rockymadden/slack-cli": {
+    "summary": "純粋なbashで書かれた高機能なSlack CLI。リッチなメッセージ送信・ファイルアップロード・投稿に対応",
+    "generated_at": "2026-06-15"
+  },
+  "google/zx": {
+    "summary": "JavaScriptでより便利にシェルスクリプトを書くためのツール(Node.js製)",
+    "generated_at": "2026-06-15"
+  },
+  "banga/git-split-diffs": {
+    "summary": "ターミナルでGitHub風の構文ハイライト付き左右並列(side-by-side)diffを表示するツール",
+    "generated_at": "2026-06-15"
+  },
+  "sdushantha/qr-filetransfer": {
+    "summary": "ターミナルからWiFi経由でPCとスマホ間のファイル転送をQRコードで行うツール",
+    "generated_at": "2026-06-15"
+  },
+  "zellij-org/zellij": {
+    "summary": "開発者向けの多機能なターミナルワークスペース(マルチプレクサ)。すぐ使えて拡張性も高い",
+    "generated_at": "2026-06-15"
+  },
+  "seebye/ueberzug": {
+    "summary": "ターミナルエミュレータに画像表示機能を後付けするツール(現在は保守終了)",
+    "generated_at": "2026-06-15"
+  },
+  "dandavison/delta": {
+    "summary": "git diff・grep・blame等の出力を構文ハイライト表示するページャー",
+    "generated_at": "2026-06-15"
+  },
+  "sharkdp/pastel": {
+    "summary": "色の生成・解析・変換・加工をコマンドラインで行うツール。多くのカラー形式と色空間に対応",
+    "generated_at": "2026-06-15"
+  },
+  "sdushantha/wifi-password": {
+    "summary": "現在接続中のWiFiパスワードを素早く取得し、必要なら接続用QRコードも生成するツール",
+    "generated_at": "2026-06-15"
+  },
+  "scriptingosx/desktoppr": {
+    "summary": "macOSのデスクトップ壁紙を読み書き・設定するシンプルなコマンドラインツール",
+    "generated_at": "2026-06-15"
+  },
+  "jiro4989/align": {
+    "summary": "テキストを揃えて整形するシンプルなCLIツール",
+    "generated_at": "2026-06-15"
+  },
+  "amanoese/qtf": {
+    "summary": "TensorFlow.jsの学習済みモデルをコマンドラインから手軽に利用するツール",
+    "generated_at": "2026-06-15"
+  },
+  "c-bata/go-prompt": {
+    "summary": "python-prompt-toolkitに着想を得た、Goで強力な対話的プロンプトを作るライブラリ",
+    "generated_at": "2026-06-15"
+  },
+  "sindresorhus/pageres-cli": {
+    "summary": "Webサイトのスクリーンショットを様々な解像度で撮影するCLIツール。レスポンシブ確認に便利",
+    "generated_at": "2026-06-15"
+  },
+  "greymd/teip": {
+    "summary": "コマンド出力の一部分だけを対象に別コマンドを適用できるツール。マスキングテープのように使う",
+    "generated_at": "2026-06-15"
+  },
+  "ascii-boxes/boxes": {
+    "summary": "入力テキストの周りにASCIIアートの囲み枠を描くコマンドラインフィルタ",
+    "generated_at": "2026-06-15"
+  },
+  "mas-cli/mas": {
+    "summary": "スクリプトや自動化向けのMac App StoreコマンドラインインターフェイスCLI",
+    "generated_at": "2026-06-15"
+  },
+  "sqshq/sampler": {
+    "summary": "シェルコマンドの実行結果を可視化・アラートするツール。シンプルなYAMLで設定する",
+    "generated_at": "2026-06-15"
+  },
+  "junegunn/fzf": {
+    "summary": "汎用的なコマンドラインのファジーファインダー(あいまい検索)兼対話的ターミナルツールキット",
+    "generated_at": "2026-06-15"
+  },
+  "blacknon/boco": {
+    "summary": "Bashシェル関数向けのファジーファインダー。標準入力や履歴から選択できる",
+    "generated_at": "2026-06-15"
+  },
+  "nyanko3141592/tmuxcc": {
+    "summary": "tmux内で動くClaude Code等のAIコーディングエージェントを一括監視・管理するTUIダッシュボード",
+    "generated_at": "2026-06-15"
+  },
+  "Rasukarusan/tmux-line-clean": {
+    "summary": "tmuxのペイン内の行をvim風操作で削除・クリーンアップするターミナルツール",
+    "generated_at": "2026-06-15"
+  },
+  "Morantron/tmux-fingers": {
+    "summary": "Vimium風のヒント表示でターミナル内のテキストを素早く選択・コピーできるtmuxプラグイン",
+    "generated_at": "2026-06-15"
+  },
+  "pschmitt/tmux-ssh-split": {
+    "summary": "現在のSSH接続を引き継いだままペインを分割するtmuxプラグイン",
+    "generated_at": "2026-06-15"
+  },
+  "samoshkin/tmux-config": {
+    "summary": "快適なターミナル環境を作るための強化版tmux設定",
+    "generated_at": "2026-06-15"
+  },
+  "tmux/tmux": {
+    "summary": "1画面から複数の端末を作成・操作できるターミナルマルチプレクサtmuxのソースコード",
+    "generated_at": "2026-06-15"
+  },
+  "2KAbhishek/seeker.nvim": {
+    "summary": "ファイル名の絞り込みと内容grepを切り替えながら段階的にファイルを探すNeovimプラグイン",
+    "generated_at": "2026-06-15"
+  },
+  "shellRaining/hlchunk.nvim": {
+    "summary": "インデント線とカーソル位置のコードチャンク(文脈)をハイライトするNeovimプラグイン",
+    "generated_at": "2026-06-15"
+  },
+  "nwiizo/marp.nvim": {
+    "summary": "Markdownでスライドを作るMarpのNeovimプラグイン。ライブプレビューやHTML/PDF等への書き出しに対応",
+    "generated_at": "2026-06-15"
+  },
+  "yetone/avante.nvim": {
+    "summary": "NeovimをCursor AI IDEのように使えるプラグイン。AIのコード提案を直接ソースに適用できる",
+    "generated_at": "2026-06-15"
+  },
+  "ravitemer/mcphub.nvim": {
+    "summary": "MCPサーバーを編集ワークフローに統合するNeovim用MCPクライアント。サーバー管理やテストもできる",
+    "generated_at": "2026-06-15"
+  },
+  "greggh/claude-code.nvim": {
+    "summary": "Claude CodeとNeovimをシームレスに連携させるプラグイン",
+    "generated_at": "2026-06-15"
+  },
+  "0xmovses/move.vim": {
+    "summary": "Moveスマートコントラクト言語向けの構文ハイライトとインデントを提供するVimプラグイン",
+    "generated_at": "2026-06-15"
+  },
+  "fannheyward/coc-pyright": {
+    "summary": "coc.nvim用のPyright拡張。Python型チェックや補完・各種リンタ/フォーマッタ連携を提供",
+    "generated_at": "2026-06-15"
+  },
+  "Wansmer/treesj": {
+    "summary": "配列やオブジェクト等のコードブロックを分割・結合するNeovimプラグイン。Tree-Sitterを利用",
+    "generated_at": "2026-06-15"
+  },
+  "monaqa/dial.nvim": {
+    "summary": "数値・日付・真偽値・hexカラー等を賢く増減できるNeovim用の高機能インクリメント/デクリメントプラグイン",
+    "generated_at": "2026-06-15"
+  },
+  "theHamsta/nvim-dap-virtual-text": {
+    "summary": "デバッガnvim-dapに変数値を仮想テキストで表示する機能を追加するNeovimプラグイン",
+    "generated_at": "2026-06-15"
+  },
+  "puremourning/vimspector": {
+    "summary": "複数言語に対応したVim用のグラフィカルなデバッグシステム",
+    "generated_at": "2026-06-15"
+  },
+  "mfussenegger/nvim-dap": {
+    "summary": "Debug Adapter Protocol(DAP)クライアントのNeovim実装。ブレークポイントやステップ実行ができる",
+    "generated_at": "2026-06-15"
+  },
+  "romgrk/barbar.nvim": {
+    "summary": "並び替えやクリック・アイコン・バッファジャンプに対応したNeovimのタブライン(tabline)プラグイン",
+    "generated_at": "2026-06-15"
+  },
+  "lambdalisue/jupyter-vim-binding": {
+    "summary": "Jupyter NotebookでVim風の操作を可能にする拡張",
+    "generated_at": "2026-06-15"
+  },
+  "yaegassy/coc-tailwindcss3": {
+    "summary": "coc.nvim向けのTailwind CSSツール拡張。クラス名補完などインテリジェントな支援を提供",
+    "generated_at": "2026-06-15"
+  },
+  "rapan931/dentaku.nvim": {
+    "summary": "Neovim上で電卓を開いて計算できるプラグイン",
+    "generated_at": "2026-06-15"
+  },
+  "folke/noice.nvim": {
+    "summary": "メッセージ・コマンドライン・ポップアップメニューのUIを完全に置き換えるNeovimプラグイン",
+    "generated_at": "2026-06-15"
+  },
+  "rhysd/vim-startuptime": {
+    "summary": "Vim/Neovimの起動時間を計測する`vim --startuptime`の改良版Goプログラム",
+    "generated_at": "2026-06-15"
+  },
+  "EdenEast/nightfox.nvim": {
+    "summary": "LSPやTree-sitter・各種プラグインに対応したvim/neovim用のカスタマイズ性が高いカラーテーマ",
+    "generated_at": "2026-06-15"
+  },
+  "weirongxu/coc-markdown-preview-enhanced": {
+    "summary": "数式・mermaid・PDF書き出し等に対応したMarkdown Preview Enhancedのcoc.nvim版",
+    "generated_at": "2026-06-15"
+  },
+  "yioneko/nvim-yati": {
+    "summary": "Tree-sitterを使ったNeovim用のインデントプラグイン",
+    "generated_at": "2026-06-15"
+  },
+  "nvim-telescope/telescope.nvim": {
+    "summary": "検索・絞り込み・プレビュー・選択ができるNeovimの高機能ファジーファインダー。Lua製で拡張性が高い",
+    "generated_at": "2026-06-15"
+  },
+  "tpope/vim-commentary": {
+    "summary": "gccやgcでコードを手早くコメントアウト/解除できるVimプラグイン",
+    "generated_at": "2026-06-15"
+  },
+  "neovim/node-client": {
+    "summary": "Neovimのリモートプラグインを書くためのNode.jsクライアント兼プラグインホスト",
+    "generated_at": "2026-06-15"
+  },
+  "skanehira/jumpcursor.vim": {
+    "summary": "文字を2回打つだけで画面内の好きな位置へカーソルを飛ばすNeovim用プラグイン(実験的)",
+    "generated_at": "2026-06-15"
+  },
+  "markmap/coc-markmap": {
+    "summary": "Markdownをマインドマップとして可視化するcoc.nvim拡張",
+    "generated_at": "2026-06-15"
+  },
+  "monaqa/dps-dial.vim": {
+    "summary": "denops(Deno)で書かれたVim/Neovim用の高機能インクリメント/デクリメントプラグイン",
+    "generated_at": "2026-06-15"
+  },
+  "iamcco/coc-tailwindcss": {
+    "summary": "(neo)vimでTailwind CSSのクラス名補完を提供するcoc.nvim拡張",
+    "generated_at": "2026-06-15"
+  },
+  "machakann/vim-swap": {
+    "summary": "関数の引数などカンマ区切りの項目を並べ替えるVimプラグイン",
+    "generated_at": "2026-06-15"
+  },
+  "hrsh7th/nvim-cmp": {
+    "summary": "Luaで書かれたNeovim用の補完エンジンプラグイン。外部ソースを組み合わせて使う",
+    "generated_at": "2026-06-15"
+  },
+  "osyo-manga/vim-operator-blockwise": {
+    "summary": "幅の異なるテキストオブジェクトを矩形(ブロック)操作するためのVimプラグイン",
+    "generated_at": "2026-06-15"
+  },
+  "machakann/vim-sandwich": {
+    "summary": "括弧・引用符・タグなど囲み(サラウンド)を追加・削除・置換する操作とテキストオブジェクトを提供するVimプラグイン",
+    "generated_at": "2026-06-15"
+  },
+  "yuki-yano/fern-preview.vim": {
+    "summary": "ファイラーfern.vimにファイルプレビュー用ウィンドウを追加するプラグイン",
+    "generated_at": "2026-06-15"
+  },
+  "lambdalisue/vim-fern": {
+    "summary": "純粋なVim scriptで書かれた汎用の非同期ツリービューア(ファイラー)",
+    "generated_at": "2026-06-15"
+  },
+  "JetBrains/ideavim": {
+    "summary": "JetBrains製IDE向けのVimエンジン(IdeaVim)プラグイン",
+    "generated_at": "2026-06-15"
+  },
+  "nanotech/jellybeans.vim": {
+    "summary": "色彩豊かなVim用のダークカラースキーム",
+    "generated_at": "2026-06-15"
+  },
+  "jparise/vim-graphql": {
+    "summary": "GraphQLファイルの判別・構文ハイライト・インデントを提供するVimプラグイン",
+    "generated_at": "2026-06-15"
+  },
+  "ray-x/lsp_signature.nvim": {
+    "summary": "入力中に関数のシグネチャ(引数情報)をヒント表示するNeovimプラグイン",
+    "generated_at": "2026-06-15"
+  },
+  "diepm/vim-rest-console": {
+    "summary": "VimからRESTサービスにリクエストを送り応答を表示できるRESTコンソールプラグイン",
+    "generated_at": "2026-06-15"
+  },
+  "sharat87/roast.vim": {
+    "summary": "Vim用のHTTP/RESTクライアントプラグイン。+python3機能を利用する",
+    "generated_at": "2026-06-15"
+  },
+  "vim-syntastic/syntastic": {
+    "summary": "保存時などにコードの構文チェックを行い結果を表示するVimプラグイン",
+    "generated_at": "2026-06-15"
+  },
+  "oakes/vim_cubed": {
+    "summary": "意味もなく回転する立方体の上にVimを描画するネタプロジェクト(Nim製)",
+    "generated_at": "2026-06-15"
+  },
+  "vim-denops/denops.vim": {
+    "summary": "Vim/NeovimのプラグインをDenoで書けるようにするエコシステム",
+    "generated_at": "2026-06-15"
+  },
+  "coderifous/textobj-word-column.vim": {
+    "summary": "単語ベースの縦の列を対象にしたテキストオブジェクトを追加するVimプラグイン",
+    "generated_at": "2026-06-15"
+  },
+  "segeljakt/vim-silicon": {
+    "summary": "siliconを使い選択範囲のソースコードを綺麗な画像として生成するVimプラグイン(オフライン動作)",
+    "generated_at": "2026-06-15"
+  },
+  "nvim-focus/focus.nvim": {
+    "summary": "分割ウィンドウを自動でフォーカス・リサイズするNeovim用のウィンドウ管理強化プラグイン",
+    "generated_at": "2026-06-15"
+  },
+  "ekickx/clipboard-image.nvim": {
+    "summary": "クリップボードの画像を貼り付けてファイル化・リンク挿入するNeovimプラグイン",
+    "generated_at": "2026-06-15"
+  },
+  "hashivim/vim-terraform": {
+    "summary": "Terraform実行コマンドやHCLの構文ハイライト・インデントを提供する基本的なVim連携プラグイン",
+    "generated_at": "2026-06-15"
+  },
+  "ernstwi/vim-secret": {
+    "summary": "入力中の文字を隠すプライベート執筆モードを提供するVimプラグイン",
+    "generated_at": "2026-06-15"
+  },
+  "junegunn/goyo.vim": {
+    "summary": "余計な要素を隠して集中して書ける、Vimのディストラクションフリー執筆プラグイン",
+    "generated_at": "2026-06-15"
+  },
+  "junegunn/limelight.vim": {
+    "summary": "カーソル周辺以外を暗くして注目箇所を際立たせるVimの集中執筆プラグイン。Goyoと相性が良い",
+    "generated_at": "2026-06-15"
+  },
+  "skanehira/translate.vim": {
+    "summary": "Vim上でテキストを翻訳するプラグイン(保守終了・denops版へ移行)",
+    "generated_at": "2026-06-15"
+  },
+  "RRethy/vim-hexokinase": {
+    "summary": "ファイル内の色コード(#rrggbbやrgb/hsl関数など)を非同期で色付き表示する(Neo)Vimプラグイン",
+    "generated_at": "2026-06-15"
+  },
+  "pocke/keycast.vim": {
+    "summary": "Vimで押したキー入力を画面に表示するプラグイン",
+    "generated_at": "2026-06-15"
+  },
+  "notomo/gesture.nvim": {
+    "summary": "マウスジェスチャで操作を実行するNeovimプラグイン",
+    "generated_at": "2026-06-15"
+  },
+  "AndrewRadev/splitjoin.vim": {
+    "summary": "コードを1行形式と複数行形式の間で切り替えるVimプラグイン(gS/gJ)",
+    "generated_at": "2026-06-15"
+  },
+  "vim-jp/vital.vim": {
+    "summary": "Vimプラグイン開発向けの包括的なユーティリティ関数ライブラリ",
+    "generated_at": "2026-06-15"
+  },
+  "jbyuki/instant.nvim": {
+    "summary": "依存なしでNeovimの共同編集(コラボレーティブ編集)を実現するLua製プラグイン",
+    "generated_at": "2026-06-15"
+  },
+  "neovim/neovim": {
+    "summary": "拡張性と使いやすさに注力したVimのフォーク、Neovimの本体",
+    "generated_at": "2026-06-15"
+  },
+  "tpope/vim-fugitive": {
+    "summary": "Vimから任意のGitコマンドを扱える定番のGitラッパープラグイン(:Git)",
+    "generated_at": "2026-06-15"
+  },
+  "sentriz/vim-print-debug": {
+    "summary": "連番の文字列を挿入してprintfデバッグを補助するVimプラグイン",
+    "generated_at": "2026-06-15"
+  },
+  "ozelentok/denite-gtags": {
+    "summary": "GNU Global(gtags)を使ったタグ定義・参照検索を行うdenite.nvimソース",
+    "generated_at": "2026-06-15"
+  },
+  "glacambre/firenvim": {
+    "summary": "ChromeやFirefoxのテキスト入力欄をNeovimにするブラウザ拡張",
+    "generated_at": "2026-06-15"
   }
 }

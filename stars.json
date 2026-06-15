@@ -1630,7 +1630,7 @@
           "stars": 4228,
           "url": "https://github.com/zsh-users/zsh",
           "category": "cli",
-          "summary": ""
+          "summary": "高機能シェルZ shell(zsh)のソースコードのミラーリポジトリ"
         },
         {
           "desc": "A tool for glamorous shell scripts 🎀",
@@ -1640,7 +1640,7 @@
           "stars": 23876,
           "url": "https://github.com/charmbracelet/gum",
           "category": "cli",
-          "summary": ""
+          "summary": "Go不要で見栄えの良い対話的シェルスクリプトを書けるツール。入力・選択・確認などのUI部品を提供"
         },
         {
           "desc": "Unified querying, transformation, and modification of JSON, TOML, YAML, XML, INI, HCL, KDL and CSV.",
@@ -1650,7 +1650,7 @@
           "stars": 7974,
           "url": "https://github.com/TomWright/dasel",
           "category": "cli",
-          "summary": ""
+          "summary": "JSON・YAML・TOML・XML・CSV等を統一的に問い合わせ・変換・編集するCLI兼ライブラリ"
         },
         {
           "desc": "Make JSON greppable!",
@@ -1660,7 +1660,7 @@
           "stars": 14456,
           "url": "https://github.com/tomnomnom/gron",
           "category": "cli",
-          "summary": ""
+          "summary": "JSONをgrepしやすい一行ずつの形式に変換するツール。検索して元のJSONに戻せる"
         },
         {
           "desc": "Yank terminal output to clipboard",
@@ -1670,7 +1670,7 @@
           "stars": 1697,
           "url": "https://github.com/mptre/yank",
           "category": "cli",
-          "summary": ""
+          "summary": "ターミナル出力から項目を選択してクリップボードにコピーするユーティリティ"
         },
         {
           "desc": "Show percentile of input numbers.",
@@ -1680,7 +1680,7 @@
           "stars": 41,
           "url": "https://github.com/yuya-takeyama/percentile",
           "category": "cli",
-          "summary": ""
+          "summary": "入力した数値のパーセンタイルを表示するCLIツール"
         },
         {
           "desc": "TUI program for managing kanban boards with vim-like keybindings",
@@ -1690,7 +1690,7 @@
           "stars": 423,
           "url": "https://github.com/PlankCipher/kabmat",
           "category": "cli",
-          "summary": ""
+          "summary": "Vim風キーバインドでカンバンボードを管理するTUIプログラム"
         },
         {
           "desc": "CLI tool and python library that converts the output of popular command-line tools, file-types, and common strings to JSON, YAML, or Dictionaries. This allows piping of output to tools like jq and simplifying automation scripts.",
@@ -1700,7 +1700,7 @@
           "stars": 8624,
           "url": "https://github.com/kellyjonbrazil/jc",
           "category": "cli",
-          "summary": ""
+          "summary": "各種CLIツールやファイルの出力をJSON/YAML/辞書に変換するツール。jqへのパイプで自動化を簡単にする"
         },
         {
           "desc": " a tool to analyze and visualize git logs.",
@@ -1710,7 +1710,7 @@
           "stars": 211,
           "url": "https://github.com/hirokidaichi/gilot",
           "category": "cli",
-          "summary": ""
+          "summary": "gitログを分析・可視化するツール。コード変更量の偏りなど開発チームの状態をグラフ化する"
         },
         {
           "desc": "A VIM-inspired filemanager for the console",
@@ -1720,7 +1720,7 @@
           "stars": 17232,
           "url": "https://github.com/ranger/ranger",
           "category": "cli",
-          "summary": ""
+          "summary": "VIM風キーバインドのコンソール用ファイルマネージャ。curses UIでディレクトリを操作する"
         },
         {
           "desc": "Grep with human-friendly search results",
@@ -1730,7 +1730,7 @@
           "stars": 514,
           "url": "https://github.com/rhysd/hgrep",
           "category": "cli",
-          "summary": ""
+          "summary": "検索結果を構文ハイライト付きで人間に読みやすく表示するgrepツール。GitHubのコード検索風"
         },
         {
           "desc": "simple statistics from the command line",
@@ -1740,7 +1740,7 @@
           "stars": 935,
           "url": "https://github.com/nferraz/st",
           "category": "cli",
-          "summary": ""
+          "summary": "コマンドラインで簡単な統計量(合計・平均など)を計算するツール"
         },
         {
           "desc": "Command-line YAML, XML, TOML processor - jq wrapper for YAML/XML/TOML documents",
@@ -1750,7 +1750,7 @@
           "stars": 2951,
           "url": "https://github.com/kislyuk/yq",
           "category": "cli",
-          "summary": ""
+          "summary": "YAML/XML/TOMLをjqで処理できるようにするコマンドラインのjqラッパー"
         },
         {
           "desc": "Like jq, but for HTML.",
@@ -1760,7 +1760,7 @@
           "stars": 7548,
           "url": "https://github.com/mgdm/htmlq",
           "category": "cli",
-          "summary": ""
+          "summary": "jqのHTML版。CSSセレクタでHTMLから必要な部分を抽出するツール"
         },
         {
           "desc": "IDE-style autocomplete for your existing terminal & shell",
@@ -1770,7 +1770,7 @@
           "stars": 25189,
           "url": "https://github.com/withfig/autocomplete",
           "category": "cli",
-          "summary": ""
+          "summary": "既存のターミナルにgit・npm・docker等のIDE風入力補完を追加するツール(旧Fig／Amazon Q)"
         },
         {
           "desc": "Command line tool to share your UNIX terminal and forward local TCP ports to people you trust.",
@@ -1780,7 +1780,7 @@
           "stars": 2763,
           "url": "https://github.com/gravitational/teleconsole",
           "category": "cli",
-          "summary": ""
+          "summary": "UNIXターミナルを信頼する相手と共有しTCPポート転送もできるCLIツール(サービス終了)"
         },
         {
           "desc": "Terminal image viewer with native support for iTerm and Kitty",
@@ -1790,7 +1790,7 @@
           "stars": 3215,
           "url": "https://github.com/atanunq/viu",
           "category": "cli",
-          "summary": ""
+          "summary": "iTerm/Kittyの画像表示に対応したターミナル用画像ビューア。Rust製"
         },
         {
           "desc": "Screen{shot,cast} and perform ImageOps on the command line 🌱 🏞️",
@@ -1800,7 +1800,7 @@
           "stars": 667,
           "url": "https://github.com/orhun/menyoki",
           "category": "cli",
-          "summary": ""
+          "summary": "スクリーンショット・スクリーンキャストとGIF作成など画像操作をコマンドラインで行う軽量ツール"
         },
         {
           "desc": "maim (make image) takes screenshots of your desktop. It has options to take only a region, and relies on slop to query for regions. maim is supposed to be an improved scrot.",
@@ -1810,7 +1810,7 @@
           "stars": 2272,
           "url": "https://github.com/naelstrof/maim",
           "category": "cli",
-          "summary": ""
+          "summary": "デスクトップのスクリーンショットを撮るユーティリティ。領域・ウィンドウ指定に対応したscrotの改良版"
         },
         {
           "desc": "Compress images quickly with GNU parallel",
@@ -1820,7 +1820,7 @@
           "stars": 2,
           "url": "https://github.com/644/compressimages",
           "category": "cli",
-          "summary": ""
+          "summary": "GNU parallelでPNG/JPGを一括最適化(圧縮)するBashスクリプト。tinypng風の手軽さ"
         },
         {
           "desc": ":neckbeard: Powerful Slack CLI via pure bash. Rich messaging, uploads, posts, piping, oh my!",
@@ -1830,7 +1830,7 @@
           "stars": 1143,
           "url": "https://github.com/rockymadden/slack-cli",
           "category": "cli",
-          "summary": ""
+          "summary": "純粋なbashで書かれた高機能なSlack CLI。リッチなメッセージ送信・ファイルアップロード・投稿に対応"
         },
         {
           "desc": "A tool for writing better scripts",
@@ -1840,7 +1840,7 @@
           "stars": 45534,
           "url": "https://github.com/google/zx",
           "category": "cli",
-          "summary": ""
+          "summary": "JavaScriptでより便利にシェルスクリプトを書くためのツール(Node.js製)"
         },
         {
           "desc": "Syntax highlighted side-by-side diffs in your terminal",
@@ -1850,7 +1850,7 @@
           "stars": 2734,
           "url": "https://github.com/banga/git-split-diffs",
           "category": "cli",
-          "summary": ""
+          "summary": "ターミナルでGitHub風の構文ハイライト付き左右並列(side-by-side)diffを表示するツール"
         },
         {
           "desc": "Transfer files over WiFi between your computer and your smartphone from the terminal",
@@ -1860,7 +1860,7 @@
           "stars": 1019,
           "url": "https://github.com/sdushantha/qr-filetransfer",
           "category": "cli",
-          "summary": ""
+          "summary": "ターミナルからWiFi経由でPCとスマホ間のファイル転送をQRコードで行うツール"
         },
         {
           "desc": "A terminal workspace with batteries included",
@@ -1870,7 +1870,7 @@
           "stars": 33590,
           "url": "https://github.com/zellij-org/zellij",
           "category": "cli",
-          "summary": ""
+          "summary": "開発者向けの多機能なターミナルワークスペース(マルチプレクサ)。すぐ使えて拡張性も高い"
         },
         {
           "desc": "",
@@ -1880,7 +1880,7 @@
           "stars": 1248,
           "url": "https://github.com/seebye/ueberzug",
           "category": "cli",
-          "summary": ""
+          "summary": "ターミナルエミュレータに画像表示機能を後付けするツール(現在は保守終了)"
         },
         {
           "desc": "A syntax-highlighting pager for git, diff, grep, rg --json, and blame output",
@@ -1890,7 +1890,7 @@
           "stars": 31121,
           "url": "https://github.com/dandavison/delta",
           "category": "cli",
-          "summary": ""
+          "summary": "git diff・grep・blame等の出力を構文ハイライト表示するページャー"
         },
         {
           "desc": "A command-line tool to generate, analyze, convert and manipulate colors",
@@ -1900,7 +1900,7 @@
           "stars": 6399,
           "url": "https://github.com/sharkdp/pastel",
           "category": "cli",
-          "summary": ""
+          "summary": "色の生成・解析・変換・加工をコマンドラインで行うツール。多くのカラー形式と色空間に対応"
         },
         {
           "desc": "Quickly fetch your WiFi password and if needed, generate a QR code of your WiFi to allow phones to easily connect",
@@ -1910,7 +1910,7 @@
           "stars": 3137,
           "url": "https://github.com/sdushantha/wifi-password",
           "category": "cli",
-          "summary": ""
+          "summary": "現在接続中のWiFiパスワードを素早く取得し、必要なら接続用QRコードも生成するツール"
         },
         {
           "desc": "Simple command line tool to set the desktop picture on macOS",
@@ -1920,7 +1920,7 @@
           "stars": 371,
           "url": "https://github.com/scriptingosx/desktoppr",
           "category": "cli",
-          "summary": ""
+          "summary": "macOSのデスクトップ壁紙を読み書き・設定するシンプルなコマンドラインツール"
         },
         {
           "desc": "Simple text align CLI",
@@ -1930,7 +1930,7 @@
           "stars": 6,
           "url": "https://github.com/jiro4989/align",
           "category": "cli",
-          "summary": ""
+          "summary": "テキストを揃えて整形するシンプルなCLIツール"
         },
         {
           "desc": "有名な学習済みの機械学習モデルをcliから簡単に利用するためのコマンドです。Quick Using TensorFlow.js Models on CLI. ",
@@ -1940,7 +1940,7 @@
           "stars": 10,
           "url": "https://github.com/amanoese/qtf",
           "category": "cli",
-          "summary": ""
+          "summary": "TensorFlow.jsの学習済みモデルをコマンドラインから手軽に利用するツール"
         },
         {
           "desc": "Building powerful interactive prompts in Go, inspired by python-prompt-toolkit.",
@@ -1950,7 +1950,7 @@
           "stars": 5481,
           "url": "https://github.com/c-bata/go-prompt",
           "category": "cli",
-          "summary": ""
+          "summary": "python-prompt-toolkitに着想を得た、Goで強力な対話的プロンプトを作るライブラリ"
         },
         {
           "desc": "Capture website screenshots",
@@ -1960,7 +1960,7 @@
           "stars": 1741,
           "url": "https://github.com/sindresorhus/pageres-cli",
           "category": "cli",
-          "summary": ""
+          "summary": "Webサイトのスクリーンショットを様々な解像度で撮影するCLIツール。レスポンシブ確認に便利"
         },
         {
           "desc": "Masking tape to help commands \"do one thing well\"",
@@ -1970,7 +1970,7 @@
           "stars": 595,
           "url": "https://github.com/greymd/teip",
           "category": "cli",
-          "summary": ""
+          "summary": "コマンド出力の一部分だけを対象に別コマンドを適用できるツール。マスキングテープのように使う"
         },
         {
           "desc": "Command line ASCII boxes unlimited!",
@@ -1980,7 +1980,7 @@
           "stars": 681,
           "url": "https://github.com/ascii-boxes/boxes",
           "category": "cli",
-          "summary": ""
+          "summary": "入力テキストの周りにASCIIアートの囲み枠を描くコマンドラインフィルタ"
         },
         {
           "desc": ":package: Mac App Store command-line interface",
@@ -1990,7 +1990,7 @@
           "stars": 12227,
           "url": "https://github.com/mas-cli/mas",
           "category": "cli",
-          "summary": ""
+          "summary": "スクリプトや自動化向けのMac App StoreコマンドラインインターフェイスCLI"
         },
         {
           "desc": "Tool for shell commands execution, visualization and alerting. Configured with a simple YAML file.",
@@ -2000,7 +2000,7 @@
           "stars": 14574,
           "url": "https://github.com/sqshq/sampler",
           "category": "cli",
-          "summary": ""
+          "summary": "シェルコマンドの実行結果を可視化・アラートするツール。シンプルなYAMLで設定する"
         },
         {
           "desc": ":cherry_blossom: A command-line fuzzy finder",
@@ -2010,7 +2010,7 @@
           "stars": 80948,
           "url": "https://github.com/junegunn/fzf",
           "category": "cli",
-          "summary": ""
+          "summary": "汎用的なコマンドラインのファジーファインダー(あいまい検索)兼対話的ターミナルツールキット"
         },
         {
           "desc": "Bash Shell Function's Fuzzy Finder.",
@@ -2020,7 +2020,7 @@
           "stars": 9,
           "url": "https://github.com/blacknon/boco",
           "category": "cli",
-          "summary": ""
+          "summary": "Bashシェル関数向けのファジーファインダー。標準入力や履歴から選択できる"
         }
       ]
     },
@@ -2039,7 +2039,7 @@
           "stars": 61,
           "url": "https://github.com/nyanko3141592/tmuxcc",
           "category": "tmux",
-          "summary": ""
+          "summary": "tmux内で動くClaude Code等のAIコーディングエージェントを一括監視・管理するTUIダッシュボード"
         },
         {
           "desc": ":ghost: Terminal line cleaner",
@@ -2049,7 +2049,7 @@
           "stars": 5,
           "url": "https://github.com/Rasukarusan/tmux-line-clean",
           "category": "tmux",
-          "summary": ""
+          "summary": "tmuxのペイン内の行をvim風操作で削除・クリーンアップするターミナルツール"
         },
         {
           "desc": "copy pasting in terminal with vimium/vimperator like hints.",
@@ -2059,7 +2059,7 @@
           "stars": 1427,
           "url": "https://github.com/Morantron/tmux-fingers",
           "category": "tmux",
-          "summary": ""
+          "summary": "Vimium風のヒント表示でターミナル内のテキストを素早く選択・コピーできるtmuxプラグイン"
         },
         {
           "desc": "TMUX plugin to split the current pane while retaining SSH connections",
@@ -2069,7 +2069,7 @@
           "stars": 117,
           "url": "https://github.com/pschmitt/tmux-ssh-split",
           "category": "tmux",
-          "summary": ""
+          "summary": "現在のSSH接続を引き継いだままペインを分割するtmuxプラグイン"
         },
         {
           "desc": "Tmux configuration, that supercharges your tmux to build cozy and cool terminal environment",
@@ -2079,7 +2079,7 @@
           "stars": 2297,
           "url": "https://github.com/samoshkin/tmux-config",
           "category": "tmux",
-          "summary": ""
+          "summary": "快適なターミナル環境を作るための強化版tmux設定"
         },
         {
           "desc": "tmux source code",
@@ -2089,7 +2089,7 @@
           "stars": 46547,
           "url": "https://github.com/tmux/tmux",
           "category": "tmux",
-          "summary": ""
+          "summary": "1画面から複数の端末を作成・操作できるターミナルマルチプレクサtmuxのソースコード"
         }
       ]
     },
@@ -2108,7 +2108,7 @@
           "stars": 133,
           "url": "https://github.com/2KAbhishek/seeker.nvim",
           "category": "vim",
-          "summary": ""
+          "summary": "ファイル名の絞り込みと内容grepを切り替えながら段階的にファイルを探すNeovimプラグイン"
         },
         {
           "desc": "This is the lua implementation of nvim-hlchunk, you can use this neovim plugin to highlight your indent line and the current chunk (context) your cursor stayed",
@@ -2118,7 +2118,7 @@
           "stars": 906,
           "url": "https://github.com/shellRaining/hlchunk.nvim",
           "category": "vim",
-          "summary": ""
+          "summary": "インデント線とカーソル位置のコードチャンク(文脈)をハイライトするNeovimプラグイン"
         },
         {
           "desc": "A Neovim plugin for [Marp](https://marp.app/) (Markdown Presentation Ecosystem).",
@@ -2128,7 +2128,7 @@
           "stars": 28,
           "url": "https://github.com/nwiizo/marp.nvim",
           "category": "vim",
-          "summary": ""
+          "summary": "Markdownでスライドを作るMarpのNeovimプラグイン。ライブプレビューやHTML/PDF等への書き出しに対応"
         },
         {
           "desc": "Use your Neovim like using Cursor AI IDE!",
@@ -2138,7 +2138,7 @@
           "stars": 17963,
           "url": "https://github.com/yetone/avante.nvim",
           "category": "vim",
-          "summary": ""
+          "summary": "NeovimをCursor AI IDEのように使えるプラグイン。AIのコード提案を直接ソースに適用できる"
         },
         {
           "desc": "An MCP client for Neovim that seamlessly integrates MCP servers into your editing workflow with an intuitive interface for managing, testing, and using MCP servers with your favorite chat plugins.",
@@ -2148,7 +2148,7 @@
           "stars": 1779,
           "url": "https://github.com/ravitemer/mcphub.nvim",
           "category": "vim",
-          "summary": ""
+          "summary": "MCPサーバーを編集ワークフローに統合するNeovim用MCPクライアント。サーバー管理やテストもできる"
         },
         {
           "desc": "Seamless integration between Claude Code AI assistant and Neovim",
@@ -2158,7 +2158,7 @@
           "stars": 2073,
           "url": "https://github.com/greggh/claude-code.nvim",
           "category": "vim",
-          "summary": ""
+          "summary": "Claude CodeとNeovimをシームレスに連携させるプラグイン"
         },
         {
           "desc": "syntax highlighting and indentation in Vim for the Move smart contract language",
@@ -2168,7 +2168,7 @@
           "stars": 39,
           "url": "https://github.com/0xmovses/move.vim",
           "category": "vim",
-          "summary": ""
+          "summary": "Moveスマートコントラクト言語向けの構文ハイライトとインデントを提供するVimプラグイン"
         },
         {
           "desc": "Pyright extension for coc.nvim",
@@ -2178,7 +2178,7 @@
           "stars": 1360,
           "url": "https://github.com/fannheyward/coc-pyright",
           "category": "vim",
-          "summary": ""
+          "summary": "coc.nvim用のPyright拡張。Python型チェックや補完・各種リンタ/フォーマッタ連携を提供"
         },
         {
           "desc": "Neovim plugin for splitting/joining blocks of code",
@@ -2188,7 +2188,7 @@
           "stars": 1329,
           "url": "https://github.com/Wansmer/treesj",
           "category": "vim",
-          "summary": ""
+          "summary": "配列やオブジェクト等のコードブロックを分割・結合するNeovimプラグイン。Tree-Sitterを利用"
         },
         {
           "desc": "enhanced increment/decrement plugin for Neovim.",
@@ -2198,7 +2198,7 @@
           "stars": 1087,
           "url": "https://github.com/monaqa/dial.nvim",
           "category": "vim",
-          "summary": ""
+          "summary": "数値・日付・真偽値・hexカラー等を賢く増減できるNeovim用の高機能インクリメント/デクリメントプラグイン"
         },
         {
           "desc": "",
@@ -2208,7 +2208,7 @@
           "stars": 1073,
           "url": "https://github.com/theHamsta/nvim-dap-virtual-text",
           "category": "vim",
-          "summary": ""
+          "summary": "デバッガnvim-dapに変数値を仮想テキストで表示する機能を追加するNeovimプラグイン"
         },
         {
           "desc": "vimspector - A multi-language debugging system for Vim",
@@ -2218,7 +2218,7 @@
           "stars": 4306,
           "url": "https://github.com/puremourning/vimspector",
           "category": "vim",
-          "summary": ""
+          "summary": "複数言語に対応したVim用のグラフィカルなデバッグシステム"
         },
         {
           "desc": "Debug Adapter Protocol client implementation for Neovim",
@@ -2228,7 +2228,7 @@
           "stars": 7158,
           "url": "https://github.com/mfussenegger/nvim-dap",
           "category": "vim",
-          "summary": ""
+          "summary": "Debug Adapter Protocol(DAP)クライアントのNeovim実装。ブレークポイントやステップ実行ができる"
         },
         {
           "desc": "The neovim tabline plugin.",
@@ -2238,7 +2238,7 @@
           "stars": 2710,
           "url": "https://github.com/romgrk/barbar.nvim",
           "category": "vim",
-          "summary": ""
+          "summary": "並び替えやクリック・アイコン・バッファジャンプに対応したNeovimのタブライン(tabline)プラグイン"
         },
         {
           "desc": "Jupyter meets Vim. Vimmer will fall in love.",
@@ -2248,7 +2248,7 @@
           "stars": 2093,
           "url": "https://github.com/lambdalisue/jupyter-vim-binding",
           "category": "vim",
-          "summary": ""
+          "summary": "Jupyter NotebookでVim風の操作を可能にする拡張"
         },
         {
           "desc": "Intelligent Tailwind CSS tooling for coc.nvim",
@@ -2258,7 +2258,7 @@
           "stars": 216,
           "url": "https://github.com/yaegassy/coc-tailwindcss3",
           "category": "vim",
-          "summary": ""
+          "summary": "coc.nvim向けのTailwind CSSツール拡張。クラス名補完などインテリジェントな支援を提供"
         },
         {
           "desc": "Calculator",
@@ -2268,7 +2268,7 @@
           "stars": 4,
           "url": "https://github.com/rapan931/dentaku.nvim",
           "category": "vim",
-          "summary": ""
+          "summary": "Neovim上で電卓を開いて計算できるプラグイン"
         },
         {
           "desc": "💥 Highly experimental plugin that completely replaces the UI for messages, cmdline and the popupmenu.",
@@ -2278,7 +2278,7 @@
           "stars": 5767,
           "url": "https://github.com/folke/noice.nvim",
           "category": "vim",
-          "summary": ""
+          "summary": "メッセージ・コマンドライン・ポップアップメニューのUIを完全に置き換えるNeovimプラグイン"
         },
         {
           "desc": "A small Go program for better `vim --startuptime` alternative",
@@ -2288,7 +2288,7 @@
           "stars": 254,
           "url": "https://github.com/rhysd/vim-startuptime",
           "category": "vim",
-          "summary": ""
+          "summary": "Vim/Neovimの起動時間を計測する`vim --startuptime`の改良版Goプログラム"
         },
         {
           "desc": "🦊A highly customizable theme for vim and neovim with support for lsp, treesitter and a variety of plugins.",
@@ -2298,7 +2298,7 @@
           "stars": 4026,
           "url": "https://github.com/EdenEast/nightfox.nvim",
           "category": "vim",
-          "summary": ""
+          "summary": "LSPやTree-sitter・各種プラグインに対応したvim/neovim用のカスタマイズ性が高いカラーテーマ"
         },
         {
           "desc": "Markdown Preview Enhanced for coc.nvim",
@@ -2308,7 +2308,7 @@
           "stars": 91,
           "url": "https://github.com/weirongxu/coc-markdown-preview-enhanced",
           "category": "vim",
-          "summary": ""
+          "summary": "数式・mermaid・PDF書き出し等に対応したMarkdown Preview Enhancedのcoc.nvim版"
         },
         {
           "desc": "Yet another tree-sitter powered indent plugin for Neovim.",
@@ -2318,7 +2318,7 @@
           "stars": 154,
           "url": "https://github.com/yioneko/nvim-yati",
           "category": "vim",
-          "summary": ""
+          "summary": "Tree-sitterを使ったNeovim用のインデントプラグイン"
         },
         {
           "desc": "Find, Filter, Preview, Pick. All lua, all the time.",
@@ -2328,7 +2328,7 @@
           "stars": 19547,
           "url": "https://github.com/nvim-telescope/telescope.nvim",
           "category": "vim",
-          "summary": ""
+          "summary": "検索・絞り込み・プレビュー・選択ができるNeovimの高機能ファジーファインダー。Lua製で拡張性が高い"
         },
         {
           "desc": "commentary.vim: comment stuff out",
@@ -2338,7 +2338,7 @@
           "stars": 6161,
           "url": "https://github.com/tpope/vim-commentary",
           "category": "vim",
-          "summary": ""
+          "summary": "gccやgcでコードを手早くコメントアウト/解除できるVimプラグイン"
         },
         {
           "desc": "Nvim Node.js client and plugin host",
@@ -2348,7 +2348,7 @@
           "stars": 530,
           "url": "https://github.com/neovim/node-client",
           "category": "vim",
-          "summary": ""
+          "summary": "Neovimのリモートプラグインを書くためのNode.jsクライアント兼プラグインホスト"
         },
         {
           "desc": "Move cursor anywhere",
@@ -2358,7 +2358,7 @@
           "stars": 54,
           "url": "https://github.com/skanehira/jumpcursor.vim",
           "category": "vim",
-          "summary": ""
+          "summary": "文字を2回打つだけで画面内の好きな位置へカーソルを飛ばすNeovim用プラグイン(実験的)"
         },
         {
           "desc": "",
@@ -2368,7 +2368,7 @@
           "stars": 237,
           "url": "https://github.com/markmap/coc-markmap",
           "category": "vim",
-          "summary": ""
+          "summary": "Markdownをマインドマップとして可視化するcoc.nvim拡張"
         },
         {
           "desc": "Increment/decrement plugin using denops.vim",
@@ -2378,7 +2378,7 @@
           "stars": 26,
           "url": "https://github.com/monaqa/dps-dial.vim",
           "category": "vim",
-          "summary": ""
+          "summary": "denops(Deno)で書かれたVim/Neovim用の高機能インクリメント/デクリメントプラグイン"
         },
         {
           "desc": "tailwindcss class name completion for (neo)vim",
@@ -2388,7 +2388,7 @@
           "stars": 336,
           "url": "https://github.com/iamcco/coc-tailwindcss",
           "category": "vim",
-          "summary": ""
+          "summary": "(neo)vimでTailwind CSSのクラス名補完を提供するcoc.nvim拡張"
         },
         {
           "desc": "Reorder delimited items.",
@@ -2398,7 +2398,7 @@
           "stars": 318,
           "url": "https://github.com/machakann/vim-swap",
           "category": "vim",
-          "summary": ""
+          "summary": "関数の引数などカンマ区切りの項目を並べ替えるVimプラグイン"
         },
         {
           "desc": "A completion plugin for neovim coded in Lua.",
@@ -2408,7 +2408,7 @@
           "stars": 9451,
           "url": "https://github.com/hrsh7th/nvim-cmp",
           "category": "vim",
-          "summary": ""
+          "summary": "Luaで書かれたNeovim用の補完エンジンプラグイン。外部ソースを組み合わせて使う"
         },
         {
           "desc": "",
@@ -2418,7 +2418,7 @@
           "stars": 12,
           "url": "https://github.com/osyo-manga/vim-operator-blockwise",
           "category": "vim",
-          "summary": ""
+          "summary": "幅の異なるテキストオブジェクトを矩形(ブロック)操作するためのVimプラグイン"
         },
         {
           "desc": "Set of operators and textobjects to search/select/edit sandwiched texts.",
@@ -2428,7 +2428,7 @@
           "stars": 1532,
           "url": "https://github.com/machakann/vim-sandwich",
           "category": "vim",
-          "summary": ""
+          "summary": "括弧・引用符・タグなど囲み(サラウンド)を追加・削除・置換する操作とテキストオブジェクトを提供するVimプラグイン"
         },
         {
           "desc": "Add a file preview window to fern.vim.",
@@ -2438,7 +2438,7 @@
           "stars": 48,
           "url": "https://github.com/yuki-yano/fern-preview.vim",
           "category": "vim",
-          "summary": ""
+          "summary": "ファイラーfern.vimにファイルプレビュー用ウィンドウを追加するプラグイン"
         },
         {
           "desc": "🌿 General purpose asynchronous tree viewer written in Pure Vim script",
@@ -2448,7 +2448,7 @@
           "stars": 1354,
           "url": "https://github.com/lambdalisue/vim-fern",
           "category": "vim",
-          "summary": ""
+          "summary": "純粋なVim scriptで書かれた汎用の非同期ツリービューア(ファイラー)"
         },
         {
           "desc": "IdeaVim – A Vim engine for JetBrains IDEs",
@@ -2458,7 +2458,7 @@
           "stars": 10207,
           "url": "https://github.com/JetBrains/ideavim",
           "category": "vim",
-          "summary": ""
+          "summary": "JetBrains製IDE向けのVimエンジン(IdeaVim)プラグイン"
         },
         {
           "desc": "A colorful, dark color scheme for Vim.",
@@ -2468,7 +2468,7 @@
           "stars": 1861,
           "url": "https://github.com/nanotech/jellybeans.vim",
           "category": "vim",
-          "summary": ""
+          "summary": "色彩豊かなVim用のダークカラースキーム"
         },
         {
           "desc": "A Vim plugin that provides GraphQL file detection, syntax highlighting, and indentation.",
@@ -2478,7 +2478,7 @@
           "stars": 511,
           "url": "https://github.com/jparise/vim-graphql",
           "category": "vim",
-          "summary": ""
+          "summary": "GraphQLファイルの判別・構文ハイライト・インデントを提供するVimプラグイン"
         },
         {
           "desc": "LSP signature hint as you type",
@@ -2488,7 +2488,7 @@
           "stars": 2360,
           "url": "https://github.com/ray-x/lsp_signature.nvim",
           "category": "vim",
-          "summary": ""
+          "summary": "入力中に関数のシグネチャ(引数情報)をヒント表示するNeovimプラグイン"
         },
         {
           "desc": "A REST console for Vim.",
@@ -2498,7 +2498,7 @@
           "stars": 689,
           "url": "https://github.com/diepm/vim-rest-console",
           "category": "vim",
-          "summary": ""
+          "summary": "VimからRESTサービスにリクエストを送り応答を表示できるRESTコンソールプラグイン"
         },
         {
           "desc": "An HTTP client for Vim, that can also be used as a REST client.",
@@ -2508,7 +2508,7 @@
           "stars": 80,
           "url": "https://github.com/sharat87/roast.vim",
           "category": "vim",
-          "summary": ""
+          "summary": "Vim用のHTTP/RESTクライアントプラグイン。+python3機能を利用する"
         },
         {
           "desc": "Syntax checking hacks for vim",
@@ -2518,7 +2518,7 @@
           "stars": 11223,
           "url": "https://github.com/vim-syntastic/syntastic",
           "category": "vim",
-          "summary": ""
+          "summary": "保存時などにコードの構文チェックを行い結果を表示するVimプラグイン"
         },
         {
           "desc": "Vim rendered on a cube for no reason",
@@ -2528,7 +2528,7 @@
           "stars": 2737,
           "url": "https://github.com/oakes/vim_cubed",
           "category": "vim",
-          "summary": ""
+          "summary": "意味もなく回転する立方体の上にVimを描画するネタプロジェクト(Nim製)"
         },
         {
           "desc": "🐜  An ecosystem of Vim/Neovim which allows developers to write cross-platform plugins in Deno",
@@ -2538,7 +2538,7 @@
           "stars": 787,
           "url": "https://github.com/vim-denops/denops.vim",
           "category": "vim",
-          "summary": ""
+          "summary": "Vim/NeovimのプラグインをDenoで書けるようにするエコシステム"
         },
         {
           "desc": "Adds text-objects for word-based columns in Vim.",
@@ -2548,7 +2548,7 @@
           "stars": 213,
           "url": "https://github.com/coderifous/textobj-word-column.vim",
           "category": "vim",
-          "summary": ""
+          "summary": "単語ベースの縦の列を対象にしたテキストオブジェクトを追加するVimプラグイン"
         },
         {
           "desc": "Vim plugin for generating images of source code using https://github.com/Aloxaf/silicon",
@@ -2558,7 +2558,7 @@
           "stars": 413,
           "url": "https://github.com/segeljakt/vim-silicon",
           "category": "vim",
-          "summary": ""
+          "summary": "siliconを使い選択範囲のソースコードを綺麗な画像として生成するVimプラグイン(オフライン動作)"
         },
         {
           "desc": "Auto-Focusing and Auto-Resizing Splits/Windows for Neovim written in Lua. A full suite of window management enhancements. Vim splits on steroids!",
@@ -2568,7 +2568,7 @@
           "stars": 807,
           "url": "https://github.com/nvim-focus/focus.nvim",
           "category": "vim",
-          "summary": ""
+          "summary": "分割ウィンドウを自動でフォーカス・リサイズするNeovim用のウィンドウ管理強化プラグイン"
         },
         {
           "desc": "Neovim Lua plugin to paste image from clipboard.",
@@ -2578,7 +2578,7 @@
           "stars": 335,
           "url": "https://github.com/ekickx/clipboard-image.nvim",
           "category": "vim",
-          "summary": ""
+          "summary": "クリップボードの画像を貼り付けてファイル化・リンク挿入するNeovimプラグイン"
         },
         {
           "desc": "basic vim/terraform integration",
@@ -2588,7 +2588,7 @@
           "stars": 1108,
           "url": "https://github.com/hashivim/vim-terraform",
           "category": "vim",
-          "summary": ""
+          "summary": "Terraform実行コマンドやHCLの構文ハイライト・インデントを提供する基本的なVim連携プラグイン"
         },
         {
           "desc": "Private writing mode for Vim",
@@ -2598,7 +2598,7 @@
           "stars": 67,
           "url": "https://github.com/ernstwi/vim-secret",
           "category": "vim",
-          "summary": ""
+          "summary": "入力中の文字を隠すプライベート執筆モードを提供するVimプラグイン"
         },
         {
           "desc": ":tulip: Distraction-free writing in Vim",
@@ -2608,7 +2608,7 @@
           "stars": 4679,
           "url": "https://github.com/junegunn/goyo.vim",
           "category": "vim",
-          "summary": ""
+          "summary": "余計な要素を隠して集中して書ける、Vimのディストラクションフリー執筆プラグイン"
         },
         {
           "desc": ":flashlight: All the world's indeed a stage and we are merely players",
@@ -2618,7 +2618,7 @@
           "stars": 2444,
           "url": "https://github.com/junegunn/limelight.vim",
           "category": "vim",
-          "summary": ""
+          "summary": "カーソル周辺以外を暗くして注目箇所を際立たせるVimの集中執筆プラグイン。Goyoと相性が良い"
         },
         {
           "desc": "translate language plugin",
@@ -2628,7 +2628,7 @@
           "stars": 123,
           "url": "https://github.com/skanehira/translate.vim",
           "category": "vim",
-          "summary": ""
+          "summary": "Vim上でテキストを翻訳するプラグイン(保守終了・denops版へ移行)"
         },
         {
           "desc": "hexokinase.vim - (Neo)Vim plugin for asynchronously displaying the colours in the file (#rrggbb, #rgb, rgb(a)? functions, hsl(a)? functions, web colours, custom patterns)",
@@ -2638,7 +2638,7 @@
           "stars": 965,
           "url": "https://github.com/RRethy/vim-hexokinase",
           "category": "vim",
-          "summary": ""
+          "summary": "ファイル内の色コード(#rrggbbやrgb/hsl関数など)を非同期で色付き表示する(Neo)Vimプラグイン"
         },
         {
           "desc": "Display key strokes on Vim.",
@@ -2648,7 +2648,7 @@
           "stars": 34,
           "url": "https://github.com/pocke/keycast.vim",
           "category": "vim",
-          "summary": ""
+          "summary": "Vimで押したキー入力を画面に表示するプラグイン"
         },
         {
           "desc": "Mouse gesture plugin for neovim",
@@ -2658,7 +2658,7 @@
           "stars": 542,
           "url": "https://github.com/notomo/gesture.nvim",
           "category": "vim",
-          "summary": ""
+          "summary": "マウスジェスチャで操作を実行するNeovimプラグイン"
         },
         {
           "desc": "Switch between single-line and multiline forms of code",
@@ -2668,7 +2668,7 @@
           "stars": 1970,
           "url": "https://github.com/AndrewRadev/splitjoin.vim",
           "category": "vim",
-          "summary": ""
+          "summary": "コードを1行形式と複数行形式の間で切り替えるVimプラグイン(gS/gJ)"
         },
         {
           "desc": "A comprehensive Vim utility functions for Vim plugins",
@@ -2678,7 +2678,7 @@
           "stars": 586,
           "url": "https://github.com/vim-jp/vital.vim",
           "category": "vim",
-          "summary": ""
+          "summary": "Vimプラグイン開発向けの包括的なユーティリティ関数ライブラリ"
         },
         {
           "desc": "collaborative editing in Neovim using built-in capabilities",
@@ -2688,7 +2688,7 @@
           "stars": 1416,
           "url": "https://github.com/jbyuki/instant.nvim",
           "category": "vim",
-          "summary": ""
+          "summary": "依存なしでNeovimの共同編集(コラボレーティブ編集)を実現するLua製プラグイン"
         },
         {
           "desc": "Vim-fork focused on extensibility and usability",
@@ -2698,7 +2698,7 @@
           "stars": 100385,
           "url": "https://github.com/neovim/neovim",
           "category": "vim",
-          "summary": ""
+          "summary": "拡張性と使いやすさに注力したVimのフォーク、Neovimの本体"
         },
         {
           "desc": "fugitive.vim: A Git wrapper so awesome, it should be illegal",
@@ -2708,7 +2708,7 @@
           "stars": 21667,
           "url": "https://github.com/tpope/vim-fugitive",
           "category": "vim",
-          "summary": ""
+          "summary": "Vimから任意のGitコマンドを扱える定番のGitラッパープラグイン(:Git)"
         },
         {
           "desc": "assisted printf debugging for vim ",
@@ -2718,7 +2718,7 @@
           "stars": 40,
           "url": "https://github.com/sentriz/vim-print-debug",
           "category": "vim",
-          "summary": ""
+          "summary": "連番の文字列を挿入してprintfデバッグを補助するVimプラグイン"
         },
         {
           "desc": "Denite source for GNU Global",
@@ -2728,7 +2728,7 @@
           "stars": 26,
           "url": "https://github.com/ozelentok/denite-gtags",
           "category": "vim",
-          "summary": ""
+          "summary": "GNU Global(gtags)を使ったタグ定義・参照検索を行うdenite.nvimソース"
         },
         {
           "desc": "Embed Neovim in Chrome, Firefox & others.",
@@ -2738,7 +2738,7 @@
           "stars": 6064,
           "url": "https://github.com/glacambre/firenvim",
           "category": "vim",
-          "summary": ""
+          "summary": "ChromeやFirefoxのテキスト入力欄をNeovimにするブラウザ拡張"
         },
         {
           "desc": ":triangular_ruler:vim-gofmtmd is vim plugin which formats go source code block in Markdown. detects fenced code & formats code using gofmt.",
