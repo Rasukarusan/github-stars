@@ -101,7 +101,8 @@
   .card:hover { border-color: var(--accent); }
   .card a.name { color: var(--accent); font-weight: 600; font-size: 14px; text-decoration: none; word-break: break-all; }
   .card a.name:hover { text-decoration: underline; }
-  .card .desc { font-size: 13px; color: var(--fg); opacity: .85; }
+  .card .summary { font-size: 13px; color: var(--fg); }
+  .card .desc { font-size: 12px; color: var(--muted); }
   .card .meta { font-size: 12px; color: var(--muted); display: flex; gap: 12px; align-items: center; margin-top: auto; }
   .empty { color: var(--muted); padding: 40px; text-align: center; }
   mark { background: var(--mark-bg); color: var(--mark-fg); border-radius: 2px; }
@@ -160,7 +161,7 @@ function fmtDate(iso) {
 }
 
 function matchQ(r, q) {
-  return !q || r.name.toLowerCase().includes(q) || (r.desc || "").toLowerCase().includes(q);
+  return !q || r.name.toLowerCase().includes(q) || (r.desc || "").toLowerCase().includes(q) || (r.summary || "").toLowerCase().includes(q);
 }
 
 function withinPeriod(r) {
@@ -181,6 +182,7 @@ function cardHtml(r, q) {
   return `
     <div class="card">
       <a class="name" href="${esc(r.url)}" target="_blank" rel="noopener">${highlight(r.name, q)}</a>
+      ${r.summary ? `<div class="summary">${highlight(r.summary, q)}</div>` : ""}
       ${r.desc ? `<div class="desc">${highlight(r.desc, q)}</div>` : ""}
       <div class="meta">
         <span>★ ${r.stars.toLocaleString()}</span>

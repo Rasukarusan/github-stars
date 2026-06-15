@@ -79,6 +79,15 @@ jq -n \
   ' > stars.json.tmp && mv stars.json.tmp stars.json
 
 rm -f .empty.json
+
+# LLM要約(summaries.json)を各repoへ反映。要約の「生成」はスキル(stars-sync)が行い、
+# ここはキャッシュにある分を stars.json に貼り込むだけ(LLM非依存)。
+[ -f summaries.json ] || echo '{}' > summaries.json
+jq --slurpfile sum summaries.json '
+  ($sum[0]) as $s
+  | .categories |= map(.repos |= map(. + {summary: ($s[.name].summary // "")}))
+' stars.json > stars.json.tmp && mv stars.json.tmp stars.json
+
 TOTAL=$(jq '.total' stars.json)
 
 # 未分類の検知
@@ -86,6 +95,12 @@ UNCAT=$(jq -r '.categories[] | select(.key=="uncategorized") | .repos[].name' st
 if [ -n "$UNCAT" ]; then
   echo "⚠ 未分類のリポジトリがあります（categories.json に追記してください）:" >&2
   echo "$UNCAT" | sed 's/^/   - /' >&2
+fi
+
+# 未要約の検知(summary が空のrepo)。スキルが要約する対象。
+NOSUM=$(jq -r '[.categories[].repos[] | select((.summary // "") == "")] | length' stars.json)
+if [ "$NOSUM" -gt 0 ]; then
+  echo "ℹ 未要約のリポジトリが ${NOSUM}件 あります（stars-sync スキルで summaries.json に要約を追記してください）" >&2
 fi
 
 echo "✅ stars.json を生成しました（${MODE} / 全${TOTAL}件）" >&2
