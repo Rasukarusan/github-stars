@@ -1498,5 +1498,445 @@
   "mher/flower": {
     "summary": "分散タスクキューCeleryをリアルタイム監視・管理するWeb管理ツール",
     "generated_at": "2026-06-15"
+  },
+  "graphql/dataloader": {
+    "summary": "バッチ処理とキャッシュでバックエンドへのリクエストを削減するデータ取得層向けの汎用ユーティリティ",
+    "generated_at": "2026-06-15"
+  },
+  "fastapi/full-stack-fastapi-template": {
+    "summary": "FastAPI・React・SQLModel・PostgreSQL・Docker等を使ったモダンなフルスタックWebアプリのテンプレート",
+    "generated_at": "2026-06-15"
+  },
+  "pusher/pusher-js": {
+    "summary": "リアルタイム通信を扱うPusher ChannelsのJavaScriptクライアントライブラリ",
+    "generated_at": "2026-06-15"
+  },
+  "expressjs/morgan": {
+    "summary": "Node.js(Express)向けのHTTPリクエストロガーミドルウェア",
+    "generated_at": "2026-06-15"
+  },
+  "kitloong/laravel-migrations-generator": {
+    "summary": "既存のDBスキーマからLaravelのマイグレーションを自動生成するツール。インデックスや外部キーにも対応",
+    "generated_at": "2026-06-15"
+  },
+  "slackapi/bolt-js": {
+    "summary": "JavaScriptでSlackアプリを手早く構築するための公式フレームワーク(Bolt)",
+    "generated_at": "2026-06-15"
+  },
+  "php/frankenphp": {
+    "summary": "Caddy上に構築されたモダンなPHPアプリケーションサーバー。ワーカーモードや自動HTTPS等に対応",
+    "generated_at": "2026-06-15"
+  },
+  "vvo/iron-session": {
+    "summary": "署名・暗号化されたcookieにセッションを保存するステートレスなセッションライブラリ。Next.js等で使える",
+    "generated_at": "2026-06-15"
+  },
+  "swaggo/gin-swagger": {
+    "summary": "GinのRESTful APIドキュメントをSwagger 2.0で自動生成するミドルウェア",
+    "generated_at": "2026-06-15"
+  },
+  "swaggo/swag": {
+    "summary": "GoのアノテーションからSwagger 2.0のAPIドキュメントを自動生成するツール",
+    "generated_at": "2026-06-15"
+  },
+  "rs/xid": {
+    "summary": "Web向けに設計されたグローバルに一意なID生成ライブラリ。短い文字列表現が特徴(Go)",
+    "generated_at": "2026-06-15"
+  },
+  "fastapi/fastapi": {
+    "summary": "Pythonの型ヒントを基にした高性能で学習しやすいAPI構築用Webフレームワーク",
+    "generated_at": "2026-06-15"
+  },
+  "Azure-Samples/functions-custom-handlers": {
+    "summary": "Azure Functionsのカスタムハンドラー(任意言語の軽量Webサーバー)のサンプルコード",
+    "generated_at": "2026-06-15"
+  },
+  "slack-go/slack": {
+    "summary": "Go向けのSlack APIライブラリ。REST呼び出しとRTM(WebSocket)に対応",
+    "generated_at": "2026-06-15"
+  },
+  "foreversd/forever": {
+    "summary": "指定したスクリプトを継続的に(永続的に)実行し続けるシンプルなCLIツール",
+    "generated_at": "2026-06-15"
+  },
+  "acacode/swagger-typescript-api": {
+    "summary": "OpenAPI仕様からFetch/Axios用のAPIクライアントを生成するツール",
+    "generated_at": "2026-06-15"
+  },
+  "Shopify/shopify-app-template-node": {
+    "summary": "NodeとReactでShopifyアプリを構築するための公式テンプレート",
+    "generated_at": "2026-06-15"
+  },
+  "freee/freee-api-schema": {
+    "summary": "freee APIのスキーマ定義ファイル",
+    "generated_at": "2026-06-15"
+  },
+  "aspida/aspida": {
+    "summary": "型を活かせるブラウザ/Node.js向けのHTTPクライアントラッパー。パスやクエリ・レスポンスに型を付けられる",
+    "generated_at": "2026-06-15"
+  },
+  "denoland/deno": {
+    "summary": "セキュアな既定設定と良好な開発体験を持つJavaScript/TypeScript/WebAssemblyランタイム",
+    "generated_at": "2026-06-15"
+  },
+  "node-config/node-config": {
+    "summary": "環境ごとに階層的な設定を管理するNode.jsアプリ用の設定ライブラリ",
+    "generated_at": "2026-06-15"
+  },
+  "aspida/openapi2aspida": {
+    "summary": "OpenAPI 3.0やSwagger 2.0の定義をaspida形式に変換するツール",
+    "generated_at": "2026-06-15"
+  },
+  "mpyw/php-hyper-builtin-server": {
+    "summary": "マルチプロセスとTLS/SSLに対応したPHPビルトインサーバー用のリバースプロキシ",
+    "generated_at": "2026-06-15"
+  },
+  "syuukai85/api-server": {
+    "summary": "投げ銭イベント管理ツールのAPIサーバー(Go)",
+    "generated_at": "2026-06-15"
+  },
+  "neo4j/neo4j": {
+    "summary": "誰でも使えるグラフを掲げるグラフデータベースNeo4j",
+    "generated_at": "2026-06-15"
+  },
+  "aaronshaf/dynamodb-admin": {
+    "summary": "DynamoDB Localやdynalite等のためのGUI管理ツール",
+    "generated_at": "2026-06-15"
+  },
+  "dolthub/dolt": {
+    "summary": "fork・clone・branch・merge・pushができるGitのようなSQLデータベース(Git for Data)",
+    "generated_at": "2026-06-15"
+  },
+  "zendesk/maxwell": {
+    "summary": "MySQLのbinlogを読み取り変更をJSONとしてKafka等へ送るCDC(変更データキャプチャ)アプリ",
+    "generated_at": "2026-06-15"
+  },
+  "drizzle-team/drizzle-orm": {
+    "summary": "軽量で依存ゼロ・ツリーシェイク可能なTypeScript向けのモダンなヘッドレスORM(Drizzle)",
+    "generated_at": "2026-06-15"
+  },
+  "achristmascarl/rainfrog": {
+    "summary": "vim風キーバインドで操作できるターミナル向けのデータベース操作ツール",
+    "generated_at": "2026-06-15"
+  },
+  "chartdb/chartdb": {
+    "summary": "1回のクエリでDBスキーマを可視化・設計できるWebベースのデータベース図エディタ",
+    "generated_at": "2026-06-15"
+  },
+  "qishibo/AnotherRedisDesktopManager": {
+    "summary": "Linux/Windows/Mac対応の高速で安定したRedisデスクトップ管理GUIクライアント",
+    "generated_at": "2026-06-15"
+  },
+  "schemaspy/schemaspy": {
+    "summary": "データベースのドキュメント(スキーマ図やER図)を簡単に生成するツール",
+    "generated_at": "2026-06-15"
+  },
+  "k1LoW/tbls": {
+    "summary": "データベースのドキュメントをGFM等で自動生成するCIフレンドリーなGo製ツール。DBのlinterにもなる",
+    "generated_at": "2026-06-15"
+  },
+  "sequelpro/sequelpro": {
+    "summary": "macOS向けの高速で使いやすいMySQL/MariaDBデータベース管理アプリ",
+    "generated_at": "2026-06-15"
+  },
+  "floci-io/floci": {
+    "summary": "アカウントもトークンも不要な無料・オープンソースのローカルAWSエミュレータ(LocalStack代替)",
+    "generated_at": "2026-06-15"
+  },
+  "windymelt/comport": {
+    "summary": "git worktreeのパスから衝突しないポート番号を決定的に割り当てるツール。複数worktreeの同時起動向け",
+    "generated_at": "2026-06-15"
+  },
+  "vercel-labs/portless": {
+    "summary": "ローカル開発でポート番号を安定した名前付き.localhost URLに置き換えるツール",
+    "generated_at": "2026-06-15"
+  },
+  "traefik/traefik": {
+    "summary": "マイクロサービスのデプロイを簡単にするモダンなクラウドネイティブHTTPリバースプロキシ兼ロードバランサ",
+    "generated_at": "2026-06-15"
+  },
+  "kayac/ecspresso": {
+    "summary": "Amazon ECSのサービスやタスク定義をコードとして管理・デプロイするツール",
+    "generated_at": "2026-06-15"
+  },
+  "opentofu/opentofu": {
+    "summary": "クラウドインフラを宣言的に構築・変更・バージョン管理するOSSツール(Terraformのフォーク)",
+    "generated_at": "2026-06-15"
+  },
+  "wiredoor/wiredoor": {
+    "summary": "WireGuardとNGINXでプライベートネットワークのサービスをインターネットに公開するセルフホスト型ingress基盤",
+    "generated_at": "2026-06-15"
+  },
+  "openobserve/openobserve": {
+    "summary": "ログ・メトリクス・トレース等を扱うオープンソース可観測性基盤。Datadog等の代替で低ストレージコスト",
+    "generated_at": "2026-06-15"
+  },
+  "0xJacky/nginx-ui": {
+    "summary": "Nginxを管理するためのWeb UI",
+    "generated_at": "2026-06-15"
+  },
+  "subtrace/subtrace": {
+    "summary": "1コマンドでサーバーのHTTPリクエストを検査できるバックエンド向けネットワークインスペクタ",
+    "generated_at": "2026-06-15"
+  },
+  "Unleash/unleash-react-sdk": {
+    "summary": "オープンソースのフィーチャーフラグ基盤UnleashのReact SDK",
+    "generated_at": "2026-06-15"
+  },
+  "Unleash/unleash": {
+    "summary": "オープンソースのフィーチャー管理(フラグ)プラットフォームUnleash",
+    "generated_at": "2026-06-15"
+  },
+  "rundeck/rundeck": {
+    "summary": "既存のツールやスクリプトへのセルフサービス運用を可能にするオープンソースのランブック自動化サービス",
+    "generated_at": "2026-06-15"
+  },
+  "netdata/netdata": {
+    "summary": "リアルタイムにインフラを監視するオープンソースのフルスタック可観測性プラットフォーム",
+    "generated_at": "2026-06-15"
+  },
+  "progrium/localtunnel": {
+    "summary": "ローカルのサーバーをインターネットに公開するトンネルツール(Go製の最小実装)",
+    "generated_at": "2026-06-15"
+  },
+  "git-ftp/git-ftp": {
+    "summary": "Gitで変更されたファイルだけをFTPサーバーにアップロードするデプロイツール",
+    "generated_at": "2026-06-15"
+  },
+  "kawamataryo/quick-start-wordpress-docker": {
+    "summary": "DockerでWordPressのローカル環境を素早く構築するためのリポジトリ",
+    "generated_at": "2026-06-15"
+  },
+  "vishnubob/wait-for-it": {
+    "summary": "TCPホスト・ポートの起動を待つ純粋なbashスクリプト。依存サービスの起動同期に便利",
+    "generated_at": "2026-06-15"
+  },
+  "amancevice/docker-superset": {
+    "summary": "データ可視化BIツールApache SupersetのDockerイメージ(非公式)",
+    "generated_at": "2026-06-15"
+  },
+  "maku693/action-puppeteer-script": {
+    "summary": "GitHub Actionsのワークフロー内でPuppeteerのスクリプトを書けるようにするAction",
+    "generated_at": "2026-06-15"
+  },
+  "peter-evans/find-comment": {
+    "summary": "IssueやPRから条件に合うコメントを探してそのIDを出力するGitHub Action",
+    "generated_at": "2026-06-15"
+  },
+  "Azure/actions-workflow-samples": {
+    "summary": "AzureへデプロイするためのスターターとなるGitHub Actionsワークフローのサンプル集",
+    "generated_at": "2026-06-15"
+  },
+  "rhysd/actionlint": {
+    "summary": "GitHub Actionsのワークフローファイルを構文・型・式までチェックする静的解析ツール",
+    "generated_at": "2026-06-15"
+  },
+  "browser-actions/setup-chrome": {
+    "summary": "GitHub Actionsのランナーに指定バージョンのChrome/ChromiumをセットアップするAction",
+    "generated_at": "2026-06-15"
+  },
+  "nektos/act": {
+    "summary": "GitHub Actionsをローカルで実行できるツール。push前に高速にワークフローを試せる",
+    "generated_at": "2026-06-15"
+  },
+  "ad-m/github-push-action": {
+    "summary": "ローカルの変更をリポジトリにpushし返すGitHub Action。リンタ結果の反映やGitHub Pages公開に使う",
+    "generated_at": "2026-06-15"
+  },
+  "peter-evans/repository-dispatch": {
+    "summary": "repository dispatchイベントを発火させ別ワークフローを起動するGitHub Action",
+    "generated_at": "2026-06-15"
+  },
+  "requie/LLMSecurityGuide": {
+    "summary": "LLMのセキュリティを包括的にまとめたリファレンス。OWASP GenAI Top-10やプロンプトインジェクション対策を解説",
+    "generated_at": "2026-06-15"
+  },
+  "CloakHQ/CloakBrowser": {
+    "summary": "あらゆるボット検知を突破するステルスChromium。Playwright/Puppeteerの差し替えで使えるフィンガープリント改変版",
+    "generated_at": "2026-06-15"
+  },
+  "eugene1g/agent-safehouse": {
+    "summary": "ローカルAIエージェントをサンドボックス化し必要なファイルやサービスだけにアクセスを制限するツール(macOS)",
+    "generated_at": "2026-06-15"
+  },
+  "onecli/onecli": {
+    "summary": "鍵を露出させずにAIエージェントへサービスアクセスを与える、内蔵Vault付きの認証情報ゲートウェイ",
+    "generated_at": "2026-06-15"
+  },
+  "nilpoona/leakhound": {
+    "summary": "sensitiveタグの付いた構造体フィールドのログ出力を検出し情報漏洩を防ぐGo用静的解析ツール",
+    "generated_at": "2026-06-15"
+  },
+  "NVISOsecurity/AlwaysTrustUserCerts": {
+    "summary": "ユーザー証明書をシステムのルートCAストアに自動追加するMagisk/KernelSUモジュール",
+    "generated_at": "2026-06-15"
+  },
+  "mitmproxy/mitmproxy": {
+    "summary": "ペンテスターや開発者向けのTLS対応の対話的なHTTP傍受プロキシ",
+    "generated_at": "2026-06-15"
+  },
+  "anthropic-experimental/sandbox-runtime": {
+    "summary": "コンテナ不要でプロセスにファイルシステム/ネットワーク制限をかける軽量サンドボックスツール(Anthropic製)",
+    "generated_at": "2026-06-15"
+  },
+  "getsops/sops": {
+    "summary": "YAML/JSON/ENV等の暗号化ファイルを編集できるシンプルで柔軟なシークレット管理ツール(KMS/age/PGP対応)",
+    "generated_at": "2026-06-15"
+  },
+  "michenriksen/gitrob": {
+    "summary": "GitHub組織の公開リポジトリから機微なファイルを探し出す偵察(OSINT)ツール",
+    "generated_at": "2026-06-15"
+  },
+  "MasterKale/SimpleWebAuthn": {
+    "summary": "WebAuthnの実装を簡単にするTypeScriptファーストなライブラリ群(サーバー/ブラウザ)",
+    "generated_at": "2026-06-15"
+  },
+  "lutwidse/Extract-Protocol-From-LINE-Write-up": {
+    "summary": "LINEの通信プロトコルをリバースエンジニアリングした解析記事(2018年の分析)",
+    "generated_at": "2026-06-15"
+  },
+  "auth0/jwt-decode": {
+    "summary": "JWTトークンをデコードするライブラリ。ブラウザアプリで便利(検証は行わない)",
+    "generated_at": "2026-06-15"
+  },
+  "golang-jwt/jwt": {
+    "summary": "JSON Web Token(JWT)のGo実装ライブラリ",
+    "generated_at": "2026-06-15"
+  },
+  "OWASP/mastg": {
+    "summary": "モバイルアプリのセキュリティテストとリバースエンジニアリングを網羅したOWASPの手引き(MASTG)",
+    "generated_at": "2026-06-15"
+  },
+  "0x00-0x00/ShellPop": {
+    "summary": "ペネトレーションテスト用にリバース/バインドシェルのコマンドを簡単に生成するツール",
+    "generated_at": "2026-06-15"
+  },
+  "MaxToyberman/react-native-ssl-pinning": {
+    "summary": "OkHttp3(Android)/AFNetworking(iOS)ベースのReact Native向けSSLピンニングとCookie処理ライブラリ",
+    "generated_at": "2026-06-15"
+  },
+  "frw/react-native-ssl-public-key-pinning": {
+    "summary": "ネイティブ設定不要で数分で導入できるReact Native向けのSSL公開鍵ピンニングライブラリ",
+    "generated_at": "2026-06-15"
+  },
+  "RikkaApps/Shizuku": {
+    "summary": "通常アプリからadb/root権限でシステムAPIを直接呼び出せるようにするツール",
+    "generated_at": "2026-06-15"
+  },
+  "ssut/payload-dumper-go": {
+    "summary": "AndroidのOTA payload(payload.bin)を高速・並列に展開するGo製ツール",
+    "generated_at": "2026-06-15"
+  },
+  "topjohnwu/Magisk": {
+    "summary": "AndroidをカスタマイズするオープンソースのスイートMagisk。root権限付与やモジュール導入ができる",
+    "generated_at": "2026-06-15"
+  },
+  "react-native-device-info/react-native-device-info": {
+    "summary": "React NativeのiOS/Androidで端末情報を取得するライブラリ",
+    "generated_at": "2026-06-15"
+  },
+  "ChartsOrg/Charts": {
+    "summary": "iOS/tvOS/macOS向けの美しいチャートライブラリ(MPAndroidChartのApple版・DGCharts)",
+    "generated_at": "2026-06-15"
+  },
+  "hackiftekhar/IQKeyboardManager": {
+    "summary": "iOSでキーボードがテキスト入力欄を覆う問題を、コード不要で自動的に防ぐ汎用ライブラリ",
+    "generated_at": "2026-06-15"
+  },
+  "antiguab/BAFluidView": {
+    "summary": "流体が満ちる様子を2Dで表現するアニメーション付きUIView(iOS)",
+    "generated_at": "2026-06-15"
+  },
+  "kishikawakatsumi/KeychainAccess": {
+    "summary": "iOS/macOS等で動作するKeychainのシンプルなSwiftラッパー",
+    "generated_at": "2026-06-15"
+  },
+  "furuya02/ARKitFurnitureArrangementSample": {
+    "summary": "ARKitで家具を配置するサンプルアプリ",
+    "generated_at": "2026-06-15"
+  },
+  "matsuokah/FlexibleAPIResponseSample": {
+    "summary": "柔軟なAPIレスポンスの扱い方を示すSwiftのサンプル",
+    "generated_at": "2026-06-15"
+  },
+  "br-to/polymarket-monitor": {
+    "summary": "Polymarketのオッズ変動を定期監視し急変動を検知、関連米国株のトレーディングシグナルを自動生成するツール",
+    "generated_at": "2026-06-15"
+  },
+  "solana-foundation/pay": {
+    "summary": "x402等の決済チャレンジを処理しエージェントが任意のAPIに支払いできるようにする、HTTP向け決済レイヤー",
+    "generated_at": "2026-06-15"
+  },
+  "bflynn4141/newsworthy-protocol": {
+    "summary": "World Chain上のトークンキュレート型ニュースレジストリ。ツイートを投稿しUSDCで投票してNEWSトークンを得る",
+    "generated_at": "2026-06-15"
+  },
+  "jiayaoqijia/Ottie": {
+    "summary": "全ての行動を監査可能にするEthereum/暗号資産向けの自己進化型AIエージェントランタイム(Go)",
+    "generated_at": "2026-06-15"
+  },
+  "vercel-labs/x402-ai-starter": {
+    "summary": "x402決済とAIを組み合わせたNext.jsスターターキット",
+    "generated_at": "2026-06-15"
+  },
+  "x402-foundation/x402": {
+    "summary": "HTTP上に構築されたインターネットネイティブな決済プロトコルx402(暗号・法定通貨対応)",
+    "generated_at": "2026-06-15"
+  },
+  "scallop-io/sui-scallop-sdk": {
+    "summary": "SUIネットワークのレンディング基盤Scallopと連携するためのTypeScript SDK",
+    "generated_at": "2026-06-15"
+  },
+  "abhi3700/sui-playground": {
+    "summary": "Suiブロックチェーンとスマートコントラクト(Sui Move)の学習用リポジトリ",
+    "generated_at": "2026-06-15"
+  },
+  "blockvisionhq/sui-go-sdk": {
+    "summary": "Mysten LabsのSui向けGo言語SDK。各種Sui RPCメソッドにアクセスできる",
+    "generated_at": "2026-06-15"
+  },
+  "MystenLabs/awesome-move": {
+    "summary": "Moveプログラミング言語コミュニティのコードやコンテンツを集めたキュレーションリスト",
+    "generated_at": "2026-06-15"
+  },
+  "sui-foundation/sui-move-intro-course": {
+    "summary": "Sui Foundationが管理するSui Move言語の入門コース",
+    "generated_at": "2026-06-15"
+  },
+  "MystenLabs/sui": {
+    "summary": "Move言語による高スループット・低遅延の次世代スマートコントラクトプラットフォームSui",
+    "generated_at": "2026-06-15"
+  },
+  "CetusProtocol/cetus-clmm-sui-sdk": {
+    "summary": "Sui上のCLMM(集中流動性DEX)Cetusと連携する公式TypeScript SDK",
+    "generated_at": "2026-06-15"
+  },
+  "lhartikk/naivechain": {
+    "summary": "ブロックチェーンの仕組みを学べる200行のシンプルな実装",
+    "generated_at": "2026-06-15"
+  },
+  "dvf/blockchain": {
+    "summary": "Pythonで一から作るシンプルなブロックチェーン実装(解説記事のソース)",
+    "generated_at": "2026-06-15"
+  },
+  "usebruno/bruno": {
+    "summary": "APIを探索・テストするオープンソースIDE。Postman/Insomniaの軽量な代替",
+    "generated_at": "2026-06-15"
+  },
+  "pydantic/pydantic": {
+    "summary": "Pythonの型ヒントを使ったデータバリデーションライブラリPydantic",
+    "generated_at": "2026-06-15"
+  },
+  "msgspec/msgspec": {
+    "summary": "JSON・MessagePack・YAML・TOMLに対応した高速なシリアライズ＆バリデーションライブラリ(Python)",
+    "generated_at": "2026-06-15"
+  },
+  "testcontainers/testcontainers-python": {
+    "summary": "自動テスト中にDockerコンテナを起動して実環境を用意するPythonライブラリ",
+    "generated_at": "2026-06-15"
+  },
+  "nipunn1313/mypy-protobuf": {
+    "summary": "protobuf定義からmypyの型スタブを生成するオープンソースツール",
+    "generated_at": "2026-06-15"
   }
 }

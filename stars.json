@@ -3902,7 +3902,7 @@
           "stars": 13377,
           "url": "https://github.com/graphql/dataloader",
           "category": "backend",
-          "summary": ""
+          "summary": "バッチ処理とキャッシュでバックエンドへのリクエストを削減するデータ取得層向けの汎用ユーティリティ"
         },
         {
           "desc": "Full stack, modern web application template. Using FastAPI, React, SQLModel, PostgreSQL, Docker, GitHub Actions, automatic HTTPS and more.",
@@ -3912,7 +3912,7 @@
           "stars": 43667,
           "url": "https://github.com/fastapi/full-stack-fastapi-template",
           "category": "backend",
-          "summary": ""
+          "summary": "FastAPI・React・SQLModel・PostgreSQL・Docker等を使ったモダンなフルスタックWebアプリのテンプレート"
         },
         {
           "desc": "Pusher Javascript library",
@@ -3922,7 +3922,7 @@
           "stars": 2218,
           "url": "https://github.com/pusher/pusher-js",
           "category": "backend",
-          "summary": ""
+          "summary": "リアルタイム通信を扱うPusher ChannelsのJavaScriptクライアントライブラリ"
         },
         {
           "desc": "HTTP request logger middleware for node.js",
@@ -3932,7 +3932,7 @@
           "stars": 8180,
           "url": "https://github.com/expressjs/morgan",
           "category": "backend",
-          "summary": ""
+          "summary": "Node.js(Express)向けのHTTPリクエストロガーミドルウェア"
         },
         {
           "desc": "Laravel Migrations Generator: Automatically generate your migrations from an existing database schema.",
@@ -3942,7 +3942,7 @@
           "stars": 2859,
           "url": "https://github.com/kitloong/laravel-migrations-generator",
           "category": "backend",
-          "summary": ""
+          "summary": "既存のDBスキーマからLaravelのマイグレーションを自動生成するツール。インデックスや外部キーにも対応"
         },
         {
           "desc": "A framework to build Slack apps using JavaScript",
@@ -3952,7 +3952,7 @@
           "stars": 2914,
           "url": "https://github.com/slackapi/bolt-js",
           "category": "backend",
-          "summary": ""
+          "summary": "JavaScriptでSlackアプリを手早く構築するための公式フレームワーク(Bolt)"
         },
         {
           "desc": "🧟 The modern PHP app server",
@@ -3962,7 +3962,7 @@
           "stars": 11147,
           "url": "https://github.com/php/frankenphp",
           "category": "backend",
-          "summary": ""
+          "summary": "Caddy上に構築されたモダンなPHPアプリケーションサーバー。ワーカーモードや自動HTTPS等に対応"
         },
         {
           "desc": "🛠 Secure, stateless, and cookie-based session library for Next.js or any JavaScript framework",
@@ -3972,7 +3972,7 @@
           "stars": 4125,
           "url": "https://github.com/vvo/iron-session",
           "category": "backend",
-          "summary": ""
+          "summary": "署名・暗号化されたcookieにセッションを保存するステートレスなセッションライブラリ。Next.js等で使える"
         },
         {
           "desc": "gin middleware to automatically generate RESTful API documentation with Swagger 2.0.",
@@ -3982,7 +3982,7 @@
           "stars": 4232,
           "url": "https://github.com/swaggo/gin-swagger",
           "category": "backend",
-          "summary": ""
+          "summary": "GinのRESTful APIドキュメントをSwagger 2.0で自動生成するミドルウェア"
         },
         {
           "desc": "Automatically generate RESTful API documentation with Swagger 2.0 for Go.",
@@ -3992,7 +3992,7 @@
           "stars": 12843,
           "url": "https://github.com/swaggo/swag",
           "category": "backend",
-          "summary": ""
+          "summary": "GoのアノテーションからSwagger 2.0のAPIドキュメントを自動生成するツール"
         },
         {
           "desc": "xid is a globally unique id generator thought for the web",
@@ -4002,7 +4002,7 @@
           "stars": 4277,
           "url": "https://github.com/rs/xid",
           "category": "backend",
-          "summary": ""
+          "summary": "Web向けに設計されたグローバルに一意なID生成ライブラリ。短い文字列表現が特徴(Go)"
         },
         {
           "desc": "FastAPI framework, high performance, easy to learn, fast to code, ready for production",
@@ -4012,7 +4012,7 @@
           "stars": 99177,
           "url": "https://github.com/fastapi/fastapi",
           "category": "backend",
-          "summary": ""
+          "summary": "Pythonの型ヒントを基にした高性能で学習しやすいAPI構築用Webフレームワーク"
         },
         {
           "desc": "Sample code for Azure Functions custom handlers",
@@ -4022,7 +4022,7 @@
           "stars": 94,
           "url": "https://github.com/Azure-Samples/functions-custom-handlers",
           "category": "backend",
-          "summary": ""
+          "summary": "Azure Functionsのカスタムハンドラー(任意言語の軽量Webサーバー)のサンプルコード"
         },
         {
           "desc": "Slack API in Go",
@@ -4032,7 +4032,7 @@
           "stars": 4946,
           "url": "https://github.com/slack-go/slack",
           "category": "backend",
-          "summary": ""
+          "summary": "Go向けのSlack APIライブラリ。REST呼び出しとRTM(WebSocket)に対応"
         },
         {
           "desc": "A simple CLI tool for ensuring that a given script runs continuously (i.e. forever)",
@@ -4042,7 +4042,7 @@
           "stars": 13843,
           "url": "https://github.com/foreversd/forever",
           "category": "backend",
-          "summary": ""
+          "summary": "指定したスクリプトを継続的に(永続的に)実行し続けるシンプルなCLIツール"
         },
         {
           "desc": "Generate the API Client for Fetch or Axios from an OpenAPI Specification",
@@ -4052,7 +4052,7 @@
           "stars": 4089,
           "url": "https://github.com/acacode/swagger-typescript-api",
           "category": "backend",
-          "summary": ""
+          "summary": "OpenAPI仕様からFetch/Axios用のAPIクライアントを生成するツール"
         },
         {
           "desc": "",
@@ -4062,7 +4062,7 @@
           "stars": 1008,
           "url": "https://github.com/Shopify/shopify-app-template-node",
           "category": "backend",
-          "summary": ""
+          "summary": "NodeとReactでShopifyアプリを構築するための公式テンプレート"
         },
         {
           "desc": "schema file of freee API",
@@ -4072,7 +4072,7 @@
           "stars": 24,
           "url": "https://github.com/freee/freee-api-schema",
           "category": "backend",
-          "summary": ""
+          "summary": "freee APIのスキーマ定義ファイル"
         },
         {
           "desc": "TypeScript friendly HTTP client wrapper for the browser and node.js.",
@@ -4082,7 +4082,7 @@
           "stars": 1077,
           "url": "https://github.com/aspida/aspida",
           "category": "backend",
-          "summary": ""
+          "summary": "型を活かせるブラウザ/Node.js向けのHTTPクライアントラッパー。パスやクエリ・レスポンスに型を付けられる"
         },
         {
           "desc": "A modern runtime for JavaScript and TypeScript.",
@@ -4092,7 +4092,7 @@
           "stars": 107061,
           "url": "https://github.com/denoland/deno",
           "category": "backend",
-          "summary": ""
+          "summary": "セキュアな既定設定と良好な開発体験を持つJavaScript/TypeScript/WebAssemblyランタイム"
         },
         {
           "desc": "Node.js Application Configuration",
@@ -4102,7 +4102,7 @@
           "stars": 6428,
           "url": "https://github.com/node-config/node-config",
           "category": "backend",
-          "summary": ""
+          "summary": "環境ごとに階層的な設定を管理するNode.jsアプリ用の設定ライブラリ"
         },
         {
           "desc": "Convert OpenAPI 3.0 or Swagger 2.0 definitions into aspida",
@@ -4112,7 +4112,7 @@
           "stars": 189,
           "url": "https://github.com/aspida/openapi2aspida",
           "category": "backend",
-          "summary": ""
+          "summary": "OpenAPI 3.0やSwagger 2.0の定義をaspida形式に変換するツール"
         },
         {
           "desc": "Reverse proxy for PHP built-in server which supports multiprocessing and TLS/SSL encryption",
@@ -4122,7 +4122,7 @@
           "stars": 105,
           "url": "https://github.com/mpyw/php-hyper-builtin-server",
           "category": "backend",
-          "summary": ""
+          "summary": "マルチプロセスとTLS/SSLに対応したPHPビルトインサーバー用のリバースプロキシ"
         },
         {
           "desc": "",
@@ -4132,7 +4132,7 @@
           "stars": 1,
           "url": "https://github.com/syuukai85/api-server",
           "category": "backend",
-          "summary": ""
+          "summary": "投げ銭イベント管理ツールのAPIサーバー(Go)"
         }
       ]
     },
@@ -4151,7 +4151,7 @@
           "stars": 16713,
           "url": "https://github.com/neo4j/neo4j",
           "category": "database",
-          "summary": ""
+          "summary": "誰でも使えるグラフを掲げるグラフデータベースNeo4j"
         },
         {
           "desc": "GUI for DynamoDB Local or dynalite",
@@ -4161,7 +4161,7 @@
           "stars": 1470,
           "url": "https://github.com/aaronshaf/dynamodb-admin",
           "category": "database",
-          "summary": ""
+          "summary": "DynamoDB Localやdynalite等のためのGUI管理ツール"
         },
         {
           "desc": "Dolt – Git for Data",
@@ -4171,7 +4171,7 @@
           "stars": 23420,
           "url": "https://github.com/dolthub/dolt",
           "category": "database",
-          "summary": ""
+          "summary": "fork・clone・branch・merge・pushができるGitのようなSQLデータベース(Git for Data)"
         },
         {
           "desc": "Maxwell's daemon, a mysql-to-json kafka producer",
@@ -4181,7 +4181,7 @@
           "stars": 4253,
           "url": "https://github.com/zendesk/maxwell",
           "category": "database",
-          "summary": ""
+          "summary": "MySQLのbinlogを読み取り変更をJSONとしてKafka等へ送るCDC(変更データキャプチャ)アプリ"
         },
         {
           "desc": "ORM",
@@ -4191,7 +4191,7 @@
           "stars": 34790,
           "url": "https://github.com/drizzle-team/drizzle-orm",
           "category": "database",
-          "summary": ""
+          "summary": "軽量で依存ゼロ・ツリーシェイク可能なTypeScript向けのモダンなヘッドレスORM(Drizzle)"
         },
         {
           "desc": "🐸 a database tool for the terminal",
@@ -4201,7 +4201,7 @@
           "stars": 5113,
           "url": "https://github.com/achristmascarl/rainfrog",
           "category": "database",
-          "summary": ""
+          "summary": "vim風キーバインドで操作できるターミナル向けのデータベース操作ツール"
         },
         {
           "desc": "Database diagrams editor that allows you to visualize and design your DB with a single query.",
@@ -4211,7 +4211,7 @@
           "stars": 22389,
           "url": "https://github.com/chartdb/chartdb",
           "category": "database",
-          "summary": ""
+          "summary": "1回のクエリでDBスキーマを可視化・設計できるWebベースのデータベース図エディタ"
         },
         {
           "desc": "🚀🚀🚀A faster, better and more stable Redis desktop manager [GUI client], compatible with Linux, Windows, Mac.",
@@ -4221,7 +4221,7 @@
           "stars": 34412,
           "url": "https://github.com/qishibo/AnotherRedisDesktopManager",
           "category": "database",
-          "summary": ""
+          "summary": "Linux/Windows/Mac対応の高速で安定したRedisデスクトップ管理GUIクライアント"
         },
         {
           "desc": "Database documentation built easy",
@@ -4231,7 +4231,7 @@
           "stars": 3656,
           "url": "https://github.com/schemaspy/schemaspy",
           "category": "database",
-          "summary": ""
+          "summary": "データベースのドキュメント(スキーマ図やER図)を簡単に生成するツール"
         },
         {
           "desc": "tbls is a CI-Friendly tool to document a database, written in Go.",
@@ -4241,7 +4241,7 @@
           "stars": 4253,
           "url": "https://github.com/k1LoW/tbls",
           "category": "database",
-          "summary": ""
+          "summary": "データベースのドキュメントをGFM等で自動生成するCIフレンドリーなGo製ツール。DBのlinterにもなる"
         },
         {
           "desc": "MySQL/MariaDB database management for macOS",
@@ -4251,7 +4251,7 @@
           "stars": 9195,
           "url": "https://github.com/sequelpro/sequelpro",
           "category": "database",
-          "summary": ""
+          "summary": "macOS向けの高速で使いやすいMySQL/MariaDBデータベース管理アプリ"
         }
       ]
     },
@@ -4270,7 +4270,7 @@
           "stars": 14061,
           "url": "https://github.com/floci-io/floci",
           "category": "devops",
-          "summary": ""
+          "summary": "アカウントもトークンも不要な無料・オープンソースのローカルAWSエミュレータ(LocalStack代替)"
         },
         {
           "desc": "Docker Compose worktree port assigner: randomize port to avoid collision between worktree",
@@ -4280,7 +4280,7 @@
           "stars": 28,
           "url": "https://github.com/windymelt/comport",
           "category": "devops",
-          "summary": ""
+          "summary": "git worktreeのパスから衝突しないポート番号を決定的に割り当てるツール。複数worktreeの同時起動向け"
         },
         {
           "desc": "Replace port numbers with stable, named local URLs. For humans and agents.",
@@ -4290,7 +4290,7 @@
           "stars": 9758,
           "url": "https://github.com/vercel-labs/portless",
           "category": "devops",
-          "summary": ""
+          "summary": "ローカル開発でポート番号を安定した名前付き.localhost URLに置き換えるツール"
         },
         {
           "desc": "The Cloud Native Application Proxy",
@@ -4300,7 +4300,7 @@
           "stars": 63600,
           "url": "https://github.com/traefik/traefik",
           "category": "devops",
-          "summary": ""
+          "summary": "マイクロサービスのデプロイを簡単にするモダンなクラウドネイティブHTTPリバースプロキシ兼ロードバランサ"
         },
         {
           "desc": "ecspresso is a deployment tool for Amazon ECS",
@@ -4310,7 +4310,7 @@
           "stars": 1093,
           "url": "https://github.com/kayac/ecspresso",
           "category": "devops",
-          "summary": ""
+          "summary": "Amazon ECSのサービスやタスク定義をコードとして管理・デプロイするツール"
         },
         {
           "desc": "OpenTofu lets you declaratively manage your cloud infrastructure.",
@@ -4320,7 +4320,7 @@
           "stars": 29057,
           "url": "https://github.com/opentofu/opentofu",
           "category": "devops",
-          "summary": ""
+          "summary": "クラウドインフラを宣言的に構築・変更・バージョン管理するOSSツール(Terraformのフォーク)"
         },
         {
           "desc": "Self hosted ingress-as-a-service platform that allows you to expose applications and services running in private or local networks to the internet",
@@ -4330,7 +4330,7 @@
           "stars": 1606,
           "url": "https://github.com/wiredoor/wiredoor",
           "category": "devops",
-          "summary": ""
+          "summary": "WireGuardとNGINXでプライベートネットワークのサービスをインターネットに公開するセルフホスト型ingress基盤"
         },
         {
           "desc": "Open source observability platform for logs, metrics, traces, frontend monitoring, pipelines and LLM observability. A sophisticated, simple and highly performant alternative to Datadog, Splunk, and Elasticsearch with 140x lower storage costs and single binary deployment.",
@@ -4340,7 +4340,7 @@
           "stars": 19265,
           "url": "https://github.com/openobserve/openobserve",
           "category": "devops",
-          "summary": ""
+          "summary": "ログ・メトリクス・トレース等を扱うオープンソース可観測性基盤。Datadog等の代替で低ストレージコスト"
         },
         {
           "desc": "Yet another WebUI for Nginx",
@@ -4350,7 +4350,7 @@
           "stars": 11211,
           "url": "https://github.com/0xJacky/nginx-ui",
           "category": "devops",
-          "summary": ""
+          "summary": "Nginxを管理するためのWeb UI"
         },
         {
           "desc": "Network inspector for your backend",
@@ -4360,7 +4360,7 @@
           "stars": 2809,
           "url": "https://github.com/subtrace/subtrace",
           "category": "devops",
-          "summary": ""
+          "summary": "1コマンドでサーバーのHTTPリクエストを検査できるバックエンド向けネットワークインスペクタ"
         },
         {
           "desc": "Unleash SDK for React. Unleash is the open-source feature-flags solution",
@@ -4370,7 +4370,7 @@
           "stars": 57,
           "url": "https://github.com/Unleash/unleash-react-sdk",
           "category": "devops",
-          "summary": ""
+          "summary": "オープンソースのフィーチャーフラグ基盤UnleashのReact SDK"
         },
         {
           "desc": "Open-source feature management platform",
@@ -4380,7 +4380,7 @@
           "stars": 13580,
           "url": "https://github.com/Unleash/unleash",
           "category": "devops",
-          "summary": ""
+          "summary": "オープンソースのフィーチャー管理(フラグ)プラットフォームUnleash"
         },
         {
           "desc": "Enable Self-Service Operations: Give specific users access to your existing tools, services, and scripts",
@@ -4390,7 +4390,7 @@
           "stars": 6137,
           "url": "https://github.com/rundeck/rundeck",
           "category": "devops",
-          "summary": ""
+          "summary": "既存のツールやスクリプトへのセルフサービス運用を可能にするオープンソースのランブック自動化サービス"
         },
         {
           "desc": "The fastest path to AI-powered full stack observability, even for lean teams.",
@@ -4400,7 +4400,7 @@
           "stars": 79146,
           "url": "https://github.com/netdata/netdata",
           "category": "devops",
-          "summary": ""
+          "summary": "リアルタイムにインフラを監視するオープンソースのフルスタック可観測性プラットフォーム"
         },
         {
           "desc": "Expose localhost servers to the Internet",
@@ -4410,7 +4410,7 @@
           "stars": 3234,
           "url": "https://github.com/progrium/localtunnel",
           "category": "devops",
-          "summary": ""
+          "summary": "ローカルのサーバーをインターネットに公開するトンネルツール(Go製の最小実装)"
         },
         {
           "desc": "Uses Git to upload only changed files to FTP servers.",
@@ -4420,7 +4420,7 @@
           "stars": 5584,
           "url": "https://github.com/git-ftp/git-ftp",
           "category": "devops",
-          "summary": ""
+          "summary": "Gitで変更されたファイルだけをFTPサーバーにアップロードするデプロイツール"
         },
         {
           "desc": "dockerによるWordpressのローカル環境構築",
@@ -4430,7 +4430,7 @@
           "stars": 38,
           "url": "https://github.com/kawamataryo/quick-start-wordpress-docker",
           "category": "devops",
-          "summary": ""
+          "summary": "DockerでWordPressのローカル環境を素早く構築するためのリポジトリ"
         },
         {
           "desc": "Pure bash script to test and wait on the availability of a TCP host and port",
@@ -4440,7 +4440,7 @@
           "stars": 9777,
           "url": "https://github.com/vishnubob/wait-for-it",
           "category": "devops",
-          "summary": ""
+          "summary": "TCPホスト・ポートの起動を待つ純粋なbashスクリプト。依存サービスの起動同期に便利"
         },
         {
           "desc": "Docker image for Airbnb's Superset",
@@ -4450,7 +4450,7 @@
           "stars": 990,
           "url": "https://github.com/amancevice/docker-superset",
           "category": "devops",
-          "summary": ""
+          "summary": "データ可視化BIツールApache SupersetのDockerイメージ(非公式)"
         }
       ]
     },
@@ -4469,7 +4469,7 @@
           "stars": 6,
           "url": "https://github.com/maku693/action-puppeteer-script",
           "category": "cicd",
-          "summary": ""
+          "summary": "GitHub Actionsのワークフロー内でPuppeteerのスクリプトを書けるようにするAction"
         },
         {
           "desc": "A GitHub action to find an issue or pull request comment",
@@ -4479,7 +4479,7 @@
           "stars": 242,
           "url": "https://github.com/peter-evans/find-comment",
           "category": "cicd",
-          "summary": ""
+          "summary": "IssueやPRから条件に合うコメントを探してそのIDを出力するGitHub Action"
         },
         {
           "desc": "Help developers to easily get started with GitHub Action workflows to deploy to Azure",
@@ -4489,7 +4489,7 @@
           "stars": 510,
           "url": "https://github.com/Azure/actions-workflow-samples",
           "category": "cicd",
-          "summary": ""
+          "summary": "AzureへデプロイするためのスターターとなるGitHub Actionsワークフローのサンプル集"
         },
         {
           "desc": ":octocat: Static checker for GitHub Actions workflow files",
@@ -4499,7 +4499,7 @@
           "stars": 3950,
           "url": "https://github.com/rhysd/actionlint",
           "category": "cicd",
-          "summary": ""
+          "summary": "GitHub Actionsのワークフローファイルを構文・型・式までチェックする静的解析ツール"
         },
         {
           "desc": "Set up your GitHub Actions workflow with a specific version of chromium ",
@@ -4509,7 +4509,7 @@
           "stars": 220,
           "url": "https://github.com/browser-actions/setup-chrome",
           "category": "cicd",
-          "summary": ""
+          "summary": "GitHub Actionsのランナーに指定バージョンのChrome/ChromiumをセットアップするAction"
         },
         {
           "desc": "Run your GitHub Actions locally 🚀",
@@ -4519,7 +4519,7 @@
           "stars": 70778,
           "url": "https://github.com/nektos/act",
           "category": "cicd",
-          "summary": ""
+          "summary": "GitHub Actionsをローカルで実行できるツール。push前に高速にワークフローを試せる"
         },
         {
           "desc": "GitHub actions to push back to repository eg. updated code",
@@ -4529,7 +4529,7 @@
           "stars": 1270,
           "url": "https://github.com/ad-m/github-push-action",
           "category": "cicd",
-          "summary": ""
+          "summary": "ローカルの変更をリポジトリにpushし返すGitHub Action。リンタ結果の反映やGitHub Pages公開に使う"
         },
         {
           "desc": "A GitHub action to create a repository dispatch event",
@@ -4539,7 +4539,7 @@
           "stars": 1191,
           "url": "https://github.com/peter-evans/repository-dispatch",
           "category": "cicd",
-          "summary": ""
+          "summary": "repository dispatchイベントを発火させ別ワークフローを起動するGitHub Action"
         }
       ]
     },
@@ -4558,7 +4558,7 @@
           "stars": 110,
           "url": "https://github.com/requie/LLMSecurityGuide",
           "category": "security",
-          "summary": ""
+          "summary": "LLMのセキュリティを包括的にまとめたリファレンス。OWASP GenAI Top-10やプロンプトインジェクション対策を解説"
         },
         {
           "desc": "Stealth Chromium that passes every bot detection test. Drop-in Playwright replacement with source-level fingerprint patches. 30/30 tests passed.",
@@ -4568,7 +4568,7 @@
           "stars": 25973,
           "url": "https://github.com/CloakHQ/CloakBrowser",
           "category": "security",
-          "summary": ""
+          "summary": "あらゆるボット検知を突破するステルスChromium。Playwright/Puppeteerの差し替えで使えるフィンガープリント改変版"
         },
         {
           "desc": "Sandbox your local AI agents so they can read/write only what they need",
@@ -4578,7 +4578,7 @@
           "stars": 1854,
           "url": "https://github.com/eugene1g/agent-safehouse",
           "category": "security",
-          "summary": ""
+          "summary": "ローカルAIエージェントをサンドボックス化し必要なファイルやサービスだけにアクセスを制限するツール(macOS)"
         },
         {
           "desc": "Open-source credential gateway with a built-in vault. give your AI agents access to services without exposing keys.",
@@ -4588,7 +4588,7 @@
           "stars": 2370,
           "url": "https://github.com/onecli/onecli",
           "category": "security",
-          "summary": ""
+          "summary": "鍵を露出させずにAIエージェントへサービスアクセスを与える、内蔵Vault付きの認証情報ゲートウェイ"
         },
         {
           "desc": "Static analysis tool to prevent logging of sensitive data by detecting struct fields marked as sensitive.",
@@ -4598,7 +4598,7 @@
           "stars": 16,
           "url": "https://github.com/nilpoona/leakhound",
           "category": "security",
-          "summary": ""
+          "summary": "sensitiveタグの付いた構造体フィールドのログ出力を検出し情報漏洩を防ぐGo用静的解析ツール"
         },
         {
           "desc": "A Magisk/KernelSU module that automatically adds user certificates to the system root CA store",
@@ -4608,7 +4608,7 @@
           "stars": 2484,
           "url": "https://github.com/NVISOsecurity/AlwaysTrustUserCerts",
           "category": "security",
-          "summary": ""
+          "summary": "ユーザー証明書をシステムのルートCAストアに自動追加するMagisk/KernelSUモジュール"
         },
         {
           "desc": "An interactive TLS-capable intercepting HTTP proxy for penetration testers and software developers.",
@@ -4618,7 +4618,7 @@
           "stars": 43900,
           "url": "https://github.com/mitmproxy/mitmproxy",
           "category": "security",
-          "summary": ""
+          "summary": "ペンテスターや開発者向けのTLS対応の対話的なHTTP傍受プロキシ"
         },
         {
           "desc": "A lightweight sandboxing tool for enforcing filesystem and network restrictions on arbitrary processes at the OS level, without requiring a container.",
@@ -4628,7 +4628,7 @@
           "stars": 4411,
           "url": "https://github.com/anthropic-experimental/sandbox-runtime",
           "category": "security",
-          "summary": ""
+          "summary": "コンテナ不要でプロセスにファイルシステム/ネットワーク制限をかける軽量サンドボックスツール(Anthropic製)"
         },
         {
           "desc": "Simple and flexible tool for managing secrets",
@@ -4638,7 +4638,7 @@
           "stars": 22091,
           "url": "https://github.com/getsops/sops",
           "category": "security",
-          "summary": ""
+          "summary": "YAML/JSON/ENV等の暗号化ファイルを編集できるシンプルで柔軟なシークレット管理ツール(KMS/age/PGP対応)"
         },
         {
           "desc": "Reconnaissance tool for GitHub organizations",
@@ -4648,7 +4648,7 @@
           "stars": 6181,
           "url": "https://github.com/michenriksen/gitrob",
           "category": "security",
-          "summary": ""
+          "summary": "GitHub組織の公開リポジトリから機微なファイルを探し出す偵察(OSINT)ツール"
         },
         {
           "desc": "WebAuthn, Simplified. A collection of TypeScript-first libraries for simpler WebAuthn integration. Supports modern browsers, Node, Deno, and more.",
@@ -4658,7 +4658,7 @@
           "stars": 2266,
           "url": "https://github.com/MasterKale/SimpleWebAuthn",
           "category": "security",
-          "summary": ""
+          "summary": "WebAuthnの実装を簡単にするTypeScriptファーストなライブラリ群(サーバー/ブラウザ)"
         },
         {
           "desc": "Reverse Engineering of LINE. This article is from my 2018 analysis. Be aware of that some of the protocol has been changed in 2020.",
@@ -4668,7 +4668,7 @@
           "stars": 29,
           "url": "https://github.com/lutwidse/Extract-Protocol-From-LINE-Write-up",
           "category": "security",
-          "summary": ""
+          "summary": "LINEの通信プロトコルをリバースエンジニアリングした解析記事(2018年の分析)"
         },
         {
           "desc": "Decode JWT tokens; useful for browser applications.",
@@ -4678,7 +4678,7 @@
           "stars": 3392,
           "url": "https://github.com/auth0/jwt-decode",
           "category": "security",
-          "summary": ""
+          "summary": "JWTトークンをデコードするライブラリ。ブラウザアプリで便利(検証は行わない)"
         },
         {
           "desc": "Go implementation of JSON Web Tokens (JWT).",
@@ -4688,7 +4688,7 @@
           "stars": 9120,
           "url": "https://github.com/golang-jwt/jwt",
           "category": "security",
-          "summary": ""
+          "summary": "JSON Web Token(JWT)のGo実装ライブラリ"
         },
         {
           "desc": "The OWASP Mobile Application Security Testing Guide (MASTG) is a comprehensive manual for mobile app security testing and reverse engineering. It describes technical processes for verifying the OWASP Mobile Security Weakness Enumeration (MASWE) weaknesses, which are in alignment with the OWASP MASVS.",
@@ -4698,7 +4698,7 @@
           "stars": 12969,
           "url": "https://github.com/OWASP/mastg",
           "category": "security",
-          "summary": ""
+          "summary": "モバイルアプリのセキュリティテストとリバースエンジニアリングを網羅したOWASPの手引き(MASTG)"
         },
         {
           "desc": "Pop shells like a master.",
@@ -4708,7 +4708,7 @@
           "stars": 1486,
           "url": "https://github.com/0x00-0x00/ShellPop",
           "category": "security",
-          "summary": ""
+          "summary": "ペネトレーションテスト用にリバース/バインドシェルのコマンドを簡単に生成するツール"
         }
       ]
     },
@@ -4727,7 +4727,7 @@
           "stars": 407,
           "url": "https://github.com/MaxToyberman/react-native-ssl-pinning",
           "category": "mobile",
-          "summary": ""
+          "summary": "OkHttp3(Android)/AFNetworking(iOS)ベースのReact Native向けSSLピンニングとCookie処理ライブラリ"
         },
         {
           "desc": "Simple and secure SSL public key pinning for React Native. No native configuration needed, set up in <5 minutes.",
@@ -4737,7 +4737,7 @@
           "stars": 259,
           "url": "https://github.com/frw/react-native-ssl-public-key-pinning",
           "category": "mobile",
-          "summary": ""
+          "summary": "ネイティブ設定不要で数分で導入できるReact Native向けのSSL公開鍵ピンニングライブラリ"
         },
         {
           "desc": "Using system APIs directly with adb/root privileges from normal apps through a Java process started with app_process.",
@@ -4747,7 +4747,7 @@
           "stars": 26327,
           "url": "https://github.com/RikkaApps/Shizuku",
           "category": "mobile",
-          "summary": ""
+          "summary": "通常アプリからadb/root権限でシステムAPIを直接呼び出せるようにするツール"
         },
         {
           "desc": "an android OTA payload dumper written in Go",
@@ -4757,7 +4757,7 @@
           "stars": 3349,
           "url": "https://github.com/ssut/payload-dumper-go",
           "category": "mobile",
-          "summary": ""
+          "summary": "AndroidのOTA payload(payload.bin)を高速・並列に展開するGo製ツール"
         },
         {
           "desc": "The Magic Mask for Android",
@@ -4767,7 +4767,7 @@
           "stars": 60938,
           "url": "https://github.com/topjohnwu/Magisk",
           "category": "mobile",
-          "summary": ""
+          "summary": "AndroidをカスタマイズするオープンソースのスイートMagisk。root権限付与やモジュール導入ができる"
         },
         {
           "desc": "Device Information for React Native iOS and Android",
@@ -4777,7 +4777,7 @@
           "stars": 6670,
           "url": "https://github.com/react-native-device-info/react-native-device-info",
           "category": "mobile",
-          "summary": ""
+          "summary": "React NativeのiOS/Androidで端末情報を取得するライブラリ"
         },
         {
           "desc": "Beautiful charts for iOS/tvOS/OSX! The Apple side of the crossplatform MPAndroidChart.",
@@ -4787,7 +4787,7 @@
           "stars": 28002,
           "url": "https://github.com/ChartsOrg/Charts",
           "category": "mobile",
-          "summary": ""
+          "summary": "iOS/tvOS/macOS向けの美しいチャートライブラリ(MPAndroidChartのApple版・DGCharts)"
         },
         {
           "desc": "Codeless drop-in universal library allows to prevent issues of keyboard sliding up and cover UITextField/UITextView. Neither need to write any code nor any setup required and much more.",
@@ -4797,7 +4797,7 @@
           "stars": 16623,
           "url": "https://github.com/hackiftekhar/IQKeyboardManager",
           "category": "mobile",
-          "summary": ""
+          "summary": "iOSでキーボードがテキスト入力欄を覆う問題を、コード不要で自動的に防ぐ汎用ライブラリ"
         },
         {
           "desc": "UIView that simulates a 2D view of a fluid in motion",
@@ -4807,7 +4807,7 @@
           "stars": 1386,
           "url": "https://github.com/antiguab/BAFluidView",
           "category": "mobile",
-          "summary": ""
+          "summary": "流体が満ちる様子を2Dで表現するアニメーション付きUIView(iOS)"
         },
         {
           "desc": "Simple Swift wrapper for Keychain that works on iOS, watchOS, tvOS and macOS.",
@@ -4817,7 +4817,7 @@
           "stars": 8249,
           "url": "https://github.com/kishikawakatsumi/KeychainAccess",
           "category": "mobile",
-          "summary": ""
+          "summary": "iOS/macOS等で動作するKeychainのシンプルなSwiftラッパー"
         },
         {
           "desc": "ARKitFurnitureArrangementSample",
@@ -4827,7 +4827,7 @@
           "stars": 7,
           "url": "https://github.com/furuya02/ARKitFurnitureArrangementSample",
           "category": "mobile",
-          "summary": ""
+          "summary": "ARKitで家具を配置するサンプルアプリ"
         },
         {
           "desc": "",
@@ -4837,7 +4837,7 @@
           "stars": 4,
           "url": "https://github.com/matsuokah/FlexibleAPIResponseSample",
           "category": "mobile",
-          "summary": ""
+          "summary": "柔軟なAPIレスポンスの扱い方を示すSwiftのサンプル"
         }
       ]
     },
@@ -4856,7 +4856,7 @@
           "stars": 3,
           "url": "https://github.com/br-to/polymarket-monitor",
           "category": "blockchain",
-          "summary": ""
+          "summary": "Polymarketのオッズ変動を定期監視し急変動を検知、関連米国株のトレーディングシグナルを自動生成するツール"
         },
         {
           "desc": "Let your agents pay for any API",
@@ -4866,7 +4866,7 @@
           "stars": 1715,
           "url": "https://github.com/solana-foundation/pay",
           "category": "blockchain",
-          "summary": ""
+          "summary": "x402等の決済チャレンジを処理しエージェントが任意のAPIに支払いできるようにする、HTTP向け決済レイヤー"
         },
         {
           "desc": "Token-curated news registry on World Chain. Submit tweets, vote with USDC, earn NEWS tokens.",
@@ -4876,7 +4876,7 @@
           "stars": 3,
           "url": "https://github.com/bflynn4141/newsworthy-protocol",
           "category": "blockchain",
-          "summary": ""
+          "summary": "World Chain上のトークンキュレート型ニュースレジストリ。ツイートを投稿しUSDCで投票してNEWSトークンを得る"
         },
         {
           "desc": "Self-Evolving Agent for Ethereum and Crypto",
@@ -4886,7 +4886,7 @@
           "stars": 31,
           "url": "https://github.com/jiayaoqijia/Ottie",
           "category": "blockchain",
-          "summary": ""
+          "summary": "全ての行動を監査可能にするEthereum/暗号資産向けの自己進化型AIエージェントランタイム(Go)"
         },
         {
           "desc": "",
@@ -4896,7 +4896,7 @@
           "stars": 74,
           "url": "https://github.com/vercel-labs/x402-ai-starter",
           "category": "blockchain",
-          "summary": ""
+          "summary": "x402決済とAIを組み合わせたNext.jsスターターキット"
         },
         {
           "desc": "A payments protocol for the internet. Built on HTTP.",
@@ -4906,7 +4906,7 @@
           "stars": 6167,
           "url": "https://github.com/x402-foundation/x402",
           "category": "blockchain",
-          "summary": ""
+          "summary": "HTTP上に構築されたインターネットネイティブな決済プロトコルx402(暗号・法定通貨対応)"
         },
         {
           "desc": "This is the typescript sdk for the scallop lending platform on SUI network",
@@ -4916,7 +4916,7 @@
           "stars": 55,
           "url": "https://github.com/scallop-io/sui-scallop-sdk",
           "category": "blockchain",
-          "summary": ""
+          "summary": "SUIネットワークのレンディング基盤Scallopと連携するためのTypeScript SDK"
         },
         {
           "desc": "Everything about Sui blockchain: About, Write smart contract",
@@ -4926,7 +4926,7 @@
           "stars": 9,
           "url": "https://github.com/abhi3700/sui-playground",
           "category": "blockchain",
-          "summary": ""
+          "summary": "Suiブロックチェーンとスマートコントラクト(Sui Move)の学習用リポジトリ"
         },
         {
           "desc": "Go language SDK for @MystenLabs Sui",
@@ -4936,7 +4936,7 @@
           "stars": 197,
           "url": "https://github.com/blockvisionhq/sui-go-sdk",
           "category": "blockchain",
-          "summary": ""
+          "summary": "Mysten LabsのSui向けGo言語SDK。各種Sui RPCメソッドにアクセスできる"
         },
         {
           "desc": "Code and content from the Move community.",
@@ -4946,7 +4946,7 @@
           "stars": 1496,
           "url": "https://github.com/MystenLabs/awesome-move",
           "category": "blockchain",
-          "summary": ""
+          "summary": "Moveプログラミング言語コミュニティのコードやコンテンツを集めたキュレーションリスト"
         },
         {
           "desc": "Introductory Course to the Sui Move language",
@@ -4956,7 +4956,7 @@
           "stars": 2631,
           "url": "https://github.com/sui-foundation/sui-move-intro-course",
           "category": "blockchain",
-          "summary": ""
+          "summary": "Sui Foundationが管理するSui Move言語の入門コース"
         },
         {
           "desc": " Sui, a next-generation smart contract platform with high throughput, low latency, and an asset-oriented programming model powered by the Move programming language",
@@ -4966,7 +4966,7 @@
           "stars": 7701,
           "url": "https://github.com/MystenLabs/sui",
           "category": "blockchain",
-          "summary": ""
+          "summary": "Move言語による高スループット・低遅延の次世代スマートコントラクトプラットフォームSui"
         },
         {
           "desc": "The clmm sdk on Sui.",
@@ -4976,7 +4976,7 @@
           "stars": 69,
           "url": "https://github.com/CetusProtocol/cetus-clmm-sui-sdk",
           "category": "blockchain",
-          "summary": ""
+          "summary": "Sui上のCLMM(集中流動性DEX)Cetusと連携する公式TypeScript SDK"
         },
         {
           "desc": "A blockchain implementation in 200 lines of code",
@@ -4986,7 +4986,7 @@
           "stars": 5293,
           "url": "https://github.com/lhartikk/naivechain",
           "category": "blockchain",
-          "summary": ""
+          "summary": "ブロックチェーンの仕組みを学べる200行のシンプルな実装"
         },
         {
           "desc": "A simple Blockchain in Python",
@@ -4996,7 +4996,7 @@
           "stars": 8054,
           "url": "https://github.com/dvf/blockchain",
           "category": "blockchain",
-          "summary": ""
+          "summary": "Pythonで一から作るシンプルなブロックチェーン実装(解説記事のソース)"
         }
       ]
     },
@@ -5015,7 +5015,7 @@
           "stars": 44881,
           "url": "https://github.com/usebruno/bruno",
           "category": "devtools",
-          "summary": ""
+          "summary": "APIを探索・テストするオープンソースIDE。Postman/Insomniaの軽量な代替"
         },
         {
           "desc": "Data validation using Python type hints",
@@ -5025,7 +5025,7 @@
           "stars": 28023,
           "url": "https://github.com/pydantic/pydantic",
           "category": "devtools",
-          "summary": ""
+          "summary": "Pythonの型ヒントを使ったデータバリデーションライブラリPydantic"
         },
         {
           "desc": "A fast serialization and validation library, with builtin support for JSON, MessagePack, YAML, and TOML",
@@ -5035,7 +5035,7 @@
           "stars": 3801,
           "url": "https://github.com/msgspec/msgspec",
           "category": "devtools",
-          "summary": ""
+          "summary": "JSON・MessagePack・YAML・TOMLに対応した高速なシリアライズ＆バリデーションライブラリ(Python)"
         },
         {
           "desc": "Testcontainers is a Python library that providing a friendly API to run Docker container. It is designed to create runtime environment to use during your automatic tests.",
@@ -5045,7 +5045,7 @@
           "stars": 2230,
           "url": "https://github.com/testcontainers/testcontainers-python",
           "category": "devtools",
-          "summary": ""
+          "summary": "自動テスト中にDockerコンテナを起動して実環境を用意するPythonライブラリ"
         },
         {
           "desc": "open source tools to generate mypy stubs from protobufs",
@@ -5055,7 +5055,7 @@
           "stars": 705,
           "url": "https://github.com/nipunn1313/mypy-protobuf",
           "category": "devtools",
-          "summary": ""
+          "summary": "protobuf定義からmypyの型スタブを生成するオープンソースツール"
         },
         {
           "desc": "",
