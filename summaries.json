@@ -1058,5 +1058,445 @@
   "glacambre/firenvim": {
     "summary": "ChromeやFirefoxのテキスト入力欄をNeovimにするブラウザ拡張",
     "generated_at": "2026-06-15"
+  },
+  "po3rin/vim-gofmtmd": {
+    "summary": "Markdown内のGoコードブロックを検出しgofmtで整形するVimプラグイン",
+    "generated_at": "2026-06-15"
+  },
+  "rhysd/git-messenger.vim": {
+    "summary": "カーソル位置の行のGitコミットメッセージや差分をポップアップで表示するVim/Neovimプラグイン",
+    "generated_at": "2026-06-15"
+  },
+  "XVimProject/XVim2": {
+    "summary": "XcodeにVimキーバインドを追加するプラグイン(Xcode 14以降は非対応)",
+    "generated_at": "2026-06-15"
+  },
+  "iamcco/markdown-preview.nvim": {
+    "summary": "ブラウザで同期スクロール・数式・mermaid等に対応したMarkdownプレビューを行う(neo)vimプラグイン",
+    "generated_at": "2026-06-15"
+  },
+  "aklt/plantuml-syntax": {
+    "summary": "PlantUML用のVim構文ハイライトファイル",
+    "generated_at": "2026-06-15"
+  },
+  "zed-industries/zed": {
+    "summary": "Atom/Tree-sitter作者による高性能なマルチプレイヤー対応コードエディタZed",
+    "generated_at": "2026-06-15"
+  },
+  "warpdotdev/warp": {
+    "summary": "ターミナルから生まれたエージェント型開発環境Warp。内蔵AIエージェントや外部CLIエージェントを使える",
+    "generated_at": "2026-06-15"
+  },
+  "contour-terminal/contour": {
+    "summary": "モダンで高速なC++製のターミナルエミュレータ",
+    "generated_at": "2026-06-15"
+  },
+  "kovidgoyal/kitty": {
+    "summary": "GPUベースで高速・多機能なクロスプラットフォームのターミナルエミュレータkitty",
+    "generated_at": "2026-06-15"
+  },
+  "helix-editor/helix": {
+    "summary": "Kakoune/Neovimに着想を得たRust製のモダンなモーダルテキストエディタ",
+    "generated_at": "2026-06-15"
+  },
+  "Brantron/hyper-notifier": {
+    "summary": "Hyperターミナルからクロスプラットフォームなデスクトップ通知を送る拡張",
+    "generated_at": "2026-06-15"
+  },
+  "chabou/hyper-broadcast": {
+    "summary": "Hyper.appで入力を複数のターミナルに同時送信(ブロードキャスト)する拡張",
+    "generated_at": "2026-06-15"
+  },
+  "vercel/hyper-site": {
+    "summary": "Hyperターミナルの公式ウェブサイト",
+    "generated_at": "2026-06-15"
+  },
+  "xtermjs/xterm.js": {
+    "summary": "ブラウザに本格的なターミナルを組み込めるフロントエンドコンポーネント。VS Code等で利用されている",
+    "generated_at": "2026-06-15"
+  },
+  "slammayjammay/hyper-postprocessing": {
+    "summary": "Hyperターミナルにフラグメントシェーダーを適用して画面効果を加えるプラグイン",
+    "generated_at": "2026-06-15"
+  },
+  "vercel/hyper": {
+    "summary": "Web技術で作られた美しく拡張可能なターミナルHyper",
+    "generated_at": "2026-06-15"
+  },
+  "gnachman/iTerm2": {
+    "summary": "tmux統合など多機能なmacOS向けのターミナルエミュレータiTerm2",
+    "generated_at": "2026-06-15"
+  },
+  "bigskysoftware/htmx": {
+    "summary": "HTMLの属性だけでAJAXやWebSocket等を扱える軽量ライブラリ。少ないJSでモダンなUIを作れる",
+    "generated_at": "2026-06-15"
+  },
+  "nuejs/nue": {
+    "summary": "モダンなWebサイトを最速で構築するためのツールキット",
+    "generated_at": "2026-06-15"
+  },
+  "QwikDev/qwik": {
+    "summary": "ほぼJSなしで即座に読み込めるWebアプリを作るフレームワーク。必要な部分だけ遅延読み込みする",
+    "generated_at": "2026-06-15"
+  },
+  "facebook/docusaurus": {
+    "summary": "オープンソースプロジェクトのドキュメントサイトを簡単に構築・運用できるツール",
+    "generated_at": "2026-06-15"
+  },
+  "garmeeh/next-seo": {
+    "summary": "Next.jsプロジェクトのSEO管理を簡単にするプラグイン。構造化データ用コンポーネントを提供",
+    "generated_at": "2026-06-15"
+  },
+  "vercel/next.js": {
+    "summary": "本番対応のWebアプリを構築するReactフレームワークNext.js",
+    "generated_at": "2026-06-15"
+  },
+  "umijs/umi": {
+    "summary": "Reactコミュニティ向けの拡張可能なアプリケーションフレームワーク",
+    "generated_at": "2026-06-15"
+  },
+  "tauri-apps/tauri": {
+    "summary": "Webフロントエンドで小さく高速・安全なデスクトップ/モバイルアプリを作るフレームワーク",
+    "generated_at": "2026-06-15"
+  },
+  "shuding/nextra": {
+    "summary": "Next.jsベースのシンプルで柔軟なサイト生成フレームワーク。ドキュメントサイト等を作れる",
+    "generated_at": "2026-06-15"
+  },
+  "Chainlift/liftkit": {
+    "summary": "Next.js向けのUIコンポーネントフレームワーク(現在書き直し中・本番利用非推奨)",
+    "generated_at": "2026-06-15"
+  },
+  "vercel/streamdown": {
+    "summary": "AIのストリーミング表示向けに設計されたreact-markdownの差し替え用ライブラリ",
+    "generated_at": "2026-06-15"
+  },
+  "steven-tey/novel": {
+    "summary": "AIによる入力補完を備えたNotion風WYSIWYGエディタ(オープンソース)",
+    "generated_at": "2026-06-15"
+  },
+  "contentful/rich-text": {
+    "summary": "ContentfulのリッチテキストをHTML等に変換・描画するTypeScriptライブラリ群",
+    "generated_at": "2026-06-15"
+  },
+  "panphora/overtype": {
+    "summary": "透明なtextareaを重ねる手法でWYSIWYG表示する軽量なMarkdownエディタライブラリ",
+    "generated_at": "2026-06-15"
+  },
+  "kopiro/siriwave": {
+    "summary": "AppleのSiri波形をCanvasで再現したJavaScriptライブラリ",
+    "generated_at": "2026-06-15"
+  },
+  "mozmorris/react-webcam": {
+    "summary": "Webカメラ映像を扱うためのReactコンポーネント",
+    "generated_at": "2026-06-15"
+  },
+  "adobe/react-spectrum": {
+    "summary": "アクセシブルで堅牢なUIを構築するAdobeのデザインシステム実装。React AriaやReact Spectrumを含む",
+    "generated_at": "2026-06-15"
+  },
+  "petyosi/react-virtuoso": {
+    "summary": "可変高さに対応した高機能なReact用の仮想リスト(バーチャルスクロール)コンポーネント",
+    "generated_at": "2026-06-15"
+  },
+  "facebook/lexical": {
+    "summary": "信頼性・アクセシビリティ・性能に優れた拡張可能なテキストエディタフレームワーク",
+    "generated_at": "2026-06-15"
+  },
+  "TheSGJ/nextjs-toploader": {
+    "summary": "nprogressで作られたNext.js用のトップローディングバーコンポーネント",
+    "generated_at": "2026-06-15"
+  },
+  "ant-design/ant-design": {
+    "summary": "エンタープライズ向けのデザイン言語とReact UIライブラリAnt Design",
+    "generated_at": "2026-06-15"
+  },
+  "react-component/tree": {
+    "summary": "ReactのTree(ツリー)コンポーネント。Ant Design等の基盤",
+    "generated_at": "2026-06-15"
+  },
+  "frontend-collective/react-sortable-tree-theme-file-explorer": {
+    "summary": "React Sortable Tree用のファイルエクスプローラ風テーマ",
+    "generated_at": "2026-06-15"
+  },
+  "frontend-collective/react-sortable-tree": {
+    "summary": "階層データをドラッグ&ドロップで並べ替えできるReactツリーコンポーネント(保守終了)",
+    "generated_at": "2026-06-15"
+  },
+  "TimboKZ/Chonky": {
+    "summary": "ネイティブ風のファイルブラウズ体験を再現するReact用ファイルブラウザコンポーネント",
+    "generated_at": "2026-06-15"
+  },
+  "uptick/react-keyed-file-browser": {
+    "summary": "フラットなキー付きリストからフォルダ形式のファイルブラウザを表示するReactコンポーネント",
+    "generated_at": "2026-06-15"
+  },
+  "TanStack/virtual": {
+    "summary": "大量のリストやグリッドを60FPSで描画するヘッドレスな仮想化ライブラリ。各種フレームワーク対応",
+    "generated_at": "2026-06-15"
+  },
+  "TanStack/table": {
+    "summary": "強力なテーブル/データグリッドを作るヘッドレスUIライブラリ。React/Vue/Solid等に対応",
+    "generated_at": "2026-06-15"
+  },
+  "Splidejs/splide": {
+    "summary": "依存ゼロで軽量・アクセシブルなTypeScript製スライダー/カルーセル",
+    "generated_at": "2026-06-15"
+  },
+  "resend/react-email": {
+    "summary": "ReactとTypeScriptで美しいメールを作成・送信するための高品質な無スタイルコンポーネント集",
+    "generated_at": "2026-06-15"
+  },
+  "react-icons/react-icons": {
+    "summary": "人気の各種アイコンパックをSVGで使えるReactアイコンライブラリ",
+    "generated_at": "2026-06-15"
+  },
+  "Gamote/lottie-react": {
+    "summary": "After Effectsの複雑なアニメをLottieでリアルタイム描画する軽量Reactライブラリ",
+    "generated_at": "2026-06-15"
+  },
+  "JedWatson/react-select": {
+    "summary": "React向けの定番セレクト(プルダウン)コンポーネント",
+    "generated_at": "2026-06-15"
+  },
+  "thedevelobear/react-rewards": {
+    "summary": "紙吹雪や絵文字でユーザーを祝福するマイクロインタラクションを追加するReactパッケージ",
+    "generated_at": "2026-06-15"
+  },
+  "wojtekmaj/react-pdf": {
+    "summary": "ReactアプリでPDFを画像のように手軽に表示できるライブラリ",
+    "generated_at": "2026-06-15"
+  },
+  "oliviertassinari/react-swipeable-views": {
+    "summary": "スワイプで切り替えられるビューを実装するReactコンポーネント",
+    "generated_at": "2026-06-15"
+  },
+  "creativetimofficial/david-ai": {
+    "summary": "Tailwind CSSで作られた無料・オープンソースのカスタマイズ可能なUIコンポーネント集",
+    "generated_at": "2026-06-15"
+  },
+  "mantinedev/mantine": {
+    "summary": "多機能なReactコンポーネントライブラリMantine。豊富なコンポーネントとフックを提供",
+    "generated_at": "2026-06-15"
+  },
+  "klendi/react-top-loading-bar": {
+    "summary": "YouTube風のシンプルでカスタマイズ可能なトップローディングバーReactコンポーネント",
+    "generated_at": "2026-06-15"
+  },
+  "rstacruz/nprogress": {
+    "summary": "YouTubeやMedium風の細いプログレスバーを表示するJavaScriptライブラリ",
+    "generated_at": "2026-06-15"
+  },
+  "xyflow/xyflow": {
+    "summary": "ReactやSvelteでノードベースのUI(フローチャート等)を構築する強力なライブラリ(React Flow/Svelte Flow)",
+    "generated_at": "2026-06-15"
+  },
+  "shikijs/shiki": {
+    "summary": "TextMate文法ベースで正確かつ美しいシンタックスハイライターShiki",
+    "generated_at": "2026-06-15"
+  },
+  "mdbootstrap/TW-Elements": {
+    "summary": "Tailwind CSS向けの無料の対話的コンポーネント・セクション・テンプレートの大規模コレクション",
+    "generated_at": "2026-06-15"
+  },
+  "snettah/react-ztext": {
+    "summary": "テキストを立体的(3D)に見せるZtext.jsのReact実装",
+    "generated_at": "2026-06-15"
+  },
+  "AdeleD/react-paginate": {
+    "summary": "ページネーションを描画するReactコンポーネント",
+    "generated_at": "2026-06-15"
+  },
+  "abhchand/vanilla-tree-viewer": {
+    "summary": "複数ファイルをコンパクトに同時表示するミニマルなファイルブラウザ(VanillaJS)",
+    "generated_at": "2026-06-15"
+  },
+  "kufu/smarthr-ui": {
+    "summary": "SmartHRのアプリ開発向けに共通化されたReact UIコンポーネントライブラリ",
+    "generated_at": "2026-06-15"
+  },
+  "nextapps-de/winbox": {
+    "summary": "依存ゼロで軽量・高性能なWeb向けのモダンなHTML5ウィンドウマネージャ",
+    "generated_at": "2026-06-15"
+  },
+  "recharts/recharts": {
+    "summary": "ReactとD3で作られたチャート(グラフ)ライブラリRecharts",
+    "generated_at": "2026-06-15"
+  },
+  "sindresorhus/github-markdown-css": {
+    "summary": "GitHubのMarkdown表示スタイルを再現する最小限のCSS",
+    "generated_at": "2026-06-15"
+  },
+  "webtui/webtui": {
+    "summary": "ターミナルUIの美しさをブラウザに持ち込むモジュラーなCSSライブラリ",
+    "generated_at": "2026-06-15"
+  },
+  "dcastil/tailwind-merge": {
+    "summary": "Tailwind CSSのクラスをスタイル競合なく効率的にマージするユーティリティ関数",
+    "generated_at": "2026-06-15"
+  },
+  "tailwindlabs/tailwindcss-line-clamp": {
+    "summary": "指定行数でテキストを省略表示するTailwindプラグイン(v3.3以降は標準搭載で不要)",
+    "generated_at": "2026-06-15"
+  },
+  "soheilpro/mailwind": {
+    "summary": "Tailwind CSSを使ってHTMLメールをデザインできるツール",
+    "generated_at": "2026-06-15"
+  },
+  "vanilla-extract-css/vanilla-extract": {
+    "summary": "TypeScriptでスタイルを書きビルド時に静的CSSを生成するゼロランタイムなCSS-in-TS",
+    "generated_at": "2026-06-15"
+  },
+  "postcss/autoprefixer": {
+    "summary": "Can I Useのデータを基にCSSへ自動でベンダープレフィックスを付与するPostCSSプラグイン",
+    "generated_at": "2026-06-15"
+  },
+  "cristianbote/goober": {
+    "summary": "1KB未満で馴染みやすいAPIを持つ軽量なcss-in-jsライブラリ",
+    "generated_at": "2026-06-15"
+  },
+  "steelydylan/style-object-to-css-online": {
+    "summary": "スタイルオブジェクトとCSSを相互変換するオンラインツール",
+    "generated_at": "2026-06-15"
+  },
+  "alibaba/hooks": {
+    "summary": "Alibaba製の高品質で信頼性の高いReact Hooksライブラリ(ahooks)",
+    "generated_at": "2026-06-15"
+  },
+  "QuiiBz/next-international": {
+    "summary": "Next.js向けの型安全な国際化(i18n)ライブラリ",
+    "generated_at": "2026-06-15"
+  },
+  "hammerjs/hammer.js": {
+    "summary": "マルチタッチジェスチャーを検出するJavaScriptライブラリ",
+    "generated_at": "2026-06-15"
+  },
+  "tsayen/dom-to-image": {
+    "summary": "HTML5 canvasを使い任意のDOMノードからSVG/PNG/JPEG画像を生成するライブラリ",
+    "generated_at": "2026-06-15"
+  },
+  "ericblade/quagga2": {
+    "summary": "JavaScript/TypeScript製の高機能バーコードスキャナ(QuaggaJSの継続版)",
+    "generated_at": "2026-06-15"
+  },
+  "zxing/zxing": {
+    "summary": "Java/Android向けのZXingバーコード画像処理ライブラリ(メンテナンスのみ)",
+    "generated_at": "2026-06-15"
+  },
+  "zxing-js/browser": {
+    "summary": "ブラウザでZXing.jsを使うためのブラウザ層ライブラリ。カメラやビデオからのバーコード読取に対応",
+    "generated_at": "2026-06-15"
+  },
+  "zxing-js/library": {
+    "summary": "JavaScript向けの多形式1D/2Dバーコード画像処理ライブラリ(メンテナンスのみ)",
+    "generated_at": "2026-06-15"
+  },
+  "serratus/quaggaJS": {
+    "summary": "JavaScriptで書かれた高機能バーコードスキャナ。各種バーコードのリアルタイム検出に対応",
+    "generated_at": "2026-06-15"
+  },
+  "GoogleChromeLabs/comlink": {
+    "summary": "postMessageを意識せずWebWorkerを快適に使えるようにする極小のRPCライブラリ",
+    "generated_at": "2026-06-15"
+  },
+  "JohannesKlauss/react-hotkeys-hook": {
+    "summary": "コンポーネント内でキーボードショートカットを宣言的に扱うReactフック",
+    "generated_at": "2026-06-15"
+  },
+  "Azure/fetch-event-source": {
+    "summary": "fetch APIの全機能を使えるServer-Sent Events(SSE)リクエストの改良版API",
+    "generated_at": "2026-06-15"
+  },
+  "TanStack/query": {
+    "summary": "サーバー状態の取得・キャッシュ・同期・更新を簡単にする非同期状態管理ライブラリ(React Query等)",
+    "generated_at": "2026-06-15"
+  },
+  "steelydylan/markdown-it-safe-jsx": {
+    "summary": "Markdown内で安全にJSXコンポーネントを描画できるmarkdown-itプラグイン",
+    "generated_at": "2026-06-15"
+  },
+  "nfrasser/linkifyjs": {
+    "summary": "プレーンテキスト中のURL・ハッシュタグ・@メンションを見つけてHTMLのaタグに変換するJSプラグイン",
+    "generated_at": "2026-06-15"
+  },
+  "happykit/flags": {
+    "summary": "Next.jsアプリにフィーチャーフラグを追加するライブラリ。useFlagsフックで利用する",
+    "generated_at": "2026-06-15"
+  },
+  "google/budoux": {
+    "summary": "機械学習で日本語等の自然な改行位置を決める軽量・依存なしの行分割ツールBudouX",
+    "generated_at": "2026-06-15"
+  },
+  "QwikDev/partytown": {
+    "summary": "重いサードパーティスクリプトをメインスレッドからWeb Workerへ退避させ表示を高速化するライブラリ",
+    "generated_at": "2026-06-15"
+  },
+  "nosir/cleave.js": {
+    "summary": "入力中にテキストを自動整形(クレジットカード番号等)するライブラリ(非推奨・後継あり)",
+    "generated_at": "2026-06-15"
+  },
+  "duskload/react-device-detect": {
+    "summary": "デバイス種別を検出し、それに応じたビューを描画するReactライブラリ",
+    "generated_at": "2026-06-15"
+  },
+  "GoogleChrome/web-vitals": {
+    "summary": "健全なサイトに不可欠なWeb Vitals指標を計測するライブラリ",
+    "generated_at": "2026-06-15"
+  },
+  "paulmillr/chokidar": {
+    "summary": "ミニマルで効率的なクロスプラットフォームのファイル監視ライブラリ",
+    "generated_at": "2026-06-15"
+  },
+  "vercel/async-retry": {
+    "summary": "非同期処理のリトライをシンプルに書けるようにするライブラリ",
+    "generated_at": "2026-06-15"
+  },
+  "streamich/react-use": {
+    "summary": "必須級のReactフックを集めたコレクション(センサー・UI・状態管理など)",
+    "generated_at": "2026-06-15"
+  },
+  "yjs/yjs": {
+    "summary": "競合なく自動で変更を同期する共有データ型を提供する協調編集向けCRDTフレームワーク",
+    "generated_at": "2026-06-15"
+  },
+  "yocontra/react-responsive": {
+    "summary": "ReactでCSSメディアクエリを扱いレスポンシブな表示を実現するライブラリ",
+    "generated_at": "2026-06-15"
+  },
+  "kaimallea/isMobile": {
+    "summary": "モバイル端末を判定するシンプルなJavaScriptライブラリ",
+    "generated_at": "2026-06-15"
+  },
+  "pmndrs/jotai": {
+    "summary": "プリミティブで柔軟なReact用状態管理ライブラリJotai。小さなコアAPIが特徴",
+    "generated_at": "2026-06-15"
+  },
+  "i18next/next-i18next": {
+    "summary": "Next.jsアプリを最も簡単に翻訳(国際化)できるi18nextベースのライブラリ",
+    "generated_at": "2026-06-15"
+  },
+  "unjs/ufo": {
+    "summary": "人に優しいURL操作ユーティリティ集(正規化・結合など)",
+    "generated_at": "2026-06-15"
+  },
+  "a24/tween24js": {
+    "summary": "メソッドチェーンで素早く書けるJavaScriptアニメーションライブラリTween24",
+    "generated_at": "2026-06-15"
+  },
+  "authlete/authlete-typescript-sdk": {
+    "summary": "Authlete API v3.0+向けの型安全な公式TypeScript SDK",
+    "generated_at": "2026-06-15"
+  },
+  "fullstorydev/grpcurl": {
+    "summary": "gRPC版のcurl。コマンドラインからgRPCサーバーのメソッドを呼び出せるツール",
+    "generated_at": "2026-06-15"
+  },
+  "ubie-oss/nslog": {
+    "summary": "NestJS向けの構造化ロガー。本番はJSON、ローカルは色付きで出力できる",
+    "generated_at": "2026-06-15"
+  },
+  "mher/flower": {
+    "summary": "分散タスクキューCeleryをリアルタイム監視・管理するWeb管理ツール",
+    "generated_at": "2026-06-15"
   }
 }

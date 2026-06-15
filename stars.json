@@ -2748,7 +2748,7 @@
           "stars": 11,
           "url": "https://github.com/po3rin/vim-gofmtmd",
           "category": "vim",
-          "summary": ""
+          "summary": "Markdown内のGoコードブロックを検出しgofmtで整形するVimプラグイン"
         },
         {
           "desc": "Vim and Neovim plugin to reveal the commit messages under the cursor",
@@ -2758,7 +2758,7 @@
           "stars": 1374,
           "url": "https://github.com/rhysd/git-messenger.vim",
           "category": "vim",
-          "summary": ""
+          "summary": "カーソル位置の行のGitコミットメッセージや差分をポップアップで表示するVim/Neovimプラグイン"
         },
         {
           "desc": "Vim key-bindings for Xcode 9",
@@ -2768,7 +2768,7 @@
           "stars": 2287,
           "url": "https://github.com/XVimProject/XVim2",
           "category": "vim",
-          "summary": ""
+          "summary": "XcodeにVimキーバインドを追加するプラグイン(Xcode 14以降は非対応)"
         },
         {
           "desc": "markdown preview plugin for (neo)vim",
@@ -2778,7 +2778,7 @@
           "stars": 7881,
           "url": "https://github.com/iamcco/markdown-preview.nvim",
           "category": "vim",
-          "summary": ""
+          "summary": "ブラウザで同期スクロール・数式・mermaid等に対応したMarkdownプレビューを行う(neo)vimプラグイン"
         },
         {
           "desc": "vim syntax file for plantuml",
@@ -2788,7 +2788,7 @@
           "stars": 495,
           "url": "https://github.com/aklt/plantuml-syntax",
           "category": "vim",
-          "summary": ""
+          "summary": "PlantUML用のVim構文ハイライトファイル"
         }
       ]
     },
@@ -2807,7 +2807,7 @@
           "stars": 85211,
           "url": "https://github.com/zed-industries/zed",
           "category": "editor",
-          "summary": ""
+          "summary": "Atom/Tree-sitter作者による高性能なマルチプレイヤー対応コードエディタZed"
         },
         {
           "desc": "Warp is an agentic development environment, born out of the terminal.",
@@ -2817,7 +2817,7 @@
           "stars": 61691,
           "url": "https://github.com/warpdotdev/warp",
           "category": "editor",
-          "summary": ""
+          "summary": "ターミナルから生まれたエージェント型開発環境Warp。内蔵AIエージェントや外部CLIエージェントを使える"
         },
         {
           "desc": "Modern C++ Terminal Emulator",
@@ -2827,7 +2827,7 @@
           "stars": 2945,
           "url": "https://github.com/contour-terminal/contour",
           "category": "editor",
-          "summary": ""
+          "summary": "モダンで高速なC++製のターミナルエミュレータ"
         },
         {
           "desc": "If you live in the terminal, kitty is made for you! Cross-platform, fast, feature-rich, GPU based.",
@@ -2837,7 +2837,7 @@
           "stars": 33433,
           "url": "https://github.com/kovidgoyal/kitty",
           "category": "editor",
-          "summary": ""
+          "summary": "GPUベースで高速・多機能なクロスプラットフォームのターミナルエミュレータkitty"
         },
         {
           "desc": "A post-modern modal text editor.",
@@ -2847,7 +2847,7 @@
           "stars": 44872,
           "url": "https://github.com/helix-editor/helix",
           "category": "editor",
-          "summary": ""
+          "summary": "Kakoune/Neovimに着想を得たRust製のモダンなモーダルテキストエディタ"
         },
         {
           "desc": "A Hyper terminal extension for sending cross platform desktop notifications",
@@ -2857,7 +2857,7 @@
           "stars": 1,
           "url": "https://github.com/Brantron/hyper-notifier",
           "category": "editor",
-          "summary": ""
+          "summary": "Hyperターミナルからクロスプラットフォームなデスクトップ通知を送る拡張"
         },
         {
           "desc": "Extension for Hyper.app to broadcast user inputs to multiple terms.",
@@ -2867,7 +2867,7 @@
           "stars": 22,
           "url": "https://github.com/chabou/hyper-broadcast",
           "category": "editor",
-          "summary": ""
+          "summary": "Hyper.appで入力を複数のターミナルに同時送信(ブロードキャスト)する拡張"
         },
         {
           "desc": "The official website for the Hyper terminal",
@@ -2877,7 +2877,7 @@
           "stars": 465,
           "url": "https://github.com/vercel/hyper-site",
           "category": "editor",
-          "summary": ""
+          "summary": "Hyperターミナルの公式ウェブサイト"
         },
         {
           "desc": "A terminal for the web",
@@ -2887,7 +2887,7 @@
           "stars": 20736,
           "url": "https://github.com/xtermjs/xterm.js",
           "category": "editor",
-          "summary": ""
+          "summary": "ブラウザに本格的なターミナルを組み込めるフロントエンドコンポーネント。VS Code等で利用されている"
         },
         {
           "desc": "Add fragment shaders to the Hyper terminal.",
@@ -2897,7 +2897,7 @@
           "stars": 138,
           "url": "https://github.com/slammayjammay/hyper-postprocessing",
           "category": "editor",
-          "summary": ""
+          "summary": "Hyperターミナルにフラグメントシェーダーを適用して画面効果を加えるプラグイン"
         },
         {
           "desc": "A terminal built on web technologies",
@@ -2907,7 +2907,7 @@
           "stars": 44599,
           "url": "https://github.com/vercel/hyper",
           "category": "editor",
-          "summary": ""
+          "summary": "Web技術で作られた美しく拡張可能なターミナルHyper"
         },
         {
           "desc": "iTerm2 is a terminal emulator for Mac OS X that does amazing things.",
@@ -2917,7 +2917,7 @@
           "stars": 17687,
           "url": "https://github.com/gnachman/iTerm2",
           "category": "editor",
-          "summary": ""
+          "summary": "tmux統合など多機能なmacOS向けのターミナルエミュレータiTerm2"
         }
       ]
     },
@@ -2936,7 +2936,7 @@
           "stars": 48198,
           "url": "https://github.com/bigskysoftware/htmx",
           "category": "frontend",
-          "summary": ""
+          "summary": "HTMLの属性だけでAJAXやWebSocket等を扱える軽量ライブラリ。少ないJSでモダンなUIを作れる"
         },
         {
           "desc": "Fastest way to build modern websites",
@@ -2946,7 +2946,7 @@
           "stars": 8821,
           "url": "https://github.com/nuejs/nue",
           "category": "frontend",
-          "summary": ""
+          "summary": "モダンなWebサイトを最速で構築するためのツールキット"
         },
         {
           "desc": "Instant-loading web apps, without effort",
@@ -2956,7 +2956,7 @@
           "stars": 22009,
           "url": "https://github.com/QwikDev/qwik",
           "category": "frontend",
-          "summary": ""
+          "summary": "ほぼJSなしで即座に読み込めるWebアプリを作るフレームワーク。必要な部分だけ遅延読み込みする"
         },
         {
           "desc": "Easy to maintain open source documentation websites.",
@@ -2966,7 +2966,7 @@
           "stars": 65201,
           "url": "https://github.com/facebook/docusaurus",
           "category": "frontend",
-          "summary": ""
+          "summary": "オープンソースプロジェクトのドキュメントサイトを簡単に構築・運用できるツール"
         },
         {
           "desc": "Next SEO is a plug in that makes managing your SEO easier in Next.js projects.",
@@ -2976,7 +2976,7 @@
           "stars": 8472,
           "url": "https://github.com/garmeeh/next-seo",
           "category": "frontend",
-          "summary": ""
+          "summary": "Next.jsプロジェクトのSEO管理を簡単にするプラグイン。構造化データ用コンポーネントを提供"
         },
         {
           "desc": "The React Framework",
@@ -2986,7 +2986,7 @@
           "stars": 139992,
           "url": "https://github.com/vercel/next.js",
           "category": "frontend",
-          "summary": ""
+          "summary": "本番対応のWebアプリを構築するReactフレームワークNext.js"
         },
         {
           "desc": "A framework in react community ✨",
@@ -2996,7 +2996,7 @@
           "stars": 16032,
           "url": "https://github.com/umijs/umi",
           "category": "frontend",
-          "summary": ""
+          "summary": "Reactコミュニティ向けの拡張可能なアプリケーションフレームワーク"
         },
         {
           "desc": "Build smaller, faster, and more secure desktop and mobile applications with a web frontend.",
@@ -3006,7 +3006,7 @@
           "stars": 107854,
           "url": "https://github.com/tauri-apps/tauri",
           "category": "frontend",
-          "summary": ""
+          "summary": "Webフロントエンドで小さく高速・安全なデスクトップ/モバイルアプリを作るフレームワーク"
         },
         {
           "desc": "Simple, powerful and flexible site generation framework with everything you love from Next.js.",
@@ -3016,7 +3016,7 @@
           "stars": 13837,
           "url": "https://github.com/shuding/nextra",
           "category": "frontend",
-          "summary": ""
+          "summary": "Next.jsベースのシンプルで柔軟なサイト生成フレームワーク。ドキュメントサイト等を作れる"
         }
       ]
     },
@@ -3035,7 +3035,7 @@
           "stars": 3271,
           "url": "https://github.com/Chainlift/liftkit",
           "category": "ui",
-          "summary": ""
+          "summary": "Next.js向けのUIコンポーネントフレームワーク(現在書き直し中・本番利用非推奨)"
         },
         {
           "desc": "A drop-in replacement for react-markdown, designed for AI-powered streaming.",
@@ -3045,7 +3045,7 @@
           "stars": 5295,
           "url": "https://github.com/vercel/streamdown",
           "category": "ui",
-          "summary": ""
+          "summary": "AIのストリーミング表示向けに設計されたreact-markdownの差し替え用ライブラリ"
         },
         {
           "desc": "Notion-style WYSIWYG editor with AI-powered autocompletion.",
@@ -3055,7 +3055,7 @@
           "stars": 16317,
           "url": "https://github.com/steven-tey/novel",
           "category": "ui",
-          "summary": ""
+          "summary": "AIによる入力補完を備えたNotion風WYSIWYGエディタ(オープンソース)"
         },
         {
           "desc": "Libraries for handling and rendering Rich Text 📄",
@@ -3065,7 +3065,7 @@
           "stars": 584,
           "url": "https://github.com/contentful/rich-text",
           "category": "ui",
-          "summary": ""
+          "summary": "ContentfulのリッチテキストをHTML等に変換・描画するTypeScriptライブラリ群"
         },
         {
           "desc": "The markdown editor that's just a textarea https://overtype.dev",
@@ -3075,7 +3075,7 @@
           "stars": 3671,
           "url": "https://github.com/panphora/overtype",
           "category": "ui",
-          "summary": ""
+          "summary": "透明なtextareaを重ねる手法でWYSIWYG表示する軽量なMarkdownエディタライブラリ"
         },
         {
           "desc": "The Apple® Siri wave-form replicated in a JS library.",
@@ -3085,7 +3085,7 @@
           "stars": 1716,
           "url": "https://github.com/kopiro/siriwave",
           "category": "ui",
-          "summary": ""
+          "summary": "AppleのSiri波形をCanvasで再現したJavaScriptライブラリ"
         },
         {
           "desc": "Webcam component",
@@ -3095,7 +3095,7 @@
           "stars": 1751,
           "url": "https://github.com/mozmorris/react-webcam",
           "category": "ui",
-          "summary": ""
+          "summary": "Webカメラ映像を扱うためのReactコンポーネント"
         },
         {
           "desc": "A collection of libraries and tools that help you build adaptive, accessible, and robust user experiences.",
@@ -3105,7 +3105,7 @@
           "stars": 15509,
           "url": "https://github.com/adobe/react-spectrum",
           "category": "ui",
-          "summary": ""
+          "summary": "アクセシブルで堅牢なUIを構築するAdobeのデザインシステム実装。React AriaやReact Spectrumを含む"
         },
         {
           "desc": "The most powerful virtual list component for React",
@@ -3115,7 +3115,7 @@
           "stars": 6343,
           "url": "https://github.com/petyosi/react-virtuoso",
           "category": "ui",
-          "summary": ""
+          "summary": "可変高さに対応した高機能なReact用の仮想リスト(バーチャルスクロール)コンポーネント"
         },
         {
           "desc": "Lexical is an extensible text editor framework that provides excellent reliability, accessibility and performance.",
@@ -3125,7 +3125,7 @@
           "stars": 23526,
           "url": "https://github.com/facebook/lexical",
           "category": "ui",
-          "summary": ""
+          "summary": "信頼性・アクセシビリティ・性能に優れた拡張可能なテキストエディタフレームワーク"
         },
         {
           "desc": "A Next.js Top Loading Bar component made using nprogress, works with Next.js 15 , Next.js 14 and React.",
@@ -3135,7 +3135,7 @@
           "stars": 1223,
           "url": "https://github.com/TheSGJ/nextjs-toploader",
           "category": "ui",
-          "summary": ""
+          "summary": "nprogressで作られたNext.js用のトップローディングバーコンポーネント"
         },
         {
           "desc": "An enterprise-class UI design language and React UI library",
@@ -3145,7 +3145,7 @@
           "stars": 98346,
           "url": "https://github.com/ant-design/ant-design",
           "category": "ui",
-          "summary": ""
+          "summary": "エンタープライズ向けのデザイン言語とReact UIライブラリAnt Design"
         },
         {
           "desc": "React Tree",
@@ -3155,7 +3155,7 @@
           "stars": 1274,
           "url": "https://github.com/react-component/tree",
           "category": "ui",
-          "summary": ""
+          "summary": "ReactのTree(ツリー)コンポーネント。Ant Design等の基盤"
         },
         {
           "desc": "A file explorer theme for React Sortable Tree",
@@ -3165,7 +3165,7 @@
           "stars": 140,
           "url": "https://github.com/frontend-collective/react-sortable-tree-theme-file-explorer",
           "category": "ui",
-          "summary": ""
+          "summary": "React Sortable Tree用のファイルエクスプローラ風テーマ"
         },
         {
           "desc": "Drag-and-drop sortable component for nested data and hierarchies",
@@ -3175,7 +3175,7 @@
           "stars": 4969,
           "url": "https://github.com/frontend-collective/react-sortable-tree",
           "category": "ui",
-          "summary": ""
+          "summary": "階層データをドラッグ&ドロップで並べ替えできるReactツリーコンポーネント(保守終了)"
         },
         {
           "desc": "😸 A File Browser component for React.",
@@ -3185,7 +3185,7 @@
           "stars": 786,
           "url": "https://github.com/TimboKZ/Chonky",
           "category": "ui",
-          "summary": ""
+          "summary": "ネイティブ風のファイルブラウズ体験を再現するReact用ファイルブラウザコンポーネント"
         },
         {
           "desc": "Folder based file browser given a flat keyed list of objects, powered by React.",
@@ -3195,7 +3195,7 @@
           "stars": 313,
           "url": "https://github.com/uptick/react-keyed-file-browser",
           "category": "ui",
-          "summary": ""
+          "summary": "フラットなキー付きリストからフォルダ形式のファイルブラウザを表示するReactコンポーネント"
         },
         {
           "desc": "🤖 Headless UI for Virtualizing Large Element Lists in JS/TS, React, Solid, Vue and Svelte",
@@ -3205,7 +3205,7 @@
           "stars": 6955,
           "url": "https://github.com/TanStack/virtual",
           "category": "ui",
-          "summary": ""
+          "summary": "大量のリストやグリッドを60FPSで描画するヘッドレスな仮想化ライブラリ。各種フレームワーク対応"
         },
         {
           "desc": "🤖 Headless UI for building powerful tables & datagrids for TS/JS -  React-Table, Vue-Table, Solid-Table, Svelte-Table",
@@ -3215,7 +3215,7 @@
           "stars": 28088,
           "url": "https://github.com/TanStack/table",
           "category": "ui",
-          "summary": ""
+          "summary": "強力なテーブル/データグリッドを作るヘッドレスUIライブラリ。React/Vue/Solid等に対応"
         },
         {
           "desc": "Splide is a lightweight, flexible and accessible slider/carousel written in TypeScript. No dependencies, no Lighthouse errors.",
@@ -3225,7 +3225,7 @@
           "stars": 5352,
           "url": "https://github.com/Splidejs/splide",
           "category": "ui",
-          "summary": ""
+          "summary": "依存ゼロで軽量・アクセシブルなTypeScript製スライダー/カルーセル"
         },
         {
           "desc": "💌 Build and send emails using React",
@@ -3235,7 +3235,7 @@
           "stars": 19323,
           "url": "https://github.com/resend/react-email",
           "category": "ui",
-          "summary": ""
+          "summary": "ReactとTypeScriptで美しいメールを作成・送信するための高品質な無スタイルコンポーネント集"
         },
         {
           "desc": "svg react icons of popular icon packs",
@@ -3245,7 +3245,7 @@
           "stars": 12594,
           "url": "https://github.com/react-icons/react-icons",
           "category": "ui",
-          "summary": ""
+          "summary": "人気の各種アイコンパックをSVGで使えるReactアイコンライブラリ"
         },
         {
           "desc": "A lightweight React library for rendering complex After Effects animations in real time using Lottie.",
@@ -3255,7 +3255,7 @@
           "stars": 959,
           "url": "https://github.com/Gamote/lottie-react",
           "category": "ui",
-          "summary": ""
+          "summary": "After Effectsの複雑なアニメをLottieでリアルタイム描画する軽量Reactライブラリ"
         },
         {
           "desc": "The Select Component for React.js",
@@ -3265,7 +3265,7 @@
           "stars": 28041,
           "url": "https://github.com/JedWatson/react-select",
           "category": "ui",
-          "summary": ""
+          "summary": "React向けの定番セレクト(プルダウン)コンポーネント"
         },
         {
           "desc": "A package containing a few micro-interactions you can use to reward your users for little things and make them smile!",
@@ -3275,7 +3275,7 @@
           "stars": 1674,
           "url": "https://github.com/thedevelobear/react-rewards",
           "category": "ui",
-          "summary": ""
+          "summary": "紙吹雪や絵文字でユーザーを祝福するマイクロインタラクションを追加するReactパッケージ"
         },
         {
           "desc": "Display PDFs in your React app as easily as if they were images.",
@@ -3285,7 +3285,7 @@
           "stars": 11091,
           "url": "https://github.com/wojtekmaj/react-pdf",
           "category": "ui",
-          "summary": ""
+          "summary": "ReactアプリでPDFを画像のように手軽に表示できるライブラリ"
         },
         {
           "desc": "A React component for swipeable views. :snowflake:",
@@ -3295,7 +3295,7 @@
           "stars": 4473,
           "url": "https://github.com/oliviertassinari/react-swipeable-views",
           "category": "ui",
-          "summary": ""
+          "summary": "スワイプで切り替えられるビューを実装するReactコンポーネント"
         },
         {
           "desc": "David AI is a free and open-source collection of customizable, production-ready UI components built with Tailwind CSS.",
@@ -3305,7 +3305,7 @@
           "stars": 6076,
           "url": "https://github.com/creativetimofficial/david-ai",
           "category": "ui",
-          "summary": ""
+          "summary": "Tailwind CSSで作られた無料・オープンソースのカスタマイズ可能なUIコンポーネント集"
         },
         {
           "desc": "A fully featured React components library",
@@ -3315,7 +3315,7 @@
           "stars": 31251,
           "url": "https://github.com/mantinedev/mantine",
           "category": "ui",
-          "summary": ""
+          "summary": "多機能なReactコンポーネントライブラリMantine。豊富なコンポーネントとフックを提供"
         },
         {
           "desc": "A very simple, highly customisable youtube-like react loader component.",
@@ -3325,7 +3325,7 @@
           "stars": 749,
           "url": "https://github.com/klendi/react-top-loading-bar",
           "category": "ui",
-          "summary": ""
+          "summary": "YouTube風のシンプルでカスタマイズ可能なトップローディングバーReactコンポーネント"
         },
         {
           "desc": "For slim progress bars like on YouTube, Medium, etc",
@@ -3335,7 +3335,7 @@
           "stars": 26407,
           "url": "https://github.com/rstacruz/nprogress",
           "category": "ui",
-          "summary": ""
+          "summary": "YouTubeやMedium風の細いプログレスバーを表示するJavaScriptライブラリ"
         },
         {
           "desc": "React Flow | Svelte Flow - Powerful open source libraries for building node-based UIs with React (https://reactflow.dev) or Svelte (https://svelteflow.dev). Ready out-of-the-box and infinitely customizable.",
@@ -3345,7 +3345,7 @@
           "stars": 37056,
           "url": "https://github.com/xyflow/xyflow",
           "category": "ui",
-          "summary": ""
+          "summary": "ReactやSvelteでノードベースのUI(フローチャート等)を構築する強力なライブラリ(React Flow/Svelte Flow)"
         },
         {
           "desc": "A beautiful yet powerful syntax highlighter",
@@ -3355,7 +3355,7 @@
           "stars": 13459,
           "url": "https://github.com/shikijs/shiki",
           "category": "ui",
-          "summary": ""
+          "summary": "TextMate文法ベースで正確かつ美しいシンタックスハイライターShiki"
         },
         {
           "desc": "𝙃𝙪𝙜𝙚 collection of Tailwind MIT licensed (free) components, sections and templates 😎",
@@ -3365,7 +3365,7 @@
           "stars": 13141,
           "url": "https://github.com/mdbootstrap/TW-Elements",
           "category": "ui",
-          "summary": ""
+          "summary": "Tailwind CSS向けの無料の対話的コンポーネント・セクション・テンプレートの大規模コレクション"
         },
         {
           "desc": "Ztextjs implementation in React",
@@ -3375,7 +3375,7 @@
           "stars": 51,
           "url": "https://github.com/snettah/react-ztext",
           "category": "ui",
-          "summary": ""
+          "summary": "テキストを立体的(3D)に見せるZtext.jsのReact実装"
         },
         {
           "desc": "A ReactJS component that creates a pagination",
@@ -3385,7 +3385,7 @@
           "stars": 2769,
           "url": "https://github.com/AdeleD/react-paginate",
           "category": "ui",
-          "summary": ""
+          "summary": "ページネーションを描画するReactコンポーネント"
         },
         {
           "desc": "VanillaTreeViewer is a minimalist file browser for compactly displaying several files at once",
@@ -3395,7 +3395,7 @@
           "stars": 121,
           "url": "https://github.com/abhchand/vanilla-tree-viewer",
           "category": "ui",
-          "summary": ""
+          "summary": "複数ファイルをコンパクトに同時表示するミニマルなファイルブラウザ(VanillaJS)"
         },
         {
           "desc": "React components for creating SmartHR applications.",
@@ -3405,7 +3405,7 @@
           "stars": 960,
           "url": "https://github.com/kufu/smarthr-ui",
           "category": "ui",
-          "summary": ""
+          "summary": "SmartHRのアプリ開発向けに共通化されたReact UIコンポーネントライブラリ"
         },
         {
           "desc": "WinBox is a modern HTML5 window manager for the Web.",
@@ -3415,7 +3415,7 @@
           "stars": 6436,
           "url": "https://github.com/nextapps-de/winbox",
           "category": "ui",
-          "summary": ""
+          "summary": "依存ゼロで軽量・高性能なWeb向けのモダンなHTML5ウィンドウマネージャ"
         },
         {
           "desc": "Redefined chart library built with React and D3",
@@ -3425,7 +3425,7 @@
           "stars": 27232,
           "url": "https://github.com/recharts/recharts",
           "category": "ui",
-          "summary": ""
+          "summary": "ReactとD3で作られたチャート(グラフ)ライブラリRecharts"
         }
       ]
     },
@@ -3444,7 +3444,7 @@
           "stars": 8886,
           "url": "https://github.com/sindresorhus/github-markdown-css",
           "category": "css",
-          "summary": ""
+          "summary": "GitHubのMarkdown表示スタイルを再現する最小限のCSS"
         },
         {
           "desc": "Modular CSS Library that brings the beauty of Terminal UIs to the browser",
@@ -3454,7 +3454,7 @@
           "stars": 2368,
           "url": "https://github.com/webtui/webtui",
           "category": "css",
-          "summary": ""
+          "summary": "ターミナルUIの美しさをブラウザに持ち込むモジュラーなCSSライブラリ"
         },
         {
           "desc": "Merge Tailwind CSS classes without style conflicts",
@@ -3464,7 +3464,7 @@
           "stars": 5638,
           "url": "https://github.com/dcastil/tailwind-merge",
           "category": "css",
-          "summary": ""
+          "summary": "Tailwind CSSのクラスをスタイル競合なく効率的にマージするユーティリティ関数"
         },
         {
           "desc": "A plugin that provides utilities for visually truncating text after a fixed number of lines.",
@@ -3474,7 +3474,7 @@
           "stars": 1185,
           "url": "https://github.com/tailwindlabs/tailwindcss-line-clamp",
           "category": "css",
-          "summary": ""
+          "summary": "指定行数でテキストを省略表示するTailwindプラグイン(v3.3以降は標準搭載で不要)"
         },
         {
           "desc": "Use Tailwind CSS to design HTML emails.",
@@ -3484,7 +3484,7 @@
           "stars": 3192,
           "url": "https://github.com/soheilpro/mailwind",
           "category": "css",
-          "summary": ""
+          "summary": "Tailwind CSSを使ってHTMLメールをデザインできるツール"
         },
         {
           "desc": "Zero-runtime Stylesheets-in-TypeScript",
@@ -3494,7 +3494,7 @@
           "stars": 10379,
           "url": "https://github.com/vanilla-extract-css/vanilla-extract",
           "category": "css",
-          "summary": ""
+          "summary": "TypeScriptでスタイルを書きビルド時に静的CSSを生成するゼロランタイムなCSS-in-TS"
         },
         {
           "desc": " Parse CSS and add vendor prefixes to rules by Can I Use",
@@ -3504,7 +3504,7 @@
           "stars": 22250,
           "url": "https://github.com/postcss/autoprefixer",
           "category": "css",
-          "summary": ""
+          "summary": "Can I Useのデータを基にCSSへ自動でベンダープレフィックスを付与するPostCSSプラグイン"
         },
         {
           "desc": "🥜 goober, a less than 1KB 🎉  css-in-js alternative with a familiar API",
@@ -3514,7 +3514,7 @@
           "stars": 3267,
           "url": "https://github.com/cristianbote/goober",
           "category": "css",
-          "summary": ""
+          "summary": "1KB未満で馴染みやすいAPIを持つ軽量なcss-in-jsライブラリ"
         },
         {
           "desc": "",
@@ -3524,7 +3524,7 @@
           "stars": 3,
           "url": "https://github.com/steelydylan/style-object-to-css-online",
           "category": "css",
-          "summary": ""
+          "summary": "スタイルオブジェクトとCSSを相互変換するオンラインツール"
         }
       ]
     },
@@ -3543,7 +3543,7 @@
           "stars": 14962,
           "url": "https://github.com/alibaba/hooks",
           "category": "jslib",
-          "summary": ""
+          "summary": "Alibaba製の高品質で信頼性の高いReact Hooksライブラリ(ahooks)"
         },
         {
           "desc": "Type-safe internationalization (i18n) for Next.js",
@@ -3553,7 +3553,7 @@
           "stars": 1445,
           "url": "https://github.com/QuiiBz/next-international",
           "category": "jslib",
-          "summary": ""
+          "summary": "Next.js向けの型安全な国際化(i18n)ライブラリ"
         },
         {
           "desc": "A javascript library for multi-touch gestures :// You can touch this",
@@ -3563,7 +3563,7 @@
           "stars": 24357,
           "url": "https://github.com/hammerjs/hammer.js",
           "category": "jslib",
-          "summary": ""
+          "summary": "マルチタッチジェスチャーを検出するJavaScriptライブラリ"
         },
         {
           "desc": "Generates an image from a DOM node using HTML5 canvas",
@@ -3573,7 +3573,7 @@
           "stars": 10776,
           "url": "https://github.com/tsayen/dom-to-image",
           "category": "jslib",
-          "summary": ""
+          "summary": "HTML5 canvasを使い任意のDOMノードからSVG/PNG/JPEG画像を生成するライブラリ"
         },
         {
           "desc": "An advanced barcode-scanner written in Javascript and TypeScript - Continuation from https://github.com/serratus/quaggajs",
@@ -3583,7 +3583,7 @@
           "stars": 899,
           "url": "https://github.com/ericblade/quagga2",
           "category": "jslib",
-          "summary": ""
+          "summary": "JavaScript/TypeScript製の高機能バーコードスキャナ(QuaggaJSの継続版)"
         },
         {
           "desc": "ZXing (\"Zebra Crossing\") barcode scanning library for Java, Android",
@@ -3593,7 +3593,7 @@
           "stars": 33980,
           "url": "https://github.com/zxing/zxing",
           "category": "jslib",
-          "summary": ""
+          "summary": "Java/Android向けのZXingバーコード画像処理ライブラリ(メンテナンスのみ)"
         },
         {
           "desc": "ZXing for JS's browser layer with decoding implementations for browser.",
@@ -3603,7 +3603,7 @@
           "stars": 284,
           "url": "https://github.com/zxing-js/browser",
           "category": "jslib",
-          "summary": ""
+          "summary": "ブラウザでZXing.jsを使うためのブラウザ層ライブラリ。カメラやビデオからのバーコード読取に対応"
         },
         {
           "desc": "Multi-format 1D/2D barcode image processing library, usable in JavaScript ecosystem.",
@@ -3613,7 +3613,7 @@
           "stars": 2913,
           "url": "https://github.com/zxing-js/library",
           "category": "jslib",
-          "summary": ""
+          "summary": "JavaScript向けの多形式1D/2Dバーコード画像処理ライブラリ(メンテナンスのみ)"
         },
         {
           "desc": "An advanced barcode-scanner written in JavaScript",
@@ -3623,7 +3623,7 @@
           "stars": 5206,
           "url": "https://github.com/serratus/quaggaJS",
           "category": "jslib",
-          "summary": ""
+          "summary": "JavaScriptで書かれた高機能バーコードスキャナ。各種バーコードのリアルタイム検出に対応"
         },
         {
           "desc": "Comlink makes WebWorkers enjoyable.",
@@ -3633,7 +3633,7 @@
           "stars": 12716,
           "url": "https://github.com/GoogleChromeLabs/comlink",
           "category": "jslib",
-          "summary": ""
+          "summary": "postMessageを意識せずWebWorkerを快適に使えるようにする極小のRPCライブラリ"
         },
         {
           "desc": "React hook for using keyboard shortcuts in components.",
@@ -3643,7 +3643,7 @@
           "stars": 3471,
           "url": "https://github.com/JohannesKlauss/react-hotkeys-hook",
           "category": "jslib",
-          "summary": ""
+          "summary": "コンポーネント内でキーボードショートカットを宣言的に扱うReactフック"
         },
         {
           "desc": "A better API for making Event Source requests, with all the features of fetch()",
@@ -3653,7 +3653,7 @@
           "stars": 2824,
           "url": "https://github.com/Azure/fetch-event-source",
           "category": "jslib",
-          "summary": ""
+          "summary": "fetch APIの全機能を使えるServer-Sent Events(SSE)リクエストの改良版API"
         },
         {
           "desc": "🤖 Powerful asynchronous state management, server-state utilities and data fetching for the web. TS/JS, React Query, Solid Query, Svelte Query and Vue Query.",
@@ -3663,7 +3663,7 @@
           "stars": 49743,
           "url": "https://github.com/TanStack/query",
           "category": "jslib",
-          "summary": ""
+          "summary": "サーバー状態の取得・キャッシュ・同期・更新を簡単にする非同期状態管理ライブラリ(React Query等)"
         },
         {
           "desc": "",
@@ -3673,7 +3673,7 @@
           "stars": 6,
           "url": "https://github.com/steelydylan/markdown-it-safe-jsx",
           "category": "jslib",
-          "summary": ""
+          "summary": "Markdown内で安全にJSXコンポーネントを描画できるmarkdown-itプラグイン"
         },
         {
           "desc": "JavaScript plugin for finding links in plain-text and converting them to HTML <a> tags.",
@@ -3683,7 +3683,7 @@
           "stars": 2035,
           "url": "https://github.com/nfrasser/linkifyjs",
           "category": "jslib",
-          "summary": ""
+          "summary": "プレーンテキスト中のURL・ハッシュタグ・@メンションを見つけてHTMLのaタグに変換するJSプラグイン"
         },
         {
           "desc": "⛳️ Feature Flags for Next.js",
@@ -3693,7 +3693,7 @@
           "stars": 1040,
           "url": "https://github.com/happykit/flags",
           "category": "jslib",
-          "summary": ""
+          "summary": "Next.jsアプリにフィーチャーフラグを追加するライブラリ。useFlagsフックで利用する"
         },
         {
           "desc": "",
@@ -3703,7 +3703,7 @@
           "stars": 1632,
           "url": "https://github.com/google/budoux",
           "category": "jslib",
-          "summary": ""
+          "summary": "機械学習で日本語等の自然な改行位置を決める軽量・依存なしの行分割ツールBudouX"
         },
         {
           "desc": "Relocate resource intensive third-party scripts off of the main thread and into a web worker. 🎉",
@@ -3713,7 +3713,7 @@
           "stars": 13706,
           "url": "https://github.com/QwikDev/partytown",
           "category": "jslib",
-          "summary": ""
+          "summary": "重いサードパーティスクリプトをメインスレッドからWeb Workerへ退避させ表示を高速化するライブラリ"
         },
         {
           "desc": "Format input text content when you are typing...",
@@ -3723,7 +3723,7 @@
           "stars": 17869,
           "url": "https://github.com/nosir/cleave.js",
           "category": "jslib",
-          "summary": ""
+          "summary": "入力中にテキストを自動整形(クレジットカード番号等)するライブラリ(非推奨・後継あり)"
         },
         {
           "desc": "Detect device, and render view according to detected device type.",
@@ -3733,7 +3733,7 @@
           "stars": 2926,
           "url": "https://github.com/duskload/react-device-detect",
           "category": "jslib",
-          "summary": ""
+          "summary": "デバイス種別を検出し、それに応じたビューを描画するReactライブラリ"
         },
         {
           "desc": "Essential metrics for a healthy site.",
@@ -3743,7 +3743,7 @@
           "stars": 8530,
           "url": "https://github.com/GoogleChrome/web-vitals",
           "category": "jslib",
-          "summary": ""
+          "summary": "健全なサイトに不可欠なWeb Vitals指標を計測するライブラリ"
         },
         {
           "desc": "Minimal and efficient cross-platform file watching library",
@@ -3753,7 +3753,7 @@
           "stars": 12140,
           "url": "https://github.com/paulmillr/chokidar",
           "category": "jslib",
-          "summary": ""
+          "summary": "ミニマルで効率的なクロスプラットフォームのファイル監視ライブラリ"
         },
         {
           "desc": "Retrying made simple, easy and async",
@@ -3763,7 +3763,7 @@
           "stars": 1918,
           "url": "https://github.com/vercel/async-retry",
           "category": "jslib",
-          "summary": ""
+          "summary": "非同期処理のリトライをシンプルに書けるようにするライブラリ"
         },
         {
           "desc": "React Hooks — 👍",
@@ -3773,7 +3773,7 @@
           "stars": 43975,
           "url": "https://github.com/streamich/react-use",
           "category": "jslib",
-          "summary": ""
+          "summary": "必須級のReactフックを集めたコレクション(センサー・UI・状態管理など)"
         },
         {
           "desc": "Shared data types for building collaborative software",
@@ -3783,7 +3783,7 @@
           "stars": 22016,
           "url": "https://github.com/yjs/yjs",
           "category": "jslib",
-          "summary": ""
+          "summary": "競合なく自動で変更を同期する共有データ型を提供する協調編集向けCRDTフレームワーク"
         },
         {
           "desc": "CSS media queries in react - for responsive design, and more.",
@@ -3793,7 +3793,7 @@
           "stars": 7171,
           "url": "https://github.com/yocontra/react-responsive",
           "category": "jslib",
-          "summary": ""
+          "summary": "ReactでCSSメディアクエリを扱いレスポンシブな表示を実現するライブラリ"
         },
         {
           "desc": "A simple JS library that detects mobile devices.",
@@ -3803,7 +3803,7 @@
           "stars": 2370,
           "url": "https://github.com/kaimallea/isMobile",
           "category": "jslib",
-          "summary": ""
+          "summary": "モバイル端末を判定するシンプルなJavaScriptライブラリ"
         },
         {
           "desc": "👻 Primitive and flexible state management for React",
@@ -3813,7 +3813,7 @@
           "stars": 21194,
           "url": "https://github.com/pmndrs/jotai",
           "category": "jslib",
-          "summary": ""
+          "summary": "プリミティブで柔軟なReact用状態管理ライブラリJotai。小さなコアAPIが特徴"
         },
         {
           "desc": "The easiest way to translate your NextJs apps.",
@@ -3823,7 +3823,7 @@
           "stars": 6156,
           "url": "https://github.com/i18next/next-i18next",
           "category": "jslib",
-          "summary": ""
+          "summary": "Next.jsアプリを最も簡単に翻訳(国際化)できるi18nextベースのライブラリ"
         },
         {
           "desc": "🔗 URL utils for humans",
@@ -3833,7 +3833,7 @@
           "stars": 1286,
           "url": "https://github.com/unjs/ufo",
           "category": "jslib",
-          "summary": ""
+          "summary": "人に優しいURL操作ユーティリティ集(正規化・結合など)"
         },
         {
           "desc": "Tween24 for JavaScript",
@@ -3843,7 +3843,7 @@
           "stars": 124,
           "url": "https://github.com/a24/tween24js",
           "category": "jslib",
-          "summary": ""
+          "summary": "メソッドチェーンで素早く書けるJavaScriptアニメーションライブラリTween24"
         }
       ]
     },
@@ -3862,7 +3862,7 @@
           "stars": 3,
           "url": "https://github.com/authlete/authlete-typescript-sdk",
           "category": "backend",
-          "summary": ""
+          "summary": "Authlete API v3.0+向けの型安全な公式TypeScript SDK"
         },
         {
           "desc": "Like cURL, but for gRPC: Command-line tool for interacting with gRPC servers",
@@ -3872,7 +3872,7 @@
           "stars": 12687,
           "url": "https://github.com/fullstorydev/grpcurl",
           "category": "backend",
-          "summary": ""
+          "summary": "gRPC版のcurl。コマンドラインからgRPCサーバーのメソッドを呼び出せるツール"
         },
         {
           "desc": "A structured logger for NestJS",
@@ -3882,7 +3882,7 @@
           "stars": 27,
           "url": "https://github.com/ubie-oss/nslog",
           "category": "backend",
-          "summary": ""
+          "summary": "NestJS向けの構造化ロガー。本番はJSON、ローカルは色付きで出力できる"
         },
         {
           "desc": "Real-time monitor and web admin for Celery distributed task queue",
@@ -3892,7 +3892,7 @@
           "stars": 7193,
           "url": "https://github.com/mher/flower",
           "category": "backend",
-          "summary": ""
+          "summary": "分散タスクキューCeleryをリアルタイム監視・管理するWeb管理ツール"
         },
         {
           "desc": "DataLoader is a generic utility to be used as part of your application's data fetching layer to provide a consistent API over various backends and reduce requests to those backends via batching and caching.",
