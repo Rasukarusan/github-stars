@@ -2562,5 +2562,33 @@
   "Rasukarusan/go-instagram": {
     "summary": "GoでInstagramをスクレイピングして情報取得するAPIサーバー",
     "generated_at": "2026-06-15"
+  },
+  "tomasz-tomczyk/crit": {
+    "summary": "AIコーディングエージェントの出力をMarkdownでレビューしフィードバックを回すCLIツール",
+    "generated_at": "2026-06-22"
+  },
+  "pskoett/pskoett-ai-skills": {
+    "summary": "AIエージェント向けに各種タスクを実行させるためのスキル集",
+    "generated_at": "2026-06-22"
+  },
+  "dmtrKovalenko/fff": {
+    "summary": "AIエージェントやNeovim向けの高速・高精度なファイル検索ツールキット",
+    "generated_at": "2026-06-22"
+  },
+  "osaurus-ai/osaurus": {
+    "summary": "完全オフラインで動くSwift製macOSネイティブのAIエージェント実行ハーネス",
+    "generated_at": "2026-06-22"
+  },
+  "vercel/workflow": {
+    "summary": "TypeScriptで耐久性・信頼性・可観測性のあるアプリやAIエージェントを構築するWorkflow SDK",
+    "generated_at": "2026-06-22"
+  },
+  "vercel/eve": {
+    "summary": "Vercel製のAIエージェント構築フレームワーク（サンドボックス・ワークフロー対応）",
+    "generated_at": "2026-06-22"
+  },
+  "Egonex-AI/Understand-Anything": {
+    "summary": "コードを対話的な知識グラフ化して探索・検索・質問できるツール（Claude Code等対応）",
+    "generated_at": "2026-06-22"
   }
 }

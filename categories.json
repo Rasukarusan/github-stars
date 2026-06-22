@@ -669,5 +669,12 @@
   "peisuke/qiita_like_analysis": "util",
   "mathiasbynens/dotfiles": "util",
   "2357gi/dotfiles": "util",
-  "Rasukarusan/go-instagram": "util"
+  "Rasukarusan/go-instagram": "util",
+  "tomasz-tomczyk/crit": "claude-code",
+  "pskoett/pskoett-ai-skills": "claude-code",
+  "dmtrKovalenko/fff": "cli",
+  "osaurus-ai/osaurus": "ai-agent",
+  "vercel/workflow": "ai-agent",
+  "vercel/eve": "ai-agent",
+  "Egonex-AI/Understand-Anything": "devtools"
 }
